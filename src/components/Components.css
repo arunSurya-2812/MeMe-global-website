@@ -1,0 +1,629 @@
+/*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+/*this all new meme-india website desings
+
+=====================================
+this is all meme india website codes
+================================
+*/
+.Navlogo {
+  top: 2cm;
+}
+
+.rect {
+  left: 1cm;
+  top: 0.5cm;
+  position: relative;
+  width: 192dp;
+  height: 26dp;
+}
+.navbar {
+  column-gap: 5cm;
+  top: 0.9cm;
+  width: 37cm;
+  right: 3.3cm;
+  background-color: #707070;
+  position: relative;
+  height: 1cm;
+}
+.Navgg {
+  color: #ffffff;
+  font-family: "Poppins", Regular;
+  font-size: 26px;
+  left: 6cm;
+  position: relative;
+}
+
+#nav-Dropdown {
+  color: #129652 !important;
+  top: 0.5cm;
+}
+.dropdown-toggle:after {
+  display: none !important;
+}
+ .nav-link{
+	color: #ffffff!important;
+}
+.Ecofriendlynav{
+	color: #15DD76 !important;
+	position: relative;
+  left: 2cm;
+	
+}
+
+#Navline:focus{
+  background-color: #ffffff;
+	border-radius: 60px;
+	width: 3cm;
+	opacity: 10;
+  top: 0.2cm;
+	height: 0.9cm;
+	text-align: center;
+	position: relative;
+  padding: 0%;
+	color: #FAA90E !important;
+	text-decoration: underline;
+  text-decoration-thickness: 6px;
+
+}
+
+
+
+#Navline2:focus{
+  background-color: #ffffff;
+	border-radius: 60px;
+	width: 5cm;
+	opacity: 10;
+  top: 0.2cm;
+	height: 0.9cm;
+	text-align: center;
+	position: relative;
+  padding: 0cm;
+  padding: 0%; 
+}
+
+/* the above 2 navbar design
+
+
+================================================================
+
+================================================================*/
+.carousel {
+  height: 670px;
+  width: 1035px;
+min-width: 3cm;
+min-height: 7cm;
+  border-top-width: 2cm;
+  top: 3cm;
+ 
+}
+.carousel .carousel-indicators li {
+  background-color: #432caf;
+  bottom: 7cm;
+}
+.carousel .carousel-indicators li.active {
+  background-color: #432caf;
+}
+
+.carousel-control-prev-icon {
+  display: none !important;
+}
+
+.carousel .carousel-control-next-icon {
+  display: none;
+}
+.Browsebutn {
+  border-radius: 20px;
+  color: black;
+  width: 130px;
+  height: 59px;
+  background-color: #fbfbfc;
+  right: -3cm;
+  position: relative;
+  bottom: 3cm;
+  font-family: Poppins;
+  font-weight: 800;
+  border: none !important;
+}
+.fa .fa-arrow-circle-right {
+  right: 2cm;
+}
+/*this is toogle an carosel*/
+
+.Sliderpics {
+  height: 300px;
+  width: 300px;
+  max-width: 500px;
+  min-width: 50px !important;
+}
+
+.slick-prev::before {
+  color: #000000 !important;
+  line-height: 4 !important;
+  font-family: slick !important;
+  opacity: 100 !important;
+  font-size: 30px !important;
+  position: relative;
+  bottom: 1.8cm !important;
+  right: 1cm;
+}
+.slick-next::before {
+  color: #000000 !important;
+  line-height: 4 !important;
+  font-family: slick !important;
+  opacity: 100 !important;
+  font-size: 30px !important;
+  position: relative;
+  bottom: 2cm !important;
+  left:  0cm;
+}
+/*Sliders arrows*/
+
+.Sponsers {
+  height: 139px;
+  text-align: center;
+
+  height: 6cm;
+  width: 1040px;
+  border-radius: 1cm;
+  position: relative;
+  top: 2cm;
+}
+/*slidebtn discription*/
+.Slidebtndis {
+  top: 1cm;
+  position: absolute;
+  color: green;
+  font-size: 40px;
+  align-items: left;
+}
+.Slidebtndis2 {
+  top: 3cm;
+  position: absolute;
+  color: green;
+  font-size: 40px;
+}
+/*slidebtn discription*/
+
+
+.Productcardimage {
+  height: 5cm;
+  width: 5.cm !important;
+  border-radius: 20px !important;
+right:0cm;
+  bottom: 0.3cm;
+  position: relative;
+}
+.card {
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  box-shadow: 9px 3px 22px #00000029 !important;
+  border-radius: 25px !important;
+  opacity: 1 !important;
+  min-width: 3cm !important;
+  height: 7.5cm;
+  width: 6cm;
+}
+
+/*Leather image style home*/
+.CobblerLeather {
+  top: 2cm;
+  width: 29.4cm;
+  height: 9cm;
+  border-radius: 20px;
+}
+.Leatherbtn {
+  border-radius: 20px;
+  color: black;
+  width: 130px;
+  height: 59px;
+  background-color: #fbfbfc;
+  left: 23cm;
+  position: relative;
+  bottom: 3cm;
+  font-family: Poppins;
+  font-weight: 800;
+  border: none !important;
+}
+.Leatherdiscription {
+  bottom: 7cm;
+  left: 1cm;
+  position: relative;
+}
+
+/*fiber image */
+.fabimage {
+  height: 946px;
+  width: 1200px;
+  top: 3cm;
+  left: 2cm;
+  border-radius: 40px;
+  position: relative;
+}
+.facbricdiscription {
+  bottom: 18.54cm;
+  width: 24cm;
+  left: 5.9cm;
+  position: relative;
+  color: white;
+
+  height: 20cm;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 70px;
+}
+#icondnwld {
+  right: 1cm;
+  position: relative;
+}
+.Fabricproducts {
+  bottom: 15cm;
+  text-align: center;
+  font-family: Poppins, semiBold;
+  position: relative;
+  font-size: 25px;
+}
+.Fabricpdfbtn {
+  border-radius: 20px;
+
+  width: 370px;
+  height: 50px;
+  background-color: #fbfbfc;
+  left: 13cm;
+  position: relative;
+  bottom: 25cm;
+  font-family: Poppins, Regular;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 40px;
+  border: none !important;
+  color: green;
+}
+.Fabproductrow {
+  width: 2cm;
+}
+.Fabproductcol1 {
+  position: relative;
+  bottom: 13cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 4cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fabproductcol2 {
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  position: absolute;
+  top: 37.3cm;
+  left: 11cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fabproductcol3 {
+  position: absolute;
+  top: 37.3cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 18cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fabproductcol4 {
+  position: absolute;
+  top: 37.3cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 25cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fabourproduct1 {
+  font-family: Poppins, Regular;
+
+  position: relative;
+  bottom: 12cm;
+  left: 5cm;
+  clear: both;
+  align-items: left;
+}
+.Fabourproduct2 {
+  font-family: Poppins, Regular;
+
+  position: relative;
+  bottom: 16.5cm;
+  left: 19cm;
+  clear: both;
+  align-items: left;
+}
+.Fabourproduct {
+  font-family: Poppins, Regular;
+
+  position: relative;
+  bottom: 13.6cm;
+  left: 11.5cm;
+  clear: both;
+  align-items: left;
+}
+.Fabourproduct3 {
+  font-family: Poppins, Regular;
+
+  position: relative;
+  bottom: 19.7cm;
+  left: 26cm;
+  clear: both;
+  align-items: left;
+}
+.Fabricwebsitebtn {
+  border-radius: 20px;
+
+  width: 350px;
+  height: 60px;
+  background-color: #c62525;
+  left: 12cm;
+  position: relative;
+  bottom: 17cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
+
+/*fabric css code finish*/
+
+/*Leather css code below*/
+.Leatherpdfbtn {
+  border-radius: 20px;
+  top: 3cm;
+  width: 310px;
+  height: 60px;
+  background-color: #ffffff;
+  left: 8cm;
+  position: relative;
+  bottom: 0cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none !important;
+  color: #f01212;
+}
+
+.Leatherproductcol1 {
+  position: relative;
+  bottom: 13cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 4cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Leatherproductcol2 {
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  position: absolute;
+  top: 35.8cm;
+  left: 11cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Leatherproductcol3 {
+  position: absolute;
+  top: 35.8cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 18cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Leatherproductcol4 {
+  position: absolute;
+  top: 35.8cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 25cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Leatherourproduct1 {
+  font-family: Poppins, Regular;
+
+  position: relative;
+  bottom: 12cm;
+  left: 5cm;
+  clear: both;
+  align-items: left;
+}
+.Leatherourproduct2 {
+  font-family: Poppins, Regular;
+
+  position: relative;
+  bottom: 15.3cm;
+  left: 19cm;
+  clear: both;
+  align-items: left;
+}
+.Leatherourproduct {
+  font-family: Poppins, Regular;
+
+  position: relative;
+  bottom: 13.6cm;
+  left: 11.5cm;
+  clear: both;
+  align-items: left;
+}
+.Leatherourproduct3 {
+  font-family: Poppins, Regular;
+
+  position: relative;
+  bottom: 16.7cm;
+  left: 26cm;
+  clear: both;
+  align-items: left;
+}
+
+.Leatherwebsitebtn {
+  border-radius: 20px;
+
+  width: 350px;
+  height: 60px;
+  background-color: #c62525;
+  left: 12cm;
+  position: relative;
+  bottom: 14cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
+/*Leather page css finish*/
+
+/*Knits page css below*/
+
+.Fiberpdfbtn {
+  border-radius: 20px;
+  top: 23cm;
+  width: 310px;
+  height: 60px;
+  background-color: #ffffff;
+  left: 14cm;
+  position: absolute;
+  bottom: 5cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none !important;
+  color: #106cc4;
+}
+
+.Fiberproductcol1 {
+  position: relative;
+  bottom: 16cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 4cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fiberproductcol2 {
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  position: absolute;
+  top: 35.8cm;
+  left: 11cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fiberproductcol3 {
+  position: absolute;
+  top: 35.8cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 18cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fiberproductcol4 {
+  position: absolute;
+  top: 35.8cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 25cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fiberourproduct1 {
+  font-family: Poppins, Regular;
+  position: relative;
+  bottom: 7.5cm;
+  left: 6cm;
+  clear: both;
+  align-items: left;
+}
+.Fiberourproduct2 {
+  font-family: Poppins, Regular;
+  position: relative;
+  bottom: 15.6cm;
+  left: 19.7cm;
+  clear: both;
+  align-items: left;
+}
+.Fiberourproduct {
+  font-family: Poppins, Regular;
+  position: relative;
+  bottom: 6cm;
+  left: 12.3cm;
+  clear: both;
+  align-items: left;
+}
+.Fiberourproduct3 {
+  font-family: Poppins, Regular;
+  position: relative;
+  bottom: 17cm;
+  left: 27cm;
+  clear: both;
+  align-items: left;
+}
+
+.Fiberwebsitebtn {
+  border-radius: 20px;
+  width: 350px;
+  height: 60px;
+  background-color: #c62525;
+  left: 13cm;
+  position: relative;
+  bottom: 12cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
+.Fiberproductcol5 {
+  position: relative;
+  bottom: 15cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 14cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fabourproduct4 {
+  font-family: Poppins, Regular;
+  position: relative;
+  bottom: 14cm;
+  left: 16cm;
+  clear: both;
+  align-items: left;
+}
+
+
+#helo:active {
+   color: blue;
+   text-decoration: underline;
+}
+
+	
