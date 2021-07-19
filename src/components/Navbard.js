@@ -11,7 +11,7 @@
  * - Modification    :
  **/
 
-import Flagselector from "./Flagselector";
+// import Flagselector from "./Flagselector";
 
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
@@ -33,7 +33,7 @@ function Navbard() {
         />
       </div>
       <Searchbar />
-      <Flagselector />
+      {/* <Flagselector /> */}
       <Container>
         <Navbar expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
