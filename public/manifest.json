@@ -1,6 +1,6 @@
 {
-  "short_name": "MeMe Worldwide",
-  "name": "Website for MeMe Worldwide",
+  "short_name": "React App",
+  "name": "Create React App Sample",
   "icons": [
     {
       "src": "favicon.ico",

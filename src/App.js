@@ -20,7 +20,7 @@ import Yarn from './components/Yarn'
 import Navbard from './components/Navbard';
 import './App.css';
 
-import 'react-bootstrap/dist/react-bootstrap.min.js';
+
 import { BrowserRouter as Router, Route } from 'react-router-dom';
 import Fiber from './components/Fiber';
 function App() {

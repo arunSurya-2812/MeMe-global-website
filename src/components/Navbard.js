@@ -2,51 +2,47 @@
  * @description      :
  * @author           : surya12
  * @group            :
- * @created          : 10/07/2021 - 10:25:51
+ * @created          : 16/07/2021 - 10:55:48
  *
  * MODIFICATION LOG
  * - Version         : 1.0.0
- * - Date            : 10/07/2021
+ * - Date            : 16/07/2021
  * - Author          : surya12
  * - Modification    :
  **/
-
-// import Flagselector from "./Flagselector";
-
+ import "./Components.css";
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
-import logo from "./img/logo.png";
 import "./Components.css";
-import Searchbar from "./Searchbar";
+import Logo from "./img/Logo.png";
+
 function Navbard() {
   return (
     <div classname="container-fluid">
       <div className="rect">
         <img
           className="Navlogo"
-          src={logo}
-          height="50px"
+          src={Logo}
+          height="70px"
           width="250px"
           alt="MeMe-Global logo"
-          top="2cm"
         />
       </div>
-      <Searchbar />
-      {/* <Flagselector /> */}
       <Container>
         <Navbar expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="Navgg">
               <LinkContainer to="/">
-                <Nav.Link className="nav-item nav-link mx-2">
+                <Nav.Link className="nav-item nav-link mx-2" >
                   <p>Home</p>
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Fiber">
                 <Nav.Link className="nav-item nav-link mx-2" id="Navline">
                   <p>Fiber</p>
+                 
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Yarn">

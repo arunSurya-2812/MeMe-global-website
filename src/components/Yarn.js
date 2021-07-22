@@ -10,6 +10,13 @@
  * - Author          : surya12
  * - Modification    :
  **/
+
+
+ import "./Components.css";
+ 
+import { FaDownload } from "react-icons/fa";
+
+import Contactusform from './Contactusform'
 import React, { Component } from "react";
 import colorthreds from './img/colorthreds.jpg'
 import Linen from "./img/Linen.jpg";
@@ -23,9 +30,11 @@ export default class Yarn extends Component {
   render() {
     return (
       <div className="container-fluid">
-        <>
+        
           <img src={colorthreds} className="fabimage" alt="Yarn-main"  />
+          <>
           <div className="facbricdiscription">
+            
             <h1
               style={{
                 fontFamily: "Poppins,Bold",
@@ -36,6 +45,7 @@ export default class Yarn extends Component {
             >
               ABOUT US
             </h1>
+            
             <p
               style={{
                 fontFamily: "Poppins",
@@ -61,48 +71,43 @@ export default class Yarn extends Component {
               element in growing our business. This facility has multiplied its
               capacity to serve as our hub for leather sourcing and finishing.
             </p>
-            <h1
-              style={{
-                fontFamily: "Poppins,Bold",
-                fontSize: "26px",
-                textAlign: "center",
-                color: "white",
-              }}
-            >
-              ABOUT US
-            </h1>
-          </div>
-          <button className="Fiberpdfbtn">
-            <i class="fas fa-download" id="icondnwld"></i>
+          <button className="Yarnpdfbtn">
+          <FaDownload className="pdficon"/>
+         
             Download pdf
           </button>
+          
+        </div>
+        
         </>
         <div>
           <h1 className="Fabricproducts">Our Products</h1>
           
-		  <Image src={cotton1} className="Fiberproductcol2" />
-		  <h1 className="Fiberourproduct">Cotton  
+		  <Image src={cotton1} className="Yarnproductcol2" />
+		  <h1 className="Yarnourproduct">Cotton  
 		  </h1>
 
-          <Image src={bananafibre} className="Fiberproductcol3" />
-		  <h1 className="Fiberourproduct1"> Poly Cotton</h1>
+          <Image src={bananafibre} className="Yarnproductcol3" />
+		  <h1 className="Yarnourproduct1"> Poly Cotton</h1>
 
 
-          <Image src={Linen} className="Fiberproductcol1" />
-		  <h1 className="Fiberourproduct2"> Tencel & Modal</h1>
+          <Image src={Linen} className="Yarnproductcol1" />
+		  <h1 className="Yarnourproduct2"> Tencel & Modal</h1>
           
           
 		  
-          <Image src={fabproduct4} className="Fiberproductcol4" />
-		  <h1 className="Fiberourproduct3"> Lyocell</h1>
+          <Image src={fabproduct4} className="Yarnproductcol4" />
+		  <h1 className="Yarnourproduct3"> Lyocell</h1>
 
 
-		  <Image src={fabproduct1} className="Fiberproductcol5" />
-          <h1 className="Fabourproduct4"> Lotus</h1>
+		  <Image src={fabproduct1} className="Yarnproductcol5" />
+          <h1 className="Yarnourproduct4"> Lotus</h1>
                   </div>
-        <button className="Fiberwebsitebtn">Recycle</button>
+        <button className="Yarnwebsitebtn">View Website</button>
+        <Contactusform/>
+       
         </div>
-      
+              
     );
   }
 }

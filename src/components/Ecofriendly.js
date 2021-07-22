@@ -19,6 +19,11 @@ import fabproduct4 from "./img/fabproduct4.png";
 import fabproduct1 from "./img/fabproduct1.png";
 import { Image } from 'react-bootstrap';
 
+import { FaDownload } from "react-icons/fa";
+
+import Contactusform from './Contactusform'
+import "./Components.css";
+
 export default class Ecofriendly extends Component {
     render() {
         return (
@@ -59,36 +64,37 @@ export default class Ecofriendly extends Component {
                 capacity to serve as our hub for leather sourcing and finishing.
               </p>
               <button className="Leatherpdfbtn">
-                <i className="fas fa-download" id="icondnwld"></i>
+              <FaDownload className="pdficon"/>
                 Download pdf
               </button>
             </div>
             <div>
-          <h1 className="Fabricproducts">Our Products</h1>
+          <h1 className="Ecoproducts1">Our Products</h1>
           
 
           
-		  <Image src={cotton1} className="Fiberproductcol2" />
-		  <h1 className="Fiberourproduct">Cotton  
+		  <Image src={cotton1} className="Ecoproductcol2" />
+		  <h1 className="Ecoourproduct">Cotton  
 		  </h1>
 
-          <Image src={bananafibre} className="Fiberproductcol3" />
-		  <h1 className="Fiberourproduct1"> fibre</h1>
+          <Image src={bananafibre} className="Ecoproductcol3" />
+		  <h1 className="Ecoourproduct1"> Fibre</h1>
 
 
-          <Image src={Linen} className="Fiberproductcol1" />
-		  <h1 className="Fiberourproduct2"> Linen</h1>
+          <Image src={Linen} className="Ecoproductcol1" />
+		  <h1 className="Ecoourproduct2"> Linen</h1>
           
           
 		  
-          <Image src={fabproduct4} className="Fiberproductcol4" />
-		  <h1 className="Fiberourproduct3"> Silk</h1>
+          <Image src={fabproduct4} className="Ecoproductcol4" />
+		  <h1 className="Ecoourproduct3"> Silk</h1>
 
 
-		  <Image src={fabproduct1} className="Fiberproductcol5" />
-          <h1 className="Fabourproduct4"> Lotus</h1>
+		  <Image src={fabproduct1} className="Ecoproductcol5" />
+          <h1 className="Ecoourproduct4"> Lotus</h1>
                   </div>
-        <button className="Fiberwebsitebtn">View Website</button>
+        <button className="Ecowebsitebtn">View Website</button>
+        <Contactusform/>
       </div>
 
     

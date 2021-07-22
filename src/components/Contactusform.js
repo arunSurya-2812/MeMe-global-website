@@ -2,64 +2,62 @@
     * @description      : 
     * @author           : surya12
     * @group            : 
-    * @created          : 12/07/2021 - 11:39:14
+    * @created          : 22/07/2021 - 16:09:56
     * 
     * MODIFICATION LOG
     * - Version         : 1.0.0
-    * - Date            : 12/07/2021
+    * - Date            : 22/07/2021
     * - Author          : surya12
     * - Modification    : 
 **/
 import React, { Component } from 'react'
+import Contactusgroup from './img/Contactusgroup.png'
+export default class Leathers extends Component  {
+    constructor(props) {
+      super(props);
+      this.state = {
+        name: '',
+        email: '',
+        message: ''
+      }
+    }
+  
+    render() {
+      return(
+            
+            <div className="Contactusformoutline">
+                <h1 className="Contactus">Contact Us</h1>
+                <div><img src={Contactusgroup} className="Contactusformimg"/></div>
+                
+          <form id="contact-form" onSubmit={this.handleSubmit.bind(this)}>
+            <div className="form-group">
+              <input type="text" className="form-control"  placeholder="Name" value={this.state.name} onChange={this.onNameChange.bind(this)} />
+            </div>
+            <div className="form-group">
+              <input type="email" placeholder="Contact" className="form-control" aria-describedby="emailHelp" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
+            </div>
+            <div className="form-group">
 
-export default class Contactusform extends Component {
- 
-  constructor(props) {
-    super(props);
-    this.state = {
-      name: '',
-      email: '',
-      message: ''
+              <textarea className="form-control" placeholder="Message" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
+            </div>
+          </form>
+        </div>
+      );
+    }
+  
+    onNameChange(event) {
+      this.setState({name: event.target.value})
+    }
+  
+    onEmailChange(event) {
+      this.setState({email: event.target.value})
+    }
+  
+    onMessageChange(event) {
+      this.setState({message: event.target.value})
+    }
+  
+    handleSubmit(event) {
     }
   }
-
-  render() {
-    return(
-      <div className="App">
-        <form id="contact-form" onSubmit={this.handleSubmit.bind(this)} >
-          <div className="form-group">
-            
-            <input type="text" className="form-control" value={this.state.name} onChange={this.onNameChange.bind(this)} placeholder="Name"/>
-          </div>
-          <div className="form-group">
-            
-            <input type="email"  className="form-control" aria-describedby="emailHelp"  placeholder="email" value={this.state.email} onChange={this.onEmailChange.bind(this)} />
-          </div>
-          <div className="form-group">
-            <label htmlFor="message">Message</label>
-            <textarea className="form-control" rows="5" value={this.state.message} onChange={this.onMessageChange.bind(this)} />
-          </div>
-          <button type="submit" className="btn btn-primary">Submit</button>
-        </form>
-      </div>
-    );
-  }
-
-  onNameChange(event) {
-    this.setState({name: event.target.value})
-  }
-
-  onEmailChange(event) {
-    this.setState({email: event.target.value})
-  }
-
-  onMessageChange(event) {
-    this.setState({message: event.target.value})
-  }
-
-  handleSubmit(event) {
-  }
-}
-
-
-   
+  

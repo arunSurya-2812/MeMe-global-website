@@ -1,8 +1,36 @@
+/*
+  *
+  * ==========================================
+  * FOR DEMO PURPOSE
+  * ==========================================
+  *
+  */
+/*this all new meme-india website desings
 
-.Navlogo {
-  top: 2cm;
+=====================================
+this is all meme india website codes
+================================
+*/
+.sponsers1{
+  position: relative;
+  align-items: center;
+  max-width: 100%;
+  height: 4cm;
+  width: 10cm;
+ 
 }
 
+.sponsers2{
+  
+  height: 4cm;
+  width: 10cm;
+  max-width: 100%;
+  
+  position: relative;
+  
+ 
+  
+}
 .rect {
   left: 1cm;
   top: 0.5cm;
@@ -14,22 +42,26 @@
   column-gap: 5cm;
   top: 0.9cm;
   width: 37cm;
-  right: 3.3cm;
+  right: 3.4cm;
+  overflow: hidden;
   background-color: #707070;
   position: relative;
-  height: 1cm;
+
+overflow: hidden;  height: 1cm;
 }
 .Navgg {
+  top: 0.2cm;
   color: #ffffff;
   font-family: "Poppins", Regular;
   font-size: 26px;
-  left: 6cm;
+  left: 4cm;
   position: relative;
 }
 
 #nav-Dropdown {
   color: #129652 !important;
-  top: 0.5cm;
+  top: 0.6cm;
+  overflow: hidden;
 }
 .dropdown-toggle:after {
   display: none !important;
@@ -41,14 +73,16 @@
 	color: #15DD76 !important;
 	position: relative;
   left: 2cm;
-	
+  top: 0cm;
+overflow: hidden;	
 }
 
 #Navline:focus{
   background-color: #ffffff;
 	border-radius: 60px;
-	width: 3cm;
+	width: 3.3cm;
 	opacity: 10;
+  
   top: 0.2cm;
 	height: 0.9cm;
 	text-align: center;
@@ -60,6 +94,23 @@
 
 }
 
+#Navline:hover{
+  background-color: #ffffff;
+	border-radius: 60px;
+	width: 3.3cm;
+	opacity: 10;
+  top: 0.2cm;
+	height: 0.9cm;
+	text-align: center;
+	position: relative;
+  padding: 0%;
+	color: #FAA90E !important;
+	text-decoration: underline;
+  text-decoration-thickness: 6px;
+  animation-delay: 5ms;
+  transform: perspective(2000) translateZ(300px);
+
+}
 
 
 #Navline2:focus{
@@ -67,14 +118,31 @@
 	border-radius: 60px;
 	width: 5cm;
 	opacity: 10;
+  bottom: 0cm;
   top: 0.2cm;
 	height: 0.9cm;
 	text-align: center;
 	position: relative;
   padding: 0cm;
+   bottom: 0cm;
+  text-decoration-thickness: 6px;
   padding: 0%; 
 }
-
+#Navline2:hover{
+  background-color: #ffffff;
+	border-radius: 60px;
+	width: 5cm;
+	opacity: 10;
+  top: 0.2cm;
+  
+  
+	height: 0.9cm;
+	text-align: center;
+	position: relative;
+  padding: 0cm;
+  padding: 0%; 
+  text-decoration-thickness: 6px;
+}
 /* the above 2 navbar design
 
 
@@ -83,19 +151,22 @@
 ================================================================*/
 .carousel {
   height: 670px;
-  width: 1035px;
+  width: 1039px;
 min-width: 3cm;
 min-height: 7cm;
   border-top-width: 2cm;
-  top: 3cm;
+  top: 2cm;
+  left: 2cm;
  
 }
 .carousel .carousel-indicators li {
-  background-color: #432caf;
+ background-color: #9f90e8;
+opacity: 10 !important;
   bottom: 7cm;
+  position: relative;
 }
-.carousel .carousel-indicators li.active {
-  background-color: #432caf;
+.carousel-indicators .active{
+  background-color: #432caf !important;
 }
 
 .carousel-control-prev-icon {
@@ -105,11 +176,15 @@ min-height: 7cm;
 .carousel .carousel-control-next-icon {
   display: none;
 }
+.pdficon{
+  right:1cm;
+  position: relative;
+}
 .Browsebutn {
-  border-radius: 20px;
+  border-radius: 15px;
   color: black;
   width: 130px;
-  height: 59px;
+  height: 39px;
   background-color: #fbfbfc;
   right: -3cm;
   position: relative;
@@ -121,13 +196,29 @@ min-height: 7cm;
 .fa .fa-arrow-circle-right {
   right: 2cm;
 }
+.Browsebutn1{
+  border-radius: 20px;
+  color: black;
+  width: 120px;
+  height: 29px;
+  background-color: #fbfbfc;
+  right: -4cm;
+  position: relative;
+  bottom: 1cm;
+  font-family: Poppins;
+  font-weight: 800;
+  border: none !important;
+
+}
 /*this is toogle an carosel*/
 
 .Sliderpics {
   height: 300px;
   width: 300px;
+  left: 1cm !important;
   max-width: 500px;
   min-width: 50px !important;
+
 }
 
 .slick-prev::before {
@@ -187,6 +278,14 @@ right:0cm;
   bottom: 0.3cm;
   position: relative;
 }
+.Productcardimage1 {
+  height: 7cm;
+  width: 5.cm !important;
+  border-radius: 20px !important;
+right:0cm;
+  bottom: 0.3cm;
+  position: relative;
+}
 .card {
   background: #FFFFFF 0% 0% no-repeat padding-box !important;
   box-shadow: 9px 3px 22px #00000029 !important;
@@ -195,24 +294,26 @@ right:0cm;
   min-width: 3cm !important;
   height: 7.5cm;
   width: 6cm;
+  border: none;
 }
 
 /*Leather image style home*/
 .CobblerLeather {
-  top: 2cm;
+  position: relative;
+  top: 3cm;
   width: 29.4cm;
-  height: 9cm;
-  border-radius: 20px;
+  height: 10cm;
+  border-radius: 25px;
 }
 .Leatherbtn {
-  border-radius: 20px;
+  border-radius: 15px;
   color: black;
   width: 130px;
-  height: 59px;
+  height: 39px;
   background-color: #fbfbfc;
   left: 23cm;
   position: relative;
-  bottom: 3cm;
+  bottom: 0cm;
   font-family: Poppins;
   font-weight: 800;
   border: none !important;
@@ -224,6 +325,426 @@ right:0cm;
 }
 
 /*fiber image */
+.fabimage {
+  height: 946px;
+  width: 1380px;
+  top: 3cm;
+  left: 2cm;
+  border-radius: 40px;
+  position: relative;
+}
+.facbricdiscription {
+  bottom: 18.54cm;
+  width: 24cm;
+  left: 5.9cm;
+  position: relative;
+  color: white;
+
+  height: 20cm;
+  background-color: rgba(255, 255, 255, 0.15);
+  backdrop-filter: blur(20px);
+  border-radius: 70px;
+}
+.icondnwld {
+  
+  opacity: 1;
+  left: 0.4cm;
+  height: 0.5cm;
+  width: 0.5cm;
+  position: relative;
+}
+/*all screen images above*/
+.Fabricproducts {
+  bottom: 15cm;
+  text-align: center;
+  font-family: Poppins, semiBold;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600;
+}
+.Fabricpdfbtn {
+  border-radius: 20px;
+  width: 370px;
+  height: 50px;
+  background-color: #fbfbfc;
+  left: 13cm;
+  position: relative;
+  bottom: 25cm;
+  font-family: Poppins, Regular;
+  font-weight: 800;
+  font-size: 24px;
+  border-radius: 40px;
+  border: none !important;
+  color: green;
+  opacity:1;
+  
+  box-shadow: 9px 3px 22px #00000029 !important;
+}
+.Fabproductrow {
+  width: 2cm;
+}
+.Fabproductcol1{
+  position: relative;
+  bottom: 15cm !important;
+  height: 7cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 4cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fabproductcol2 {
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  position: absolute;
+  top: 36cm;
+  left: 11cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fabproductcol3 {
+  position: absolute;
+  top: 37.3cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 18cm;
+  box-shadow: 5px 7px 12px #00000029 ;
+  opacity: 1 ;
+}
+.Fabproductcol4 {
+  position: absolute;
+  top: 37.3cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 25cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Fabourproduct1 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  
+  position: relative;
+  bottom: 12cm;
+  left: 5cm;
+  clear: both;
+  align-items: left;
+}
+.Fabourproduct2 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;position: relative;
+  bottom: 16.3cm !important;
+  left: 19cm;
+  clear: both;
+  align-items: left;
+}
+.Fabourproduct {
+  font-family: Poppins;
+  font-size: 30px;
+  font-weight: 600;  position: relative;
+  bottom: 13.5cm !important;
+  left: 11.5cm;
+  clear: both;
+  align-items: left;
+}
+.Fabourproduct3 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 19.3cm !important;
+  left: 26cm;
+  clear: both;
+  align-items: left;
+}
+.Fabricwebsitebtn {
+  border-radius: 20px;
+
+  width: 350px;
+  height: 60px;
+  background-color: #c62525;
+  left: 12.7cm;
+  position: relative;
+  bottom: 16cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
+
+/*fabric css code finish*/
+
+/*Leather css code below*/
+.Leatherpdfbtn {
+  border-radius: 20px;
+  top: 3cm;
+  width: 310px;
+  height: 60px;
+  background-color: #ffffff;
+  left: 8cm;
+  position: relative;
+  bottom: 0cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none !important;
+  color: #f01212;
+}
+
+.Leatherproductcol1 {
+  position: relative;
+  bottom: 15cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 4cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Leatherproductcol2 {
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  position: absolute;
+  top: 35.8cm;
+  left: 11cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Leatherproductcol3 {
+  position: absolute;
+  top: 35.8cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 18cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Leatherproductcol4 {
+  position: absolute;
+  top: 35.8cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 25cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Leatherourproduct1 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 12cm;
+  left: 5cm;
+  clear: both;
+  align-items: left;
+}
+.Leatherourproduct2 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 15.3cm;
+  left: 19cm;
+  clear: both;
+  align-items: left;
+}
+.Leatherourproduct {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 13.6cm;
+  left: 11.5cm;
+  clear: both;
+  align-items: left;
+}
+.Leatherourproduct3 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 16.7cm;
+  left: 26cm;
+  clear: both;
+  align-items: left;
+}
+
+.Leatherwebsitebtn {
+  border-radius: 20px;
+
+  width: 350px;
+  height: 60px;
+  background-color: #c62525;
+  left: 12cm;
+  position: relative;
+  bottom: 14cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
+/*Leather page css finish*/
+
+/*Yarn page css below*/
+
+.Yarnpdfbtn {
+  border-radius: 20px;
+  top: 13cm;
+  width: 310px;
+  height: 60px;
+  background-color: #ffffff;
+  left: 8.5cm;
+  position: absolute;
+  bottom: 5cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none !important;
+  color: #106cc4;
+}
+
+.Yarnproductcol1 {
+  position: relative;
+  bottom: 18cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 3.5cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Yarnproductcol2 {
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  position: absolute;
+  top: 35.8cm;
+  left: 11cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Yarnproductcol3 {
+  position: absolute;
+  top: 35.8cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 18cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Yarnproductcol4 {
+  position: absolute;
+  top: 35.7cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 25cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Yarnourproduct1 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 8cm;
+  left: 4.6cm;
+  clear: both;
+  align-items: left;
+}
+.Yarnourproduct2 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 15.6cm;
+  left: 18cm;
+  clear: both;
+  align-items: left;
+}
+.Yarnourproduct {
+  font-family: Poppins, Regular;
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+  bottom: 6.4cm;
+  left: 12.7cm;
+  clear: both;
+  align-items: left;
+}
+.Yarnourproduct3 {
+  font-family: Poppins, Regular;
+  position: relative;
+  bottom: 17cm;
+  font-size: 30px;
+  font-weight: 600;
+  left: 27cm;
+  clear: both;
+  align-items: left;
+}
+
+.Yarnwebsitebtn {
+  border-radius: 20px;
+  width: 350px;
+  height: 60px;
+  background-color: #c62525;
+  left: 13cm;
+  position: relative;
+  bottom: 12cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
+.Yarnproductcol5 {
+  position: relative;
+  bottom: 14cm;
+  height: 6cm;
+  width: 6cm;
+  font-size: 30px;
+  font-weight: 600;
+  border-radius: 120px;
+  left: 14cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Yarnourproduct4 {
+  font-family: Poppins, Regular;
+  position: relative;
+  bottom: 14cm;
+  left: 16cm;
+  font-size: 30px;
+  font-weight: 600;
+  clear: both;
+  align-items: left;
+}
+
+
+#helo:active {
+   color: blue;
+   text-decoration: underline;
+}
+
+	
+/*Yarn css finish*/
+/*Fabric css below*/
 .fabimage {
   height: 946px;
   width: 1200px;
@@ -249,7 +770,7 @@ right:0cm;
   position: relative;
 }
 .Fabricproducts {
-  bottom: 15cm;
+  bottom: 17cm;
   text-align: center;
   font-family: Poppins, semiBold;
   position: relative;
@@ -352,11 +873,11 @@ right:0cm;
 }
 .Fabricwebsitebtn {
   border-radius: 20px;
-
+align-items:center ;
   width: 350px;
   height: 60px;
   background-color: #c62525;
-  left: 12cm;
+  align-items: center;
   position: relative;
   bottom: 17cm;
   font-family: Poppins, Regular;
@@ -366,19 +887,21 @@ right:0cm;
   border: none !important;
   color: #ffffff;
 }
+/*Fabric css code finish*/
+/*Fiber css code below*/
 
-/*fabric css code finish*/
-
-/*Leather css code below*/
-.Leatherpdfbtn {
+.Fiberpdfbtn {
   border-radius: 20px;
-  top: 3cm;
+ 
+  opacity:1 !important;
+  
+  box-shadow: 9px 3px 50px #00000029 !important;
   width: 310px;
   height: 60px;
   background-color: #ffffff;
-  left: 8cm;
+  left: 14cm;
   position: relative;
-  bottom: 0cm;
+  bottom: 26cm;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 20px;
@@ -387,129 +910,16 @@ right:0cm;
   color: #f01212;
 }
 
-.Leatherproductcol1 {
-  position: relative;
-  bottom: 13cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 4cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Leatherproductcol2 {
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  position: absolute;
-  top: 35.8cm;
-  left: 11cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Leatherproductcol3 {
-  position: absolute;
-  top: 35.8cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 18cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Leatherproductcol4 {
-  position: absolute;
-  top: 35.8cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 25cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Leatherourproduct1 {
-  font-family: Poppins, Regular;
-
-  position: relative;
-  bottom: 12cm;
-  left: 5cm;
-  clear: both;
-  align-items: left;
-}
-.Leatherourproduct2 {
-  font-family: Poppins, Regular;
-
-  position: relative;
-  bottom: 15.3cm;
-  left: 19cm;
-  clear: both;
-  align-items: left;
-}
-.Leatherourproduct {
-  font-family: Poppins, Regular;
-
-  position: relative;
-  bottom: 13.6cm;
-  left: 11.5cm;
-  clear: both;
-  align-items: left;
-}
-.Leatherourproduct3 {
-  font-family: Poppins, Regular;
-
-  position: relative;
-  bottom: 16.7cm;
-  left: 26cm;
-  clear: both;
-  align-items: left;
-}
-
-.Leatherwebsitebtn {
-  border-radius: 20px;
-
-  width: 350px;
-  height: 60px;
-  background-color: #c62525;
-  left: 12cm;
-  position: relative;
-  bottom: 14cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 30px;
-  border-radius: 40px;
-  border: none !important;
-  color: #ffffff;
-}
-/*Leather page css finish*/
-
-/*Knits page css below*/
-
-.Fiberpdfbtn {
-  border-radius: 20px;
-  top: 23cm;
-  width: 310px;
-  height: 60px;
-  background-color: #ffffff;
-  left: 14cm;
-  position: absolute;
-  bottom: 5cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 20px;
-  border-radius: 40px;
-  border: none !important;
-  color: #106cc4;
-}
-
 .Fiberproductcol1 {
   position: relative;
-  bottom: 16cm;
+  bottom: 18cm;
   height: 6cm;
   width: 6cm;
   border-radius: 120px;
   left: 4cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
+  
 }
 .Fiberproductcol2 {
   height: 6cm;
@@ -532,6 +942,16 @@ right:0cm;
   opacity: 1;
 }
 .Fiberproductcol4 {
+  position: relative;
+  bottom: 15cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 14cm;
+  box-shadow: 5px 7px 19px #00000029;
+  opacity: 1;
+}
+.Fiberproductcol5{
   position: absolute;
   top: 35.8cm;
   height: 6cm;
@@ -543,45 +963,83 @@ right:0cm;
 }
 .Fiberourproduct1 {
   font-family: Poppins, Regular;
-  position: relative;
-  bottom: 7.5cm;
-  left: 6cm;
+  font-size: 30px;
+  font-weight: 600;
+
+  position: absolute;
+top: 43.9cm;
+  left: 6.5cm;
   clear: both;
   align-items: left;
 }
 .Fiberourproduct2 {
   font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
   position: relative;
-  bottom: 15.6cm;
-  left: 19.7cm;
+  bottom: 16.3cm;
+  left: 20cm;
   clear: both;
   align-items: left;
 }
 .Fiberourproduct {
   font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
   position: relative;
-  bottom: 6cm;
-  left: 12.3cm;
+  bottom: 8.3cm;
+  left: 12.5cm;
   clear: both;
   align-items: left;
 }
 .Fiberourproduct3 {
   font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
   position: relative;
-  bottom: 17cm;
+  bottom: 24.1cm;
   left: 27cm;
   clear: both;
   align-items: left;
 }
+.Fiberproduct4 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 16cm;
+  left: 16cm;
+  clear: both;
+  align-items: left;
+}
+.Fiberproducts{
+  bottom: 17cm;
+  text-align: center;
+  font-family: Poppins, semiBold;
+  position: relative;
+  font-size: 30px;
+  font-weight: 600;
+}
+.Fiberproducts1{
+  bottom: 19cm;
+  text-align: center;
+  font-family: Poppins, Bold;
+  position: relative;
+  font-size: 25px; 
+  font-size: 30px;
+  font-weight: 600;
+
+}
 
 .Fiberwebsitebtn {
   border-radius: 20px;
+
   width: 350px;
   height: 60px;
   background-color: #c62525;
-  left: 13cm;
+  left: 12.5cm;
   position: relative;
-  bottom: 12cm;
+  bottom: 14cm;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 30px;
@@ -589,29 +1047,348 @@ right:0cm;
   border: none !important;
   color: #ffffff;
 }
-.Fiberproductcol5 {
+/*Fiber css finish*/
+/*Knits css below*/
+
+.Knitspdfbtn {
+  border-radius: 20px;
+ 
+  width: 310px;
+  height: 60px;
+  background-color: #ffffff;
+  left: 14cm;
+  position: relative;
+  bottom: 26cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none !important;
+  color: #f01212;
+}
+
+.Knitsproductcol1 {
+  position: relative;
+  bottom: 18.7cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 4cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Knitsproductcol2 {
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  position: absolute;
+  top: 35cm;
+  left: 11cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Knitsproductcol3 {
+  position: absolute;
+  top: 35cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 18cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Knitsproductcol4 {
   position: relative;
   bottom: 15cm;
   height: 6cm;
   width: 6cm;
   border-radius: 120px;
   left: 14cm;
+  box-shadow: 5px 7px 19px #00000029;
+  opacity: 1;
+}
+.Knitsproductcol5{
+  position: absolute;
+  top: 35cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 25cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
 }
-.Fabourproduct4 {
+.Knitsourproduct1 {
   font-family: Poppins, Regular;
+  font-size: 26px;
+  font-weight: 600;
+  position: absolute;
+top: 42.3cm;
+  left: 5.4cm;
+  clear: both;
+  align-items: left;
+}
+.Knitsourproduct2 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 17.7cm;
+  left: 18cm;
+  clear: both;
+  align-items: left;
+}
+.Knitsourproduct {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 10cm;
+  left: 12.5cm;
+  clear: both;
+  align-items: left;
+}
+.Knitsourproduct3 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 25.5cm;
+  left: 26.5cm;
+  clear: both;
+  align-items: left;
+}
+.Knitsourproduct4 {
+  font-family: Poppins, Regular;
+font-size: 30px;
+font-weight: 600;
+  position: relative;
+  bottom: 15cm;
+  left: 16cm;
+  clear: both;
+  align-items: left;
+}
+.Knitsproducts{
+  bottom: 19cm;
+  text-align: center;
+  font-family: Poppins, semiBold;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600; 
+}
+
+.Knitswebsitebtn {
+  border-radius: 20px;
+
+  width: 350px;
+  height: 60px;
+  background-color: #c62525;
+  left: 12.5cm;
   position: relative;
   bottom: 14cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
+/*KNITS CSS FINISH */
+/*ECO FRIENDLY CSS BELOW*/
+.Ecoproducts1{
+  bottom: 17cm;
+  text-align: center;
+  font-family: Poppins, semiBold;
+  position: relative;
+  font-size: 25px;
+  font-weight: 600; 
+}
+
+.Ecopdfbtn {
+  border-radius: 20px;
+ 
+  width: 310px;
+  height: 60px;
+  background-color: #ffffff;
+  left: 14cm;
+  position: relative;
+  bottom: 26cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 20px;
+  border-radius: 40px;
+  border: none !important;
+  color: #f01212;
+}
+
+.Ecoproductcol1 {
+  position: relative;
+  bottom: 18.8cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 4cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Ecoproductcol2 {
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  position: absolute;
+  top: 35cm;
+  left: 11cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Ecoproductcol3 {
+  position: absolute;
+  top: 35cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 18cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Ecoproductcol4 {
+  position: relative;
+  bottom: 15cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 14cm;
+  box-shadow: 5px 7px 19px #00000029;
+  opacity: 1;
+}
+.Ecoproductcol5{
+  position: absolute;
+  top: 35cm;
+  height: 6cm;
+  width: 6cm;
+  border-radius: 120px;
+  left: 25cm;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
+}
+.Ecoourproduct1 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+bottom: 10cm;
+  left: 6cm;
+  clear: both;
+  align-items: left;
+}
+.Ecoourproduct2 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 17.6cm;
+  left: 19.6cm;
+  clear: both;
+  align-items: left;
+}
+.Ecoourproduct {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 8.6cm;
+  left: 12.5cm;
+  clear: both;
+  align-items: left;
+}
+.Ecoourproduct3 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 25.3cm;
+  left: 26.5cm;
+  clear: both;
+  align-items: left;
+}
+.Ecoourproduct4 {
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font-weight: 600;
+  position: relative;
+  bottom: 15cm;
   left: 16cm;
   clear: both;
   align-items: left;
 }
 
 
-#helo:active {
-   color: blue;
-   text-decoration: underline;
-}
+.Ecowebsitebtn {
+  border-radius: 20px;
 
-	
+  width: 350px;
+  height: 60px;
+  background-color: #c62525;
+  left: 12.5cm;
+  position: relative;
+  bottom: 14cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 30px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
+/* contactusform*/
+
+.Contactusformoutline{
+  height: 9cm;
+  width: 19cm;
+  align-items: center;
+  background-color: #129652;
+  border-radius: 35px;
+  left: 7cm;
+  bottom: 13cm;
+  position: relative;
+}
+.Contactusformimg{
+  height: 10;
+  width: 15cm;
+  bottom: 1cm;
+  right: 3cm;
+  position: relative;
+}
+.Contactus{
+  color: white;
+  font-size: 32px;
+  position: relative;
+  left: 7.5cm;
+}
+textarea.form-control{
+  border-radius: 20px;
+  height: 3cm !important;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  position: relative;
+  bottom: 0.2cm;
+  align-items: center;
+}
+input.form-control{
+  align-items: center;
+  border-radius: 20px;
+  height: 1.5cm !important;
+  position: relative;
+  bottom: 0.5cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+}
+#contact-form{
+  position: relative;
+  bottom: 9cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  align-items: center;
+  width: 7cm;
+
+  left: 10cm;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}

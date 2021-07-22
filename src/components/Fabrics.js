@@ -10,6 +10,13 @@
  * - Author          : surya12
  * - Modification    :
  **/
+
+
+ 
+import Contactusform from './Contactusform'
+ import "./Components.css";
+
+ import { FaDownload } from "react-icons/fa";
 import React, { Component } from "react";
 import fab from "./img/fab.png";
 import fabproduct1 from "./img/fabproduct1.png";
@@ -58,18 +65,10 @@ export default class Fabrics extends Component {
               element in growing our business. This facility has multiplied its
               capacity to serve as our hub for leather sourcing and finishing.
             </p>
-            <h1
-              style={{
-                fontFamily: "Poppins,Bold",
-                fontSize: "26px",
-                textAlign: "center",
-              }}
-            >
-              ABOUT US
-            </h1>
           </div>
           <button className="Fabricpdfbtn">
-            <i className="fas fa-download" id="icondnwld"></i>
+          <FaDownload className="pdficon"/>
+          
             Download pdf
           </button>
         </>
@@ -91,6 +90,8 @@ export default class Fabrics extends Component {
           <h1 className="Fabourproduct3"> CRAFTSME</h1>
         </div>
         <button className="Fabricwebsitebtn">View Website</button>
+        <Contactusform/>
+        
       </div>
     );
   }
