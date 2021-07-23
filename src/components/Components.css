@@ -43,7 +43,7 @@ this is all meme india website codes
   top: 0.9cm;
   width: 37cm;
   right: 3.4cm;
-  overflow: hidden;
+  overflow: hidden !important;
   background-color: #707070;
   position: relative;
 
@@ -157,12 +157,13 @@ min-height: 7cm;
   border-top-width: 2cm;
   top: 2cm;
   left: 2cm;
+  overflow: hidden !important;
  
 }
 .carousel .carousel-indicators li {
  background-color: #9f90e8;
 opacity: 10 !important;
-  bottom: 7cm;
+  bottom: 3cm;
   position: relative;
 }
 .carousel-indicators .active{
@@ -213,12 +214,20 @@ opacity: 10 !important;
 /*this is toogle an carosel*/
 
 .Sliderpics {
-  height: 300px;
-  width: 300px;
-  left: 1cm !important;
+  height: 250px;
+  width: 250px;
+  
+  left: 2.6cm !important;
   max-width: 500px;
   min-width: 50px !important;
+  position: relative;
+  bottom: 0cm;
 
+}
+.carousel.slide{
+  padding-bottom: 0% !important;
+  overflow: hidden;
+  height: 14cm;
 }
 
 .slick-prev::before {
@@ -229,7 +238,7 @@ opacity: 10 !important;
   font-size: 30px !important;
   position: relative;
   bottom: 1.8cm !important;
-  right: 1cm;
+  left: 2cm;
 }
 .slick-next::before {
   color: #000000 !important;
@@ -238,8 +247,8 @@ opacity: 10 !important;
   opacity: 100 !important;
   font-size: 30px !important;
   position: relative;
-  bottom: 2cm !important;
-  left:  0cm;
+  bottom: 1.7cm !important;
+  right:  0cm;
 }
 /*Sliders arrows*/
 
@@ -332,6 +341,7 @@ right:0cm;
   left: 2cm;
   border-radius: 40px;
   position: relative;
+  overflow: hidden;
 }
 .facbricdiscription {
   bottom: 18.54cm;
@@ -919,7 +929,6 @@ align-items:center ;
   left: 4cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
-  
 }
 .Fiberproductcol2 {
   height: 6cm;
@@ -930,6 +939,7 @@ align-items:center ;
   left: 11cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
+  
 }
 .Fiberproductcol3 {
   position: absolute;
@@ -940,6 +950,8 @@ align-items:center ;
   left: 18cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
+ 
+ 
 }
 .Fiberproductcol4 {
   position: relative;
@@ -950,6 +962,8 @@ align-items:center ;
   left: 14cm;
   box-shadow: 5px 7px 19px #00000029;
   opacity: 1;
+   
+ 
 }
 .Fiberproductcol5{
   position: absolute;
@@ -960,6 +974,9 @@ align-items:center ;
   left: 25cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
+ 
+   
+ 
 }
 .Fiberourproduct1 {
   font-family: Poppins, Regular;
@@ -1039,7 +1056,7 @@ top: 43.9cm;
   background-color: #c62525;
   left: 12.5cm;
   position: relative;
-  bottom: 14cm;
+  bottom: 16cm;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 30px;

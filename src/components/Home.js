@@ -78,9 +78,11 @@ export default class Home extends Component {
                 </button>
               </Carousel.Item>
             </Carousel>
+            </div>
+            <div>
 
             <Allimage />
-
+</div>
             <div className="container-fluid">
               <Row className="Sponsers">
                 <Col className="spon">
@@ -93,7 +95,7 @@ export default class Home extends Component {
                 </Col>
                
               </Row>
-            </div>
+            
           </div>
 
           <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "35px" }}>

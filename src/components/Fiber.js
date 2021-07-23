@@ -32,7 +32,8 @@ export default class Fiber extends Component {
     return (
       <div className="container-fluid">
         
-          <img src={yarn} className="fabimage" alt="Fiber-main" />
+          
+        <img src={yarn} className="fabimage" alt="Fiber-main" />
           <>
           <div className="facbricdiscription">
             <h1
