@@ -11,7 +11,7 @@
  * - Modification    :
  **/
 import React, { Component } from "react";
-import { Row, Col, Form, FormControl, Button } from "react-bootstrap";
+import { Row, Col, Form, FormControl } from "react-bootstrap";
 import Logo from "./img/logo.png";
 import "./Components.css";
 
@@ -32,14 +32,14 @@ export default class Searchbar extends Component {
             </div>
           </Col>
           <Col>
-            <Form className="d-flex">
+          <Form className="searchForm">
               <FormControl
                 type="search"
                 placeholder="Search"
                 className="search"
-                aria-label="Search"
+                // aria-label="Search"
               />
-              <button class="btn searchbutton" type="button">
+              <button class="btn" type="button">
                 <span class="glyphicon glyphicon-search"></span>
               </button>
             </Form>
