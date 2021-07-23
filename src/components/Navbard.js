@@ -10,39 +10,29 @@
  * - Author          : surya12
  * - Modification    :
  **/
- import "./Components.css";
+import "./Components.css";
 import React from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { LinkContainer } from "react-router-bootstrap";
 import "./Components.css";
-import Logo from "./img/Logo.png";
 
-function Navbard() {
+function Navboard() {
   return (
-    <div classname="container-fluid">
-      <div className="rect">
-        <img
-          className="Navlogo"
-          src={Logo}
-          height="70px"
-          width="250px"
-          alt="MeMe-Global logo"
-        />
-      </div>
+    // <div classname="container-fluid">
+     
       <Container>
         <Navbar expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="Navgg">
               <LinkContainer to="/">
-                <Nav.Link className="nav-item nav-link mx-2" >
+                <Nav.Link className="nav-item nav-link mx-2">
                   <p>Home</p>
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Fiber">
                 <Nav.Link className="nav-item nav-link mx-2" id="Navline">
                   <p>Fiber</p>
-                 
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Yarn">
@@ -79,7 +69,7 @@ function Navbard() {
           </Navbar.Collapse>
         </Navbar>
       </Container>
-    </div>
+    // </div>
   );
 }
-export default Navbard;
+export default Navboard;

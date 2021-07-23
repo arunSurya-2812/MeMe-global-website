@@ -10,8 +10,9 @@
     * - Author          : surya12
     * - Modification    : 
 **/
-import React, { Component } from 'react'
-import Contactusgroup from './img/Contactusgroup.png'
+import React, { Component } from 'react';
+import Contactusgroup from './img/Contactusgroup.png';
+
 export default class Leathers extends Component  {
     constructor(props) {
       super(props);
@@ -27,7 +28,7 @@ export default class Leathers extends Component  {
             
             <div className="Contactusformoutline">
                 <h1 className="Contactus">Contact Us</h1>
-                <div><img src={Contactusgroup} className="Contactusformimg"/></div>
+                <div><img src={Contactusgroup} alt="contactUs" className="Contactusformimg"/></div>
                 
           <form id="contact-form" onSubmit={this.handleSubmit.bind(this)}>
             <div className="form-group">

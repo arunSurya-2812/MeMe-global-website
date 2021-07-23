@@ -10,6 +10,9 @@
  * - Author          : surya12
  * - Modification    :
  **/
+import { BrowserRouter as Router, Route } from 'react-router-dom';
+import './App.css';
+
 import Fabrics from './components/Fabrics';
 import Ecofriendly from './components/Ecofriendly';
 import Home from './components/Home';
@@ -17,17 +20,16 @@ import Leathers from './components/Leathers';
 import Knits from './components/Knits';
 import Brands from './components/Brands';
 import Yarn from './components/Yarn'
-import Navbard from './components/Navbard';
-import './App.css';
-
-
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import Navboard from './components/Navbard';
+import Searchbar  from './components/Searchbar';
 import Fiber from './components/Fiber';
+
 function App() {
 	return (
 		<div className="App">
 			<Router>
-				<Navbard> </Navbard>
+				<Searchbar/>
+				<Navboard/> 
 				<Route exact path="/" component={Home}></Route>
 				<Route path="/Fiber" component={Fiber}></Route>
 				<Route exact path="/Yarn" component={Yarn}></Route>
@@ -36,9 +38,7 @@ function App() {
 				<Route path="/Knits" component={Knits}></Route>
 				<Route exact path="/Brands" component={Brands}></Route>
 				<Route path="/Ecofriendly" component={Ecofriendly}></Route>
-				
 			</Router>
-			
 		</div>
 	);
 }
