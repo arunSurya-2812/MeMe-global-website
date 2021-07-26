@@ -37,11 +37,8 @@ export default class Searchbar extends Component {
                 type="search"
                 placeholder="Search"
                 className="search"
-                // aria-label="Search"
               />
-              <button class="btn" type="button">
-                <span class="glyphicon glyphicon-search"></span>
-              </button>
+                <span class="glyphicon glyphicon-search btn"></span>
             </Form>
           </Col>
         </Row>
