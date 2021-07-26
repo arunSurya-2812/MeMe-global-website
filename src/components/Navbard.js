@@ -18,10 +18,8 @@ import "./Components.css";
 
 function Navboard() {
   return (
-    // <div classname="container-fluid">
-     
       <Container>
-        <Navbar expand="lg">
+        <Navbar collapseOnSelect expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="Navgg">
@@ -68,8 +66,7 @@ function Navboard() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-      </Container>
-    // </div>
+     </Container>
   );
 }
 export default Navboard;
