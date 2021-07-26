@@ -79,21 +79,19 @@ export default class Home extends Component {
                 </button>
               </Carousel.Item>
             </Carousel>
-            </div>
-            <div>
-
+          </div>
+          <div>
             <Allimage />
-</div>
-            <div className="container-fluid">
-              <Row className="Sponsers">
-                <Col className="spon">
-                  <Image src={Nazca} className="sponsers1" />
-                </Col>
-                <Col className="spon">
-                  <Image src={Ophelia} className="sponsers2" />
-                </Col>
-              </Row>
-            
+          </div>
+          <div className="container-fluid">
+            <Row className="Sponsers">
+              <Col className="spon">
+                <Image src={Nazca} className="sponsers1" />
+              </Col>
+              <Col className="spon">
+                <Image src={Ophelia} className="sponsers2" />
+              </Col>
+            </Row>
           </div>
 
           <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "35px" }}>

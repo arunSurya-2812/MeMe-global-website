@@ -11,12 +11,10 @@
  * - Modification    :
  **/
 
+import Contactusform from "./Contactusform";
+import "./Components.css";
 
- 
-import Contactusform from './Contactusform'
- import "./Components.css";
-
- import { FaDownload } from "react-icons/fa";
+import { FaDownload } from "react-icons/fa";
 import React, { Component } from "react";
 import fab from "./img/fab.png";
 import fabproduct1 from "./img/fabproduct1.png";
@@ -67,31 +65,26 @@ export default class Fabrics extends Component {
             </p>
           </div>
           <button className="Fabricpdfbtn">
-          <FaDownload className="pdficon"/>
-          
+            <FaDownload className="pdficon" />
             Download pdf
           </button>
         </>
         <div>
           <h1 className="Fabricproducts">Our Products</h1>
-
           <Image src={fabproduct1} className="Fabproductcol1" />
           <h1 className="Fabourproduct1"> FABRICS</h1>
-
           <Image src={fabproduct2} className="Fabproductcol2" />
           <h1 className="Fabourproduct">SUSTAINABLE </h1>
           <h1 className="Fabourproduct"> FABRICS </h1>
           <Image src={fabproduct3} className="Fabproductcol3" />
           <h1 className="Fabourproduct2">ARTISAN</h1>
           <h1 className="Fabourproduct2">MADE</h1>
-
           <Image src={fabproduct4} className="Fabproductcol4" />
           <h1 className="Fabourproduct3">FABRICS</h1>
           <h1 className="Fabourproduct3"> CRAFTSME</h1>
         </div>
         <button className="Fabricwebsitebtn">View Website</button>
-        <Contactusform/>
-        
+        <Contactusform />
       </div>
     );
   }

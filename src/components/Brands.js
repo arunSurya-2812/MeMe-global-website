@@ -1,21 +1,18 @@
 /**
-    * @description      : 
-    * @author           : surya12
-    * @group            : 
-    * @created          : 21/07/2021 - 19:30:13
-    * 
-    * MODIFICATION LOG
-    * - Version         : 1.0.0
-    * - Date            : 21/07/2021
-    * - Author          : surya12
-    * - Modification    : 
-**/
+ * @description      :
+ * @author           : surya12
+ * @group            :
+ * @created          : 21/07/2021 - 19:30:13
+ *
+ * MODIFICATION LOG
+ * - Version         : 1.0.0
+ * - Date            : 21/07/2021
+ * - Author          : surya12
+ * - Modification    :
+ **/
 import "./Components.css";
-
-import Contactusform from './Contactusform'
-
+import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
-
 import React, { Component } from "react";
 import Linen from "./img/Linen.jpg";
 import cotton1 from "./img/cotton1.jpg";
@@ -24,6 +21,7 @@ import fabproduct4 from "./img/fabproduct4.png";
 import fabproduct1 from "./img/fabproduct1.png";
 import { Image } from "react-bootstrap";
 import yarncopy from "./img/yarncopy.jpg";
+
 export default class Brands extends Component {
   render() {
     return (
@@ -70,7 +68,7 @@ export default class Brands extends Component {
               </p>
             </div>
             <button className="Knitspdfbtn">
-              <FaDownload />              Download pdf
+              <FaDownload /> Download pdf
             </button>
           </>
           <div>
@@ -92,7 +90,7 @@ export default class Brands extends Component {
             <h1 className="Knitsourproduct4"> Lotus</h1>
           </div>
           <button className="Knitswebsitebtn">Visit Website</button>
-          <Contactusform/>
+          <Contactusform />
         </div>
       </div>
     );

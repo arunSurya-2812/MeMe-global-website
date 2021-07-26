@@ -32,13 +32,13 @@ export default class Searchbar extends Component {
             </div>
           </Col>
           <Col>
-          <Form className="searchForm">
+            <Form className="searchForm">
               <FormControl
                 type="search"
                 placeholder="Search"
                 className="search"
               />
-                <span class="glyphicon glyphicon-search btn"></span>
+              <span class="glyphicon glyphicon-search btn"></span>
             </Form>
           </Col>
         </Row>
