@@ -30,7 +30,7 @@ function Navbard() {
         />
       </div>
       <Container>
-        <Navbar expand="lg">
+        <Navbar  expand="md">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="Navgg">

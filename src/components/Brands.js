@@ -16,6 +16,7 @@ import Contactusform from './Contactusform'
 
 import { FaDownload } from "react-icons/fa";
 
+import Footer from './Footer'
 import React, { Component } from "react";
 import Linen from "./img/Linen.jpg";
 import cotton1 from "./img/cotton1.jpg";
@@ -92,7 +93,13 @@ export default class Brands extends Component {
             <h1 className="Knitsourproduct4"> Lotus</h1>
           </div>
           <button className="Knitswebsitebtn">Visit Website</button>
-          <Contactusform/>
+          
+        <div>
+        <Contactusform/>
+        </div>
+        <div>
+          <Footer/>
+        </div> 
         </div>
       </div>
     );

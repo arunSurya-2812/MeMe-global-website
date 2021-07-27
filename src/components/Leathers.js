@@ -19,6 +19,7 @@ import Contactusform from './Contactusform'
  import leatherbag3 from "./img/leatherbag3.jpeg";
  import leathershoe from "./img/leathershoe.jpeg";
  
+import Footer from './Footer'
 import { FaDownload } from "react-icons/fa";
  
  import "./Components.css";
@@ -83,7 +84,13 @@ import { FaDownload } from "react-icons/fa";
          </div>
          <button className="Leatherwebsitebtn">View Website</button>
        
-       <Contactusform/>
+      
+         <div>
+        <Contactusform/>
+        </div>
+        <div>
+          <Footer/>
+        </div> 
        </div>
      );
    }

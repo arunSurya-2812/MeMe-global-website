@@ -16,6 +16,7 @@
 import Contactusform from './Contactusform'
  import "./Components.css";
 
+ import Footer from './Footer'
  import { FaDownload } from "react-icons/fa";
 import React, { Component } from "react";
 import fab from "./img/fab.png";
@@ -90,7 +91,13 @@ export default class Fabrics extends Component {
           <h1 className="Fabourproduct3"> CRAFTSME</h1>
         </div>
         <button className="Fabricwebsitebtn">View Website</button>
+        
+        <div>
         <Contactusform/>
+        </div>
+        <div>
+          <Footer/>
+        </div> 
         
       </div>
     );

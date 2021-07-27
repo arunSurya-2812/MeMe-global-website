@@ -33,6 +33,8 @@ import Ophelia from './img/Ophelia.png'
 import { Row, Col, Carousel, Image, Card } from "react-bootstrap";
 import Allimage from './Allimage';
 import { FaArrowCircleRight } from "react-icons/fa";
+
+import Footer from './Footer'
 export default class Home extends Component {
   render() {
     return (
@@ -98,7 +100,7 @@ export default class Home extends Component {
             
           </div>
 
-          <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "35px" }}>
+          <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "33px",left:"0.5cm",position:"relative",fontWeight:"600" }}>
             Recent Discounts
           </h1>
         </div>
@@ -200,7 +202,7 @@ export default class Home extends Component {
               </Card>
             </Col>
           </Row>
-          <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "35px" }}>
+          <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "33px",left:"0.5cm",position:"relative",fontWeight:"600" }}>
             Our Products
           </h1>
         </div>
@@ -320,6 +322,9 @@ export default class Home extends Component {
                 fontFamily: "Poppins,Bold",
                 fontSize: "34px",
                 color: "white",
+                position:"relative",
+                top:"5.2cm",
+                fontWeight:"600"
               }}
             >
               Premium Quality
@@ -329,12 +334,16 @@ export default class Home extends Component {
                 fontFamily: "Poppins,Bold",
                 fontSize: "34px",
                 color: "white",
+                fontSize: "33px",
+                fontWeight:"600",
+                top:"5cm",
+                position:"relative",
               }}
             >
               Meme Leather
             </h1>
           </div>
-          <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "38px" }}>
+          <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "38px",fontSize: "33px",left:"0.5cm",position:"relative",fontWeight:"600" }}>
             Eco - Friendly Products
           </h1>
         </div>
@@ -535,6 +544,9 @@ export default class Home extends Component {
             </Col>
           </Row>
         </div>
+        <div className="HomeFooter">
+          <Footer/>
+        </div> 
       </div>
     );
   }

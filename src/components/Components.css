@@ -11,25 +11,27 @@
 this is all meme india website codes
 ================================
 */
-.sponsers1{
+
+.container-fluid {
+  max-width: 35cm;
+  overflow: hidden;
+  max-height: 80cm;
+}
+
+.sponsers1 {
   position: relative;
   align-items: center;
   max-width: 100%;
   height: 4cm;
   width: 10cm;
- 
 }
 
-.sponsers2{
-  
+.sponsers2 {
   height: 4cm;
   width: 10cm;
   max-width: 100%;
-  
+
   position: relative;
-  
- 
-  
 }
 .rect {
   left: 1cm;
@@ -47,7 +49,8 @@ this is all meme india website codes
   background-color: #707070;
   position: relative;
 
-overflow: hidden;  height: 1cm;
+  overflow: hidden;
+  height: 1cm;
 }
 .Navgg {
   top: 0.2cm;
@@ -66,81 +69,76 @@ overflow: hidden;  height: 1cm;
 .dropdown-toggle:after {
   display: none !important;
 }
- .nav-link{
-	color: #ffffff!important;
+.nav-link {
+  color: #ffffff !important;
 }
-.Ecofriendlynav{
-	color: #15DD76 !important;
-	position: relative;
+.Ecofriendlynav {
+  color: #15dd76 !important;
+  position: relative;
   left: 2cm;
   top: 0cm;
-overflow: hidden;	
+  overflow: hidden;
 }
 
-#Navline:focus{
+#Navline:focus {
   background-color: #ffffff;
-	border-radius: 60px;
-	width: 3.3cm;
-	opacity: 10;
-  
+  border-radius: 60px;
+  width: 3.3cm;
+  opacity: 10;
+
   top: 0.2cm;
-	height: 0.9cm;
-	text-align: center;
-	position: relative;
+  height: 0.9cm;
+  text-align: center;
+  position: relative;
   padding: 0%;
-	color: #FAA90E !important;
-	text-decoration: underline;
+  color: #faa90e !important;
+  text-decoration: underline;
   text-decoration-thickness: 6px;
-
 }
 
-#Navline:hover{
+#Navline:hover {
   background-color: #ffffff;
-	border-radius: 60px;
-	width: 3.3cm;
-	opacity: 10;
+  border-radius: 60px;
+  width: 3.3cm;
+  opacity: 10;
   top: 0.2cm;
-	height: 0.9cm;
-	text-align: center;
-	position: relative;
+  height: 0.9cm;
+  text-align: center;
+  position: relative;
   padding: 0%;
-	color: #FAA90E !important;
-	text-decoration: underline;
+  color: #faa90e !important;
+  text-decoration: underline;
   text-decoration-thickness: 6px;
   animation-delay: 5ms;
-  transform: perspective(2000) translateZ(300px);
-
 }
 
-
-#Navline2:focus{
+#Navline2:focus {
   background-color: #ffffff;
-	border-radius: 60px;
-	width: 5cm;
-	opacity: 10;
+  border-radius: 60px;
+  width: 5cm;
+  opacity: 10;
   bottom: 0cm;
   top: 0.2cm;
-	height: 0.9cm;
-	text-align: center;
-	position: relative;
+  height: 0.9cm;
+  text-align: center;
+  position: relative;
   padding: 0cm;
-   bottom: 0cm;
+  bottom: 0cm;
   text-decoration-thickness: 6px;
-  padding: 0%; 
+  padding: 0%;
 }
-#Navline2:hover{
+#Navline2:hover {
   background-color: #ffffff;
-	border-radius: 60px;
-	width: 5cm;
-	opacity: 10;
+  border-radius: 60px;
+  width: 5cm;
+  opacity: 10;
   top: 0.2cm;
-  
-  
-	height: 0.9cm;
-	text-align: center;
-	position: relative;
+
+  height: 0.9cm;
+  text-align: center;
+  position: relative;
   padding: 0cm;
-  padding: 0%; 
+  padding: 0%;
   text-decoration-thickness: 6px;
 }
 /* the above 2 navbar design
@@ -152,21 +150,20 @@ overflow: hidden;
 .carousel {
   height: 670px;
   width: 1039px;
-min-width: 3cm;
-min-height: 7cm;
+  min-width: 3cm;
+  min-height: 7cm;
   border-top-width: 2cm;
   top: 2cm;
   left: 2cm;
   overflow: hidden !important;
- 
 }
 .carousel .carousel-indicators li {
- background-color: #9f90e8;
-opacity: 10 !important;
+  background-color: #9f90e8;
+  opacity: 10 !important;
   bottom: 3cm;
   position: relative;
 }
-.carousel-indicators .active{
+.carousel-indicators .active {
   background-color: #432caf !important;
 }
 
@@ -177,8 +174,8 @@ opacity: 10 !important;
 .carousel .carousel-control-next-icon {
   display: none;
 }
-.pdficon{
-  right:1cm;
+.pdficon {
+  right: 1cm;
   position: relative;
 }
 .Browsebutn {
@@ -197,34 +194,32 @@ opacity: 10 !important;
 .fa .fa-arrow-circle-right {
   right: 2cm;
 }
-.Browsebutn1{
+.Browsebutn1 {
   border-radius: 20px;
   color: black;
-  width: 120px;
+  width: 100px;
   height: 29px;
   background-color: #fbfbfc;
-  right: -4cm;
+  right: -6.3cm;
   position: relative;
   bottom: 1cm;
   font-family: Poppins;
   font-weight: 800;
   border: none !important;
-
 }
 /*this is toogle an carosel*/
 
 .Sliderpics {
   height: 250px;
   width: 250px;
-  
+
   left: 2.6cm !important;
   max-width: 500px;
   min-width: 50px !important;
   position: relative;
   bottom: 0cm;
-
 }
-.carousel.slide{
+.carousel.slide {
   padding-bottom: 0% !important;
   overflow: hidden;
   height: 14cm;
@@ -248,7 +243,7 @@ opacity: 10 !important;
   font-size: 30px !important;
   position: relative;
   bottom: 1.7cm !important;
-  right:  0cm;
+  right: 0cm;
 }
 /*Sliders arrows*/
 
@@ -278,25 +273,24 @@ opacity: 10 !important;
 }
 /*slidebtn discription*/
 
-
 .Productcardimage {
   height: 5cm;
-  width: 5.cm !important;
+  width: 5cm !important;
   border-radius: 20px !important;
-right:0cm;
+  right: 0cm;
   bottom: 0.3cm;
   position: relative;
 }
 .Productcardimage1 {
   height: 7cm;
-  width: 5.cm !important;
+  width: 5cm !important;
   border-radius: 20px !important;
-right:0cm;
+  right: 0cm;
   bottom: 0.3cm;
   position: relative;
 }
 .card {
-  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  background: #ffffff 0% 0% no-repeat padding-box !important;
   box-shadow: 9px 3px 22px #00000029 !important;
   border-radius: 25px !important;
   opacity: 1 !important;
@@ -356,7 +350,6 @@ right:0cm;
   border-radius: 70px;
 }
 .icondnwld {
-  
   opacity: 1;
   left: 0.4cm;
   height: 0.5cm;
@@ -386,14 +379,14 @@ right:0cm;
   border-radius: 40px;
   border: none !important;
   color: green;
-  opacity:1;
-  
+  opacity: 1;
+
   box-shadow: 9px 3px 22px #00000029 !important;
 }
 .Fabproductrow {
   width: 2cm;
 }
-.Fabproductcol1{
+.Fabproductcol1 {
   position: relative;
   bottom: 15cm !important;
   height: 7cm;
@@ -420,8 +413,8 @@ right:0cm;
   width: 6cm;
   border-radius: 120px;
   left: 18cm;
-  box-shadow: 5px 7px 12px #00000029 ;
-  opacity: 1 ;
+  box-shadow: 5px 7px 12px #00000029;
+  opacity: 1;
 }
 .Fabproductcol4 {
   position: absolute;
@@ -434,10 +427,10 @@ right:0cm;
   opacity: 1;
 }
 .Fabourproduct1 {
-  font-family: 'Poppins', sans-serif;
+  font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 600;
-  
+
   position: relative;
   bottom: 12cm;
   left: 5cm;
@@ -447,7 +440,8 @@ right:0cm;
 .Fabourproduct2 {
   font-family: Poppins, Regular;
   font-size: 30px;
-  font-weight: 600;position: relative;
+  font-weight: 600;
+  position: relative;
   bottom: 16.3cm !important;
   left: 19cm;
   clear: both;
@@ -456,7 +450,8 @@ right:0cm;
 .Fabourproduct {
   font-family: Poppins;
   font-size: 30px;
-  font-weight: 600;  position: relative;
+  font-weight: 600;
+  position: relative;
   bottom: 13.5cm !important;
   left: 11.5cm;
   clear: both;
@@ -525,7 +520,7 @@ right:0cm;
   border-radius: 120px;
   position: absolute;
   top: 35.8cm;
-  left: 11cm;
+  left: 11.4cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
 }
@@ -554,8 +549,8 @@ right:0cm;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 12cm;
-  left: 5cm;
+  bottom: 13.5cm;
+  left: 6cm;
   clear: both;
   align-items: left;
 }
@@ -564,7 +559,7 @@ right:0cm;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 15.3cm;
+  bottom: 16.2cm;
   left: 19cm;
   clear: both;
   align-items: left;
@@ -574,7 +569,7 @@ right:0cm;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 13.6cm;
+  bottom: 14.7cm;
   left: 11.5cm;
   clear: both;
   align-items: left;
@@ -584,8 +579,8 @@ right:0cm;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 16.7cm;
-  left: 26cm;
+  bottom: 17.6cm;
+  left: 25.5cm;
   clear: both;
   align-items: left;
 }
@@ -598,7 +593,7 @@ right:0cm;
   background-color: #c62525;
   left: 12cm;
   position: relative;
-  bottom: 14cm;
+  bottom: 15cm;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 30px;
@@ -715,7 +710,7 @@ right:0cm;
   background-color: #c62525;
   left: 13cm;
   position: relative;
-  bottom: 12cm;
+  bottom: 13cm;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 30px;
@@ -746,13 +741,11 @@ right:0cm;
   align-items: left;
 }
 
-
 #helo:active {
-   color: blue;
-   text-decoration: underline;
+  color: blue;
+  text-decoration: underline;
 }
 
-	
 /*Yarn css finish*/
 /*Fabric css below*/
 .fabimage {
@@ -883,7 +876,7 @@ right:0cm;
 }
 .Fabricwebsitebtn {
   border-radius: 20px;
-align-items:center ;
+  align-items: center;
   width: 350px;
   height: 60px;
   background-color: #c62525;
@@ -902,9 +895,9 @@ align-items:center ;
 
 .Fiberpdfbtn {
   border-radius: 20px;
- 
-  opacity:1 !important;
-  
+
+  opacity: 1 !important;
+
   box-shadow: 9px 3px 50px #00000029 !important;
   width: 310px;
   height: 60px;
@@ -926,7 +919,7 @@ align-items:center ;
   height: 6cm;
   width: 6cm;
   border-radius: 120px;
-  left: 4cm;
+  left: 3.5cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
 }
@@ -939,7 +932,6 @@ align-items:center ;
   left: 11cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
-  
 }
 .Fiberproductcol3 {
   position: absolute;
@@ -950,8 +942,6 @@ align-items:center ;
   left: 18cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
- 
- 
 }
 .Fiberproductcol4 {
   position: relative;
@@ -962,10 +952,8 @@ align-items:center ;
   left: 14cm;
   box-shadow: 5px 7px 19px #00000029;
   opacity: 1;
-   
- 
 }
-.Fiberproductcol5{
+.Fiberproductcol5 {
   position: absolute;
   top: 35.8cm;
   height: 6cm;
@@ -974,9 +962,6 @@ align-items:center ;
   left: 25cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
- 
-   
- 
 }
 .Fiberourproduct1 {
   font-family: Poppins, Regular;
@@ -984,8 +969,8 @@ align-items:center ;
   font-weight: 600;
 
   position: absolute;
-top: 43.9cm;
-  left: 6.5cm;
+  top: 43cm;
+  left: 6.3cm;
   clear: both;
   align-items: left;
 }
@@ -994,8 +979,8 @@ top: 43.9cm;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 16.3cm;
-  left: 20cm;
+  bottom: 17cm;
+  left: 19.3cm;
   clear: both;
   align-items: left;
 }
@@ -1004,8 +989,8 @@ top: 43.9cm;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 8.3cm;
-  left: 12.5cm;
+  bottom: 9.2cm;
+  left: 11.8cm;
   clear: both;
   align-items: left;
 }
@@ -1014,7 +999,7 @@ top: 43.9cm;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 24.1cm;
+  bottom: 24.7cm;
   left: 27cm;
   clear: both;
   align-items: left;
@@ -1029,7 +1014,7 @@ top: 43.9cm;
   clear: both;
   align-items: left;
 }
-.Fiberproducts{
+.Fiberproducts {
   bottom: 17cm;
   text-align: center;
   font-family: Poppins, semiBold;
@@ -1037,15 +1022,14 @@ top: 43.9cm;
   font-size: 30px;
   font-weight: 600;
 }
-.Fiberproducts1{
+.Fiberproducts1 {
   bottom: 19cm;
   text-align: center;
   font-family: Poppins, Bold;
   position: relative;
-  font-size: 25px; 
+  font-size: 25px;
   font-size: 30px;
   font-weight: 600;
-
 }
 
 .Fiberwebsitebtn {
@@ -1056,7 +1040,7 @@ top: 43.9cm;
   background-color: #c62525;
   left: 12.5cm;
   position: relative;
-  bottom: 16cm;
+  bottom: 15cm;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 30px;
@@ -1069,7 +1053,7 @@ top: 43.9cm;
 
 .Knitspdfbtn {
   border-radius: 20px;
- 
+
   width: 310px;
   height: 60px;
   background-color: #ffffff;
@@ -1124,7 +1108,7 @@ top: 43.9cm;
   box-shadow: 5px 7px 19px #00000029;
   opacity: 1;
 }
-.Knitsproductcol5{
+.Knitsproductcol5 {
   position: absolute;
   top: 35cm;
   height: 6cm;
@@ -1139,7 +1123,7 @@ top: 43.9cm;
   font-size: 26px;
   font-weight: 600;
   position: absolute;
-top: 42.3cm;
+  top: 42.3cm;
   left: 5.4cm;
   clear: both;
   align-items: left;
@@ -1176,21 +1160,21 @@ top: 42.3cm;
 }
 .Knitsourproduct4 {
   font-family: Poppins, Regular;
-font-size: 30px;
-font-weight: 600;
+  font-size: 30px;
+  font-weight: 600;
   position: relative;
   bottom: 15cm;
   left: 16cm;
   clear: both;
   align-items: left;
 }
-.Knitsproducts{
+.Knitsproducts {
   bottom: 19cm;
   text-align: center;
   font-family: Poppins, semiBold;
   position: relative;
   font-size: 25px;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .Knitswebsitebtn {
@@ -1211,18 +1195,18 @@ font-weight: 600;
 }
 /*KNITS CSS FINISH */
 /*ECO FRIENDLY CSS BELOW*/
-.Ecoproducts1{
+.Ecoproducts1 {
   bottom: 17cm;
   text-align: center;
   font-family: Poppins, semiBold;
   position: relative;
   font-size: 25px;
-  font-weight: 600; 
+  font-weight: 600;
 }
 
 .Ecopdfbtn {
   border-radius: 20px;
- 
+
   width: 310px;
   height: 60px;
   background-color: #ffffff;
@@ -1277,7 +1261,7 @@ font-weight: 600;
   box-shadow: 5px 7px 19px #00000029;
   opacity: 1;
 }
-.Ecoproductcol5{
+.Ecoproductcol5 {
   position: absolute;
   top: 35cm;
   height: 6cm;
@@ -1292,7 +1276,7 @@ font-weight: 600;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-bottom: 10cm;
+  bottom: 10cm;
   left: 6cm;
   clear: both;
   align-items: left;
@@ -1338,7 +1322,6 @@ bottom: 10cm;
   align-items: left;
 }
 
-
 .Ecowebsitebtn {
   border-radius: 20px;
 
@@ -1357,30 +1340,31 @@ bottom: 10cm;
 }
 /* contactusform*/
 
-.Contactusformoutline{
+.Contactusformoutline {
   height: 9cm;
   width: 19cm;
   align-items: center;
   background-color: #129652;
   border-radius: 35px;
   left: 7cm;
-  bottom: 13cm;
+  bottom: 14cm;
   position: relative;
+  box-shadow: 9px 3px 22px #00000029 !important;
 }
-.Contactusformimg{
+.Contactusformimg {
   height: 10;
   width: 15cm;
   bottom: 1cm;
   right: 3cm;
   position: relative;
 }
-.Contactus{
+.Contactus {
   color: white;
   font-size: 32px;
   position: relative;
   left: 7.5cm;
 }
-textarea.form-control{
+textarea.form-control {
   border-radius: 20px;
   height: 3cm !important;
   font-family: Poppins, Regular;
@@ -1389,7 +1373,7 @@ textarea.form-control{
   bottom: 0.2cm;
   align-items: center;
 }
-input.form-control{
+input.form-control {
   align-items: center;
   border-radius: 20px;
   height: 1.5cm !important;
@@ -1398,7 +1382,7 @@ input.form-control{
   font-family: Poppins, Regular;
   font-weight: 100;
 }
-#contact-form{
+#contact-form {
   position: relative;
   bottom: 9cm;
   font-family: Poppins, Regular;
@@ -1407,5 +1391,129 @@ input.form-control{
   width: 7cm;
 
   left: 10cm;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+/*     Footer css*/
+.footer {
+  background-color: #5fbd3a;
+  bottom: 10cm;
+  position: relative;
+  height: 11cm;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 9px 2px 22px 12px #00000029 !important;
+}
+.AsokhaFooter {
+  top: -1cm;
+  left: 14cm;
+  height: 6cm;
+  width: 6cm;
+  position: relative;
+  border-radius: 170px;
+}
+.PholexFooter {
+  left: 1cm;
+  top: 3cm;
+  position: relative;
+}
+.Footertext1 {
+  width: 5cm;
+  font-family: Poppins, Regular;
+  font-size: 12px;
+  font: bolder;
+  font-weight: 500;
+  top: 4cm;
+  position: relative;
+  left: 1cm;
+}
+.Socialicon {
+  position: relative;
+  padding-right: 20px;
+  height: 0.9cm;
+  width: 0.9cm;
+  left: 1cm;
+  top: 5cm;
+  color: black;
+}
+.Socialicon:hover {
+  color: #106cc4;
+}
+.FooterLink {
+  position: relative;
+  bottom: 7.6cm;
+  font-size: 20px;
+  font-weight: 800;
+  left: 8cm;
+  font-family: Poppins, Regular;
+}
+.FooterLinkdown {
+  position: relative;
+  bottom: 7cm;
+  width: 4cm;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Poppins, Regular;
+  left: 8.5cm;
+  color: #000000;
+}
+.FooterLinkdrop {
+  color: #000000;
+
+  text-decoration: none !important;
+}
+.FooterLinkdrop:hover {
+  color: red;
+
+  text-decoration: none !important;
+}
+.Contact {
+  position: relative;
+  bottom: 12cm;
+  font-size: 20px;
+  font-weight: 800;
+  left: 22cm;
+  font-family: Poppins, Regular;
+}
+.Contacttext {
+  width: 5cm;
+  font-family: Poppins, Regular;
+  font-size: 12px;
+  font: bolder;
+  font-weight: 500;
+  bottom: 11.3cm;
+  position: relative;
+  left: 22cm;
+}
+.Contact1 {
+  position: relative;
+  bottom: 14.8cm;
+  font-size: 20px;
+  font-weight: 800;
+  left: 29.3cm;
+  width: 6cm;
+  font-family: Poppins, Regular;
+}
+.Contacttext1 {
+  width: 5cm;
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font: bolder;
+  font-weight: 800;
+  bottom: 15.2cm;
+  position: relative;
+  left: 29.3cm;
+}
+/* extra css for Contactusform*/
+.HomeFooter{
+  top: 12cm !important;
+  position: relative;
+}
+.ContactusformYarn{
+  position: relative;
+  top: 3cm !important;
+}
+.ContactusformEcofriendly{
+  position: relative;
+  top: 2cm !important;
+
 }
