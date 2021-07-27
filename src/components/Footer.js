@@ -24,7 +24,6 @@ import { FaLinkedinIn } from "react-icons/fa";
 export default class Footer extends Component {
   render() {
     return (
-      <div>
         <div class="d-flex flex-column">
           <footer class="footer">
             <img src={Pholex} className="PholexFooter" />
@@ -77,7 +76,6 @@ export default class Footer extends Component {
             </div>
           </footer>
         </div>
-      </div>
     );
   }
 }
