@@ -34,23 +34,31 @@ this is all meme india website codes
   height: 26dp;
 }
 .navbar {
-  column-gap: 5cm;
-  top: 0.9cm;
-  width: 37cm;
-  right: 3.4cm;
-  overflow: hidden !important;
+  /* column-gap: 5cm; */
+  top: 1cm;
+  width: 100%;
+  /* right: 3.4cm; */
+  /* overflow: hidden !important; */
   background-color: #707070;
   position: relative;
-  overflow: hidden;
+  /* overflow: hidden; */
   height: 1cm;
+  min-height: 50px;
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    display: flex;
+    flex-direction: column;
+
 }
+
 .Navgg {
-  top: 0.2cm;
+  /* top: 0.2cm; */
   color: #ffffff;
   font-family: "Poppins", Regular;
-  font-size: 26px;
-  left: 4cm;
+  font-size: 23px;
+  /* left: 4cm; */
   position: relative;
+  width: 100%
 }
 
 #nav-Dropdown {
@@ -175,12 +183,12 @@ this is all meme india website codes
 
 .carousel {
   height: 670px;
-  width: 1039px;
+  width: 100%;
   min-width: 3cm;
   min-height: 7cm;
   border-top-width: 2cm;
   top: 2cm;
-  left: 2cm;
+  /* left: 2cm; */
   overflow: hidden !important;
  
 }
@@ -279,7 +287,7 @@ opacity: 10 !important;
   height: 139px;
   text-align: center;
   height: 6cm;
-  width: 1040px;
+  width: 100%;
   border-radius: 1cm;
   position: relative;
   top: 2cm;
@@ -331,7 +339,7 @@ opacity: 10 !important;
 .CobblerLeather {
   position: relative;
   top: 3cm;
-  width: 29.4cm;
+  width: 26cm;
   height: 10cm;
   border-radius: 25px;
 }
@@ -341,7 +349,7 @@ opacity: 10 !important;
   width: 130px;
   height: 39px;
   background-color: #fbfbfc;
-  left: 23cm;
+  left: 20cm;
   position: relative;
   bottom: 0cm;
   font-family: Poppins;

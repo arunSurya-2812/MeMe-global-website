@@ -37,8 +37,8 @@ import Allimage from "./Allimage";
 export default class Home extends Component {
   render() {
     return (
-      <>
-        <Carousel>
+      <div>
+        <Carousel style={{textAlign:'center'}}>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
@@ -281,6 +281,7 @@ export default class Home extends Component {
           src={Leather1}
           className="CobblerLeather"
           alt="cobbler-working-with-leather"
+          style={{textAlign:'center'}}
         />
         <button className="Leatherbtn">
           Browse
@@ -489,7 +490,7 @@ export default class Home extends Component {
             </Card>
           </Col>
         </Row>
-      </>
+      </div>
     );
   }
 }

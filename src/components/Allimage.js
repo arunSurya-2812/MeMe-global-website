@@ -31,127 +31,123 @@ export default class MultipleItems extends Component {
       slidesToShow: 3,
       slidesToScroll: 3,
       autoplay: true,
-      autoplaySpeed: 2000
-     
-
+      autoplaySpeed: 2000,
     };
     return (
-      <div>
-        <Slider {...settings}>
-          <div>
-            <img
-              className="Sliderpics"
-              style={{ borderRadius: "1cm" }}
-              src={Fibre11}
-              alt="Firstslide"
-            />
+      <Slider {...settings}>
+        <div>
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={Fibre11}
+            alt="Firstslide"
+          />
 
-            <button className="Browsebutn1">
-              Browse
-              <FaArrowCircleRight className="icondnwld1" />
-            </button>
-          </div>
-          <div>
-            <img
-              className="Sliderpics"
-              style={{ borderRadius: "1cm" }}
-              src={Yarn22}
-              alt="Secondslide"
-            />
+          <button className="Browsebutn1">
+            Browse
+            <FaArrowCircleRight className="icondnwld1" />
+          </button>
+        </div>
+        <div>
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={Yarn22}
+            alt="Secondslide"
+          />
 
-            <button className="Browsebutn1">
-              Browse
-              <FaArrowCircleRight className="icondnwld1" />
-            </button>
-          </div>
-          <div>
-            <img
-              className="Sliderpics"
-              style={{ borderRadius: "1cm" }}
-              src={Fabrics33}
-              alt="Threadslide"
-            />
-            <button className="Browsebutn1">
-              Browse
-              <FaArrowCircleRight className="icondnwld1" />
-            </button>
-          </div>
-          <div>
-            <img
-              className="Sliderpics"
-              style={{ borderRadius: "1cm" }}
-              src={Leather44}
-              alt="Fourthslide"
-            />
-            <button className="Browsebutn1">
-              Browse
-              <FaArrowCircleRight className="icondnwld1" />
-            </button>{" "}
-          </div>
-          <div>
-            <img
-              className="Sliderpics"
-              style={{ borderRadius: "1cm" }}
-              src={Knits55}
-              alt="fithslide"
-            />
-            <button className="Browsebutn1">
-              Browse
-              <FaArrowCircleRight className="icondnwld1" />
-            </button>
-          </div>
-          <div>
-            <img
-              className="Sliderpics"
-              style={{ borderRadius: "1cm" }}
-              src={Fibre11}
-              alt="Firstslide"
-            />
-            <button className="Browsebutn1">
-              Browse
-              <FaArrowCircleRight className="icondnwld1" />
-            </button>
-          </div>
-          <div>
-            <img
-              className="Sliderpics"
-              style={{ borderRadius: "1cm" }}
-              src={Yarn22}
-              alt="Firstslide"
-            />
+          <button className="Browsebutn1">
+            Browse
+            <FaArrowCircleRight className="icondnwld1" />
+          </button>
+        </div>
+        <div>
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={Fabrics33}
+            alt="Threadslide"
+          />
+          <button className="Browsebutn1">
+            Browse
+            <FaArrowCircleRight className="icondnwld1" />
+          </button>
+        </div>
+        <div>
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={Leather44}
+            alt="Fourthslide"
+          />
+          <button className="Browsebutn1">
+            Browse
+            <FaArrowCircleRight className="icondnwld1" />
+          </button>{" "}
+        </div>
+        <div>
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={Knits55}
+            alt="fithslide"
+          />
+          <button className="Browsebutn1">
+            Browse
+            <FaArrowCircleRight className="icondnwld1" />
+          </button>
+        </div>
+        <div>
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={Fibre11}
+            alt="Firstslide"
+          />
+          <button className="Browsebutn1">
+            Browse
+            <FaArrowCircleRight className="icondnwld1" />
+          </button>
+        </div>
+        <div>
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={Yarn22}
+            alt="Firstslide"
+          />
 
-            <button className="Browsebutn1">
-              Browse
-              <FaArrowCircleRight className="icondnwld1" />
-            </button>
-          </div>
-          <div>
-            <img
-              className="Sliderpics"
-              style={{ borderRadius: "1cm" }}
-              src={Knits55}
-              alt="Firstslide"
-            />
+          <button className="Browsebutn1">
+            Browse
+            <FaArrowCircleRight className="icondnwld1" />
+          </button>
+        </div>
+        <div>
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={Knits55}
+            alt="Firstslide"
+          />
 
-            <button className="Browsebutn1">
-              Browse
-              <FaArrowCircleRight className="icondnwld1" />
-            </button>
-          </div>
-          <div>
-            <img
-              className="Sliderpics"
-              style={{ borderRadius: "1cm" }}
-              src={Fabrics33}
-              alt="Firstslide"
-            />
-            <button className="Browsebutn1">
-              Browse
-              <FaArrowCircleRight className="icondnwld1" />
-            </button>
-          </div>
-        </Slider>
-      </div>
+          <button className="Browsebutn1">
+            Browse
+            <FaArrowCircleRight className="icondnwld1" />
+          </button>
+        </div>
+        <div>
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={Fabrics33}
+            alt="Firstslide"
+          />
+          <button className="Browsebutn1">
+            Browse
+            <FaArrowCircleRight className="icondnwld1" />
+          </button>
+        </div>
+      </Slider>
     );
   }
 }
