@@ -33,7 +33,7 @@ this is all meme india website codes
 
   position: relative;
 }
-.rect {
+.logo {
   left: 1cm;
   top: 0.5cm;
   position: relative;
@@ -110,6 +110,7 @@ this is all meme india website codes
   text-decoration: underline;
   text-decoration-thickness: 6px;
   animation-delay: 5ms;
+  transform: perspective(2000) translateZ(300px);
 }
 
 #Navline2:focus {
@@ -133,7 +134,6 @@ this is all meme india website codes
   width: 5cm;
   opacity: 10;
   top: 0.2cm;
-
   height: 0.9cm;
   text-align: center;
   position: relative;
@@ -147,6 +147,41 @@ this is all meme india website codes
 ================================================================
 
 ================================================================*/
+.searchForm {
+  position: relative;
+  display: inline-flex;
+}
+.search{
+  top: 25px;
+  margin-right: 2;
+  position: relative;
+}
+
+
+.btn.focus, .btn:focus, .btn:hover {
+  /* color: #333;  */
+  text-decoration: none; 
+  outline: none; 
+}
+
+.btn {
+  top: 30px;
+  left: 140px;
+  /* color:#333; */
+  /* background-color: #fff; */
+  display: inline-block;
+  font-weight: 400;
+  text-align: center;
+  cursor: pointer;
+  /* border: 1px solid transparent; */
+  /* padding: 6px; */
+  font-size: 16px;
+  line-height: 2;
+  /* border-radius: 4px; */
+  position: absolute;
+  /* outline: none; */
+}
+
 .carousel {
   height: 670px;
   width: 1039px;
@@ -250,7 +285,6 @@ this is all meme india website codes
 .Sponsers {
   height: 139px;
   text-align: center;
-
   height: 6cm;
   width: 1040px;
   border-radius: 1cm;
@@ -343,7 +377,6 @@ this is all meme india website codes
   left: 5.9cm;
   position: relative;
   color: white;
-
   height: 20cm;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
@@ -469,7 +502,6 @@ this is all meme india website codes
 }
 .Fabricwebsitebtn {
   border-radius: 20px;
-
   width: 350px;
   height: 60px;
   background-color: #c62525;
@@ -587,7 +619,6 @@ this is all meme india website codes
 
 .Leatherwebsitebtn {
   border-radius: 20px;
-
   width: 350px;
   height: 60px;
   background-color: #c62525;
@@ -762,7 +793,6 @@ this is all meme india website codes
   left: 5.9cm;
   position: relative;
   color: white;
-
   height: 20cm;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
@@ -781,7 +811,6 @@ this is all meme india website codes
 }
 .Fabricpdfbtn {
   border-radius: 20px;
-
   width: 370px;
   height: 50px;
   background-color: #fbfbfc;
@@ -840,7 +869,6 @@ this is all meme india website codes
 }
 .Fabourproduct1 {
   font-family: Poppins, Regular;
-
   position: relative;
   bottom: 12cm;
   left: 5cm;
@@ -849,7 +877,6 @@ this is all meme india website codes
 }
 .Fabourproduct2 {
   font-family: Poppins, Regular;
-
   position: relative;
   bottom: 16.5cm;
   left: 19cm;
@@ -858,7 +885,6 @@ this is all meme india website codes
 }
 .Fabourproduct {
   font-family: Poppins, Regular;
-
   position: relative;
   bottom: 13.6cm;
   left: 11.5cm;
@@ -898,6 +924,7 @@ this is all meme india website codes
 
   opacity: 1 !important;
 
+  opacity: 1 !important;
   box-shadow: 9px 3px 50px #00000029 !important;
   width: 310px;
   height: 60px;
@@ -967,10 +994,11 @@ this is all meme india website codes
   font-family: Poppins, Regular;
   font-size: 30px;
   font-weight: 600;
-
   position: absolute;
   top: 43cm;
   left: 6.3cm;
+  top: 43.9cm;
+  left: 6.5cm;
   clear: both;
   align-items: left;
 }
@@ -1034,7 +1062,6 @@ this is all meme india website codes
 
 .Fiberwebsitebtn {
   border-radius: 20px;
-
   width: 350px;
   height: 60px;
   background-color: #c62525;
@@ -1179,7 +1206,6 @@ this is all meme india website codes
 
 .Knitswebsitebtn {
   border-radius: 20px;
-
   width: 350px;
   height: 60px;
   background-color: #c62525;
@@ -1206,7 +1232,6 @@ this is all meme india website codes
 
 .Ecopdfbtn {
   border-radius: 20px;
-
   width: 310px;
   height: 60px;
   background-color: #ffffff;
@@ -1324,7 +1349,6 @@ this is all meme india website codes
 
 .Ecowebsitebtn {
   border-radius: 20px;
-
   width: 350px;
   height: 60px;
   background-color: #c62525;
@@ -1389,7 +1413,6 @@ input.form-control {
   font-weight: 100;
   align-items: center;
   width: 7cm;
-
   left: 10cm;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
@@ -1463,7 +1486,6 @@ input.form-control {
 }
 .FooterLinkdrop:hover {
   color: red;
-
   text-decoration: none !important;
 }
 .Contact {

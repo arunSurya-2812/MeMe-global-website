@@ -22,9 +22,7 @@ import fabproduct4 from "./img/fabproduct4.png";
 import fabproduct1 from "./img/fabproduct1.png";
 import { Image } from "react-bootstrap";
 import yarncopy from "./img/yarncopy.jpg";
-
 import Contactusform from './Contactusform'
-
 import { FaDownload } from "react-icons/fa";
 
 export default class Knits extends Component {

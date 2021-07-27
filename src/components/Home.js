@@ -1,4 +1,3 @@
-
 /**
  * @description      :
  * @author           : surya12
@@ -11,13 +10,13 @@
  * - Author          : surya12
  * - Modification    :
  **/
-import Essential from './img/Essential.jpg'
-import woodenplate from './img/woodenplate.png'
-import Bags from  './img/Bags.png'
-import cups from './img/cups.png'
-import shoes from './img/shoes.png'
-import accessories from './img/accessories.jpg'
-import jacket from './img/jacket.png'
+import Essential from "./img/Essential.jpg";
+import woodenplate from "./img/woodenplate.png";
+import Bags from "./img/Bags.png";
+import cups from "./img/cups.png";
+import shoes from "./img/shoes.png";
+import accessories from "./img/accessories.jpg";
+import jacket from "./img/jacket.png";
 import Leather1 from "./img/Leather1.jpg";
 import Menproduct from "./img/Menproduct.jpg";
 import Womenproduct from "./img/Womenproduct.jpg";
@@ -35,6 +34,8 @@ import Allimage from './Allimage';
 import { FaArrowCircleRight } from "react-icons/fa";
 
 import Footer from './Footer'
+
+
 export default class Home extends Component {
   render() {
     return (
@@ -44,15 +45,14 @@ export default class Home extends Component {
             <Carousel>
               <Carousel.Item interval={3000}>
                 <img
-                  
                   className="d-block w-100"
-
                   style={{ borderRadius: "1cm" }}
                   src={img1}
                   alt="Second slide"
                 />
                 <button className="Browsebutn">
-                  Browse<FaArrowCircleRight  className="icondnwld"/>
+                  Browse
+                  <FaArrowCircleRight className="icondnwld" />
                 </button>
               </Carousel.Item>
 
@@ -65,7 +65,7 @@ export default class Home extends Component {
                 />
                 <button className="Browsebutn">
                   Browse
-                  <FaArrowCircleRight  className="icondnwld"/>
+                  <FaArrowCircleRight className="icondnwld" />
                 </button>
               </Carousel.Item>
               <Carousel.Item interval={3000}>
@@ -76,28 +76,24 @@ export default class Home extends Component {
                   alt="Third slide"
                 />
                 <button className="Browsebutn">
-                  Browse<FaArrowCircleRight  className="icondnwld"/>
+                  Browse
+                  <FaArrowCircleRight className="icondnwld" />
                 </button>
               </Carousel.Item>
             </Carousel>
-            </div>
-            <div>
-
+          </div>
+          <div>
             <Allimage />
-</div>
-            <div className="container-fluid">
-              <Row className="Sponsers">
-                <Col className="spon">
-                  <Image src={Nazca}  
-                  className="sponsers1"/>
-                </Col>
-                <Col className="spon">
-                  <Image src={Ophelia} 
-                   className="sponsers2"/>
-                </Col>
-               
-              </Row>
-            
+          </div>
+          <div className="container-fluid">
+            <Row className="Sponsers">
+              <Col className="spon">
+                <Image src={Nazca} className="sponsers1" />
+              </Col>
+              <Col className="spon">
+                <Image src={Ophelia} className="sponsers2" />
+              </Col>
+            </Row>
           </div>
 
           <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "33px",left:"0.5cm",position:"relative",fontWeight:"600" }}>
@@ -165,7 +161,7 @@ export default class Home extends Component {
                   <Card.Text>
                     <h1
                       style={{
-                        top:"5cm",
+                        top: "5cm",
                         fontFamily: "Poppins,Bold",
                         fontSize: "22px",
                         fontWeight: "800",
@@ -360,11 +356,12 @@ export default class Home extends Component {
                 <Card.Body>
                   <Card.Text>
                     <h1
-                      style={{ fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
+                      style={{
+                        fontFamily: "Poppins,Bold",
+                        fontSize: "22px",
+                        fontWeight: "800",
+                        color: "black",
+                        letterSpacing: "0",
                       }}
                     >
                       Bags
@@ -408,11 +405,12 @@ export default class Home extends Component {
                 <Card.Body>
                   <Card.Text>
                     <h1
-                      style={{ fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
+                      style={{
+                        fontFamily: "Poppins,Bold",
+                        fontSize: "22px",
+                        fontWeight: "800",
+                        color: "black",
+                        letterSpacing: "0",
                       }}
                     >
                       Cups
@@ -431,11 +429,12 @@ export default class Home extends Component {
                 <Card.Body>
                   <Card.Text>
                     <h1
-                      style={{ fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
+                      style={{
+                        fontFamily: "Poppins,Bold",
+                        fontSize: "22px",
+                        fontWeight: "800",
+                        color: "black",
+                        letterSpacing: "0",
                       }}
                     >
                       Essentials
@@ -459,11 +458,12 @@ export default class Home extends Component {
                 <Card.Body>
                   <Card.Text>
                     <h1
-                      style={{ fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
+                      style={{
+                        fontFamily: "Poppins,Bold",
+                        fontSize: "22px",
+                        fontWeight: "800",
+                        color: "black",
+                        letterSpacing: "0",
                       }}
                     >
                       Bags
@@ -482,11 +482,12 @@ export default class Home extends Component {
                 <Card.Body>
                   <Card.Text>
                     <h1
-                      style={{ fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
+                      style={{
+                        fontFamily: "Poppins,Bold",
+                        fontSize: "22px",
+                        fontWeight: "800",
+                        color: "black",
+                        letterSpacing: "0",
                       }}
                     >
                       Plates
@@ -506,11 +507,12 @@ export default class Home extends Component {
                 <Card.Body>
                   <Card.Text>
                     <h1
-                      style={{ fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
+                      style={{
+                        fontFamily: "Poppins,Bold",
+                        fontSize: "22px",
+                        fontWeight: "800",
+                        color: "black",
+                        letterSpacing: "0",
                       }}
                     >
                       Cups
@@ -529,11 +531,12 @@ export default class Home extends Component {
                 <Card.Body>
                   <Card.Text>
                     <h1
-                      style={{ fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
+                      style={{
+                        fontFamily: "Poppins,Bold",
+                        fontSize: "22px",
+                        fontWeight: "800",
+                        color: "black",
+                        letterSpacing: "0",
                       }}
                     >
                       Essentials

@@ -11,13 +11,9 @@
  * - Modification    :
  **/
 
-
- import "./Components.css";
- 
-import Contactusform from './Contactusform'
- 
+import "./Components.css";
+import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
-
 import React, { Component } from "react";
 import yarn from "./img/yarn.png";
 import { Image } from "react-bootstrap";
@@ -31,10 +27,8 @@ export default class Fiber extends Component {
   render() {
     return (
       <div className="container-fluid">
-        
-          
         <img src={yarn} className="fabimage" alt="Fiber-main" />
-          <>
+        <>
           <div className="facbricdiscription">
             <h1
               style={{
@@ -73,26 +67,20 @@ export default class Fiber extends Component {
             </p>
           </div>
           <button className="Fiberpdfbtn">
-          <FaDownload className="pdficon"/>
+            <FaDownload className="pdficon" />
             Download pdf
-            
           </button>
         </>
         <div>
           <h1 className="Fiberproducts1">Our Products</h1>
-
           <Image src={cotton1} className="Fiberproductcol2" />
           <h1 className="Fiberourproduct">Cotton</h1>
-
           <Image src={Linen} className="Fiberproductcol1" />
           <h1 className="Fiberourproduct2"> Linen</h1>
-
           <Image src={bananafibre} className="Fiberproductcol3" />
           <h1 className="Fiberourproduct1"> Fibre</h1>
-
           <Image src={fabproduct4} className="Fiberproductcol4" />
           <h1 className="Fiberourproduct3"> Silk</h1>
-
           <Image src={fabproduct1} className="Fiberproductcol5" />
           <h1 className="Fiberproduct4"> Lotus</h1>
         </div>
@@ -105,6 +93,7 @@ export default class Fiber extends Component {
         <div>
           <Footer/>
         </div> 
+        <Contactusform />
       </div>
     );
   }

@@ -11,31 +11,26 @@
  * - Modification    :
  **/
 
-
- import "./Components.css";
- 
+import "./Components.css";
 import { FaDownload } from "react-icons/fa";
-
-import Contactusform from './Contactusform'
+import Contactusform from "./Contactusform";
 import React, { Component } from "react";
-import colorthreds from './img/colorthreds.jpg'
+import colorthreds from "./img/colorthreds.jpg";
 import Linen from "./img/Linen.jpg";
-import cotton1 from './img/cotton1.jpg';
-import bananafibre from './img/bananafibre.jpg';
+import cotton1 from "./img/cotton1.jpg";
+import bananafibre from "./img/bananafibre.jpg";
 import fabproduct4 from "./img/fabproduct4.png";
 import fabproduct1 from "./img/fabproduct1.png";
-import { Image } from 'react-bootstrap';
+import { Image } from "react-bootstrap";
 
 import Footer from './Footer'
 export default class Yarn extends Component {
   render() {
     return (
       <div className="container-fluid">
-        
-          <img src={colorthreds} className="fabimage" alt="Yarn-main"  />
-          <>
+        <img src={colorthreds} className="fabimage" alt="Yarn-main" />
+        <>
           <div className="facbricdiscription">
-            
             <h1
               style={{
                 fontFamily: "Poppins,Bold",
@@ -46,7 +41,7 @@ export default class Yarn extends Component {
             >
               ABOUT US
             </h1>
-            
+
             <p
               style={{
                 fontFamily: "Poppins",
@@ -72,37 +67,30 @@ export default class Yarn extends Component {
               element in growing our business. This facility has multiplied its
               capacity to serve as our hub for leather sourcing and finishing.
             </p>
-          <button className="Yarnpdfbtn">
-          <FaDownload className="pdficon"/>
-         
-            Download pdf
-          </button>
-          
-        </div>
-        
+            <button className="Yarnpdfbtn">
+              <FaDownload className="pdficon" />
+              Download pdf
+            </button>
+          </div>
         </>
         <div>
           <h1 className="Fabricproducts">Our Products</h1>
-          
-		  <Image src={cotton1} className="Yarnproductcol2" />
-		  <h1 className="Yarnourproduct">Cotton  
-		  </h1>
+
+          <Image src={cotton1} className="Yarnproductcol2" />
+          <h1 className="Yarnourproduct">Cotton</h1>
 
           <Image src={bananafibre} className="Yarnproductcol3" />
-		  <h1 className="Yarnourproduct1"> Poly Cotton</h1>
-
+          <h1 className="Yarnourproduct1"> Poly Cotton</h1>
 
           <Image src={Linen} className="Yarnproductcol1" />
-		  <h1 className="Yarnourproduct2"> Tencel & Modal</h1>
-          
-          
-		  
+          <h1 className="Yarnourproduct2"> Tencel & Modal</h1>
+
           <Image src={fabproduct4} className="Yarnproductcol4" />
-		  <h1 className="Yarnourproduct3"> Lyocell</h1>
+          <h1 className="Yarnourproduct3"> Lyocell</h1>
 
-
-		  <Image src={fabproduct1} className="Yarnproductcol5" />
+          <Image src={fabproduct1} className="Yarnproductcol5" />
           <h1 className="Yarnourproduct4"> Lotus</h1>
+<<<<<<< HEAD
                   </div>
         <button className="Yarnwebsitebtn">View Website</button>
         
@@ -112,8 +100,12 @@ export default class Yarn extends Component {
         <div>
           <Footer/>
         </div> 
+=======
+>>>>>>> 6094c8b71b9ff59c39729fd2b8e5e3c5d363cf89
         </div>
-              
+        <button className="Yarnwebsitebtn">View Website</button>
+        <Contactusform />
+      </div>
     );
   }
 }
