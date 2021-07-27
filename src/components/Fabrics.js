@@ -28,8 +28,8 @@ import { Image } from "react-bootstrap";
 export default class Fabrics extends Component {
   render() {
     return (
-      <div className="container-fluid">
-        <>
+      <div>
+        {/* <> */}
           <img src={fab} className="fabimage" alt="Fabrics-main" />
           <div className="facbricdiscription">
             <h1
@@ -70,7 +70,7 @@ export default class Fabrics extends Component {
             <FaDownload className="pdficon" />
             Download pdf
           </button>
-        </>
+        {/* </> */}
         <div>
           <h1 className="Fabricproducts">Our Products</h1>
           <Image src={fabproduct1} className="Fabproductcol1" />

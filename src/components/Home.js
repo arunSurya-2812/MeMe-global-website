@@ -39,6 +39,7 @@ import Footer from './Footer'
 export default class Home extends Component {
   render() {
     return (
+<<<<<<< HEAD
       <div>
         <div className="container">
           <div>
@@ -551,6 +552,461 @@ export default class Home extends Component {
           <Footer/>
         </div> 
       </div>
+=======
+      <>
+        <Carousel>
+          <Carousel.Item interval={3000}>
+            <img
+              className="d-block w-100"
+              style={{ borderRadius: "1cm" }}
+              src={img1}
+              alt="Second slide"
+            />
+            <button className="Browsebutn">
+              Browse
+              <FaArrowCircleRight className="icondnwld" />
+            </button>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <img
+              className="d-block w-100"
+              style={{ borderRadius: "1cm" }}
+              src={img2}
+              alt="Second slide"
+            />
+            <button className="Browsebutn">
+              Browse
+              <FaArrowCircleRight className="icondnwld" />
+            </button>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <img
+              className="d-block w-100"
+              style={{ borderRadius: "1cm" }}
+              src={img3}
+              alt="Third slide"
+            />
+            <button className="Browsebutn">
+              Browse
+              <FaArrowCircleRight className="icondnwld" />
+            </button>
+          </Carousel.Item>
+        </Carousel>
+        <Allimage />
+        <Row className="Sponsers">
+          <Col className="spon">
+            <Image src={Nazca} className="sponsers1" />
+          </Col>
+          <Col className="spon">
+            <Image src={Ophelia} className="sponsers2" />
+          </Col>
+        </Row>
+        <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "35px" }}>
+          Recent Discounts
+        </h1>
+        <Row>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={Kidsproduct}
+                className="Productcardimage"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                    }}
+                  >
+                    Kids
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={Casualproduct}
+                className="Productcardimage"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                    }}
+                  >
+                    Casual
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={Womenproduct}
+                className="Productcardimage"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      top: "5cm",
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                    }}
+                  >
+                    Women
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={Menproduct}
+                className="Productcardimage"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                    }}
+                  >
+                    Men
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "35px" }}>
+          Our Products
+        </h1>
+        <Row>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src={Bags} className="Productcardimage" />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                    }}
+                  >
+                    Bags
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={shoes}
+                className="Productcardimage"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                    }}
+                  >
+                    Shoes
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={accessories}
+                className="Productcardimage"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                      letterSpacing: "0",
+                    }}
+                  >
+                    Accessories
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={jacket}
+                className="Productcardimage"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                    }}
+                  >
+                    Jackets
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <img
+          src={Leather1}
+          className="CobblerLeather"
+          alt="cobbler-working-with-leather"
+        />
+        <button className="Leatherbtn">
+          Browse
+          <FaArrowCircleRight className="icondnwld1" />
+        </button>
+        <div className="Leatherdiscription">
+          <h1
+            style={{
+              fontFamily: "Poppins,Bold",
+              fontSize: "34px",
+              color: "white",
+            }}
+          >
+            Premium Quality
+          </h1>
+          <h1
+            style={{
+              fontFamily: "Poppins,Bold",
+              fontSize: "34px",
+              color: "white",
+            }}
+          >
+            Meme Leather
+          </h1>
+        </div>
+        <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "38px" }}>
+          Eco - Friendly Products
+        </h1>
+        <Row>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src={Bags} className="Productcardimage" />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                      letterSpacing: "0",
+                    }}
+                  >
+                    Bags
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={woodenplate}
+                className="Productcardimage1"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                      letterSpacing: "0",
+                    }}
+                  >
+                    Plates
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src={cups} className="Productcardimage" />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                      letterSpacing: "0",
+                    }}
+                  >
+                    Cups
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={Essential}
+                className="Productcardimage"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                      letterSpacing: "0",
+                    }}
+                  >
+                    Essentials
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src={Bags} className="Productcardimage" />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                      letterSpacing: "0",
+                    }}
+                  >
+                    Bags
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={woodenplate}
+                className="Productcardimage1"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                      letterSpacing: "0",
+                    }}
+                  >
+                    Plates
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img variant="top" src={cups} className="Productcardimage" />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                      letterSpacing: "0",
+                    }}
+                  >
+                    Cups
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+          <Col>
+            <Card>
+              <Card.Img
+                variant="top"
+                src={Essential}
+                className="Productcardimage"
+              />
+              <Card.Body>
+                <Card.Text>
+                  <h1
+                    style={{
+                      fontFamily: "Poppins,Bold",
+                      fontSize: "22px",
+                      fontWeight: "800",
+                      color: "black",
+                      letterSpacing: "0",
+                    }}
+                  >
+                    Essentials
+                  </h1>
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+        </Row>
+      </>
+>>>>>>> 334c81ef5dfc16bca62af0096ddd36ecc3405a8a
     );
   }
 }
