@@ -26,9 +26,9 @@ import fabproduct1 from "./img/fabproduct1.png";
 export default class Fiber extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      // <div className="container-fluid">
+      <div>
         <img src={yarn} className="fabimage" alt="Fiber-main" />
-        <>
           <div className="facbricdiscription">
             <h1
               style={{
@@ -70,7 +70,6 @@ export default class Fiber extends Component {
             <FaDownload className="pdficon" />
             Download pdf
           </button>
-        </>
         <div>
           <h1 className="Fiberproducts1">Our Products</h1>
           <Image src={cotton1} className="Fiberproductcol2" />

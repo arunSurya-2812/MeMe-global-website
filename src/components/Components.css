@@ -354,17 +354,18 @@ opacity: 10 !important;
   position: relative;
 }
 
-/*fiber image */
+/* fiber image
 .fabimage {
   height: 946px;
-  width: 1380px;
+  width: 100%;
   top: 3cm;
   left: 2cm;
   border-radius: 40px;
   position: relative;
   overflow: hidden;
-}
-.facbricdiscription {
+} */
+
+/* .facbricdiscription {
   bottom: 18.54cm;
   width: 24cm;
   left: 5.9cm;
@@ -374,7 +375,7 @@ opacity: 10 !important;
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
   border-radius: 70px;
-}
+} */
 .icondnwld {
   opacity: 1;
   left: 0.4cm;
@@ -772,23 +773,25 @@ opacity: 10 !important;
 /*Yarn css finish*/
 /*Fabric css below*/
 .fabimage {
-  height: 946px;
-  width: 1200px;
-  top: 3cm;
-  left: 2cm;
+  /* height: 946px; */
+  width: 100%;
+  /* top: 3cm; */
+  /* left: 2cm; */
   border-radius: 40px;
   position: relative;
+  margin: 10%;
 }
 .facbricdiscription {
-  bottom: 18.54cm;
-  width: 24cm;
-  left: 5.9cm;
+  bottom: 28cm;
+  width: 80%;
+  /* left: 5.9cm; */
   position: relative;
   color: white;
-  height: 20cm;
+  /* height: 20cm; */
   background-color: rgba(255, 255, 255, 0.15);
   backdrop-filter: blur(20px);
-  border-radius: 70px;
+  border-radius: 50px;
+  margin: 20%;
 }
 #icondnwld {
   right: 1cm;
@@ -912,17 +915,17 @@ opacity: 10 !important;
 /*Fiber css code below*/
 
 .Fiberpdfbtn {
-  border-radius: 20px;
+  /* border-radius: 20px; */
   opacity: 1 !important;
   box-shadow: 9px 3px 50px #00000029 !important;
   width: 310px;
   height: 60px;
   background-color: #ffffff;
-  left: 14cm;
+  left: 11cm;
   position: relative;
-  bottom: 26cm;
+  bottom: 30cm;
   font-family: Poppins, Regular;
-  font-weight: 100;
+  /* font-weight: 100; */
   font-size: 20px;
   border-radius: 40px;
   border: none !important;

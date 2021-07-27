@@ -66,21 +66,16 @@ export default class Leathers extends Component {
         </div>
         <div>
           <h1 className="Fabricproducts">Our Products</h1>
-
           <Image src={leatherbag1} className="Leatherproductcol1" />
           <h1 className="Leatherourproduct1"> Bags</h1>
-
           <Image src={leatherbag2} className="Leatherproductcol2" />
           <h1 className="Leatherourproduct">Accessories </h1>
-
           <Image src={leatherbag3} className="Leatherproductcol3" />
           <h1 className="Leatherourproduct2">Jacket</h1>
-
           <Image src={leathershoe} className="Leatherproductcol4" />
           <h1 className="Leatherourproduct3">Footwares</h1>
         </div>
         <button className="Leatherwebsitebtn">View Website</button>
-
         <Contactusform />
       </div>
     );

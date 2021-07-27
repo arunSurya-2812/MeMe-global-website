@@ -25,7 +25,7 @@ import "./Components.css";
 export default class Ecofriendly extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div>
         <img src={Eco1} className="fabimage" alt="Ecofriendly-main" />
         <div className="facbricdiscription">
           <h1

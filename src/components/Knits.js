@@ -26,7 +26,7 @@ import { FaDownload } from "react-icons/fa";
 export default class Knits extends Component {
   render() {
     return (
-      <div className="container-fluid">
+      <div>
         <>
           <img src={yarncopy} className="fabimage" alt="Knits-main" />
           <div className="facbricdiscription">
