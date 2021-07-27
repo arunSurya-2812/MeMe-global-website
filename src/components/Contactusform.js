@@ -62,6 +62,7 @@ export default class Leathers extends Component {
               onChange={this.onMessageChange.bind(this)}
             />
           </div>
+          <button className="Contactusbtn">Submit</button>
         </form>
       </div>
     );

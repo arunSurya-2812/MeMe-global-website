@@ -92,7 +92,7 @@ export default class Fiber extends Component {
         <div>
           <Footer/>
         </div> 
-        <Contactusform />
+      
       </div>
     );
   }

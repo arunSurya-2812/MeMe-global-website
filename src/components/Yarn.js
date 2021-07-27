@@ -90,21 +90,12 @@ export default class Yarn extends Component {
 
           <Image src={fabproduct1} className="Yarnproductcol5" />
           <h1 className="Yarnourproduct4"> Lotus</h1>
-<<<<<<< HEAD
-                  </div>
-        <button className="Yarnwebsitebtn">View Website</button>
-        
-        <div className="ContactusformYarn">
-        <Contactusform/>
         </div>
+        <button className="Yarnwebsitebtn">View Website</button>
+        <div><Contactusform /></div>
         <div>
           <Footer/>
         </div> 
-=======
->>>>>>> 6094c8b71b9ff59c39729fd2b8e5e3c5d363cf89
-        </div>
-        <button className="Yarnwebsitebtn">View Website</button>
-        <Contactusform />
       </div>
     );
   }

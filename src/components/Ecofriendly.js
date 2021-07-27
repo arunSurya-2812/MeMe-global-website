@@ -93,7 +93,7 @@ export default class Ecofriendly extends Component {
         <div>
           <Footer/>
         </div> 
-        <Contactusform />
+       
       </div>
     );
   }

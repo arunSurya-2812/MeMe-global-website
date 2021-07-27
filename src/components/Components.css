@@ -1365,7 +1365,7 @@ this is all meme india website codes
 /* contactusform*/
 
 .Contactusformoutline {
-  height: 9cm;
+  height: 10cm;
   width: 19cm;
   align-items: center;
   background-color: #129652;
@@ -1394,19 +1394,22 @@ textarea.form-control {
   font-family: Poppins, Regular;
   font-weight: 100;
   position: relative;
-  bottom: 0.2cm;
+  bottom: 0.8cm;
+  text-align: center;
   align-items: center;
 }
 input.form-control {
+  text-align: center;
   align-items: center;
   border-radius: 20px;
   height: 1.5cm !important;
   position: relative;
-  bottom: 0.5cm;
+  bottom: 0.8cm;
   font-family: Poppins, Regular;
   font-weight: 100;
 }
 #contact-form {
+  text-align: center;
   position: relative;
   bottom: 9cm;
   font-family: Poppins, Regular;
@@ -1416,12 +1419,28 @@ input.form-control {
   left: 10cm;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
+.Contactusbtn{
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: skyblue;
+  left: 0.2cm;
+  position: relative;
+  bottom: 0.7cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 15px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
 /*     Footer css*/
 .footer {
   background-color: #5fbd3a;
   bottom: 10cm;
   position: relative;
   height: 11cm;
+  width: 36cm;
   overflow: hidden;
   border-radius: 30px;
   box-shadow: 9px 2px 22px 12px #00000029 !important;
