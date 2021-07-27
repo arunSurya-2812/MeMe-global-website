@@ -11,10 +11,12 @@
  * - Modification    :
  **/
 
-import Contactusform from "./Contactusform";
-import "./Components.css";
+ 
+import Contactusform from './Contactusform'
+ import "./Components.css";
 
-import { FaDownload } from "react-icons/fa";
+ import Footer from './Footer'
+ import { FaDownload } from "react-icons/fa";
 import React, { Component } from "react";
 import fab from "./img/fab.png";
 import fabproduct1 from "./img/fabproduct1.png";
@@ -84,7 +86,14 @@ export default class Fabrics extends Component {
           <h1 className="Fabourproduct3"> CRAFTSME</h1>
         </div>
         <button className="Fabricwebsitebtn">View Website</button>
-        <Contactusform />
+        
+        <div>
+        <Contactusform/>
+        </div>
+        <div>
+          <Footer/>
+        </div> 
+        
       </div>
     );
   }

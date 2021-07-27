@@ -1,15 +1,16 @@
 /**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 26/06/2021 - 13:06:18
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 26/06/2021
- * - Author          : surya12
- * - Modification    :
- **/
+    * @description      : 
+    * @author           : surya12
+    * @group            : 
+    * @created          : 27/07/2021 - 13:04:08
+    * 
+    * MODIFICATION LOG
+    * - Version         : 1.0.0
+    * - Date            : 27/07/2021
+    * - Author          : surya12
+    * - Modification    : 
+**/
+import Footer from "./Footer";
 import Contactusform from "./Contactusform";
 import React, { Component } from "react";
 import { Image } from "react-bootstrap";
@@ -76,7 +77,13 @@ export default class Leathers extends Component {
           <h1 className="Leatherourproduct3">Footwares</h1>
         </div>
         <button className="Leatherwebsitebtn">View Website</button>
-        <Contactusform />
+        
+        <div>
+          <Contactusform/>
+          </div>
+          <div>
+          <Footer/>
+        </div> 
       </div>
     );
   }

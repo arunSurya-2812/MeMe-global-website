@@ -23,6 +23,7 @@ import fabproduct4 from "./img/fabproduct4.png";
 import fabproduct1 from "./img/fabproduct1.png";
 import { Image } from "react-bootstrap";
 
+import Footer from './Footer'
 export default class Yarn extends Component {
   render() {
     return (
@@ -91,7 +92,10 @@ export default class Yarn extends Component {
           <h1 className="Yarnourproduct4"> Lotus</h1>
         </div>
         <button className="Yarnwebsitebtn">View Website</button>
-        <Contactusform />
+        <div><Contactusform /></div>
+        <div>
+          <Footer/>
+        </div> 
       </div>
     );
   }

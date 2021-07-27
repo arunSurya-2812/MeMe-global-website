@@ -18,10 +18,11 @@ import "./Components.css";
 
 function Navboard() {
   return (
-      <Container>
-        <Navbar collapseOnSelect expand="lg">
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+    <Container>
+        <Navbar collapseOnSelect expand="md">
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
+            
             <Nav className="Navgg">
               <LinkContainer to="/">
                 <Nav.Link className="nav-item nav-link mx-2">
@@ -64,9 +65,10 @@ function Navboard() {
                 </Nav.Link>
               </LinkContainer>
             </Nav>
+           
           </Navbar.Collapse>
         </Navbar>
-     </Container>
+        </Container>
   );
 }
 export default Navboard;

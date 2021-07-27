@@ -11,6 +11,13 @@
 this is all meme india website codes
 ================================
 */
+
+.container-fluid {
+  max-width: 35cm;
+  overflow: hidden;
+  max-height: 80cm;
+}
+
 .sponsers1 {
   position: relative;
   align-items: center;
@@ -85,6 +92,7 @@ this is all meme india website codes
   border-radius: 60px;
   width: 3.3cm;
   opacity: 10;
+
   top: 0.2cm;
   height: 0.9cm;
   text-align: center;
@@ -190,11 +198,10 @@ this is all meme india website codes
   top: 2cm;
   /* left: 2cm; */
   overflow: hidden !important;
- 
 }
 .carousel .carousel-indicators li {
- background-color: #9f90e8;
-opacity: 10 !important;
+  background-color: #9f90e8;
+  opacity: 10 !important;
   bottom: 3cm;
   position: relative;
 }
@@ -232,10 +239,10 @@ opacity: 10 !important;
 .Browsebutn1 {
   border-radius: 20px;
   color: black;
-  width: 120px;
+  width: 100px;
   height: 29px;
   background-color: #fbfbfc;
-  right: -4cm;
+  right: -6.3cm;
   position: relative;
   bottom: 1cm;
   font-family: Poppins;
@@ -247,15 +254,14 @@ opacity: 10 !important;
 .Sliderpics {
   height: 250px;
   width: 250px;
-  
+
   left: 2.6cm !important;
   max-width: 500px;
   min-width: 50px !important;
   position: relative;
   bottom: 0cm;
-
 }
-.carousel.slide{
+.carousel.slide {
   padding-bottom: 0% !important;
   overflow: hidden;
   height: 14cm;
@@ -279,7 +285,7 @@ opacity: 10 !important;
   font-size: 30px !important;
   position: relative;
   bottom: 1.7cm !important;
-  right:  0cm;
+  right: 0cm;
 }
 /*Sliders arrows*/
 
@@ -465,6 +471,7 @@ opacity: 10 !important;
   font-family: "Poppins", sans-serif;
   font-size: 30px;
   font-weight: 600;
+
   position: relative;
   bottom: 12cm;
   left: 5cm;
@@ -553,7 +560,7 @@ opacity: 10 !important;
   border-radius: 120px;
   position: absolute;
   top: 35.8cm;
-  left: 11cm;
+  left: 11.4cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
 }
@@ -582,8 +589,8 @@ opacity: 10 !important;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 12cm;
-  left: 5cm;
+  bottom: 13.5cm;
+  left: 6cm;
   clear: both;
   align-items: left;
 }
@@ -592,7 +599,7 @@ opacity: 10 !important;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 15.3cm;
+  bottom: 16.2cm;
   left: 19cm;
   clear: both;
   align-items: left;
@@ -602,7 +609,7 @@ opacity: 10 !important;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 13.6cm;
+  bottom: 14.7cm;
   left: 11.5cm;
   clear: both;
   align-items: left;
@@ -612,8 +619,8 @@ opacity: 10 !important;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 16.7cm;
-  left: 26cm;
+  bottom: 17.6cm;
+  left: 25.5cm;
   clear: both;
   align-items: left;
 }
@@ -625,7 +632,7 @@ opacity: 10 !important;
   background-color: #c62525;
   left: 12cm;
   position: relative;
-  bottom: 14cm;
+  bottom: 15cm;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 30px;
@@ -742,7 +749,7 @@ opacity: 10 !important;
   background-color: #c62525;
   left: 13cm;
   position: relative;
-  bottom: 12cm;
+  bottom: 13cm;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 30px;
@@ -946,7 +953,7 @@ opacity: 10 !important;
   height: 6cm;
   width: 6cm;
   border-radius: 120px;
-  left: 4cm;
+  left: 3.5cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
 }
@@ -959,7 +966,6 @@ opacity: 10 !important;
   left: 11cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
-  
 }
 .Fiberproductcol3 {
   position: absolute;
@@ -970,8 +976,6 @@ opacity: 10 !important;
   left: 18cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
- 
- 
 }
 .Fiberproductcol4 {
   position: relative;
@@ -982,8 +986,6 @@ opacity: 10 !important;
   left: 14cm;
   box-shadow: 5px 7px 19px #00000029;
   opacity: 1;
-   
- 
 }
 .Fiberproductcol5 {
   position: absolute;
@@ -994,15 +996,14 @@ opacity: 10 !important;
   left: 25cm;
   box-shadow: 5px 7px 12px #00000029;
   opacity: 1;
- 
-   
- 
 }
 .Fiberourproduct1 {
   font-family: Poppins, Regular;
   font-size: 30px;
   font-weight: 600;
   position: absolute;
+  top: 43cm;
+  left: 6.3cm;
   top: 43.9cm;
   left: 6.5cm;
   clear: both;
@@ -1013,8 +1014,8 @@ opacity: 10 !important;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 16.3cm;
-  left: 20cm;
+  bottom: 17cm;
+  left: 19.3cm;
   clear: both;
   align-items: left;
 }
@@ -1023,8 +1024,8 @@ opacity: 10 !important;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 8.3cm;
-  left: 12.5cm;
+  bottom: 9.2cm;
+  left: 11.8cm;
   clear: both;
   align-items: left;
 }
@@ -1033,7 +1034,7 @@ opacity: 10 !important;
   font-size: 30px;
   font-weight: 600;
   position: relative;
-  bottom: 24.1cm;
+  bottom: 24.7cm;
   left: 27cm;
   clear: both;
   align-items: left;
@@ -1073,7 +1074,7 @@ opacity: 10 !important;
   background-color: #c62525;
   left: 12.5cm;
   position: relative;
-  bottom: 16cm;
+  bottom: 15cm;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 30px;
@@ -1086,6 +1087,7 @@ opacity: 10 !important;
 
 .Knitspdfbtn {
   border-radius: 20px;
+
   width: 310px;
   height: 60px;
   background-color: #ffffff;
@@ -1370,14 +1372,15 @@ opacity: 10 !important;
 /* contactusform*/
 
 .Contactusformoutline {
-  height: 9cm;
+  height: 10cm;
   width: 19cm;
   align-items: center;
   background-color: #129652;
   border-radius: 35px;
   left: 7cm;
-  bottom: 13cm;
+  bottom: 14cm;
   position: relative;
+  box-shadow: 9px 3px 22px #00000029 !important;
 }
 .Contactusformimg {
   height: 10;
@@ -1398,19 +1401,22 @@ textarea.form-control {
   font-family: Poppins, Regular;
   font-weight: 100;
   position: relative;
-  bottom: 0.2cm;
+  bottom: 0.8cm;
+  text-align: center;
   align-items: center;
 }
 input.form-control {
+  text-align: center;
   align-items: center;
   border-radius: 20px;
   height: 1.5cm !important;
   position: relative;
-  bottom: 0.5cm;
+  bottom: 0.8cm;
   font-family: Poppins, Regular;
   font-weight: 100;
 }
 #contact-form {
+  text-align: center;
   position: relative;
   bottom: 9cm;
   font-family: Poppins, Regular;
@@ -1419,4 +1425,143 @@ input.form-control {
   width: 7cm;
   left: 10cm;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Contactusbtn{
+  border-radius: 20px;
+  width: 100px;
+  height: 30px;
+  background-color: skyblue;
+  left: 0.2cm;
+  position: relative;
+  bottom: 0.7cm;
+  font-family: Poppins, Regular;
+  font-weight: 100;
+  font-size: 15px;
+  border-radius: 40px;
+  border: none !important;
+  color: #ffffff;
+}
+/*     Footer css*/
+.footer {
+  background-color: #5fbd3a;
+  bottom: 10cm;
+  position: relative;
+  height: 11cm;
+  width: 36cm;
+  overflow: hidden;
+  border-radius: 30px;
+  box-shadow: 9px 2px 22px 12px #00000029 !important;
+}
+.AsokhaFooter {
+  top: -1cm;
+  left: 14cm;
+  height: 6cm;
+  width: 6cm;
+  position: relative;
+  border-radius: 170px;
+}
+.PholexFooter {
+  left: 1cm;
+  top: 3cm;
+  position: relative;
+}
+.Footertext1 {
+  width: 5cm;
+  font-family: Poppins, Regular;
+  font-size: 12px;
+  font: bolder;
+  font-weight: 500;
+  top: 4cm;
+  position: relative;
+  left: 1cm;
+}
+.Socialicon {
+  position: relative;
+  padding-right: 20px;
+  height: 0.9cm;
+  width: 0.9cm;
+  left: 1cm;
+  top: 5cm;
+  color: black;
+}
+.Socialicon:hover {
+  color: #106cc4;
+}
+.FooterLink {
+  position: relative;
+  bottom: 7.6cm;
+  font-size: 20px;
+  font-weight: 800;
+  left: 8cm;
+  font-family: Poppins, Regular;
+}
+.FooterLinkdown {
+  position: relative;
+  bottom: 7cm;
+  width: 4cm;
+  font-size: 15px;
+  font-weight: 500;
+  font-family: Poppins, Regular;
+  left: 8.5cm;
+  color: #000000;
+}
+.FooterLinkdrop {
+  color: #000000;
+
+  text-decoration: none !important;
+}
+.FooterLinkdrop:hover {
+  color: red;
+  text-decoration: none !important;
+}
+.Contact {
+  position: relative;
+  bottom: 12cm;
+  font-size: 20px;
+  font-weight: 800;
+  left: 22cm;
+  font-family: Poppins, Regular;
+}
+.Contacttext {
+  width: 5cm;
+  font-family: Poppins, Regular;
+  font-size: 12px;
+  font: bolder;
+  font-weight: 500;
+  bottom: 11.3cm;
+  position: relative;
+  left: 22cm;
+}
+.Contact1 {
+  position: relative;
+  bottom: 14.8cm;
+  font-size: 20px;
+  font-weight: 800;
+  left: 29.3cm;
+  width: 6cm;
+  font-family: Poppins, Regular;
+}
+.Contacttext1 {
+  width: 5cm;
+  font-family: Poppins, Regular;
+  font-size: 30px;
+  font: bolder;
+  font-weight: 800;
+  bottom: 15.2cm;
+  position: relative;
+  left: 29.3cm;
+}
+/* extra css for Contactusform*/
+.HomeFooter{
+  top: 12cm !important;
+  position: relative;
+}
+.ContactusformYarn{
+  position: relative;
+  top: 3cm !important;
+}
+.ContactusformEcofriendly{
+  position: relative;
+  top: 2cm !important;
+
 }

@@ -22,7 +22,7 @@ import cotton1 from "./img/cotton1.jpg";
 import bananafibre from "./img/bananafibre.jpg";
 import fabproduct4 from "./img/fabproduct4.png";
 import fabproduct1 from "./img/fabproduct1.png";
-
+import Footer from './Footer'
 export default class Fiber extends Component {
   render() {
     return (
@@ -84,7 +84,15 @@ export default class Fiber extends Component {
           <h1 className="Fiberproduct4"> Lotus</h1>
         </div>
         <button className="Fiberwebsitebtn">View Website</button>
-        <Contactusform />
+
+        <div >
+        <Contactusform/>
+        </div>   
+        
+        <div>
+          <Footer/>
+        </div> 
+      
       </div>
     );
   }
