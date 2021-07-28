@@ -12,7 +12,8 @@
  **/
 import React, { Component } from "react";
 import Ashoka from "./img/Ashoka.jpg";
-import Pholex from "./img/Pholex.png";
+import logo from "./img/logo.png";
+import { Row, Col } from "react-bootstrap";
 
 import { FaInstagram } from "react-icons/fa";
 
@@ -24,58 +25,100 @@ import { FaLinkedinIn } from "react-icons/fa";
 export default class Footer extends Component {
   render() {
     return (
-        <div class="d-flex flex-column">
-          <footer class="footer">
-            <img src={Pholex} className="PholexFooter" />
-            <p className="Footertext1">
-              Lorem ipsum, in graphical and textual context, refers to filler
-              text that is placed in a document or visual presentation.
-            </p>
-            <div>
+      <div class="d-flex flex-column">
+        <footer class="footer">
+          <Row>
+            <Col>
+              <img src={logo} className="MeMeFooter" />
+            </Col>
+            <Col>
+              <p className="Footertext1">
+                Lorem ipsum, in graphical and textual context, refers to filler
+                text that is placed in a document or visual presentation.
+              </p>
+            </Col>
+          </Row>
+
+          <div>
+            <Row>
+              <Col>
                 <a href="https://www.instagram.com/">
-              <FaInstagram className="Socialicon" />
-              </a>
-              <a href="https://twitter.com/login">
-              <FaTwitter className="Socialicon" />
-              </a>
-              
-              <a href="https://www.facebook.com/login/web/">
-              <FaFacebook className="Socialicon" />
-              </a>
-              <a href="https://www.linkedin.com/">
-              <FaLinkedinIn className="Socialicon" />
-              </a>
-            </div>
+                  <FaInstagram className="Socialicon" />
+                </a>
 
-            <div>
+                <a href="https://twitter.com/login">
+                  <FaTwitter className="Socialicon" />
+                </a>
+                <a href="https://www.facebook.com/login/web/">
+                  <FaFacebook className="Socialicon" />
+                </a>
+                <a href="https://www.linkedin.com/">
+                  <FaLinkedinIn className="Socialicon" />
+                </a>
+              </Col>
+            </Row>
+          </div>
+
+          <div>
+            <Row>
               <img src={Ashoka} className="AsokhaFooter" />
-              
-            </div>
+            </Row>
+          </div>
 
-            <h1 className="FooterLink">Quick Links</h1>
-           
-            <div className="FooterLinkdown"> <p><a href="#" className="FooterLinkdrop">Home</a></p>
-            
-            <p><a href="#"className="FooterLinkdrop">About</a></p>
-            
-            <p><a href="#"className="FooterLinkdrop">Contact</a></p>
-            
-            <p><a href="#" className="FooterLinkdrop">Shop</a></p>
-            </div>
-            <div>
-            <h1 className="Contact">Contact</h1>
-            <p className="Contacttext">
-            +99 (0) 101 0000 888 Patricia C. Amedee 4401 Waldeck Street Grapevine Nashville, Tx 76051
-            </p>
-            </div>
-            <div>
-            <h3 className="Contact1">Subscribe us on our Email</h3>
-            <h1 className="Contacttext1">
-            For Latest News & Updates
-            </h1>
-            </div>
-          </footer>
-        </div>
+          <h1 className="FooterLink">
+            <Row>Quick Links</Row>
+          </h1>
+
+          <div className="FooterLinkdown">
+            {" "}
+            <Row>
+              <p>
+                <a href="#" className="FooterLinkdrop">
+                  Home
+                </a>
+              </p>
+            </Row>
+            <Row>
+              <p>
+                <a href="#" className="FooterLinkdrop">
+                  About
+                </a>
+              </p>
+            </Row>
+            <Row>
+              <p>
+                <a href="#" className="FooterLinkdrop">
+                  Contact
+                </a>
+              </p>
+            </Row>
+            <Row>
+              <p>
+                <a href="#" className="FooterLinkdrop">
+                  Shop
+                </a>
+              </p>
+            </Row>
+          </div>
+          <div>
+            <Row>
+              <h1 className="Contact">Contact</h1>
+            </Row>
+            <Row>
+              <p className="Contacttext">
+                +99 (0) 101 0000 888 Patricia C. Amedee 4401 Waldeck Street
+                Grapevine Nashville, Tx 76051
+              </p>
+            </Row>
+          </div>
+          <div>
+            <Row>
+              <h3 className="Contact1">Subscribe us on our Email</h3>
+              <h1 className="Contacttext1">For Latest News & Updates</h1>
+            </Row>
+          </div>
+        </footer>
+      </div>
     );
   }
 }
