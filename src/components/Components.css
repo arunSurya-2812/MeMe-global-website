@@ -22,17 +22,18 @@ this is all meme india website codes
   position: relative;
   align-items: center;
   max-width: 100%;
-  height: 4cm;
-  width: 10cm;
+  height: 50%;
+  width: 50%;
 }
 
 .sponsers2 {
-  height: 4cm;
-  width: 10cm;
+  height: 50%;
+  width: 50%;
   max-width: 100%;
 
   position: relative;
 }
+
 .logo {
   left: 1cm;
   top: 0.5cm;
@@ -49,7 +50,7 @@ this is all meme india website codes
   background-color: #707070;
   position: relative;
   /* overflow: hidden; */
-  height: 1cm;
+  height: 1.4cm;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
@@ -168,7 +169,6 @@ this is all meme india website codes
   text-decoration: none;
   outline: none;
 }
-
 .btn {
   top: 30px;
   left: 140px;
@@ -186,7 +186,15 @@ this is all meme india website codes
   position: absolute;
   /* outline: none; */
 }
-
+.hello {
+  background-color: #707070;
+  max-width: 24cm;
+  min-width: 11cm;
+  bottom: 0.1cm;
+  max-height: fit-content;
+  position: relative;
+  min-height: fit-content;
+}
 .carousel {
   height: 670px;
   width: 100%;
@@ -224,9 +232,9 @@ this is all meme india website codes
   width: 130px;
   height: 39px;
   background-color: #fbfbfc;
-  right: -3cm;
+  right: -9cm;
   position: relative;
-  bottom: 3cm;
+  bottom: 2cm;
   font-family: Poppins;
   font-weight: 800;
   border: none !important;
@@ -240,7 +248,7 @@ this is all meme india website codes
   width: 100px;
   height: 29px;
   background-color: #fbfbfc;
-  right: -6.3cm;
+  right: -5cm;
   position: relative;
   bottom: 1cm;
   font-family: Poppins;
@@ -250,12 +258,13 @@ this is all meme india website codes
 /*this is toogle an carosel*/
 
 .Sliderpics {
-  height: 250px;
-  width: 250px;
+  height: 70%;
+  width: 70%;
+  left: 1.5cm !important;
 
-  left: 2.6cm !important;
-  max-width: 500px;
-  min-width: 50px !important;
+  object-fit: cover;
+  object-position: center;
+
   position: relative;
   bottom: 0cm;
 }
@@ -313,10 +322,13 @@ this is all meme india website codes
 /*slidebtn discription*/
 
 .Productcardimage {
-  height: 5cm;
-  width: 5cm !important;
+  height: 80%;
+  object-fit: cover;
+  object-position: center;
+  width: 100% !important;
   border-radius: 20px !important;
   right: 0cm;
+  max-width: 100% !important;
   bottom: 0.3cm;
   position: relative;
 }
@@ -328,12 +340,13 @@ this is all meme india website codes
   bottom: 0.3cm;
   position: relative;
 }
+
 .card {
   background: #ffffff 0% 0% no-repeat padding-box !important;
   box-shadow: 9px 3px 22px #00000029 !important;
   border-radius: 25px !important;
   opacity: 1 !important;
-  min-width: 3cm !important;
+  max-width: 100%;
   height: 7.5cm;
   width: 6cm;
   border: none;
@@ -1366,23 +1379,30 @@ input.form-control {
   bottom: 10cm;
   position: relative;
   height: 11cm;
-  width: 100%;
+  right: 2.5cm;
+  width: 34.5cm;
   overflow: hidden;
   border-radius: 30px;
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
 .AsokhaFooter {
-  top: -1cm;
-  left: 14cm;
+  top: -1.3cm;
+  left: 13.5cm;
   height: 6cm;
-  width: 6cm;
+  width: 6.4cm;
   position: relative;
-  border-radius: 170px;
+  border-radius: 150px;
 }
-.PholexFooter {
+.MeMeFooter {
   left: 1cm;
-  top: 3cm;
+  top: 2.2cm;
   position: relative;
+  width: 5cm;
+  height: 1.5cm;
+  max-width: none;
+  max-height: none;
+  min-width: 2cm;
+  min-height: 0.5cm;
 }
 .Footertext1 {
   width: 5cm;
@@ -1390,16 +1410,16 @@ input.form-control {
   font-size: 12px;
   font: bolder;
   font-weight: 500;
-  top: 4cm;
+  top: 4.3cm;
   position: relative;
-  left: 1cm;
+  right: 16.5cm;
 }
 .Socialicon {
   position: relative;
   padding-right: 20px;
   height: 0.9cm;
   width: 0.9cm;
-  left: 1cm;
+  left: 1.2cm;
   top: 5cm;
   color: black;
 }
@@ -1438,7 +1458,7 @@ input.form-control {
   bottom: 12cm;
   font-size: 20px;
   font-weight: 800;
-  left: 22cm;
+  left: 21.5cm;
   font-family: Poppins, Regular;
 }
 .Contacttext {
@@ -1449,14 +1469,14 @@ input.form-control {
   font-weight: 500;
   bottom: 11.3cm;
   position: relative;
-  left: 22cm;
+  left: 21.5cm;
 }
 .Contact1 {
   position: relative;
   bottom: 14.8cm;
   font-size: 20px;
   font-weight: 800;
-  left: 29.3cm;
+  left: 28.7cm;
   width: 6cm;
   font-family: Poppins, Regular;
 }
@@ -1466,9 +1486,9 @@ input.form-control {
   font-size: 30px;
   font: bolder;
   font-weight: 800;
-  bottom: 15.2cm;
+  bottom: 13cm;
   position: relative;
-  left: 29.3cm;
+  left: 22.7cm;
 }
 /* extra css for Contactusform*/
 .HomeFooter {
