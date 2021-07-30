@@ -97,25 +97,7 @@ export default function Fiber() {
         </Col>
       </Row>
       <br />
-      {/* <Row>
-        <Col md="12" lg="12">
-          <Card className="contactCard">
-            <h1>Contact Us</h1>
-            <Card.Body>
-              <Row>
-                <Col md="6" lg="6">
-                  start
-                </Col>
-                <Col md="6" lg="6">
-                  stop
-                </Col>
-              </Row>
-            </Card.Body>
-          </Card>
-        </Col>
-      </Row> */}
       <Contactusform />
-      {/* <Footer /> */}
     </>
   );
 }

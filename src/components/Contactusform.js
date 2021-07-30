@@ -12,7 +12,7 @@
  **/
 import React, { Component } from "react";
 import Contactusgroup from "./img/Contactusgroup.png";
-import { Card, Row, Col, Form, Container } from "react-bootstrap";
+import { Card, Row, Col, Form, Container, Button } from "react-bootstrap";
 
 export default class Contactform extends Component {
   constructor(props) {
@@ -31,7 +31,7 @@ export default class Contactform extends Component {
           <Card.Body>
             <Container>
               <Row>
-                <Col md="6" lg="6">
+                <Col xs="12" md="6" lg="6">
                   <h1 className="contactTitle">Contact Us</h1>
                   <img
                     src={Contactusgroup}
@@ -39,7 +39,8 @@ export default class Contactform extends Component {
                     className="contactImg"
                   />
                 </Col>
-                <Col md="6" lg="6">
+                <Col xs="12" md="6" lg="6">
+                  <Form></Form>
                   <Form className="contactForm" onSubmit={this.handleSubmit}>
                     <div className="form-group">
                       <input
@@ -68,7 +69,7 @@ export default class Contactform extends Component {
                         onChange={this.onMessageChange}
                       />
                     </div>
-                    <button className="Contactusbtn">Submit</button>
+                    <Button className="Contactusbtn">Submit</Button>
                   </Form>
                 </Col>
               </Row>

@@ -152,15 +152,6 @@ this is all meme india website codes
 ================================================================
 
 ================================================================*/
-.searchForm {
-  position: relative;
-  display: inline-flex;
-}
-.search {
-  top: 25px;
-  margin-right: 2;
-  position: relative;
-}
 
 .btn.focus,
 .btn:focus,
@@ -1439,7 +1430,7 @@ input.form-control {
   color: red;
   text-decoration: none !important;
 }
-.Contact {
+/* .Contact {
   position: relative;
   bottom: 12cm;
   font-size: 20px;
@@ -1475,7 +1466,7 @@ input.form-control {
   bottom: 13cm;
   position: relative;
   left: 22.7cm;
-}
+} */
 /* extra css for Contactusform*/
 .HomeFooter {
   top: 12cm !important;
@@ -1567,7 +1558,9 @@ h1 {
   font-size: 20px;
   font-family: Poppins, Regular;
   box-shadow: 9px 3px 50px #00000029 !important;
-  margin: 2cm 8cm;
+  margin: 3cm 1cm;
+  top: 50%;
+  left: 35%;
 }
 
 .contactCard {
@@ -1582,35 +1575,65 @@ h1 {
 }
 
 .contactImg {
-  width: 377px;
-  height: 283px;
+  width: 527px;
+  height: 375px;
   position: absolute;
-  text-align: left;
+  margin: 0;
+  top: 70%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  position: absolute;
 }
 
 .contactForm {
   font-family: Poppins, Regular;
   font-weight: 100;
-  width: 10cm;
-  height: fit-content;
-  margin-left: 30px;
+  margin-left: 20px;
+  width: 8cm;
+  /* height: fit-content; */
 }
 
 .Contactusbtn {
   border-radius: 20px;
   width: 100px;
-  height: max-content;
   background-color: rgb(49, 170, 218);
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 15px;
-  border-radius: 40px;
   border: none !important;
   color: #ffffff;
-  top: 100%;
-  left: 50%;
+  top: 110%;
+  left: 40%;
   margin: 0;
   -ms-transform: translate(-50%, -50%);
   transform: translate(-50%, -50%);
   position: absolute;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  height: 34px;
+  padding: 6px 12px;
+  font-size: 14px;
+  line-height: 1.42857143;
+  color: #555;
+  top: 2px;
+  background-color: #fff;
+  background-image: none;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+}
+
+.searchForm {
+  position: relative;
+  display: inline-flex;
+}
+.search {
+  top: 25px;
+  margin-right: 2;
+  position: relative;
 }

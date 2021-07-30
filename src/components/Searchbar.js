@@ -23,7 +23,6 @@ export default class Searchbar extends Component {
           <Col>
             <div className="logo">
               <img
-                // className="Navlogo"
                 src={Logo}
                 height="70px"
                 width="250px"
