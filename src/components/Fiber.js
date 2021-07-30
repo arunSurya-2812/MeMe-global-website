@@ -80,6 +80,7 @@ export default function Fiber() {
           <h1> Fibre</h1>
         </Col>
       </Row>
+      <br />
       <Row style={{ textAlign: "center" }}>
         <Col md="6" lg="6">
           <Image src={fabproduct4} className="Fiberproductcol4" roundedCircle />
@@ -90,20 +91,31 @@ export default function Fiber() {
           <h1> Lotus</h1>
         </Col>
       </Row>
-      <br />
       <Row>
         <Col md="12" lg="12">
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>
-      <Row>
+      <br />
+      {/* <Row>
         <Col md="12" lg="12">
-          <Contactusform />
+          <Card className="contactCard">
+            <h1>Contact Us</h1>
+            <Card.Body>
+              <Row>
+                <Col md="6" lg="6">
+                  start
+                </Col>
+                <Col md="6" lg="6">
+                  stop
+                </Col>
+              </Row>
+            </Card.Body>
+          </Card>
         </Col>
-      </Row>
-      {/* <div>
-          <Footer />
-        </div> */}
+      </Row> */}
+      <Contactusform />
+      {/* <Footer /> */}
     </>
   );
 }
