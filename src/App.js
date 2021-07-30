@@ -37,13 +37,15 @@ export default function App() {
           <Route path="/Fiber" component={Fiber}></Route>
           <Route path="/Yarn" component={Yarn}></Route>
           <Route path="/Fabrics" component={Fabrics}></Route>
+          
           <Route path="/Leathers" component={Leathers}></Route>
           <Route path="/Knits" component={Knits}></Route>
           <Route path="/Brands" component={Brands}></Route>
           <Route path="/Ecofriendly" component={Ecofriendly}></Route>
         </Router>
+        <Footer/>
       </Container>
-      <Footer/>
+      
     </div>
   );
 }

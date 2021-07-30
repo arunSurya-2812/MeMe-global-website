@@ -23,6 +23,8 @@ import bananafibre from "./img/bananafibre.jpg";
 import fabproduct4 from "./img/fabproduct4.png";
 import fabproduct1 from "./img/fabproduct1.png";
 
+
+
 export default function Fiber() {
   return (
     <>
@@ -67,37 +69,41 @@ export default function Fiber() {
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
-        <Col md="4" lg="4">
+        <Col md="4" lg="2"sm-xs="3">
           <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
           <h1>Cotton</h1>
         </Col>
-        <Col md="4" lg="4">
+        <Col md="4" lg="4" sm-xs="2">
           <Image src={Linen} className="Fiberproductcol2" roundedCircle />
+          <h1> Banana</h1><h1> Fibre</h1>
+        </Col>
+        <Col md="4" lg="2" sm-xs="3">
+          <Image src={fabproduct4} className="Fiberproductcol3" roundedCircle />
           <h1> Linen</h1>
         </Col>
-        <Col md="4" lg="4">
+        <Col md="12" lg="4" sm-xs="2">
           <Image src={bananafibre} className="Fiberproductcol3" roundedCircle />
-          <h1> Fibre</h1>
+          <h1> Silk</h1>
         </Col>
       </Row>
       <br />
+      
+      
       <Row style={{ textAlign: "center" }}>
-        <Col md="6" lg="6">
-          <Image src={fabproduct4} className="Fiberproductcol4" roundedCircle />
-          <h1> Silk</h1>
-        </Col>
-        <Col md="6" lg="6">
-          <Image src={fabproduct1} className="Fiberproductcol5" roundedCircle />
+        <Col md="12" lg="12" sm-xs="2">
+          <Image src={fabproduct1} className="Fiberproductcol4" roundedCircle />
           <h1> Lotus</h1>
         </Col>
-      </Row>
+</Row>
+      <br />
       <Row>
         <Col md="12" lg="12">
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>
-      <br />
+    <br/>
       <Contactusform />
     </>
   );
 }
+
