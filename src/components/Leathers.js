@@ -10,7 +10,7 @@
     * - Author          : surya12
     * - Modification    : 
 **/
-import Footer from "./Footer";
+
 import Contactusform from "./Contactusform";
 import React, { Component } from "react";
 import { Image } from "react-bootstrap";
@@ -81,9 +81,7 @@ export default class Leathers extends Component {
         <div>
           <Contactusform/>
           </div>
-          <div>
-          <Footer/>
-        </div> 
+        
       </div>
     );
   }

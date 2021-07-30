@@ -12,7 +12,6 @@
 **/
 import "./Components.css";
 
-import Footer from './Footer'
 
 import React, { Component } from "react";
 import Linen from "./img/Linen.jpg";
@@ -96,10 +95,7 @@ export default class Knits extends Component {
         <div>
         <Contactusform/>
         </div>
-        <div>
-          <Footer/>
-        </div> 
-        
+       
       </div>
     );
   }

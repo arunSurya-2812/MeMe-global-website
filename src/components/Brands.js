@@ -10,7 +10,7 @@
  * - Author          : surya12
  * - Modification    :
  **/
-import Footer from "./Footer";
+
 import "./Components.css";
 import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
@@ -95,9 +95,7 @@ export default class Brands extends Component {
           <div>
             <Contactusform />
           </div>
-          <div>
-            <Footer />
-          </div>
+         
         </div>
       </div>
     );

@@ -1352,14 +1352,15 @@ input.form-control {
 /*     Footer css*/
 .footer {
   background-color: #5fbd3a;
-  bottom: 10cm;
+
   position: relative;
-  height: 11cm;
-  right: 2.5cm;
+height: 400px;
+max-width: none;
+max-height: none;
   width: 100%;
   overflow: hidden;
   border-radius: 30px;
-  top: 8cm;
+ 
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
 .AsokhaFooter {

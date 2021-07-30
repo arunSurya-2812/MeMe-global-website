@@ -24,6 +24,7 @@ import Navboard from "./components/Navbard";
 import Searchbar from "./components/Searchbar";
 import Fiber from "./components/Fiber";
 import { Container } from "react-bootstrap";
+import Footer from"./components/Footer"
 
 export default function App() {
   return (
@@ -42,6 +43,7 @@ export default function App() {
           <Route path="/Ecofriendly" component={Ecofriendly}></Route>
         </Router>
       </Container>
+      <Footer/>
     </div>
   );
 }

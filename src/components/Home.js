@@ -36,7 +36,7 @@ import { Row, Col, Carousel, Image, Card } from "react-bootstrap";
 import Allimage from './Allimage';
 import { FaArrowCircleRight } from "react-icons/fa";
 
-import Footer from './Footer'
+
 
 
 export default class Home extends Component {
@@ -505,9 +505,7 @@ export default class Home extends Component {
             </Card>
           </Col>
         </Row>
-        <div className="HomeFooter">
-          <Footer/>
-        </div>
+       
       </div>
     );
   }

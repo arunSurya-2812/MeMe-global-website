@@ -19,7 +19,6 @@ import fabproduct4 from "./img/fabproduct4.png";
 import fabproduct1 from "./img/fabproduct1.png";
 import { Image } from 'react-bootstrap';
 
-import Footer from './Footer'
 import { FaDownload } from "react-icons/fa";
 import Contactusform from "./Contactusform";
 import "./Components.css";
@@ -90,9 +89,7 @@ export default class Ecofriendly extends Component {
         <div className="ContactusformEcofriendly">
         <Contactusform/>
         </div>
-        <div>
-          <Footer/>
-        </div> 
+        
        
       </div>
     );
