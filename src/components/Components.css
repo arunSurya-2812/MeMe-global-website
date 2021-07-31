@@ -156,26 +156,25 @@ this is all meme india website codes
 .btn.focus,
 .btn:focus,
 .btn:hover {
-  /* color: #333;  */
+
   text-decoration: none;
   outline: none;
+  
 }
 .btn {
   top: 30px;
   left: 140px;
-  /* color:#333; */
-  /* background-color: #fff; */
+ 
   display: inline-block;
   font-weight: 400;
   text-align: center;
   cursor: pointer;
-  /* border: 1px solid transparent; */
-  /* padding: 6px; */
+ 
   font-size: 16px;
   line-height: 2;
-  /* border-radius: 4px; */
+ 
   position: absolute;
-  /* outline: none; */
+ 
 }
 .hello {
   background-color: #707070;
@@ -199,7 +198,7 @@ this is all meme india website codes
 .carousel .carousel-indicators li {
   background-color: #9f90e8;
   opacity: 10 !important;
-  bottom: 3cm;
+ bottom: 2.5cm;
   position: relative;
 }
 .carousel-indicators .active {
@@ -213,10 +212,7 @@ this is all meme india website codes
 .carousel .carousel-control-next-icon {
   display: none;
 }
-.pdfIcon {
-  right: 1cm;
-  position: relative;
-}
+
 .Browsebutn {
   border-radius: 15px;
   color: black;
@@ -230,9 +226,7 @@ this is all meme india website codes
   font-weight: 800;
   border: none !important;
 }
-.fa .fa-arrow-circle-right {
-  right: 2cm;
-}
+
 .Browsebutn1 {
   border-radius: 20px;
   color: black;
@@ -272,8 +266,10 @@ this is all meme india website codes
   opacity: 100 !important;
   font-size: 30px !important;
   position: relative;
-  bottom: 1.8cm !important;
-  left: 2cm;
+  margin: 10px;
+  margin-bottom: 20px;
+  bottom: 2cm;
+ 
 }
 .slick-next::before {
   color: #000000 !important;
@@ -282,8 +278,8 @@ this is all meme india website codes
   opacity: 100 !important;
   font-size: 30px !important;
   position: relative;
-  bottom: 1.7cm !important;
-  right: 0cm;
+  bottom: 1.9cm !important;
+
 }
 /*Sliders arrows*/
 
@@ -322,6 +318,8 @@ this is all meme india website codes
   max-width: 100% !important;
   bottom: 0.3cm;
   position: relative;
+  
+ 
 }
 .Productcardimage1 {
   height: 7cm;
@@ -330,8 +328,9 @@ this is all meme india website codes
   right: 0cm;
   bottom: 0.3cm;
   position: relative;
+  
+ 
 }
-
 .card {
   background: #ffffff 0% 0% no-repeat padding-box !important;
   box-shadow: 9px 3px 22px #00000029 !important;
@@ -341,6 +340,11 @@ this is all meme india website codes
   height: 7.5cm;
   width: 6cm;
   border: none;
+  flex-basis: 200px;
+  
+  display: flex;
+  word-wrap: inherit;
+
 }
 
 /*Leather image style home*/
@@ -693,7 +697,7 @@ h1 {
   width: 100%;
   align-items: center;
   background-color: #129652 !important;
-  border-radius: 35px;
+  border-radius: 45px;
   top: 5cm;
   color: #ffffff;
   box-shadow: 9px 3px 22px #00000029 !important;

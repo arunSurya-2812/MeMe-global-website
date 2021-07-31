@@ -11,7 +11,7 @@
  * - Modification    :
  **/
 
-import "./Components.css";
+
 import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
 import React, { Component } from "react";

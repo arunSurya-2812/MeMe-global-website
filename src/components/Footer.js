@@ -25,23 +25,25 @@ import { FaLinkedinIn } from "react-icons/fa";
 export default class Footer extends Component {
   render() {
     return (
-      <div class="d-flex flex-column">
+<>      
         <footer class="footer">
-          <Row>
-            <Col>
+   
               <img src={logo} className="MeMeFooter" />
-            </Col>
-            <Col>
-              <p className="Footertext1">
+          
+            <br/>
+           <Row  md="7"sm="7" xs="2">
+             <Col sm="11">
+             <p >
                 Lorem ipsum, in graphical and textual context, refers to filler
                 text that is placed in a document or visual presentation.
               </p>
-            </Col>
+          </Col>
           </Row>
+             
 
-          <div>
-            <Row>
-              <Col>
+          
+            <Row  md="11"sm="5"xs="3">
+              <Col  sm="5"xs="5" >
                 <a href="https://www.instagram.com/">
                   <FaInstagram className="Socialicon" />
                 </a>
@@ -57,20 +59,14 @@ export default class Footer extends Component {
                 </a>
               </Col>
             </Row>
-          </div>
-
-          <div>
             <Row>
               <img src={Ashoka} className="AsokhaFooter" />
             </Row>
-          </div>
-
+          
           <h1 className="FooterLink">
             <Row>Quick Links</Row>
           </h1>
 
-          <div className="FooterLinkdown">
-            {" "}
             <Row>
               <p>
                 <a href="#" className="FooterLinkdrop">
@@ -99,8 +95,6 @@ export default class Footer extends Component {
                 </a>
               </p>
             </Row>
-          </div>
-          <div>
             <Row>
               <h1 className="Contact">Contact</h1>
             </Row>
@@ -110,15 +104,12 @@ export default class Footer extends Component {
                 Grapevine Nashville, Tx 76051
               </p>
             </Row>
-          </div>
-          <div>
             <Row>
               <h3 className="Contact1">Subscribe us on our Email</h3>
               <h1 className="Contacttext1">For Latest News & Updates</h1>
             </Row>
-          </div>
-        </footer>
-      </div>
+           </footer>
+      </>
     );
   }
 }
