@@ -11,7 +11,7 @@
  * - Modification    :
  **/
 import Essential from "./img/Essential.jpg";
-import woodenplate from "./img/woodenplate.png";
+
 import Bags from "./img/Bags.png";
 import cups from "./img/cups.png";
 
@@ -361,7 +361,7 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src={woodenplate}
+                src={Bags}
                 className="Productcardimage1"
               />
               <Card.Body>
@@ -457,7 +457,7 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src={woodenplate}
+                src={Bags}
                 className="Productcardimage1"
               />
               <Card.Body>

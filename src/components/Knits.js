@@ -71,19 +71,19 @@ export default function Knits() {
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
-        <Col md="4" lg="2"sm-xs="3">
+        <Col  md="3" lg="2"sm="4">
           <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
           <h1>Knits</h1>
         </Col>
-        <Col md="4" lg="4" sm-xs="2">
+        <Col  md="3" lg="2"sm="4">
           <Image src={Linen} className="Fiberproductcol2" roundedCircle />
           <h1> Weave</h1>
         </Col>
-        <Col md="4" lg="2" sm-xs="3">
+        <Col  md="3" lg="2"sm="4">
           <Image src={fabproduct4} className="Fiberproductcol3" roundedCircle />
           <h1> Artisan</h1>
         </Col>
-        <Col md="12" lg="4" sm-xs="2">
+        <Col  md="3" lg="2"sm="12">
           <Image src={bananafibre} className="Fiberproductcol3" roundedCircle />
           <h1> Eco friendly</h1>
         </Col>
@@ -92,7 +92,7 @@ export default function Knits() {
       
       
       <Row>
-        <Col md="12" lg="12">
+        <Col md="12" lg="12" sm="10">
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>
