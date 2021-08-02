@@ -69,19 +69,19 @@ export default function Yarn() {
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
-        <Col  md="3" lg="2"sm="4">
+        <Col  md="3" lg="3"sm="4">
           <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
           <h1>Cotton</h1>
         </Col>
-        <Col  md="3" lg="2"sm="4">
+        <Col  md="3" lg="3"sm="4">
           <Image src={Linen} className="Fiberproductcol2" roundedCircle />
           <h1> Poly Cotton</h1>
         </Col>
-        <Col  md="3" lg="2"sm="4">
+        <Col  md="3" lg="3"sm="4">
           <Image src={fabproduct4} className="Fiberproductcol3" roundedCircle />
           <h1> Tencel& Modal</h1>
         </Col>
-        <Col  md="3" lg="2"sm="12">
+        <Col  md="3" lg="3"sm="12">
           <Image src={bananafibre} className="Fiberproductcol3" roundedCircle />
           <h1> Lyocell</h1>
         </Col>

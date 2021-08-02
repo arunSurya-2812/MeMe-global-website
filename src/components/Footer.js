@@ -27,13 +27,15 @@ export default class Footer extends Component {
     return (
 <>      
         <footer class="footer">
-   
+   <Row xs={1} sm={1}>
+<Col xs={11}>
               <img src={logo} className="MeMeFooter" />
-          
+              </Col>
+        </Row>  
             <br/>
-           <Row  md="7"sm="1" xs="2">
-             <Col sm="3">
-             <p >
+           <Row >
+             <Col xs={8} sm={6} md ={4}lg={3}>
+             <p  className="FooterLorem">
                 Lorem ipsum, in graphical and textual context, refers to filler
                 text that is placed in a document or visual presentation.
               </p>
@@ -42,8 +44,8 @@ export default class Footer extends Component {
              
 
           
-            <Row sm="" >
-              <Col  sm="5"xs="5" >
+            <Row lg={6}  xs={4}>
+              <Col  sm={6}xs={5} >
                 <a href="https://www.instagram.com/">
                   <FaInstagram className="Socialicon" />
                 </a>
@@ -62,12 +64,13 @@ export default class Footer extends Component {
             <Row>
               <img src={Ashoka} className="AsokhaFooter" />
             </Row>
-          
-          <h1 className="FooterLink">
-            <Row>Quick Links</Row>
-          </h1>
+          <Row xs={1} md={2}>
+            <Col md={3}> <h1 className="FooterLink">
+            Quick Links
+          </h1></Col>
+         </Row>
 
-            <Row>
+            <Row md={3} lg={3}sm={4}>
               <p>
                 <a href="#" className="FooterLinkdrop">
                   Home

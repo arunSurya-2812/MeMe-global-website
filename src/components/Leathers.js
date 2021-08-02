@@ -70,19 +70,19 @@ export default function Knits() {
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
-        <Col  md="3" lg="2"sm="4">
+        <Col  md="3" lg="3"sm="4">
           <Image src={leatherbag1} className="Fiberproductcol1" roundedCircle />
           <h1>Bags</h1>
         </Col>
-        <Col  md="3" lg="2"sm="4">
+        <Col  md="3" lg="3"sm="4">
           <Image src={leatherbag2} className="Fiberproductcol2" roundedCircle />
           <h1> Accessories</h1>
         </Col>
-        <Col  md="3" lg="2"sm="4">
+        <Col  md="3" lg="3"sm="4">
           <Image src={leatherbag3} className="Fiberproductcol3" roundedCircle />
           <h1> Jacket</h1>
         </Col>
-        <Col  md="3" lg="2"sm="12">
+        <Col  md="3" lg="3"sm="12">
           <Image src={leathershoe} className="Fiberproductcol3" roundedCircle />
           <h1> Footwares</h1>
         </Col>

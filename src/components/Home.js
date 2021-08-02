@@ -362,7 +362,7 @@ export default class Home extends Component {
               <Card.Img
                 variant="top"
                 src={Bags}
-                className="Productcardimage1"
+                className="Productcardimage"
               />
               <Card.Body>
                 <Card.Text>
@@ -458,7 +458,7 @@ export default class Home extends Component {
               <Card.Img
                 variant="top"
                 src={Bags}
-                className="Productcardimage1"
+                className="Productcardimage"
               />
               <Card.Body>
                 <Card.Text>

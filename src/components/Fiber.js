@@ -97,7 +97,7 @@ export default function Fiber() {
 </Row>
       <br />
       <Row>
-        <Col md="12" lg="12" sm="11">
+        <Col md="11" lg="12" sm="11">
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>
