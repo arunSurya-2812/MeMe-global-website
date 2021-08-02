@@ -42,7 +42,7 @@ import { FaArrowCircleRight } from "react-icons/fa";
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div >
         <Carousel style={{textAlign:'center'}}>
           <Carousel.Item interval={3000}>
             <img

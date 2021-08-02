@@ -198,9 +198,16 @@ this is all meme india website codes
 .carousel .carousel-indicators li {
   background-color: #9f90e8;
   opacity: 10 !important;
- bottom: 2.5cm;
+ bottom: 3cm;
   position: relative;
 }
+@media only screen and (max-width: 800px) {
+  .carousel .carousel-indicators li {
+    background-color: #9f90e8;
+    opacity: 10 !important;
+   bottom: 8cm;
+    position: relative;
+  }}
 .carousel-indicators .active {
   background-color: #432caf !important;
 }
@@ -309,7 +316,7 @@ this is all meme india website codes
 /*slidebtn discription*/
 
 .Productcardimage {
-  height: 90%;
+  height: 80%;
   object-fit: cover;
   object-position: center;
   width: 100% !important;
@@ -328,12 +335,12 @@ this is all meme india website codes
   border-radius: 25px !important;
   opacity: 1 !important;
   max-width: 100%;
-  height: 6cm;
+  height: 7.5cm;
   width: 6cm;
   border: none;
   flex-basis: 200px;
   
-  display:table;
+display: flex;
   word-wrap: inherit;
 
 }
@@ -349,8 +356,8 @@ this is all meme india website codes
   width: 7cm;
   border: none;
   flex-basis: 200px;
-  
-  display:block;
+  display: flex;
+
   word-wrap: inherit;
 
 }
@@ -365,7 +372,8 @@ this is all meme india website codes
     max-width: 100%;
     height: 3cm;
     width: 3cm;
-    border: none;display:grid;
+    border: none;
+    display: flex;
   
   }
   }
@@ -430,7 +438,9 @@ this is all meme india website codes
   border: none !important;
   color: #f01212;
 }
-
+.App{
+  overflow: visible;
+}
 .Fiberproductcol1 {
   height: 5cm;
   width: 5cm;
@@ -492,6 +502,7 @@ this is all meme india website codes
 /*Fiber css finish*/
 
 /*     Footer css*/
+
 .footer {
   background-color: #5fbd3a;
 
@@ -500,30 +511,50 @@ height: 400px;
 max-width: none;
 max-height: none;
   width: 100%;
-  overflow: hidden;
+  overflow: visible;
   border-radius: 30px;
  
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
-.AsokhaFooter {
-  top: -1.3cm;
-  left: 13.5cm;
-  height: 6cm;
-  width: 6.4cm;
+
+@media only screen and (max-width: 800px) {
+.footer {
+  background-color: #5fbd3a;
+border: #000000 !important;
+border-color: #000000;
   position: relative;
-  border-radius: 150px;
+height: 700px;
+max-width: none;
+max-height: none;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 30px;
+ top: 10px;
+  box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
-.AsokhaFooter {
-  top: -1.3cm;
-  left: 13.5cm;
-  height: 6cm;
-  width: 6.4cm;
-  position: relative;
-  border-radius: 150px;
 }
+.AsokhaFooter{
+width: 20%;
+align-content: center;
+border-radius: 120px;
+position: relative;
+}
+
+@media only screen and (max-width: 500px){
+  
+
+  .AsokhaFooter{
+    width: 20%;
+    align-content: center;
+    border-radius: 120px;
+    position: absolute;
+    left: 3.5cm;
+    top: 160px;
+    }}
+
 .MeMeFooter {
   left: 1cm;
-  top: 2.2cm;
+  top: 0.4cm;
   position: relative;
   width: 5cm;
   height: 1.5cm;
@@ -531,6 +562,36 @@ max-height: none;
   max-height: none;
   min-width: 2cm;
   min-height: 0.5cm;
+}
+@media only screen and (max-width: 500px){
+.MeMeFooter {
+  left: 2cm;
+ 
+  position: relative;
+  width: 5cm;
+  height: 1.5cm;
+  max-width: none;
+  max-height: none;
+  min-width: 2cm;
+  min-height: 0.5cm;
+
+}}
+@media only screen and (max-width: 500px){
+.FooterLinkdrop{
+  position: relative;
+left: 4.1cm;
+}
+}
+@media only screen and (max-width: 300px){
+.HomeF{
+  position: relative;
+  left: 1cm;
+}
+}
+.HomeF{
+  position: relative;
+  left: 8cm;
+  bottom: 90px;
 }
 .Footertext1 {
   width: 5cm;
@@ -542,25 +603,32 @@ max-height: none;
   position: relative;
   right: 16.5cm;
 }
+@media only screen and (max-width: 500px){
+
 .Socialicon {
   position: relative;
   padding-right: 20px;
   height: 0.9cm;
   width: 0.9cm;
   left: 1.2cm;
-  top: 5cm;
+  top: 12cm;
   color: black;
 }
+}
+.Socialicon {
+  position: relative;
+  padding-right: 20px;
+  height: 0.9cm;
+  width: 0.9cm;
+  left: 1.2cm;
+  top: 12cm;
+  color: black;
+}
+
+
+
 .Socialicon:hover {
   color: #106cc4;
-}
-.FooterLink {
-  position: relative;
-  bottom: 7.6cm;
-  font-size: 20px;
-  font-weight: 800;
-  left: 8cm;
-  font-family: Poppins, Regular;
 }
 .FooterLinkdown {
   position: relative;
@@ -595,6 +663,7 @@ max-height: none;
 .bgImg {
   width: 100%;
   height: 700px;
+  border-radius: 20px;
 }
 
 .cardTitle {
@@ -607,15 +676,15 @@ max-height: none;
   width: 70%;
   height: max-content;
   background-color: #442211 0% 0% no-repeat padding-box;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px) ;
+  -webkit-backdrop-filter: blur(30px) ;
   top: 40%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%) ;
+  transform: translate(-50%, -50%) ;
   position: absolute;
   margin: 0;
- 
+
   /* text-align: center; */
   color: #0c0b10;
 }
