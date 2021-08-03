@@ -15,7 +15,7 @@ import { Row, Col, Form, FormControl } from "react-bootstrap";
 import Logo from "./img/logo.png";
 import "./Components.css";
 
-export default class Searchbar extends Component {
+export default class Header extends Component {
   render() {
     return (
       <div className="container">
@@ -30,16 +30,7 @@ export default class Searchbar extends Component {
               />
             </div>
           </Col>
-          <Col>
-            <Form className="searchForm">
-              <FormControl
-                type="search"
-                placeholder="Search"
-                className="search"
-              />
-              <span class="glyphicon glyphicon-search btn"></span>
-            </Form>
-          </Col>
+          <Col></Col>
         </Row>
       </div>
     );
