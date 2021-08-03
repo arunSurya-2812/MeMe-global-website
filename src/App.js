@@ -24,6 +24,7 @@ import Navboard from "./components/Navbard";
 import Header from "./components/header";
 import Fiber from "./components/Fiber";
 import { Container } from "react-bootstrap";
+import Footer from"./components/Footer"
 
 export default function App() {
   return (
@@ -36,12 +37,15 @@ export default function App() {
           <Route path="/Fiber" component={Fiber}></Route>
           <Route path="/Yarn" component={Yarn}></Route>
           <Route path="/Fabrics" component={Fabrics}></Route>
+          
           <Route path="/Leathers" component={Leathers}></Route>
           <Route path="/Knits" component={Knits}></Route>
           <Route path="/Brands" component={Brands}></Route>
           <Route path="/Ecofriendly" component={Ecofriendly}></Route>
         </Router>
+        <Footer/>
       </Container>
+      
     </div>
   );
 }

@@ -32,6 +32,7 @@ export default class MultipleItems extends Component {
       slidesToScroll: 3,
       autoplay: true,
       autoplaySpeed: 2000,
+      arrows:true
      
     };
     return (

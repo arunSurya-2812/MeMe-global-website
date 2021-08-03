@@ -156,26 +156,25 @@ this is all meme india website codes
 .btn.focus,
 .btn:focus,
 .btn:hover {
-  /* color: #333;  */
+
   text-decoration: none;
   outline: none;
+  
 }
 .btn {
   top: 30px;
   left: 140px;
-  /* color:#333; */
-  /* background-color: #fff; */
+ 
   display: inline-block;
   font-weight: 400;
   text-align: center;
   cursor: pointer;
-  /* border: 1px solid transparent; */
-  /* padding: 6px; */
+ 
   font-size: 16px;
   line-height: 2;
-  /* border-radius: 4px; */
+ 
   position: absolute;
-  /* outline: none; */
+ 
 }
 .hello {
   background-color: #707070;
@@ -199,9 +198,16 @@ this is all meme india website codes
 .carousel .carousel-indicators li {
   background-color: #9f90e8;
   opacity: 10 !important;
-  bottom: 3cm;
+ bottom: 3cm;
   position: relative;
 }
+@media only screen and (max-width: 800px) {
+  .carousel .carousel-indicators li {
+    background-color: #9f90e8;
+    opacity: 10 !important;
+   bottom: 8cm;
+    position: relative;
+  }}
 .carousel-indicators .active {
   background-color: #432caf !important;
 }
@@ -213,10 +219,7 @@ this is all meme india website codes
 .carousel .carousel-control-next-icon {
   display: none;
 }
-.pdfIcon {
-  right: 1cm;
-  position: relative;
-}
+
 .Browsebutn {
   border-radius: 15px;
   color: black;
@@ -230,9 +233,7 @@ this is all meme india website codes
   font-weight: 800;
   border: none !important;
 }
-.fa .fa-arrow-circle-right {
-  right: 2cm;
-}
+
 .Browsebutn1 {
   border-radius: 20px;
   color: black;
@@ -272,8 +273,10 @@ this is all meme india website codes
   opacity: 100 !important;
   font-size: 30px !important;
   position: relative;
-  bottom: 1.8cm !important;
-  left: 2cm;
+  margin: 10px;
+  margin-bottom: 20px;
+  bottom: 2cm;
+ 
 }
 .slick-next::before {
   color: #000000 !important;
@@ -282,8 +285,8 @@ this is all meme india website codes
   opacity: 100 !important;
   font-size: 30px !important;
   position: relative;
-  bottom: 1.7cm !important;
-  right: 0cm;
+  bottom: 1.9cm !important;
+
 }
 /*Sliders arrows*/
 
@@ -322,14 +325,8 @@ this is all meme india website codes
   max-width: 100% !important;
   bottom: 0.3cm;
   position: relative;
-}
-.Productcardimage1 {
-  height: 7cm;
-  width: 5cm !important;
-  border-radius: 20px !important;
-  right: 0cm;
-  bottom: 0.3cm;
-  position: relative;
+  
+ 
 }
 
 .card {
@@ -341,8 +338,45 @@ this is all meme india website codes
   height: 7.5cm;
   width: 6cm;
   border: none;
-}
+  flex-basis: 200px;
+  
+display: flex;
+  word-wrap: inherit;
 
+}
+@media only screen and (max-width: 800px) {
+ 
+.card {
+  background: #ffffff 0% 0% no-repeat padding-box !important;
+  box-shadow: 9px 3px 22px #00000029 !important;
+  border-radius: 25px !important;
+  opacity: 1 !important;
+  max-width: 100%;
+  height: 5cm;
+  width: 7cm;
+  border: none;
+  flex-basis: 200px;
+  display: flex;
+
+  word-wrap: inherit;
+
+}
+}
+@media only screen and (max-width: 400px) {
+ 
+  .card {
+    background: #ffffff 0% 0% no-repeat padding-box !important;
+    box-shadow: 9px 3px 22px #00000029 !important;
+    border-radius: 25px !important;
+    opacity: 1 !important;
+    max-width: 100%;
+    height: 3cm;
+    width: 3cm;
+    border: none;
+    display: flex;
+  
+  }
+  }
 /*Leather image style home*/
 .CobblerLeather {
   position: relative;
@@ -378,532 +412,13 @@ this is all meme india website codes
   position: relative;
 }
 
-/*all screen images above*/
-.Fabricproducts {
-  bottom: 15cm;
-  text-align: center;
-  font-family: Poppins, semiBold;
-  position: relative;
-  font-size: 25px;
-  font-weight: 600;
-}
-.Fabricpdfbtn {
-  border-radius: 20px;
-  width: 370px;
-  height: 50px;
-  background-color: #fbfbfc;
-  left: 13cm;
-  position: relative;
-  bottom: 25cm;
-  font-family: Poppins, Regular;
-  font-weight: 800;
-  font-size: 24px;
-  border-radius: 40px;
-  border: none !important;
-  color: green;
-  opacity: 1;
 
-  box-shadow: 9px 3px 22px #00000029 !important;
-}
-.Fabproductrow {
-  width: 2cm;
-}
-.Fabproductcol1 {
-  position: relative;
-  bottom: 15cm !important;
-  height: 7cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 4cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Fabproductcol2 {
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  position: absolute;
-  top: 36cm;
-  left: 11cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Fabproductcol3 {
-  position: absolute;
-  top: 37.3cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 18cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Fabproductcol4 {
-  position: absolute;
-  top: 37.3cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 25cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Fabourproduct1 {
-  font-family: "Poppins", sans-serif;
-  font-size: 30px;
-  font-weight: 600;
-
-  position: relative;
-  bottom: 12cm;
-  left: 5cm;
-  clear: both;
-  align-items: left;
-}
-.Fabourproduct2 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 16.3cm !important;
-  left: 19cm;
-  clear: both;
-  align-items: left;
-}
-.Fabourproduct {
-  font-family: Poppins;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 13.5cm !important;
-  left: 11.5cm;
-  clear: both;
-  align-items: left;
-}
-.Fabourproduct3 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 19.3cm !important;
-  left: 26cm;
-  clear: both;
-  align-items: left;
-}
-.Fabricwebsitebtn {
-  border-radius: 20px;
-  width: 350px;
-  height: 60px;
-  background-color: #c62525;
-  left: 12.7cm;
-  position: relative;
-  bottom: 16cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 30px;
-  border-radius: 40px;
-  border: none !important;
-  color: #ffffff;
-}
-
-/*fabric css code finish*/
-
-/*Leather css code below*/
-.Leatherpdfbtn {
-  border-radius: 20px;
-  top: 3cm;
-  width: 310px;
-  height: 60px;
-  background-color: #ffffff;
-  left: 8cm;
-  position: relative;
-  bottom: 0cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 20px;
-  border-radius: 40px;
-  border: none !important;
-  color: #f01212;
-}
-
-.Leatherproductcol1 {
-  position: relative;
-  bottom: 15cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 4cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Leatherproductcol2 {
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  position: absolute;
-  top: 35.8cm;
-  left: 11.4cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Leatherproductcol3 {
-  position: absolute;
-  top: 35.8cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 18cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Leatherproductcol4 {
-  position: absolute;
-  top: 35.8cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 25cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Leatherourproduct1 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 13.5cm;
-  left: 6cm;
-  clear: both;
-  align-items: left;
-}
-.Leatherourproduct2 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 16.2cm;
-  left: 19cm;
-  clear: both;
-  align-items: left;
-}
-.Leatherourproduct {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 14.7cm;
-  left: 11.5cm;
-  clear: both;
-  align-items: left;
-}
-.Leatherourproduct3 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 17.6cm;
-  left: 25.5cm;
-  clear: both;
-  align-items: left;
-}
-
-.Leatherwebsitebtn {
-  border-radius: 20px;
-  width: 350px;
-  height: 60px;
-  background-color: #c62525;
-  left: 12cm;
-  position: relative;
-  bottom: 15cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 30px;
-  border-radius: 40px;
-  border: none !important;
-  color: #ffffff;
-}
-/*Leather page css finish*/
-
-/*Yarn page css below*/
-
-.Yarnpdfbtn {
-  border-radius: 20px;
-  top: 13cm;
-  width: 310px;
-  height: 60px;
-  background-color: #ffffff;
-  left: 8.5cm;
-  position: absolute;
-  bottom: 5cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 20px;
-  border-radius: 40px;
-  border: none !important;
-  color: #106cc4;
-}
-
-.Yarnproductcol1 {
-  position: relative;
-  bottom: 18cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 3.5cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Yarnproductcol2 {
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  position: absolute;
-  top: 35.8cm;
-  left: 11cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Yarnproductcol3 {
-  position: absolute;
-  top: 35.8cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 18cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Yarnproductcol4 {
-  position: absolute;
-  top: 35.7cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 25cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Yarnourproduct1 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 8cm;
-  left: 4.6cm;
-  clear: both;
-  align-items: left;
-}
-.Yarnourproduct2 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 15.6cm;
-  left: 18cm;
-  clear: both;
-  align-items: left;
-}
-.Yarnourproduct {
-  font-family: Poppins, Regular;
-  position: relative;
-  font-size: 30px;
-  font-weight: 600;
-  bottom: 6.4cm;
-  left: 12.7cm;
-  clear: both;
-  align-items: left;
-}
-.Yarnourproduct3 {
-  font-family: Poppins, Regular;
-  position: relative;
-  bottom: 17cm;
-  font-size: 30px;
-  font-weight: 600;
-  left: 27cm;
-  clear: both;
-  align-items: left;
-}
-
-.Yarnwebsitebtn {
-  border-radius: 20px;
-  width: 350px;
-  height: 60px;
-  background-color: #c62525;
-  left: 13cm;
-  position: relative;
-  bottom: 13cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 30px;
-  border-radius: 40px;
-  border: none !important;
-  color: #ffffff;
-}
-.Yarnproductcol5 {
-  position: relative;
-  bottom: 14cm;
-  height: 6cm;
-  width: 6cm;
-  font-size: 30px;
-  font-weight: 600;
-  border-radius: 120px;
-  left: 14cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Yarnourproduct4 {
-  font-family: Poppins, Regular;
-  position: relative;
-  bottom: 14cm;
-  left: 16cm;
-  font-size: 30px;
-  font-weight: 600;
-  clear: both;
-  align-items: left;
-}
 
 #helo:active {
   color: blue;
   text-decoration: underline;
 }
 
-/*Yarn css finish*/
-/*Fabric css below*/
-.fabimage {
-  width: 100%;
-  top: 2cm;
-  border-radius: 40px;
-  position: relative;
-}
-
-.facbricdiscription {
-  bottom: 22cm;
-  width: 80%;
-  position: relative;
-  color: white;
-  background-color: rgba(255, 255, 255, 0.15);
-  backdrop-filter: blur(20px);
-  border-radius: 50px;
-  margin: 10%;
-}
-#icondnwld {
-  right: 1cm;
-  position: relative;
-}
-.Fabricproducts {
-  bottom: 17cm;
-  text-align: center;
-  font-family: Poppins, semiBold;
-  position: relative;
-  font-size: 25px;
-}
-.Fabricpdfbtn {
-  border-radius: 20px;
-  width: 370px;
-  height: 50px;
-  background-color: #fbfbfc;
-  left: 13cm;
-  position: relative;
-  bottom: 25cm;
-  font-family: Poppins, Regular;
-  font-weight: 800;
-  font-size: 24px;
-  border-radius: 40px;
-  border: none !important;
-  color: green;
-}
-.Fabproductrow {
-  width: 2cm;
-}
-.Fabproductcol1 {
-  position: relative;
-  bottom: 13cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 4cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Fabproductcol2 {
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  position: absolute;
-  top: 37.3cm;
-  left: 11cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Fabproductcol3 {
-  position: absolute;
-  top: 37.3cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 18cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Fabproductcol4 {
-  position: absolute;
-  top: 37.3cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 25cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Fabourproduct1 {
-  font-family: Poppins, Regular;
-  position: relative;
-  bottom: 12cm;
-  left: 5cm;
-  clear: both;
-  align-items: left;
-}
-.Fabourproduct2 {
-  font-family: Poppins, Regular;
-  position: relative;
-  bottom: 16.5cm;
-  left: 19cm;
-  clear: both;
-  align-items: left;
-}
-.Fabourproduct {
-  font-family: Poppins, Regular;
-  position: relative;
-  bottom: 13.6cm;
-  left: 11.5cm;
-  clear: both;
-  align-items: left;
-}
-.Fabourproduct3 {
-  font-family: Poppins, Regular;
-
-  position: relative;
-  bottom: 19.7cm;
-  left: 26cm;
-  clear: both;
-  align-items: left;
-}
-.Fabricwebsitebtn {
-  border-radius: 20px;
-  align-items: center;
-  width: 350px;
-  height: 60px;
-  background-color: #c62525;
-  align-items: center;
-  position: relative;
-  bottom: 17cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 30px;
-  border-radius: 40px;
-  border: none !important;
-  color: #ffffff;
-}
-/*Fabric css code finish*/
 /*Fiber css code below*/
 
 .Fiberpdfbtn {
@@ -923,7 +438,9 @@ this is all meme india website codes
   border: none !important;
   color: #f01212;
 }
-
+.App{
+  overflow: visible;
+}
 .Fiberproductcol1 {
   height: 5cm;
   width: 5cm;
@@ -954,66 +471,6 @@ this is all meme india website codes
   opacity: 1;
   margin: 10px;
 }
-.Fiberourproduct1 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: absolute;
-  top: 43cm;
-  left: 6.3cm;
-  top: 43.9cm;
-  left: 6.5cm;
-  clear: both;
-  align-items: left;
-}
-.Fiberourproduct2 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 17cm;
-  left: 19.3cm;
-  clear: both;
-  align-items: left;
-}
-.Fiberourproduct {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 9.2cm;
-  left: 11.8cm;
-  clear: both;
-  align-items: left;
-}
-.Fiberourproduct3 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 24.7cm;
-  left: 27cm;
-  clear: both;
-  align-items: left;
-}
-.Fiberproduct4 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 16cm;
-  left: 16cm;
-  clear: both;
-  align-items: left;
-}
-.Fiberproducts {
-  bottom: 17cm;
-  text-align: center;
-  font-family: Poppins, semiBold;
-  position: relative;
-  font-size: 30px;
-  font-weight: 600;
-}
 .Fiberproducts1 {
   /* bottom: 15cm; */
   text-align: center;
@@ -1023,7 +480,10 @@ this is all meme india website codes
   font-size: 30px;
   font-weight: 600;
 }
-
+.h1, h1 {
+  font-size: 30px;
+  font-weight: 900;
+}
 .Fiberwebsitebtn {
   border-radius: 20px;
   width: 350px;
@@ -1040,339 +500,61 @@ this is all meme india website codes
   color: #ffffff;
 }
 /*Fiber css finish*/
-/*Knits css below*/
-
-.Knitspdfbtn {
-  border-radius: 20px;
-
-  width: 310px;
-  height: 60px;
-  background-color: #ffffff;
-  left: 14cm;
-  position: relative;
-  bottom: 26cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 20px;
-  border-radius: 40px;
-  border: none !important;
-  color: #f01212;
-}
-
-.Knitsproductcol1 {
-  position: relative;
-  bottom: 18.7cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 4cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Knitsproductcol2 {
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  position: absolute;
-  top: 35cm;
-  left: 11cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Knitsproductcol3 {
-  position: absolute;
-  top: 35cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 18cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Knitsproductcol4 {
-  position: relative;
-  bottom: 15cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 14cm;
-  box-shadow: 5px 7px 19px #00000029;
-  opacity: 1;
-}
-.Knitsproductcol5 {
-  position: absolute;
-  top: 35cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 25cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Knitsourproduct1 {
-  font-family: Poppins, Regular;
-  font-size: 26px;
-  font-weight: 600;
-  position: absolute;
-  top: 42.3cm;
-  left: 5.4cm;
-  clear: both;
-  align-items: left;
-}
-.Knitsourproduct2 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 17.7cm;
-  left: 18cm;
-  clear: both;
-  align-items: left;
-}
-.Knitsourproduct {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 10cm;
-  left: 12.5cm;
-  clear: both;
-  align-items: left;
-}
-.Knitsourproduct3 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 25.5cm;
-  left: 26.5cm;
-  clear: both;
-  align-items: left;
-}
-.Knitsourproduct4 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 15cm;
-  left: 16cm;
-  clear: both;
-  align-items: left;
-}
-.Knitsproducts {
-  bottom: 19cm;
-  text-align: center;
-  font-family: Poppins, semiBold;
-  position: relative;
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.Knitswebsitebtn {
-  border-radius: 20px;
-  width: 350px;
-  height: 60px;
-  background-color: #c62525;
-  left: 12.5cm;
-  position: relative;
-  bottom: 14cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 30px;
-  border-radius: 40px;
-  border: none !important;
-  color: #ffffff;
-}
-/*KNITS CSS FINISH */
-/*ECO FRIENDLY CSS BELOW*/
-.Ecoproducts1 {
-  bottom: 17cm;
-  text-align: center;
-  font-family: Poppins, semiBold;
-  position: relative;
-  font-size: 25px;
-  font-weight: 600;
-}
-
-.Ecopdfbtn {
-  border-radius: 20px;
-  width: 310px;
-  height: 60px;
-  background-color: #ffffff;
-  left: 14cm;
-  position: relative;
-  bottom: 26cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 20px;
-  border-radius: 40px;
-  border: none !important;
-  color: #f01212;
-}
-
-.Ecoproductcol1 {
-  position: relative;
-  bottom: 18.8cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 4cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Ecoproductcol2 {
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  position: absolute;
-  top: 35cm;
-  left: 11cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Ecoproductcol3 {
-  position: absolute;
-  top: 35cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 18cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Ecoproductcol4 {
-  position: relative;
-  bottom: 15cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 14cm;
-  box-shadow: 5px 7px 19px #00000029;
-  opacity: 1;
-}
-.Ecoproductcol5 {
-  position: absolute;
-  top: 35cm;
-  height: 6cm;
-  width: 6cm;
-  border-radius: 120px;
-  left: 25cm;
-  box-shadow: 5px 7px 12px #00000029;
-  opacity: 1;
-}
-.Ecoourproduct1 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 10cm;
-  left: 6cm;
-  clear: both;
-  align-items: left;
-}
-.Ecoourproduct2 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 17.6cm;
-  left: 19.6cm;
-  clear: both;
-  align-items: left;
-}
-.Ecoourproduct {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 8.6cm;
-  left: 12.5cm;
-  clear: both;
-  align-items: left;
-}
-.Ecoourproduct3 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 25.3cm;
-  left: 26.5cm;
-  clear: both;
-  align-items: left;
-}
-.Ecoourproduct4 {
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  bottom: 15cm;
-  left: 16cm;
-  clear: both;
-  align-items: left;
-}
-
-.Ecowebsitebtn {
-  border-radius: 20px;
-  width: 350px;
-  height: 60px;
-  background-color: #c62525;
-  left: 12.5cm;
-  position: relative;
-  bottom: 14cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  font-size: 30px;
-  border-radius: 40px;
-  border: none !important;
-  color: #ffffff;
-}
-/* contactusform*/
-
-textarea.form-control {
-  border-radius: 20px;
-  height: 3cm !important;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-  position: relative;
-  bottom: 0.8cm;
-  text-align: center;
-  align-items: center;
-}
-input.form-control {
-  text-align: center;
-  align-items: center;
-  border-radius: 20px;
-  height: 1.5cm !important;
-  position: relative;
-  bottom: 0.8cm;
-  font-family: Poppins, Regular;
-  font-weight: 100;
-}
 
 /*     Footer css*/
+
 .footer {
   background-color: #5fbd3a;
-  bottom: 10cm;
+
   position: relative;
-  height: 11cm;
-  right: 2.5cm;
+height: 400px;
+max-width: none;
+max-height: none;
+  width: 100%;
+  overflow: visible;
+  border-radius: 30px;
+ 
+  box-shadow: 9px 2px 22px 12px #00000029 !important;
+}
+
+@media only screen and (max-width: 800px) {
+.footer {
+  background-color: #5fbd3a;
+border: #000000 !important;
+border-color: #000000;
+  position: relative;
+height: 700px;
+max-width: none;
+max-height: none;
   width: 100%;
   overflow: hidden;
   border-radius: 30px;
-  top: 8cm;
+ top: 10px;
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
-.AsokhaFooter {
-  top: -1.3cm;
-  left: 13.5cm;
-  height: 6cm;
-  width: 6.4cm;
-  position: relative;
-  border-radius: 150px;
 }
+.AsokhaFooter{
+width: 20%;
+align-content: center;
+border-radius: 120px;
+position: relative;
+}
+
+@media only screen and (max-width: 500px){
+  
+
+  .AsokhaFooter{
+    width: 20%;
+    align-content: center;
+    border-radius: 120px;
+    position: absolute;
+    left: 3.5cm;
+    top: 160px;
+    }}
+
 .MeMeFooter {
   left: 1cm;
-  top: 2.2cm;
+  top: 0.4cm;
   position: relative;
   width: 5cm;
   height: 1.5cm;
@@ -1380,6 +562,36 @@ input.form-control {
   max-height: none;
   min-width: 2cm;
   min-height: 0.5cm;
+}
+@media only screen and (max-width: 500px){
+.MeMeFooter {
+  left: 2cm;
+ 
+  position: relative;
+  width: 5cm;
+  height: 1.5cm;
+  max-width: none;
+  max-height: none;
+  min-width: 2cm;
+  min-height: 0.5cm;
+
+}}
+@media only screen and (max-width: 500px){
+.FooterLinkdrop{
+  position: relative;
+left: 4.1cm;
+}
+}
+@media only screen and (max-width: 300px){
+.HomeF{
+  position: relative;
+  left: 1cm;
+}
+}
+.HomeF{
+  position: relative;
+  left: 8cm;
+  bottom: 90px;
 }
 .Footertext1 {
   width: 5cm;
@@ -1391,25 +603,32 @@ input.form-control {
   position: relative;
   right: 16.5cm;
 }
+@media only screen and (max-width: 500px){
+
 .Socialicon {
   position: relative;
   padding-right: 20px;
   height: 0.9cm;
   width: 0.9cm;
   left: 1.2cm;
-  top: 5cm;
+  top: 12cm;
   color: black;
 }
+}
+.Socialicon {
+  position: relative;
+  padding-right: 20px;
+  height: 0.9cm;
+  width: 0.9cm;
+  left: 1.2cm;
+  top: 12cm;
+  color: black;
+}
+
+
+
 .Socialicon:hover {
   color: #106cc4;
-}
-.FooterLink {
-  position: relative;
-  bottom: 7.6cm;
-  font-size: 20px;
-  font-weight: 800;
-  left: 8cm;
-  font-family: Poppins, Regular;
 }
 .FooterLinkdown {
   position: relative;
@@ -1430,56 +649,6 @@ input.form-control {
   color: red;
   text-decoration: none !important;
 }
-/* .Contact {
-  position: relative;
-  bottom: 12cm;
-  font-size: 20px;
-  font-weight: 800;
-  left: 21.5cm;
-  font-family: Poppins, Regular;
-}
-.Contacttext {
-  width: 5cm;
-  font-family: Poppins, Regular;
-  font-size: 12px;
-  font: bolder;
-  font-weight: 500;
-  bottom: 11.3cm;
-  position: relative;
-  left: 21.5cm;
-}
-.Contact1 {
-  position: relative;
-  bottom: 14.8cm;
-  font-size: 20px;
-  font-weight: 800;
-  left: 28.7cm;
-  width: 6cm;
-  font-family: Poppins, Regular;
-}
-.Contacttext1 {
-  width: 5cm;
-  font-family: Poppins, Regular;
-  font-size: 30px;
-  font: bolder;
-  font-weight: 800;
-  bottom: 13cm;
-  position: relative;
-  left: 22.7cm;
-} */
-/* extra css for Contactusform*/
-.HomeFooter {
-  top: 12cm !important;
-  position: relative;
-}
-.ContactusformYarn {
-  position: relative;
-  top: 3cm !important;
-}
-.ContactusformEcofriendly {
-  position: relative;
-  top: 2cm !important;
-}
 
 /* customized component style */
 
@@ -1494,6 +663,7 @@ input.form-control {
 .bgImg {
   width: 100%;
   height: 700px;
+  border-radius: 20px;
 }
 
 .cardTitle {
@@ -1506,14 +676,15 @@ input.form-control {
   width: 70%;
   height: max-content;
   background-color: #442211 0% 0% no-repeat padding-box;
-  backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
+  backdrop-filter: blur(30px) ;
+  -webkit-backdrop-filter: blur(30px) ;
   top: 40%;
   left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%) ;
+  transform: translate(-50%, -50%) ;
   position: absolute;
   margin: 0;
+
   /* text-align: center; */
   color: #0c0b10;
 }
@@ -1568,7 +739,7 @@ h1 {
   width: 100%;
   align-items: center;
   background-color: #129652 !important;
-  border-radius: 35px;
+  border-radius: 45px;
   top: 5cm;
   color: #ffffff;
   box-shadow: 9px 3px 22px #00000029 !important;

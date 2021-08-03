@@ -11,7 +11,7 @@
  * - Modification    :
  **/
 import Essential from "./img/Essential.jpg";
-import woodenplate from "./img/woodenplate.png";
+
 import Bags from "./img/Bags.png";
 import cups from "./img/cups.png";
 
@@ -36,13 +36,13 @@ import { Row, Col, Carousel, Image, Card } from "react-bootstrap";
 import Allimage from './Allimage';
 import { FaArrowCircleRight } from "react-icons/fa";
 
-import Footer from './Footer'
+
 
 
 export default class Home extends Component {
   render() {
     return (
-      <div>
+      <div >
         <Carousel style={{textAlign:'center'}}>
           <Carousel.Item interval={3000}>
             <img
@@ -93,14 +93,15 @@ export default class Home extends Component {
         <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "33px",position:"relative",left:"1cm",fontWeight:"600" }}>
           Recent Discounts
         </h1>
-        <Row>
-          <Col>
+       <Row>
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img
                 variant="top"
                 src={Kidsproduct}
                 className="Productcardimage"
               />
+            
               <Card.Body>
                 <Card.Text>
                   <h1
@@ -116,8 +117,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+         </Col>
+         
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -139,8 +141,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+            </Col>
+            
+      <Col xs="3" sm="3" md="3" >
             <Card>
               <Card.Img
                 variant="top"
@@ -163,8 +166,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+            </Col>
+            
+      <Col xs="3" sm="3" md="3" >
             <Card>
               <Card.Img
                 variant="top"
@@ -186,13 +190,14 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-        </Row>
+            </Col>
+       </Row>
         <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "33px",position:"relative",left:"1cm",fontWeight:"600" }}>
           Our Products
         </h1>
-        <Row>
-          <Col>
+        <Row >
+         
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img variant="top" src={Bags} className="Productcardimage" />
               <Card.Body>
@@ -210,8 +215,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+         </Col>
+         
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -233,8 +239,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+        </Col>
+        
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -257,8 +264,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+         </Col>
+         
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -280,7 +288,7 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
+         </Col>
         </Row>
         <img
           src={Leather1}
@@ -325,8 +333,10 @@ export default class Home extends Component {
             }}>
           Eco - Friendly Products
         </h1>
-        <Row>
-          <Col>
+        <Row  >
+          
+      <Col xs="3" sm="3"  md="3">
+          
             <Card>
               <Card.Img variant="top" src={Bags} className="Productcardimage" />
               <Card.Body>
@@ -345,13 +355,14 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+        </Col>
+        
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img
                 variant="top"
-                src={woodenplate}
-                className="Productcardimage1"
+                src={Bags}
+                className="Productcardimage"
               />
               <Card.Body>
                 <Card.Text>
@@ -369,8 +380,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+         </Col>
+         
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img variant="top" src={cups} className="Productcardimage" />
               <Card.Body>
@@ -389,8 +401,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+        </Col>
+        
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -413,10 +426,12 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
+        </Col>
         </Row>
-        <Row>
-          <Col>
+        <Row  >
+          
+      <Col xs="3" sm="3"  md="3">
+         
             <Card>
               <Card.Img variant="top" src={Bags} className="Productcardimage" />
               <Card.Body>
@@ -435,13 +450,15 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+         
+      </Col>
+      
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img
                 variant="top"
-                src={woodenplate}
-                className="Productcardimage1"
+                src={Bags}
+                className="Productcardimage"
               />
               <Card.Body>
                 <Card.Text>
@@ -459,8 +476,8 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+        </Col>
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img variant="top" src={cups} className="Productcardimage" />
               <Card.Body>
@@ -479,8 +496,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
-          <Col>
+         </Col>
+         
+      <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -503,11 +521,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-          </Col>
+      </Col>  
         </Row>
-        <div className="HomeFooter">
-          <Footer/>
-        </div>
+       
       </div>
     );
   }
