@@ -14,13 +14,17 @@ import Header from "./components/header";
 import Fiber from "./components/Fiber";
 import { Container } from "react-bootstrap";
 import Footer from"./components/Footer"
+import Searchbar from "./components/Searchbar";
 
 export default function App() {
   return (
     <div className="App">
       <Container>
         <Router>
-          <Header />
+          
+        
+        <Header/>
+          
           <Navboard />
           <Route exact path="/" component={Home}></Route>
           <Route path="/Fiber" component={Fiber}></Route>
