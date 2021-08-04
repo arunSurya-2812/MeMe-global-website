@@ -10,7 +10,7 @@ import Knits from "./components/Knits";
 import Brands from "./components/Brands";
 import Yarn from "./components/Yarn";
 import Navboard from "./components/Navbard";
-import Searchbar from "./components/Searchbar";
+import Header from "./components/header";
 import Fiber from "./components/Fiber";
 import { Container } from "react-bootstrap";
 import Footer from"./components/Footer"
@@ -20,7 +20,7 @@ export default function App() {
     <div className="App">
       <Container>
         <Router>
-          <Searchbar />
+          <Header />
           <Navboard />
           <Route exact path="/" component={Home}></Route>
           <Route path="/Fiber" component={Fiber}></Route>

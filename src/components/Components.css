@@ -771,7 +771,7 @@ h1 {
   display: inline-flex;
 }
 .search {
-  top: 25px;
+  top: 1cm;
   margin-right: 2;
-  position: relative;
+  position: absolute;
 }
