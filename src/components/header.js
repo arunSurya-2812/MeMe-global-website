@@ -1,6 +1,6 @@
 
 import React, { Component } from "react";
-import { Row, Col, Form, FormControl } from "react-bootstrap";
+import { Row, Col} from "react-bootstrap";
 import Logo from "./img/logo.png";
 import "./Components.css";
 

@@ -43,23 +43,33 @@ export default class Footer extends Component {
                    
       
                 <Container>
+                  <Row style={{padding:"0px"}}>
+                    <Col xs={1}  md={1} >
                       <a href="https://www.instagram.com/">
                         <FaInstagram className="Socialicon"  />
                       </a>
+                      </Col>
+                      
+                      <Col xs={1} l md={1}>
                       <a href="https://twitter.com/login">
                         <FaTwitter  className="Socialicon" />
                       </a>
+                      </Col>
+                      <Col xs={1} lg={1} md={1}>
                       <a href="https://www.facebook.com/login/web/">
                         <FaFacebook   className="Socialicon" />
                       </a>
+                      </Col>
+                      <Col xs={1} lg={1} md={1}>
                       <a href="https://www.linkedin.com/">
                         <FaLinkedinIn className="Socialicon"  />
                       </a>
+                      </Col></Row>
                </Container>
             
                
                <Container>
-                 <Row  className="HomeRow" style={{position:"relative",left:"7cm",bottom:"5cm"}} md ={6}lg={5} xs={5}sm={5}>
+                 <Row  className="HomeRow" style={{position:"relative",left:"7cm",bottom:"5cm"}} md ={6}lg={5} xs={1}sm={5}>
                    <Col>
                  <h1>
                   Quick Links
@@ -95,6 +105,11 @@ export default class Footer extends Component {
            </Col>
                 </Row>
                   </Container>
+                  <Container>
+                  
+                  <Image src={Ashoka} className="Asokha" style={{position:"relative",borderRadius:"150px",Bottom:"510px",align:"center"}}/>
+                 
+                  </Container>
      <Container> 
        <Row className="HomeRow" style={{position:"relative",left:"5cm",bottom:"9cm" }}>
          <Col lg={12} md={12} xs={5} sm={5}>             
@@ -103,25 +118,30 @@ export default class Footer extends Component {
                     </Row>
                     </Container>
                <Container>
+                 <Row className="HomeRow" style={{position:"relative",left:"18cm",bottom:"9cm" }} lg={1}>
+                   <Col lg={2} md={2} xs={8} sm={5}>
          
                     <p >
                       +99 (0) 101 0000 888 Patricia C. Amedee 4401 Waldeck Street
                       Grapevine Nashville, Tx 76051
                     </p>
+                    </Col>
+                    </Row>
                   </Container>
                   <Container>
-                    <Row>
-                      <Col sm-xs="4" md-lg="4">
+                    <Row className="HomeRow" style={{position:"relative",left:"24cm",bottom:"13cm" }} lg={1}>
+                      <Col lg={2} md={2} xs={8} sm={5}>
 <h3>Subscribe us on our Email</h3>
 </Col>
 </Row>
-<Row>
-                      <Col sm-xs="4">
+<Row className="HomeRow" style={{position:"relative",left:"24cm",bottom:"12cm" }} lg={1}>
+                      <Col  lg={2} md={2} xs={8} sm={5}>
 <h1>For Latest News & Updates</h1>
                   </Col>
                   </Row>
                    
                     </Container>
+                    
                     </footer>
  
             </>
