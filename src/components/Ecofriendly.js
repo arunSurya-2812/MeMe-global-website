@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 30/06/2021 - 15:14:21
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 30/06/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 import React, {
   Component
 } from "react";
@@ -92,7 +81,7 @@ export default function Ecofriendly() {
       
      
       <Row>
-        <Col md="12" lg="12" sm="10">
+        <Col md="12" lg="12" sm="10" xs={4}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>

@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 10/07/2021 - 20:37:54
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 10/07/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 
  
 
@@ -89,7 +78,7 @@ export default function Fabrics() {
       </Row>
       <br />
       <Row>
-        <Col md="12" lg="12" sm="10">
+        <Col md="12" lg="12" sm="10" xs={4}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>

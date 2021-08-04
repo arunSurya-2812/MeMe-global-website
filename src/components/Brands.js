@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 21/07/2021 - 19:30:13
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 21/07/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 
 
 import Contactusform from "./Contactusform";

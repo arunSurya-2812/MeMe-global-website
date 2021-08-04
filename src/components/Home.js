@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 05/07/2021 - 16:08:05
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 05/07/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 import Essential from "./img/Essential.jpg";
 
 import Bags from "./img/Bags.png";

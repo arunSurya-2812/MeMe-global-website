@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 10/07/2021 - 20:19:43
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 10/07/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 
 import "./Components.css";
 import Contactusform from "./Contactusform";
@@ -97,7 +86,7 @@ export default function Fiber() {
 </Row>
       <br />
       <Row>
-        <Col md="11" lg="12" sm="11">
+        <Col md="11" lg="12" sm="11" xs={4}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>

@@ -1,15 +1,4 @@
-/**
-    * @description      : 
-    * @author           : surya12
-    * @group            : 
-    * @created          : 19/07/2021 - 10:19:41
-    * 
-    * MODIFICATION LOG
-    * - Version         : 1.0.0
-    * - Date            : 19/07/2021
-    * - Author          : surya12
-    * - Modification    : 
-**/
+
 import "./Components.css";
 
 
@@ -92,7 +81,7 @@ export default function Knits() {
       
       
       <Row>
-        <Col md="12" lg="12" sm="10">
+        <Col md="12" lg="12" sm="10" xs={4}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>

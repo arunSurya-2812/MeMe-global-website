@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 10/07/2021 - 11:11:04
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 10/07/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 
 import "./Components.css";
 import { FaDownload } from "react-icons/fa";
@@ -97,7 +86,7 @@ export default function Yarn() {
 </Row>
       <br />
       <Row>
-        <Col md="12" lg="12" sm="10">
+        <Col md="11" lg="12" sm="10" xs={4}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>

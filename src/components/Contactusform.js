@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 22/07/2021 - 16:09:56
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 22/07/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 import React, { Component } from "react";
 import Contactusgroup from "./img/Contactusgroup.png";
 import { Card, Row, Col, Form, Container, Button } from "react-bootstrap";

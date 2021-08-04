@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 16/07/2021 - 10:55:48
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 16/07/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 import "./Components.css";
 import React from "react";
 import { Navbar, Nav, Container} from "react-bootstrap";

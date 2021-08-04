@@ -1,15 +1,4 @@
-/**
-    * @description      : 
-    * @author           : surya12
-    * @group            : 
-    * @created          : 27/07/2021 - 13:04:08
-    * 
-    * MODIFICATION LOG
-    * - Version         : 1.0.0
-    * - Date            : 27/07/2021
-    * - Author          : surya12
-    * - Modification    : 
-**/
+
 
 import Contactusform from "./Contactusform";
 import React, { Component } from "react";
@@ -91,7 +80,7 @@ export default function Knits() {
       
       
       <Row>
-        <Col md="12" lg="12 "sm="10">
+        <Col md="12" lg="12"xs ={4}sm={8}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>

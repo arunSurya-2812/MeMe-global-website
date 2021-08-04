@@ -1,15 +1,7 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 23/07/2021 - 13:33:22
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 23/07/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
+
+
+
 import React, { Component } from "react";
 import Ashoka from "./img/Ashoka.jpg";
 import logo from "./img/logo.png";
@@ -51,8 +43,6 @@ export default class Footer extends Component {
                    
       
                 <Container>
-                  <Row  >
-                    <Col   md={11}sm={6}xs={8} >
                       <a href="https://www.instagram.com/">
                         <FaInstagram className="Socialicon"  />
                       </a>
@@ -65,75 +55,76 @@ export default class Footer extends Component {
                       <a href="https://www.linkedin.com/">
                         <FaLinkedinIn className="Socialicon"  />
                       </a>
-                    </Col>
-                  </Row>
                </Container>
-               <Container >
-                 <Row style={{left:"430px",position:"relative",bottom:"60px"}}>
-               <Col md={11}>
-                  <Image src={Ashoka} className="AsokhaFooter" />   
-               </Col>
-               </Row>
-               </Container>
+            
                
                <Container>
-                <Row   lg={1} md={1}>
-                  <Col md={3} md={3} lg={8}> <h1>
+                 <Row  className="HomeRow" style={{position:"relative",left:"7cm",bottom:"5cm"}} md ={6}lg={5} xs={5}sm={5}>
+                   <Col>
+                 <h1>
                   Quick Links
                 </h1>
                 </Col>
-               </Row>
+                </Row>
                </Container>
                
               <Container >
-      
-                  <Row  style={{left:"130px",position:"relative"}}lg={1} md={1} >
-                    
+                <Row className="HomeRow" style={{position:"relative",left:"7cm",bottom:"5cm" }} md ={6}lg={5} xs={5}sm={5}>
+      <Col lg={1} md={1}>
                     <p >
-                      <a href="#" >
+                      <a href="http://localhost:3000" >
                         Home
                     </a>
                     </p>
                     <p>
-                      <a href="#" >
+                      <a href="http://localhost:3000" >
                         About
                       </a>
                     </p>
                     <p>
-                      <a href="#" >
+                      <a href="http://localhost:3000" >
                         Contact
                       </a>
                     </p>
                     <p>
-                      <a href="#" >
+                      <a href="http://localhost:3000" >
                         Shop
                       </a>
                     </p>
-                  
-                  </Row>
+                
+           </Col>
+                </Row>
                   </Container>
-                   <Row lg={11}>
+     <Container> 
+       <Row className="HomeRow" style={{position:"relative",left:"5cm",bottom:"9cm" }}>
+         <Col lg={12} md={12} xs={5} sm={5}>             
                     <h1 >Contact</h1>
-               </Row>
+                    </Col>
+                    </Row>
+                    </Container>
                <Container>
-                  <Row >
-                   <Col  xs={11} sm={6} md ={4}lg={2}>
+         
                     <p >
                       +99 (0) 101 0000 888 Patricia C. Amedee 4401 Waldeck Street
                       Grapevine Nashville, Tx 76051
                     </p>
-                    </Col>
-                  </Row>
                   </Container>
-                  <Row >
-                    <Col  xs={11} sm={6} md ={4}lg={3}>
-                    <h3 >Subscribe us on our Email</h3>
-                    <h1 >For Latest News & Updates</h1>
-                    </Col>
+                  <Container>
+                    <Row>
+                      <Col sm-xs="4" md-lg="4">
+<h3>Subscribe us on our Email</h3>
+</Col>
+</Row>
+<Row>
+                      <Col sm-xs="4">
+<h1>For Latest News & Updates</h1>
+                  </Col>
                   </Row>
-                 </footer>
+                   
+                    </Container>
+                    </footer>
  
             </>
     )
   } 
-}      
+}    

@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 05/07/2021 - 20:07:55
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 05/07/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 
 import { FaArrowCircleRight } from "react-icons/fa";
 import React, { Component } from "react";

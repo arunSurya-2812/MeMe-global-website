@@ -1,15 +1,4 @@
-/**
- * @description      :
- * @author           : surya12
- * @group            :
- * @created          : 30/06/2021 - 14:56:36
- *
- * MODIFICATION LOG
- * - Version         : 1.0.0
- * - Date            : 30/06/2021
- * - Author          : surya12
- * - Modification    :
- **/
+
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import "./App.css";
 

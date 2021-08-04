@@ -505,52 +505,80 @@ display: flex;
 
 .footer {
   background-color: #5fbd3a;
-
   position: relative;
-height: 400px;
-max-width: none;
-max-height: none;
+  height: 400px;
+  max-width: none;
+  max-height: none;
   width: 100%;
   overflow: visible;
   border-radius: 30px;
- 
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
 
 @media only screen and (max-width: 800px) {
 .footer {
+  transition:  border-radius 0.3s, opacity 0.3s;
   background-color: #5fbd3a;
-border: #000000 !important;
-border-color: #000000;
+  border: #000000 !important;
+  border-color: #000000;
   position: relative;
-height: 700px;
-max-width: none;
-max-height: none;
+  height: 720px;
+  max-width: none;
+  max-height: none;
   width: 100%;
   overflow: hidden;
   border-radius: 30px;
- top: 10px;
+  top: 10px;
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
 }
-.AsokhaFooter{
-width: 20%;
-align-content: center;
-border-radius: 120px;
-position: relative;
+@media only screen and (max-width: 500px){
+.HomeRow{
+  position: relative;
+  bottom: 0cm;
+  left:4cm;
+  right: 10px;
+  top: 0px;
+
+}
+}
+.HomeRow{
+  text-decoration: none;
+}
+@media only screen and (max-width: 450px){
+  .HomeRow{
+    position: relative;
+    bottom: 70cm !important;
+    left:1cm !important;
+    right: 10px;
+    top: 0px;
+  
+  }
 }
 
 @media only screen and (max-width: 500px){
+  .Asokha{
+    position: relative;
+    bottom: 0cm;
+    left:4cm;
+    right: 10px;
+    top: 0px;
   
-
-  .AsokhaFooter{
-    width: 20%;
-    align-content: center;
-    border-radius: 120px;
-    position: absolute;
-    left: 3.5cm;
-    top: 160px;
-    }}
+  }
+  }
+  .Asokha{
+    text-decoration: none;
+  }
+  @media only screen and (max-width: 450px){
+    .Asokha{
+      position: relative;
+      bottom: 70cm !important;
+      left:1cm !important;
+      right: 10px;
+      top: 0px;
+    
+    }
+  }
 
 .MeMeFooter {
   left: 1cm;
@@ -576,34 +604,6 @@ position: relative;
   min-height: 0.5cm;
 
 }}
-@media only screen and (max-width: 500px){
-.FooterLinkdrop{
-  position: relative;
-left: 4.1cm;
-}
-}
-@media only screen and (max-width: 300px){
-.HomeF{
-  position: relative;
-  left: 1cm;
-}
-}
-.HomeF{
-  position: relative;
-  left: 8cm;
-  bottom: 90px;
-}
-.Footertext1 {
-  width: 5cm;
-  font-family: Poppins, Regular;
-  font-size: 12px;
-  font: bolder;
-  font-weight: 500;
-  top: 4.3cm;
-  position: relative;
-  right: 16.5cm;
-}
-@media only screen and (max-width: 500px){
 
 .Socialicon {
   position: relative;
@@ -611,43 +611,12 @@ left: 4.1cm;
   height: 0.9cm;
   width: 0.9cm;
   left: 1.2cm;
-  top: 12cm;
+  top: 5cm;
   color: black;
 }
-}
-.Socialicon {
-  position: relative;
-  padding-right: 20px;
-  height: 0.9cm;
-  width: 0.9cm;
-  left: 1.2cm;
-  top: 12cm;
-  color: black;
-}
-
-
 
 .Socialicon:hover {
   color: #106cc4;
-}
-.FooterLinkdown {
-  position: relative;
-  bottom: 7cm;
-  width: 4cm;
-  font-size: 15px;
-  font-weight: 500;
-  font-family: Poppins, Regular;
-  left: 8.5cm;
-  color: #000000;
-}
-.FooterLinkdrop {
-  color: #000000;
-
-  text-decoration: none !important;
-}
-.FooterLinkdrop:hover {
-  color: red;
-  text-decoration: none !important;
 }
 
 /* customized component style */
@@ -665,7 +634,6 @@ left: 4.1cm;
   height: 700px;
   border-radius: 20px;
 }
-
 .cardTitle {
   font-size: 25px;
   font-weight: 800;
@@ -688,7 +656,6 @@ left: 4.1cm;
   /* text-align: center; */
   color: #0c0b10;
 }
-
 .cardContent {
   text-align: justify;
   font-family: Poppins, Regular;
