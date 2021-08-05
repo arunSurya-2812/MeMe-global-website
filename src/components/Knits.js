@@ -1,20 +1,14 @@
+import React from "react";
+import { Image, Row, Col, Card, Button } from "react-bootstrap";
 
 import "./Components.css";
-
-
-import React, { Component } from "react";
 import Linen from "./img/Linen.jpg";
 import cotton1 from "./img/cotton1.jpg";
 import bananafibre from "./img/bananafibre.jpg";
 import fabproduct4 from "./img/fabproduct4.png";
-import fabproduct1 from "./img/fabproduct1.png";
-
 import yarncopy from "./img/yarncopy.jpg";
-import Contactusform from './Contactusform'
+import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
-
-import {Image, Row, Col, Card, Button } from "react-bootstrap";
-
 
 export default function Knits() {
   return (
@@ -22,7 +16,11 @@ export default function Knits() {
       <Row>
         <Col md="12" lg="12">
           <Card className="imgCard">
-            <Card.Img src={yarncopy} alt="Fiber-main" className="bgImg"></Card.Img>
+            <Card.Img
+              src={yarncopy}
+              alt="Fiber-main"
+              className="bgImg"
+            ></Card.Img>
           </Card>
           <Card className="contentCard">
             <Card.Body>
@@ -60,32 +58,31 @@ export default function Knits() {
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
           <h1>Knits</h1>
         </Col>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={Linen} className="Fiberproductcol2" roundedCircle />
           <h1> Weave</h1>
         </Col>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={fabproduct4} className="Fiberproductcol3" roundedCircle />
           <h1> Artisan</h1>
         </Col>
-        <Col  md="3" lg="3"sm="12">
+        <Col md="3" lg="3" sm="12">
           <Image src={bananafibre} className="Fiberproductcol3" roundedCircle />
           <h1> Eco friendly</h1>
         </Col>
       </Row>
       <br />
-      
-      
+
       <Row>
         <Col md="12" lg="12" sm="10" xs={4}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>
-    <br/>
+      <br />
       <Contactusform />
     </>
   );

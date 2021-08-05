@@ -1,11 +1,10 @@
-
-
-import { FaArrowCircleRight } from "react-icons/fa";
 import React, { Component } from "react";
+import { FaArrowCircleRight } from "react-icons/fa";
 import Slider from "react-slick";
+
+import "./Components.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import "./Components.css";
 import Fibre11 from "./img/Fibre11.png";
 import Yarn22 from "./img/Yarn22.png";
 import Fabrics33 from "./img/Fabrics33.png";
@@ -21,8 +20,7 @@ export default class MultipleItems extends Component {
       slidesToScroll: 3,
       autoplay: true,
       autoplaySpeed: 2000,
-      arrows:true
-     
+      arrows: true,
     };
     return (
       <Slider {...settings}>

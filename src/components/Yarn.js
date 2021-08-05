@@ -1,9 +1,7 @@
-
-
 import "./Components.css";
 import { FaDownload } from "react-icons/fa";
 import Contactusform from "./Contactusform";
-import React, { Component } from "react";
+import React from "react";
 import colorthreds from "./img/colorthreds.jpg";
 import Linen from "./img/Linen.jpg";
 import cotton1 from "./img/cotton1.jpg";
@@ -13,14 +11,17 @@ import fabproduct1 from "./img/fabproduct1.png";
 
 import { Image, Row, Col, Card, Button } from "react-bootstrap";
 
-
 export default function Yarn() {
   return (
     <>
       <Row>
         <Col md="12" lg="12">
           <Card className="imgCard">
-            <Card.Img src={colorthreds} alt="Fiber-main" className="bgImg"></Card.Img>
+            <Card.Img
+              src={colorthreds}
+              alt="Fiber-main"
+              className="bgImg"
+            ></Card.Img>
           </Card>
           <Card className="contentCard">
             <Card.Body>
@@ -58,39 +59,38 @@ export default function Yarn() {
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
           <h1>Cotton</h1>
         </Col>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={Linen} className="Fiberproductcol2" roundedCircle />
           <h1> Poly Cotton</h1>
         </Col>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={fabproduct4} className="Fiberproductcol3" roundedCircle />
           <h1> Tencel& Modal</h1>
         </Col>
-        <Col  md="3" lg="3"sm="12">
+        <Col md="3" lg="3" sm="12">
           <Image src={bananafibre} className="Fiberproductcol3" roundedCircle />
           <h1> Lyocell</h1>
         </Col>
       </Row>
       <br />
-      
-      
+
       <Row style={{ textAlign: "center" }}>
-        <Col  md="12" lg="12" sm="12">
+        <Col md="12" lg="12" sm="12">
           <Image src={fabproduct1} className="Fiberproductcol5" roundedCircle />
           <h1> Recycle</h1>
         </Col>
-</Row>
+      </Row>
       <br />
       <Row>
         <Col md="11" lg="12" sm="10" xs={4}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>
-    <br/>
+      <br />
       <Contactusform />
     </>
   );

@@ -1,19 +1,13 @@
+import React from "react";
+import { Image, Row, Col, Card, Button } from "react-bootstrap";
 
-
- 
-
- import "./Components.css";
- import Contactusform from './Contactusform'
-
- import { FaDownload } from "react-icons/fa";
-import React, { Component } from "react";
+import "./Components.css";
+import Contactusform from "./Contactusform";
+import { FaDownload } from "react-icons/fa";
 import fab from "./img/fab.png";
 import fabproduct1 from "./img/fabproduct1.png";
 import fabproduct2 from "./img/fabproduct2.png";
 import fabproduct3 from "./img/fabproduct3.jpg";
-import fabproduct4 from "./img/fabproduct4.png";
-import { Image, Row, Col, Card, Button } from "react-bootstrap";
-
 
 export default function Fabrics() {
   return (
@@ -59,21 +53,22 @@ export default function Fabrics() {
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
-        <Col md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={fabproduct1} className="Fiberproductcol1" roundedCircle />
           <h1>FABRICS</h1>
         </Col>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={fabproduct2} className="Fiberproductcol2" roundedCircle />
           <h1> SUSTAINABLE FABRICS</h1>
         </Col>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={fabproduct3} className="Fiberproductcol3" roundedCircle />
           <h1> ARTISAN MADE</h1>
         </Col>
-        <Col  md="3" lg="3"sm="12">
+        <Col md="3" lg="3" sm="12">
           <Image src={fabproduct3} className="Fiberproductcol3" roundedCircle />
-          <h1> FABRICS</h1><h1> CRAFTSME</h1>
+          <h1> FABRICS</h1>
+          <h1> CRAFTSME</h1>
         </Col>
       </Row>
       <br />

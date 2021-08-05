@@ -1,7 +1,6 @@
-
-
 import Contactusform from "./Contactusform";
-import React, { Component } from "react";
+import React from "react";
+import { Image, Row, Col, Card, Button } from "react-bootstrap";
 
 import leather from "./img/leather.png";
 import leatherbag1 from "./img/leatherbag1.jpeg";
@@ -11,17 +10,17 @@ import leathershoe from "./img/leathershoe.jpeg";
 import { FaDownload } from "react-icons/fa";
 import "./Components.css";
 
-
-import {Image, Row, Col, Card, Button } from "react-bootstrap";
-
-
 export default function Knits() {
   return (
     <>
       <Row>
         <Col md="12" lg="12">
           <Card className="imgCard">
-            <Card.Img src={leather} alt="Fiber-main" className="bgImg"></Card.Img>
+            <Card.Img
+              src={leather}
+              alt="Fiber-main"
+              className="bgImg"
+            ></Card.Img>
           </Card>
           <Card className="contentCard">
             <Card.Body>
@@ -59,32 +58,31 @@ export default function Knits() {
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={leatherbag1} className="Fiberproductcol1" roundedCircle />
           <h1>Bags</h1>
         </Col>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={leatherbag2} className="Fiberproductcol2" roundedCircle />
           <h1> Accessories</h1>
         </Col>
-        <Col  md="3" lg="3"sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={leatherbag3} className="Fiberproductcol3" roundedCircle />
           <h1> Jacket</h1>
         </Col>
-        <Col  md="3" lg="3"sm="12">
+        <Col md="3" lg="3" sm="12">
           <Image src={leathershoe} className="Fiberproductcol3" roundedCircle />
           <h1> Footwares</h1>
         </Col>
       </Row>
       <br />
-      
-      
+
       <Row>
-        <Col md="12" lg="12"xs ={4}sm={8}>
+        <Col md="12" lg="12" xs={4} sm={8}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>
-    <br/>
+      <br />
       <Contactusform />
     </>
   );

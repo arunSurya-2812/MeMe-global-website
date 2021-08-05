@@ -1,30 +1,25 @@
-
 import "./Components.css";
 import React from "react";
-import { Navbar, Nav, Container} from "react-bootstrap";
-import { LinkContainer} from "react-router-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
+import { LinkContainer } from "react-router-bootstrap";
 import "./Components.css";
 
 function Navboard() {
   return (
-
-    <Container>
+    <div>
+      <Container>
         <Navbar collapseOnSelect expand="md">
-        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
+          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse className="hello">
-            
             <Nav className="Navgg">
               <LinkContainer to="/">
-                <Nav.Link   className="nav-item nav-link mx-2">
-                  
+                <Nav.Link className="nav-item nav-link mx-2">
                   <p>Home</p>
-                  
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Fiber">
-                <Nav.Link  className="nav-item nav-link mx-2" id="Navline">
+                <Nav.Link className="nav-item nav-link mx-2" id="Navline">
                   <p>Fiber</p>
-                  
                 </Nav.Link>
               </LinkContainer>
               <LinkContainer to="/Yarn">
@@ -58,11 +53,10 @@ function Navboard() {
                 </Nav.Link>
               </LinkContainer>
             </Nav>
-           
           </Navbar.Collapse>
         </Navbar>
-        </Container>
-
+      </Container>
+    </div>
   );
 }
 export default Navboard;
