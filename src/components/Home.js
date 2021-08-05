@@ -82,8 +82,8 @@ export default class Home extends Component {
         <h1 style={{ fontFamily: "Poppins,Bold", fontSize: "33px",position:"relative",left:"1cm",fontWeight:"600" }}>
           Recent Discounts
         </h1>
-       <Row>
-      <Col xs="3" sm="3"  md="3">
+<Row>
+        <Col xs="3" sm="3"md="3" >
             <Card>
               <Card.Img
                 variant="top"
@@ -106,8 +106,8 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
+     
          </Col>
-         
       <Col xs="3" sm="3"  md="3">
             <Card>
               <Card.Img

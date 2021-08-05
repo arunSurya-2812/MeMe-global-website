@@ -11,7 +11,9 @@
 this is all meme india website codes
 ================================
 */
-
+.App{
+  overflow: hidden !important;
+}
 .container-fluid {
   max-width: 35cm;
   overflow: hidden;
@@ -517,13 +519,15 @@ display: flex;
   height: 400px;
   max-width: none;
   max-height: none;
-  
+  border: 2px solid rgb(80, 214, 80);
+
 
   width: 100%;
   overflow: visible;
   border-radius: 30px;
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
+
 
 @media only screen and (max-width: 800px) {
 .footer {
@@ -626,16 +630,17 @@ display: flex;
     top: 10cm;
   }
 }
-
+.quick{
+  position: relative;
+  padding-bottom: inherit;
+}
 .Socialicon {
   position: relative;
-padding-right: 20px;
-padding-left: 0px;
-  height: 0.9cm;
-  width: 0.9cm;
-  left: 1.2cm;
-  top: 5cm;
-  color: black;
+  font-size:25px;
+justify-content:space
+}
+.lorem{
+  margin: 3rem;
 }
 
 .Socialicon:hover{
