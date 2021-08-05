@@ -90,13 +90,8 @@ export default class Home extends Component {
         >
           Recent Discounts
         </h1>
-<<<<<<< HEAD
-<Row>
-        <Col xs="3" sm="3"md="3" >
-=======
         <Row>
           <Col xs="3" sm="3" md="3">
->>>>>>> 11a8a9059bea28c46736d71f9c1ec2fc5ffa55ec
             <Card>
               <Card.Img
                 variant="top"
@@ -119,15 +114,9 @@ export default class Home extends Component {
                 </Card.Text>
               </Card.Body>
             </Card>
-<<<<<<< HEAD
-     
-         </Col>
-      <Col xs="3" sm="3"  md="3">
-=======
           </Col>
 
           <Col xs="3" sm="3" md="3">
->>>>>>> 11a8a9059bea28c46736d71f9c1ec2fc5ffa55ec
             <Card>
               <Card.Img
                 variant="top"
