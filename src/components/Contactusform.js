@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Contactusgroup from "./img/Contactusgroup.png";
+import Contactusgroup from "../img/Contactusgroup.png";
 import { Card, Row, Col, Form, Container, Button } from "react-bootstrap";
 
 export default class Contactform extends Component {
@@ -16,18 +16,20 @@ export default class Contactform extends Component {
     return (
       <div>
         <Card className="contactCard">
+          <Card.Title>
+            <h3>Contact Us </h3>
+          </Card.Title>
           <Card.Body>
             <Container>
-              <Row>
-                <Col xs="12" md="6" lg="6">
-                  <h1 className="contactTitle">Contact Us</h1>
+              <Row style={{ textAlign: "center" }}>
+                <Col xs="12" sm="12" md="6" lg="6">
                   <img
                     src={Contactusgroup}
                     alt="contactUs"
                     className="contactImg"
                   />
                 </Col>
-                <Col xs="12" md="6" lg="6">
+                <Col xs="12" sm="12" md="6" lg="6">
                   <Form></Form>
                   <Form className="contactForm" onSubmit={this.handleSubmit}>
                     <div className="form-group">

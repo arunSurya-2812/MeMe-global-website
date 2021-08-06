@@ -1,16 +1,12 @@
+import React, { Component } from "react";
+import logo from "../img/logo.png";
 
-import logo from "./img/logo.png";
-import Ashoka from "./img/Ashoka.jpg";
-import { FaInstagram } from "react-icons/fa";
-import { FaTwitter } from "react-icons/fa";
-import { FaFacebook } from "react-icons/fa";
-import { FaLinkedinIn } from "react-icons/fa";
+import { Image } from "react-bootstrap";
 export default class Footer extends Component {
   render() {
     return (
       <>
         <footer class="footer">
-
           <div class="container">
             <div class="row">
               <div class="col-1 col-xs-11">
@@ -69,10 +65,9 @@ export default class Footer extends Component {
                 </div>
               </div>
             </div>
-       </div>
-          
-</footer>
-</>
-    )
+          </div>
+        </footer>
+      </>
+    );
   }
 }

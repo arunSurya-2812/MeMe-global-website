@@ -1,13 +1,13 @@
 import React from "react";
 import { Image, Row, Col, Card, Button } from "react-bootstrap";
+import { FaDownload } from "react-icons/fa";
 
 import "./Components.css";
 import Contactusform from "./Contactusform";
-import { FaDownload } from "react-icons/fa";
-import fab from "./img/fab.png";
-import fabproduct1 from "./img/fabproduct1.png";
-import fabproduct2 from "./img/fabproduct2.png";
-import fabproduct3 from "./img/fabproduct3.jpg";
+import fab from "../img/fab.png";
+import fabproduct1 from "../img/fabproduct1.png";
+import fabproduct2 from "../img/fabproduct2.png";
+import fabproduct3 from "../img/fabproduct3.jpg";
 
 export default function Fabrics() {
   return (
@@ -72,10 +72,8 @@ export default function Fabrics() {
         </Col>
       </Row>
       <br />
-      <Row>
-        <Col md="12" lg="12" sm="10" xs={4}>
-          <Button className="websiteButton">View Website</Button>
-        </Col>
+      <Row style={{ textAlign: "center" }}>
+        <Button className="websiteButton">View Website</Button>
       </Row>
       <br />
       <Contactusform />

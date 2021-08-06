@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col, Container } from "react-bootstrap";
-import Logo from "./img/logo.png";
+import Logo from "../img/logo.png";
 import "./Components.css";
 
 export default class Header extends Component {

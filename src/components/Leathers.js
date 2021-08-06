@@ -1,13 +1,13 @@
 import Contactusform from "./Contactusform";
 import React from "react";
 import { Image, Row, Col, Card, Button } from "react-bootstrap";
-
-import leather from "./img/leather.png";
-import leatherbag1 from "./img/leatherbag1.jpeg";
-import leatherbag2 from "./img/leatherbag2.jpeg";
-import leatherbag3 from "./img/leatherbag3.jpeg";
-import leathershoe from "./img/leathershoe.jpeg";
 import { FaDownload } from "react-icons/fa";
+
+import leather from "../img/leather.png";
+import leatherbag1 from "../img/leatherbag1.jpeg";
+import leatherbag2 from "../img/leatherbag2.jpeg";
+import leatherbag3 from "../img/leatherbag3.jpeg";
+import leathershoe from "../img/leathershoe.jpeg";
 import "./Components.css";
 
 export default function Knits() {
@@ -77,10 +77,8 @@ export default function Knits() {
       </Row>
       <br />
 
-      <Row>
-        <Col md="12" lg="12" xs={4} sm={8}>
-          <Button className="websiteButton">View Website</Button>
-        </Col>
+      <Row style={{ textAlign: "center" }}>
+        <Button className="websiteButton">View Website</Button>
       </Row>
       <br />
       <Contactusform />

@@ -129,26 +129,6 @@
   text-decoration-thickness: 6px;
 }
 
-.btn.focus,
-.btn:focus,
-.btn:hover {
-  text-decoration: none;
-  outline: none;
-}
-.btn {
-  top: 30px;
-  left: 140px;
-
-  display: inline-block;
-  font-weight: 400;
-  text-align: center;
-  cursor: pointer;
-
-  font-size: 16px;
-  line-height: 2;
-
-  position: absolute;
-}
 .hello {
   background-color: #707070;
   max-width: 24cm;
@@ -291,25 +271,24 @@
 }
 
 .card {
-  background: #ffffff 0% 0% no-repeat padding-box !important;
+  background: #ffffff 0% 0% no-repeat padding-box;
   box-shadow: 9px 3px 22px #00000029 !important;
   border-radius: 25px !important;
-  opacity: 1 !important;
+  opacity: 1;
   max-width: 100%;
   height: 7.5cm;
   width: 6cm;
   border: none;
   flex-basis: 200px;
-
   display: flex;
   word-wrap: inherit;
 }
 @media only screen and (max-width: 800px) {
   .card {
-    background: #ffffff 0% 0% no-repeat padding-box !important;
+    background: #ffffff 0% 0% no-repeat padding-box;
     box-shadow: 9px 3px 22px #00000029 !important;
     border-radius: 25px !important;
-    opacity: 1 !important;
+    opacity: 1;
     max-width: 100%;
     height: 5cm;
     width: 7cm;
@@ -322,7 +301,7 @@
 }
 @media only screen and (max-width: 400px) {
   .card {
-    background: #ffffff 0% 0% no-repeat padding-box !important;
+    background: #ffffff 0% 0% no-repeat padding-box;
     box-shadow: 9px 3px 22px #00000029 !important;
     border-radius: 25px !important;
     opacity: 1 !important;
@@ -430,7 +409,6 @@ h1 {
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
 
-
 @media only screen and (max-width: 800px) {
   .footer {
     transition: border-radius 0.3s, opacity 0.3s;
@@ -525,7 +503,7 @@ h1 {
     top: 10cm;
   }
 }
-.quick{
+.quick {
   position: relative;
   padding-bottom: inherit;
 }
@@ -547,9 +525,11 @@ h1 {
 
 /* customized component style */
 
-.imgCard {
+.imgfiberCard {
+  background-image: url("../img/yarn.png") !important;
+  background-size: cover;
   width: 100%;
-  height: 700px;
+  height: max-content;
   border: none;
   border-color: #ffffff;
   padding: 0%;
@@ -557,7 +537,7 @@ h1 {
 
 .bgImg {
   width: 100%;
-  height: 700px;
+  height: max-content;
   border-radius: 20px;
 }
 .cardTitle {
@@ -569,32 +549,28 @@ h1 {
 .contentCard {
   width: 70%;
   height: max-content;
-  background-color: #442211 0% 0% no-repeat padding-box;
+  background: transparent;
   backdrop-filter: blur(30px);
   -webkit-backdrop-filter: blur(30px);
-  top: 40%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  position: absolute;
-  margin: 0;
+  opacity: 1;
+  margin: 3em auto;
   color: #0c0b10;
+  text-align: justify;
+  font-family: Poppins, Regular;
+  text-align: center;
 }
+
 .cardContent {
   text-align: justify;
   font-family: Poppins, Regular;
 }
 
 .cardButton {
-  width: 40%;
+  width: max-content;
   height: 50px;
   border-radius: 40px;
   color: #106cc4;
-  top: 123%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  margin: 0;
+  margin: auto;
   font-size: 20px;
   font-weight: 500;
   font-family: Poppins, Regular;
@@ -612,7 +588,7 @@ h1 {
 .websiteButton {
   color: #ffffff;
   background-color: #c62525 !important;
-  width: 240px;
+  width: max-content;
   height: 53px;
   opacity: 1;
   border-radius: 40px;
@@ -620,73 +596,66 @@ h1 {
   font-size: 20px;
   font-family: Poppins, Regular;
   box-shadow: 9px 3px 50px #00000029 !important;
-  margin: 3cm 1cm;
-  top: 50%;
-  left: 35%;
+  margin: auto;
 }
 
 .contactCard {
-  height: 400px;
+  height: max-content;
   width: 100%;
   align-items: center;
   background-color: #129652 !important;
   border-radius: 45px;
-  top: 5cm;
+  margin: auto;
   color: #ffffff;
   box-shadow: 9px 3px 22px #00000029 !important;
 }
 
 .contactImg {
-  width: 527px;
-  height: 375px;
-  position: absolute;
-  margin: 0;
-  top: 70%;
-  left: 50%;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  position: absolute;
+  width: max-content;
+  height: 235px;
+  margin: auto;
+  background: transparent;
+  opacity: 1 !important;
 }
 
 .contactForm {
   font-family: Poppins, Regular;
   font-weight: 100;
-  margin-left: 20px;
-  width: 8cm;
+  margin: auto;
+  width: max-content;
+  text-align: center;
+  height: max-content;
 }
 
 .Contactusbtn {
   border-radius: 20px;
-  width: 100px;
+  width: max-content;
   background-color: rgb(49, 170, 218);
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 15px;
   border: none !important;
   color: #ffffff;
-  top: 110%;
-  left: 40%;
-  margin: 0;
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  position: absolute;
+  margin: auto;
+  position: relative;
 }
 
 .form-control {
   display: block;
   width: 100%;
-  height: 34px;
+  height: max-content;
   padding: 6px 12px;
   font-size: 14px;
   line-height: 1.42857143;
   color: #555;
-  top: 2px;
+  /* top: 2px; */
   background-color: #fff;
   background-image: none;
   border: 1px solid #ccc;
   border-radius: 4px;
   box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
   transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+  margin: auto;
 }
 
 .flex-container {
@@ -695,7 +664,7 @@ h1 {
 }
 
 .search {
-  width: 30%;
+  width: max-content;
 }
 
 .search .searchBar {

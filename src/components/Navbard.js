@@ -8,7 +8,7 @@ function Navboard() {
   return (
     <div>
       <Container>
-        <Navbar collapseOnSelect expand="md">
+        <Navbar collapseOnSelect expand="lg">
           <Navbar.Toggle aria-controls="responsive-navbar-nav" />
           <Navbar.Collapse className="hello">
             <Nav className="Navgg">
