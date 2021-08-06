@@ -102,9 +102,9 @@ export default class Fabrics extends React.Component {
               <Card className="imgFabricsCard">
                 <Card className="contentCard">
                   <Card.Body>
-                    <h1 className="cardTitle">ABOUT US</h1>
+                    <h1 className="cardTitle" style={{color:"white",fontWeight:"800"}}>ABOUT US</h1>
                     <Card.Text className="cardContent">
-                      <p>
+                      <p style={{ color: "white", fontWeight: "500" }}>
                         We are India’s leading manufacturers of leather goods
                         expertise in export of high end quality of finished
                         Leather Bags, footwear and various leather accessories.
@@ -131,7 +131,10 @@ export default class Fabrics extends React.Component {
                         finishing.
                       </p>
                     </Card.Text>
-                    <Button className="cardButton">
+                    <Button className="cardButton" style={{
+                        color: "#016938"
+                       
+                      }}>
                       <FaDownload className="pdfIcon" />
                       Download PDF
                     </Button>

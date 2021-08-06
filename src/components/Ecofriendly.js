@@ -2,8 +2,7 @@ import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 
 import axios from "axios";
-import Eco1 from "../img/Eco1.jpg";
-import Linen from "../img/Linen.jpg";
+import Linen from "../img/Linen.jpg"
 import cotton1 from "../img/cotton1.jpg";
 import bananafibre from "../img/bananafibre.jpg";
 import fabproduct4 from "../img/fabproduct4.png";
@@ -132,7 +131,13 @@ export default class Ecofriendly extends React.Component {
                         finishing.
                       </p>
                     </Card.Text>
-                    <Button className="cardButton">
+                    <Button
+                      className="cardButton"
+                      style={{
+                        color: "#016938"
+                       
+                      }}
+                    >
                       <FaDownload className="pdfIcon" />
                       Download PDF
                     </Button>

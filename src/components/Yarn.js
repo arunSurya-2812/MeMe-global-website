@@ -111,8 +111,12 @@ export default class Yarn extends React.Component {
                         Leather Bags, footwear and various leather accessories.
                         To gain our Customer’s trust, expectations and
                         requirements and build a long term relationship with
-                        them is our main Objective. We are located in CHENNAI
-                        RANIPET INDIA MEME INDIA. We offer leather goods that
+                        them is our main Objective.
+                        <br />
+                        We
+                        <br /> are located in CHENNAI RANIPET INDIA
+                        <br /> MEME INDIA.
+                        <br /> We offer leather goods that
                         are both fashionable and sustainable. We as leather and
                         leather goods exporter in India, ship to overseas
                         destinations like Canada, Germany, France, Australia,

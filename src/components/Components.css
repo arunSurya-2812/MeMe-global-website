@@ -547,7 +547,7 @@ h1 {
   height: max-content;
   background: transparent;
   backdrop-filter: blur(30px);
-  -webkit-backdrop-filter: blur(30px);
+  -webkit-backdrop-filter: blur(10px);
   opacity: 1;
   margin: 3em auto;
   color: #0c0b10;

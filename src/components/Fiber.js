@@ -102,7 +102,7 @@ export default class Fiber extends React.Component {
               <Card className="imgfiberCard">
                 <Card className="contentCard">
                   <Card.Body>
-                    <h1 className="cardTitle">ABOUT US</h1>
+                    <h1 className="cardTitle" style={{fontWeight:"800"}}>ABOUT US</h1>
                     <Card.Text className="cardContent">
                       We are India’s leading manufacturers of leather goods
                       expertise in export of high end quality of finished

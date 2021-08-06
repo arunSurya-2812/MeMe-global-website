@@ -30,6 +30,7 @@ export default function App() {
           <Route path="/Brands" component={Brands}></Route>
           <Route path="/Ecofriendly" component={Ecofriendly}></Route>
         </Router>
+        <br/>
         <Footer />
       </Container>
     </div>

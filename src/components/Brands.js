@@ -101,7 +101,7 @@ export default class Brands extends React.Component {
               <Card className="imgBrandsCard">
                 <Card className="contentCard">
                   <Card.Body>
-                    <h1 className="cardTitle">ABOUT US</h1>
+                    <h1 className="cardTitle" style={{fontWeight:"800"}}>ABOUT US</h1>
                     <Card.Text className="cardContent">
                       <p>
                         We are India’s leading manufacturers of leather goods

@@ -133,7 +133,7 @@ export default class Leathers extends React.Component {
                         finishing.
                       </p>
                     </Card.Text>
-                    <Button className="cardButton">
+                    <Button className="cardButton" style={{ color: "#F01212" }}>
                       <FaDownload className="pdfIcon" />
                       Download PDF
                     </Button>
