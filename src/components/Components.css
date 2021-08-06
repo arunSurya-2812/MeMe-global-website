@@ -448,53 +448,6 @@ h1 {
     box-shadow: 9px 2px 22px 12px #00000029 !important;
   }
 }
-@media only screen and (max-width: 500px) {
-  .HomeRow {
-    position: relative;
-    bottom: 0cm;
-    left: 4cm;
-    right: 10px;
-    top: 0px;
-  }
-}
-.HomeRow {
-  text-decoration: none;
-}
-@media only screen and (max-width: 450px) {
-  .HomeRow {
-    position: relative;
-    bottom: 70cm !important;
-    left: 1cm !important;
-    right: 10px;
-    top: 0px;
-  }
-}
-
-@media only screen and (max-width: 500px) {
-  .Asokha {
-    position: relative;
-    bottom: 0cm;
-    left: 4cm;
-    right: 10px;
-    top: 0px;
-  }
-}
-.Asokha {
-  text-decoration: none;
-}
-@media only screen and (max-width: 450px) {
-  .Asokha {
-    position: relative;
-    bottom: 70cm !important;
-    left: 1cm !important;
-    right: 10px;
-    top: 0px;
-    height: 3cm;
-    width: 3cm;
-    transition: cubic-bezier(0.075, 0.82, 0.165, 1);
-  }
-}
-
 .MeMeFooter {
   left: 1cm;
   top: 0.4cm;
@@ -518,31 +471,17 @@ h1 {
     min-height: 0.5cm;
   }
 }
-
-@media only screen and (max-width: 600px) {
-  .Socialicon {
-    position: relative;
-    top: 10cm;
-  }
+@media only screen and (max-width: 500px),(max-width:"400px"){
+.AsokhaFooter{
+height: 100%;
+width: 100%;
 }
-.quick{
-  position: relative;
-  padding-bottom: inherit;
-}
-.Socialicon {
-  position: relative;
-  padding-right: 20px;
-  padding-left: 0px;
-  height: 0.9cm;
-  width: 0.9cm;
-  left: 1.2cm;
-  top: 5cm;
-  color: black;
 }
 
-.Socialicon:hover {
-  color: blue;
+.lorem{
+  margin: 3rem;
 }
+
 /*Footer  css ends*/
 
 /* customized component style */
