@@ -46,7 +46,6 @@ export default class Footer extends Component {
                           </p>
                         </div>
                       </div>
-                    
                     </div>
                   </div>
                   <div class="col align-self-center">

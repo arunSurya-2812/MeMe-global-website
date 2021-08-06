@@ -476,7 +476,61 @@ h1 {
   border-color: #ffffff;
   padding: 0%;
 }
+.imgBrandsCard {
+  background-image: url("../img/yarncopy.jpg") !important;
+  background-size: cover;
+  width: 100%;
+  height: max-content;
+  border: none;
+  border-color: #ffffff;
+  padding: 0%;
+}
+.imgEcoCard {
+  background-image: url("../img/Eco1.jpg") !important;
+  background-size: cover;
+  width: 100%;
+  height: max-content;
+  border: none;
+  border-color: #ffffff;
+  padding: 0%;
+}
+.imgLeathersCard {
+  background-image: url("../img/leather.png") !important;
+  background-size: cover;
+  width: 100%;
+  height: max-content;
+  border: none;
+  border-color: #ffffff;
+  padding: 0%;
+}
+.imgKnitsCard {
+  background-image: url("../img/yarncopy.jpg") !important;
+  background-size: cover;
+  width: 100%;
+  height: max-content;
+  border: none;
+  border-color: #ffffff;
+  padding: 0%;
+}
+.imgFabricsCard {
+  background-image: url("../img/fab.png") !important;
+  background-size: cover;
+  width: 100%;
+  height: max-content;
+  border: none;
+  border-color: #ffffff;
+  padding: 0%;
+}
 
+.imgYarnCard {
+  background-image: url("../img/colorthreds.jpg") !important;
+  background-size: cover;
+  width: 100%;
+  height: max-content;
+  border: none;
+  border-color: #ffffff;
+  padding: 0%;
+}
 .bgImg {
   width: 100%;
   height: max-content;

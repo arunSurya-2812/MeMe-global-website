@@ -174,7 +174,7 @@ export default class Fiber extends React.Component {
               <h1> Lotus</h1>
             </Col>
           </Row>
-         <Row style={{ textAlign: "center" }}>
+          <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>
           </Row>
           <br />
