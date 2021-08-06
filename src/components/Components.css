@@ -471,11 +471,23 @@ h1 {
     min-height: 0.5cm;
   }
 }
+.App{
+  overflow: hidden;
+}
+@media only screen and (max-width: 500px),(max-width:"400px"){
+  .Contact{
+    padding-left: 10px;
+  }
+}
 @media only screen and (max-width: 500px),(max-width:"400px"){
 .AsokhaFooter{
 height: 100%;
 width: 100%;
+align-items: flex-start;
 }
+}
+.Social:hover{
+color: brown;
 }
 
 .lorem{

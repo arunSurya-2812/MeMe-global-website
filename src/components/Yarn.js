@@ -8,12 +8,97 @@ import cotton1 from "./img/cotton1.jpg";
 import bananafibre from "./img/bananafibre.jpg";
 import fabproduct4 from "./img/fabproduct4.png";
 import fabproduct1 from "./img/fabproduct1.png";
+import axios from "axios";
+import { Image, Row, Col, Card, Button,Container } from "react-bootstrap";
+import { render } from "react-dom";
 
-import { Image, Row, Col, Card, Button } from "react-bootstrap";
+export default class Yarn extends React.Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      text: "",
+      suggestions: [],
+      items: [],
+    };
+  }
 
-export default function Yarn() {
+  componentDidMount = () => {
+    let config = {
+      url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
+      method: "GET",
+    };
+    axios(config)
+      .then((res) => {
+        let data = res.data,
+          arrItems = [];
+        data.forEach((element) => {
+          arrItems.push(element.mainCatName);
+        });
+        this.setState({ items: arrItems }, () => {});
+      })
+      .catch((err) => console.log(err));
+  };
+
+  handleTextChange = (e) => {
+    const value = e.target.value;
+    let suggestions = [];
+    if (value.length > 0) {
+      const regex = new RegExp(`^${value}`, "i");
+      suggestions = this.state.items.sort().filter((v) => regex.test(v));
+    }
+    this.setState(() => ({
+      suggestions,
+      text: value,
+    }));
+  };
+
+  suggestionSelected(value) {
+    this.setState(() => ({
+      text: value,
+      suggestions: [],
+    }));
+  }
+
+  renderSuggestions() {
+    const { suggestions } = this.state;
+    if (suggestions.length === 0) {
+      return null;
+    }
+    
+    return (
+      <div className="srchList">
+        <ul>
+          {suggestions.map((item) => (
+            <li onClick={() => this.suggestionSelected(item)}>{item}</li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+  render(){
   return (
-    <>
+    
+  
+    <div>
+    <Container>
+      <div className="flex-container">
+        <div className="search">
+          <div className="searchBar">
+            <input
+              type="text"
+              value={this.state.text}
+              placeholder="Looking for..."
+              className="searchInput"
+              onChange={(e) => this.handleTextChange(e)}
+            />
+            <button type="button" className="searchButton">
+              SEARCH
+            </button>
+          </div>
+        </div>
+      </div>
+     
       <Row>
         <Col md="12" lg="12">
           <Card className="imgCard">
@@ -32,8 +117,9 @@ export default function Yarn() {
                   expertise in export of high end quality of finished Leather
                   Bags, footwear and various leather accessories. To gain our
                   Customer’s trust, expectations and requirements and build a
-                  long term relationship with them is our main Objective. We are
-                  located in CHENNAI RANIPET INDIA MEME INDIA. We offer leather
+                  long term relationship with them is our main Objective.<br/>
+                  We<br/> are
+                  located in CHENNAI RANIPET INDIA<br/> MEME INDIA.<br/>  We offer leather
                   goods that are both fashionable and sustainable. We as leather
                   and leather goods exporter in India, ship to overseas
                   destinations like Canada, Germany, France, Australia, Russia,
@@ -86,12 +172,15 @@ export default function Yarn() {
       </Row>
       <br />
       <Row>
-        <Col md="11" lg="12" sm="10" xs={4}>
+        
+      <Col md="12" lg="12" sm="10" xs={1}>
           <Button className="websiteButton">View Website</Button>
         </Col>
-      </Row>
+      </Row>      
       <br />
-      <Contactusform />
-    </>
-  );
+          <Contactusform />
+        </Container>
+      </div>
+    );
+  }
 }

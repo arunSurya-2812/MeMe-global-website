@@ -1,6 +1,6 @@
 import React from "react";
-import { Image, Row, Col, Card, Button } from "react-bootstrap";
-
+import { Image, Row, Col, Card, Button,Container } from "react-bootstrap";
+import axios from "axios";
 import Eco1 from "./img/Eco1.jpg";
 import Linen from "./img/Linen.jpg";
 import cotton1 from "./img/cotton1.jpg";
@@ -9,9 +9,93 @@ import fabproduct4 from "./img/fabproduct4.png";
 import { FaDownload } from "react-icons/fa";
 import Contactusform from "./Contactusform";
 
-export default function Ecofriendly() {
+export default class Ecofriendly extends React.Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      text: "",
+      suggestions: [],
+      items: [],
+    };
+  }
+
+  componentDidMount = () => {
+    let config = {
+      url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
+      method: "GET",
+    };
+    axios(config)
+      .then((res) => {
+        let data = res.data,
+          arrItems = [];
+        data.forEach((element) => {
+          arrItems.push(element.mainCatName);
+        });
+        this.setState({ items: arrItems }, () => {});
+      })
+      .catch((err) => console.log(err));
+  };
+
+  handleTextChange = (e) => {
+    const value = e.target.value;
+    let suggestions = [];
+    if (value.length > 0) {
+      const regex = new RegExp(`^${value}`, "i");
+      suggestions = this.state.items.sort().filter((v) => regex.test(v));
+    }
+    this.setState(() => ({
+      suggestions,
+      text: value,
+    }));
+  };
+
+  suggestionSelected(value) {
+    this.setState(() => ({
+      text: value,
+      suggestions: [],
+    }));
+  }
+
+  renderSuggestions() {
+    const { suggestions } = this.state;
+    if (suggestions.length === 0) {
+      return null;
+    }
+    return (
+      <div className="srchList">
+        <ul>
+          {suggestions.map((item) => (
+            <li onClick={() => this.suggestionSelected(item)}>{item}</li>
+          ))}
+        </ul>
+      </div>
+    );
+  }
+  render(){
   return (
-    <>
+    
+  
+    <div>
+    <Container>
+      <div className="flex-container">
+        <div className="search">
+          <div className="searchBar">
+            <input
+              type="text"
+              value={this.state.text}
+              placeholder="Looking for..."
+              className="searchInput"
+              onChange={(e) => this.handleTextChange(e)}
+            />
+            <button type="button" className="searchButton">
+              SEARCH
+            </button>
+          </div>
+        </div>
+      </div>
+      <div>
+        <p>{this.renderSuggestions()}</p>
+      </div>
       <Row>
         <Col md="12" lg="12">
           <Card className="imgCard">
@@ -26,8 +110,9 @@ export default function Ecofriendly() {
                   expertise in export of high end quality of finished Leather
                   Bags, footwear and various leather accessories. To gain our
                   Customer’s trust, expectations and requirements and build a
-                  long term relationship with them is our main Objective. We are
-                  located in CHENNAI RANIPET INDIA MEME INDIA. We offer leather
+                  long term relationship with them is our main Objective.<br/>
+                  We<br/> are
+                  located in CHENNAI RANIPET INDIA<br/> MEME INDIA.<br/>  We offer leather
                   goods that are both fashionable and sustainable. We as leather
                   and leather goods exporter in India, ship to overseas
                   destinations like Canada, Germany, France, Australia, Russia,
@@ -53,19 +138,19 @@ export default function Ecofriendly() {
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
-        <Col md="3" lg="2" sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
           <h1>FABRICS</h1>
         </Col>
-        <Col md="3" lg="2" sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={Linen} className="Fiberproductcol2" roundedCircle />
           <h1> SUSTAINABLE FABRICS</h1>
         </Col>
-        <Col md="3" lg="2" sm="4">
+        <Col md="3" lg="3" sm="4">
           <Image src={fabproduct4} className="Fiberproductcol3" roundedCircle />
           <h1> ARTISAN MADE</h1>
         </Col>
-        <Col md="3" lg="2" sm="12">
+        <Col md="3" lg="3" sm="12">
           <Image src={bananafibre} className="Fiberproductcol3" roundedCircle />
           <h1>FABRICS </h1>
           <h1> CRAFTSME</h1>
@@ -74,12 +159,15 @@ export default function Ecofriendly() {
       <br />
 
       <Row>
-        <Col md="12" lg="12" sm="10" xs={4}>
+        
+      <Col md="12" lg="12" sm="10" xs={1}>
           <Button className="websiteButton">View Website</Button>
         </Col>
       </Row>
       <br />
-      <Contactusform />
-    </>
-  );
+          <Contactusform />
+        </Container>
+      </div>
+    );
+  }
 }

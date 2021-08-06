@@ -117,8 +117,11 @@ export default class Fiber extends React.Component {
                       Leather Bags, footwear and various leather accessories. To
                       gain our Customer’s trust, expectations and requirements
                       and build a long term relationship with them is our main
-                      Objective. We are located in CHENNAI RANIPET INDIA MEME
-                      INDIA. We offer leather goods that are both fashionable
+                      Objective. <br />
+                      We
+                      <br /> are located in CHENNAI RANIPET INDIA
+                      <br /> MEME INDIA.
+                      <br /> We offer leather goods that are both fashionable
                       and sustainable. We as leather and leather goods exporter
                       in India, ship to overseas destinations like Canada,
                       Germany, France, Australia, Russia, USA and other European
@@ -184,7 +187,8 @@ export default class Fiber extends React.Component {
           </Row>
           <br />
           <Row>
-            <Col md="11" lg="12" sm="11" xs={4}>
+            
+      <Col md="12" lg="12" sm="10" xs={1}>
               <Button className="websiteButton">View Website</Button>
             </Col>
           </Row>

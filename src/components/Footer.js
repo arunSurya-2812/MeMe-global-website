@@ -28,6 +28,7 @@ export default class Footer extends Component {
                       presentation.
                     </p>
                   </div>
+               
                   <div class="row ">
                     <div class="col ">
                       <p>
@@ -48,6 +49,7 @@ export default class Footer extends Component {
                           </div>
                         </div>
                       </div>
+                    
                     </div>
                     <div class="col align-self-center">
                       <Image
