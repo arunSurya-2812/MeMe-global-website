@@ -162,16 +162,8 @@ render(){
       </Row>
       <br />
 
-<<<<<<< HEAD
-      <Row>
-        
-      <Col md="12" lg="12" sm="10" xs={1}>
-          <Button className="websiteButton">View Website</Button>
-        </Col>
-=======
       <Row style={{ textAlign: "center" }}>
         <Button className="websiteButton">View Website</Button>
->>>>>>> b0e1727b5f6f4312a858eb6dfc3eba4002cd2b43
       </Row>
 
       <br />

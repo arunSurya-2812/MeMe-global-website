@@ -2,6 +2,9 @@ import "./Components.css";
 import { FaDownload } from "react-icons/fa";
 import Contactusform from "./Contactusform";
 import React from "react";
+
+import { Image, Row, Col, Card, Button ,Container} from "react-bootstrap";
+import axios from "axios";
 import colorthreds from "../img/colorthreds.jpg";
 import Linen from "../img/Linen.jpg";
 import cotton1 from "../img/cotton1.jpg";
