@@ -1,25 +1,25 @@
-import Essential from "./img/Essential.jpg";
+import Essential from "../img/Essential.jpg";
 
-import Bags from "./img/Bags.png";
-import cups from "./img/cups.png";
+import Bags from "../img/Bags.png";
+import cups from "../img/cups.png";
 
-import shoes from "./img/shoes.png";
-import accessories from "./img/accessories.jpg";
-import jacket from "./img/jacket.png";
-import Leather1 from "./img/Leather1.jpg";
+import shoes from "../img/shoes.png";
+import accessories from "../img/accessories.jpg";
+import jacket from "../img/jacket.png";
+import Leather1 from "../img/Leather1.jpg";
 
-import Menproduct from "./img/Menproduct.jpg";
-import Womenproduct from "./img/Womenproduct.jpg";
-import Kidsproduct from "./img/Kidsproduct.jpg";
-import Casualproduct from "./img/Casualproduct.png";
+import Menproduct from "../img/Menproduct.jpg";
+import Womenproduct from "../img/Womenproduct.jpg";
+import Kidsproduct from "../img/Kidsproduct.jpg";
+import Casualproduct from "../img/Casualproduct.png";
 
-import img1 from "./img/img1.jpg";
-import img2 from "./img/img2.jpg";
-import img3 from "./img/img3.jpg";
+import img1 from "../img/img1.jpg";
+import img2 from "../img/img2.jpg";
+import img3 from "../img/img3.jpg";
 import React, { Component } from "react";
 import "./Components.css";
-import Nazca from "./img/Nazca.svg";
-import Ophelia from "./img/Ophelia.png";
+import Nazca from "../img/Nazca.svg";
+import Ophelia from "../img/Ophelia.png";
 import { Row, Col, Carousel, Image, Card } from "react-bootstrap";
 import Allimage from "./Allimage";
 import { FaArrowCircleRight } from "react-icons/fa";

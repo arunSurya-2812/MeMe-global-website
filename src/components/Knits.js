@@ -2,11 +2,11 @@ import React from "react";
 import { Image, Row, Col, Card, Button,Container } from "react-bootstrap";
 
 import "./Components.css";
-import Linen from "./img/Linen.jpg";
-import cotton1 from "./img/cotton1.jpg";
-import bananafibre from "./img/bananafibre.jpg";
-import fabproduct4 from "./img/fabproduct4.png";
-import yarncopy from "./img/yarncopy.jpg";
+import Linen from "../img/Linen.jpg";
+import cotton1 from "../img/cotton1.jpg";
+import bananafibre from "../img/bananafibre.jpg";
+import fabproduct4 from "../img/fabproduct4.png";
+import yarncopy from "../img/yarncopy.jpg";
 import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
 import axios from "axios";
@@ -162,11 +162,16 @@ render(){
       </Row>
       <br />
 
+<<<<<<< HEAD
       <Row>
         
       <Col md="12" lg="12" sm="10" xs={1}>
           <Button className="websiteButton">View Website</Button>
         </Col>
+=======
+      <Row style={{ textAlign: "center" }}>
+        <Button className="websiteButton">View Website</Button>
+>>>>>>> b0e1727b5f6f4312a858eb6dfc3eba4002cd2b43
       </Row>
 
       <br />

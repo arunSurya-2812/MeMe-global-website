@@ -1,5 +1,6 @@
 import Contactusform from "./Contactusform";
 import React from "react";
+<<<<<<< HEAD
 import { Image, Row, Col, Card, Button,Container } from "react-bootstrap";
 import axios from "axios";
 import leather from "./img/leather.png";
@@ -7,7 +8,16 @@ import leatherbag1 from "./img/leatherbag1.jpeg";
 import leatherbag2 from "./img/leatherbag2.jpeg";
 import leatherbag3 from "./img/leatherbag3.jpeg";
 import leathershoe from "./img/leathershoe.jpeg";
+=======
+import { Image, Row, Col, Card, Button } from "react-bootstrap";
+>>>>>>> b0e1727b5f6f4312a858eb6dfc3eba4002cd2b43
 import { FaDownload } from "react-icons/fa";
+
+import leather from "../img/leather.png";
+import leatherbag1 from "../img/leatherbag1.jpeg";
+import leatherbag2 from "../img/leatherbag2.jpeg";
+import leatherbag3 from "../img/leatherbag3.jpeg";
+import leathershoe from "../img/leathershoe.jpeg";
 import "./Components.css";
 
 export default class Leathers extends React.Component {
@@ -161,6 +171,7 @@ render(){
       </Row>
       <br />
 
+<<<<<<< HEAD
       <Row>
         
       <Col md="12" lg="12" sm="10" xs={1}>
@@ -173,4 +184,13 @@ render(){
       </div>
     );
   }
+=======
+      <Row style={{ textAlign: "center" }}>
+        <Button className="websiteButton">View Website</Button>
+      </Row>
+      <br />
+      <Contactusform />
+    </>
+  );
+>>>>>>> b0e1727b5f6f4312a858eb6dfc3eba4002cd2b43
 }

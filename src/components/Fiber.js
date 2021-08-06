@@ -3,12 +3,12 @@ import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 
 import axios from "axios";
 import "./Components.css";
-import yarn from "./img/yarn.png";
-import Linen from "./img/Linen.jpg";
-import cotton1 from "./img/cotton1.jpg";
-import bananafibre from "./img/bananafibre.jpg";
-import fabproduct4 from "./img/fabproduct4.png";
-import fabproduct1 from "./img/fabproduct1.png";
+import yarn from "../img/yarn.png";
+import Linen from "../img/Linen.jpg";
+import cotton1 from "../img/cotton1.jpg";
+import bananafibre from "../img/bananafibre.jpg";
+import fabproduct4 from "../img/fabproduct4.png";
+import fabproduct1 from "../img/fabproduct1.png";
 import { FaDownload } from "react-icons/fa";
 import Contactusform from "./Contactusform";
 
@@ -100,18 +100,11 @@ export default class Fiber extends React.Component {
           </div>
           <Row>
             <Col md="12" lg="12">
-              <Card className="imgCard">
-                <Card.Img
-                  src={yarn}
-                  alt="Fiber-main"
-                  className="bgImg"
-                ></Card.Img>
-              </Card>
-              <Card className="contentCard">
-                <Card.Body>
-                  <h1 className="cardTitle">ABOUT US</h1>
-                  <Card.Text className="cardContent">
-                    <p>
+              <Card className="imgfiberCard">
+                <Card className="contentCard">
+                  <Card.Body>
+                    <h1 className="cardTitle">ABOUT US</h1>
+                    <Card.Text className="cardContent">
                       We are India’s leading manufacturers of leather goods
                       expertise in export of high end quality of finished
                       Leather Bags, footwear and various leather accessories. To
@@ -134,13 +127,13 @@ export default class Fiber extends React.Component {
                       been a key element in growing our business. This facility
                       has multiplied its capacity to serve as our hub for
                       leather sourcing and finishing.
-                    </p>
-                  </Card.Text>
-                  <Button className="cardButton">
-                    <FaDownload className="pdfIcon" />
-                    Download PDF
-                  </Button>
-                </Card.Body>
+                    </Card.Text>
+                    <Button className="cardButton">
+                      <FaDownload className="pdfIcon" />
+                      Download PDF
+                    </Button>
+                  </Card.Body>
+                </Card>
               </Card>
             </Col>
           </Row>
@@ -174,7 +167,6 @@ export default class Fiber extends React.Component {
             </Col>
           </Row>
           <br />
-
           <Row style={{ textAlign: "center" }}>
             <Col md="12" lg="12" sm="12">
               <Image
@@ -186,11 +178,16 @@ export default class Fiber extends React.Component {
             </Col>
           </Row>
           <br />
+<<<<<<< HEAD
           <Row>
             
       <Col md="12" lg="12" sm="10" xs={1}>
               <Button className="websiteButton">View Website</Button>
             </Col>
+=======
+          <Row style={{ textAlign: "center" }}>
+            <Button className="websiteButton">View Website</Button>
+>>>>>>> b0e1727b5f6f4312a858eb6dfc3eba4002cd2b43
           </Row>
           <br />
           <Contactusform />

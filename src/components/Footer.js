@@ -54,7 +54,11 @@ export default class Footer extends Component {
                     <div class="col align-self-center">
                       <Image
                         src={Ashoka}
-                        style={{ borderRadius: "160px",height:"4cm",width:"4cm" }}
+                        style={{
+                          borderRadius: "160px",
+                          height: "4cm",
+                          width: "4cm",
+                        }}
                         className="AsokhaFooter"
                       />
                     </div>
@@ -80,15 +84,15 @@ export default class Footer extends Component {
                       <a href="https://www.instagram.com/">
                         <FaInstagram />
                       </a>
-                      
+
                       <a href="https://twitter.com/login">
-                        <FaTwitter  />
+                        <FaTwitter />
                       </a>
                       <a href="https://www.facebook.com/login/web/">
-                        <FaFacebook  />
+                        <FaFacebook />
                       </a>
                       <a href="https://www.linkedin.com/">
-                        <FaLinkedinIn  />
+                        <FaLinkedinIn />
                       </a>
                     </div>
                   </div>
