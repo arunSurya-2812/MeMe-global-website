@@ -134,7 +134,6 @@ export default class Fiber extends React.Component {
               </Card>
             </Col>
           </Row>
-          <br />
           <Row style={{ textAlign: "center" }}>
             <h1>Our Products</h1>
             <Col md="3" lg="2" sm="4">
@@ -163,7 +162,6 @@ export default class Fiber extends React.Component {
               <h1> Silk</h1>
             </Col>
           </Row>
-          <br />
           <Row style={{ textAlign: "center" }}>
             <Col md="12" lg="12" sm="12">
               <Image
@@ -174,7 +172,6 @@ export default class Fiber extends React.Component {
               <h1> Lotus</h1>
             </Col>
           </Row>
-          <br />
           <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>
           </Row>

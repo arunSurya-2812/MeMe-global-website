@@ -21,7 +21,7 @@ export default class Contactform extends Component {
           </Card.Title>
           <Card.Body>
             <Container>
-              <Row style={{ textAlign: "center" }}>
+              <Row>
                 <Col xs="12" sm="12" md="6" lg="6">
                   <img
                     src={Contactusgroup}

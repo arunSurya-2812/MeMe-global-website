@@ -539,9 +539,9 @@ h1 {
 }
 
 .contactCard {
-  height: max-content;
+  height: fit-content;
   width: 100%;
-  align-items: center;
+  text-align: center;
   background-color: #129652 !important;
   border-radius: 45px;
   margin: auto;
