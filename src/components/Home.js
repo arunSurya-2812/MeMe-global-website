@@ -28,7 +28,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-        <Carousel style={{ textAlign: "center" }}>
+       <Carousel style={{ textAlign: "center" }}>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
@@ -65,7 +65,9 @@ export default class Home extends Component {
               <FaArrowCircleRight className="icondnwld" />
             </button>
           </Carousel.Item>
-        </Carousel>
+    </Carousel>
+
+
         <Allimage />
         <Row className="Sponsers">
           <Col className="spon">

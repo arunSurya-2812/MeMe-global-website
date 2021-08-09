@@ -6,7 +6,6 @@ import Linen from "../img/Linen.jpg";
 import cotton1 from "../img/cotton1.jpg";
 import bananafibre from "../img/bananafibre.jpg";
 import fabproduct4 from "../img/fabproduct4.png";
-import yarncopy from "../img/yarncopy.jpg";
 import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
 import axios from "axios";

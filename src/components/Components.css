@@ -32,22 +32,29 @@
   width: 100%;
   background-color: #707070;
   position: relative;
-  height: 1.4cm;
+  height: 1.5cm;
   min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   display: flex;
   flex-direction: column;
-}
-
-.Navgg {
-  color: #ffffff;
+  
   font-family: "Poppins", Regular;
   font-size: 21px;
+ 
+}
+/*.Navgg {
   position: relative;
   width: 100%;
-}
+  word-wrap: break-word;
+}*/
+#basic-navbar-nav{
+  background-color: #707070 !important;
+  border: none !important;
 
+
+  
+}
 #nav-Dropdown {
   color: #129652 !important;
   top: 0.6cm;
@@ -131,8 +138,7 @@
 
 .hello {
   background-color: #707070;
-  max-width: 24cm;
-  min-width: 11cm;
+
   bottom: 0.1cm;
   max-height: fit-content;
   position: relative;

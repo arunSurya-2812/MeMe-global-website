@@ -9,9 +9,9 @@ function Navboard() {
     <div>
       <Container>
         <Navbar collapseOnSelect expand="lg">
-          <Navbar.Toggle aria-controls="responsive-navbar-nav" />
-          <Navbar.Collapse className="hello">
-            <Nav className="Navgg">
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
+          <Navbar.Collapse id="basic-navbar-nav">
+            <Nav >
               <LinkContainer to="/">
                 <Nav.Link className="nav-item nav-link mx-2">
                   <p>Home</p>

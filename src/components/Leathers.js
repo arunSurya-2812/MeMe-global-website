@@ -5,7 +5,6 @@ import { FaDownload } from "react-icons/fa";
 
 import axios from "axios";
 
-import leather from "../img/leather.png";
 import leatherbag1 from "../img/leatherbag1.jpeg";
 import leatherbag2 from "../img/leatherbag2.jpeg";
 import leatherbag3 from "../img/leatherbag3.jpeg";
