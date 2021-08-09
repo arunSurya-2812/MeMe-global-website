@@ -402,8 +402,13 @@ h1 {
 
 /*     Footer css*/
 
+a {
+  color: black;
+  text-decoration: none;
+  font-family: Poppins, Regular;
+}
 .footer {
-  background-color: #5fbd3a;
+  background-color: #b9c7b3;
   position: relative;
   height: 400px;
   max-width: none;
@@ -418,7 +423,7 @@ h1 {
 @media only screen and (max-width: 800px) {
   .footer {
     transition: border-radius 0.3s, opacity 0.3s;
-    background-color: #5fbd3a;
+    background-color: #b9dbab;
     border: #000000 !important;
     border-color: #000000;
     position: relative;
