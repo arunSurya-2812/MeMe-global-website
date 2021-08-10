@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import Contactusgroup from "../img/Contactusgroup.png";
+import Contactus from "../img/Contactus.png";
 import { Card, Row, Col, Form, Container, Button } from "react-bootstrap";
 
 export default class Contactform extends Component {
@@ -24,7 +24,7 @@ export default class Contactform extends Component {
               <Row>
                 <Col xs="12" sm="12" md="6" lg="6">
                   <img
-                    src={Contactusgroup}
+                    src={Contactus}
                     alt="contactUs"
                     className="contactImg"
                   />
@@ -59,7 +59,7 @@ export default class Contactform extends Component {
                         onChange={this.onMessageChange}
                       />
                     </div>
-                    <Button className="Contactusbtn">Submit</Button>
+                    <Button className="Contactusbtn" onChange={this.handleSubmit}>Submit</Button>
                   </Form>
                 </Col>
               </Row>

@@ -424,13 +424,13 @@ a:hover {
 
   width: 100%;
   overflow: visible;
-  border-radius: 30px;
+  /*border-radius: 30px;*/
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
 
 @media only screen and (max-width: 800px) {
   .footer {
-    transition: border-radius 0.3s, opacity 0.3s;
+    /*transition: border-radius 0.3s, opacity 0.3s;*/
     background-color: #b9dbab;
     border: #000000 !important;
     border-color: #000000;
