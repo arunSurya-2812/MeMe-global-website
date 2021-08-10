@@ -1,6 +1,6 @@
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import { Container } from "react-bootstrap";
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Fabrics from "./components/Fabrics";
 import Ecofriendly from "./components/Ecofriendly";

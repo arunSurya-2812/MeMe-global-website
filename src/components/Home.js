@@ -1,9 +1,8 @@
 import Essential from "../img/Essential.jpg";
-
 import Bags from "../img/Bags.png";
 import cups from "../img/cups.png";
-
 import shoes from "../img/shoes.png";
+
 import accessories from "../img/accessories.jpg";
 import jacket from "../img/jacket.png";
 import Leather1 from "../img/Leather1.jpg";
@@ -11,15 +10,18 @@ import Leather1 from "../img/Leather1.jpg";
 import Menproduct from "../img/Menproduct.jpg";
 import Womenproduct from "../img/Womenproduct.jpg";
 import Kidsproduct from "../img/Kidsproduct.jpg";
-import Casualproduct from "../img/Casualproduct.png";
 
+import Casualproduct from "../img/Casualproduct.png";
 import img1 from "../img/img1.jpg";
 import img2 from "../img/img2.jpg";
 import img3 from "../img/img3.jpg";
+
 import React, { Component } from "react";
+
 import "./Components.css";
 import Nazca from "../img/Nazca.svg";
 import Ophelia from "../img/Ophelia.png";
+
 import { Row, Col, Carousel, Image, Card } from "react-bootstrap";
 import Allimage from "./Allimage";
 import { FaArrowCircleRight } from "react-icons/fa";
@@ -28,7 +30,7 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-       <Carousel style={{ textAlign: "center" }}>
+        <Carousel style={{ textAlign: "center" }}>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
@@ -65,8 +67,7 @@ export default class Home extends Component {
               <FaArrowCircleRight className="icondnwld" />
             </button>
           </Carousel.Item>
-    </Carousel>
-
+        </Carousel>
 
         <Allimage />
         <Row className="Sponsers">
@@ -92,8 +93,8 @@ export default class Home extends Component {
         >
           Recent Discounts
         </h1>
-        <Row>
-          <Col xs="3" sm="3" md="3">
+        <Row >
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -118,7 +119,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -142,7 +143,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -167,7 +168,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -203,7 +204,7 @@ export default class Home extends Component {
           Our Products
         </h1>
         <Row>
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img variant="top" src={Bags} className="Productcardimage" />
               <Card.Body>
@@ -223,7 +224,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -247,7 +248,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -272,7 +273,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -344,7 +345,7 @@ export default class Home extends Component {
           Eco - Friendly Products
         </h1>
         <Row>
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img variant="top" src={Bags} className="Productcardimage" />
               <Card.Body>
@@ -365,7 +366,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img variant="top" src={Bags} className="Productcardimage" />
               <Card.Body>
@@ -386,7 +387,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img variant="top" src={cups} className="Productcardimage" />
               <Card.Body>
@@ -407,7 +408,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
                 variant="top"
@@ -433,7 +434,7 @@ export default class Home extends Component {
           </Col>
         </Row>
         <Row>
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img variant="top" src={Bags} className="Productcardimage" />
               <Card.Body>
@@ -454,7 +455,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img variant="top" src={Bags} className="Productcardimage" />
               <Card.Body>
@@ -474,7 +475,7 @@ export default class Home extends Component {
               </Card.Body>
             </Card>
           </Col>
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img variant="top" src={cups} className="Productcardimage" />
               <Card.Body>
@@ -495,7 +496,7 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="3" sm="3" md="3">
+          <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
                 variant="top"

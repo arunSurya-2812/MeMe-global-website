@@ -12,6 +12,7 @@
   width: 50%;
 }
 
+
 .sponsers2 {
   height: 50%;
   width: 50%;
@@ -86,8 +87,8 @@
   position: relative;
   padding: 0%;
   color: #faa90e !important;
-  text-decoration: underline;
-  text-decoration-thickness: 6px;
+  text-decoration: underline !important;
+  text-decoration-thickness: 5px !important;
 }
 
 #Navline:hover {
@@ -101,8 +102,8 @@
   position: relative;
   padding: 0%;
   color: #faa90e !important;
-  text-decoration: underline;
-  text-decoration-thickness: 6px;
+  text-decoration: underline !important;
+  text-decoration-thickness: 5px !important;
   animation-delay: 5ms;
   transform: perspective(2000) translateZ(300px);
 }
@@ -118,13 +119,16 @@
   text-align: center;
   position: relative;
   padding: 0cm;
+  color:green !important;
   bottom: 0cm;
-  text-decoration-thickness: 6px;
+  text-decoration: underline !important;
+  text-decoration-thickness: 5px !important;
   padding: 0%;
 }
 #Navline2:hover {
   background-color: #ffffff;
   border-radius: 60px;
+  color: #15dd76 !important;
   width: 5cm;
   opacity: 10;
   top: 0.2cm;
@@ -133,7 +137,8 @@
   position: relative;
   padding: 0cm;
   padding: 0%;
-  text-decoration-thickness: 6px;
+  text-decoration: underline !important;
+  text-decoration-thickness: 5px !important;
 }
 
 .hello {
@@ -296,8 +301,8 @@
     border-radius: 25px !important;
     opacity: 1;
     max-width: 100%;
-    height: 5cm;
-    width: 7cm;
+    height: 6cm;
+    width: 5cm;
     border: none;
     flex-basis: 200px;
     display: flex;
@@ -312,10 +317,8 @@
     border-radius: 25px !important;
     opacity: 1 !important;
     max-width: 100%;
-    height: 3cm;
-    width: 3cm;
-    border: none;
-    display: flex;
+    height: 5cm;
+    width: 7cm;
   }
 }
 /*Leather image style home*/
@@ -359,7 +362,7 @@
 }
 
 .App {
-  overflow: visible;
+  overflow: hidden !important;
 }
 .Fiberproductcol1 {
   height: 5cm;
@@ -405,6 +408,11 @@ h1 {
 a {
   color: black;
   text-decoration: none;
+  font-family: Poppins, Regular;
+}
+a:hover {
+  color: black;
+  text-decoration: none !important;
   font-family: Poppins, Regular;
 }
 .footer {
@@ -460,19 +468,8 @@ a {
     min-height: 0.5cm;
   }
 }
-@media only screen and (max-width: 500px), (max-width: "400px") {
-  .AsokhaFooter {
-    height: 100%;
-    width: 100%;
-  }
-}
 
-.lorem {
-  margin: 3rem;
-}
-.App{
-  overflow: hidden;
-}
+
 
 /*Footer  css ends*/
 
