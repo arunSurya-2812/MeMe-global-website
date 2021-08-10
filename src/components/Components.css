@@ -30,11 +30,8 @@
 }
 .navbar {
   top: 1cm;
-  width: 100%;
+ 
   background-color: #707070;
-  position: relative;
-  height: 1.5cm;
-  min-height: 50px;
   margin-bottom: 20px;
   border: 1px solid transparent;
   display: flex;
@@ -44,14 +41,12 @@
   font-size: 21px;
  
 }
-/*.Navgg {
-  position: relative;
-  width: 100%;
-  word-wrap: break-word;
-}*/
 #basic-navbar-nav{
   background-color: #707070 !important;
-  border: none !important;
+  
+  font-family: "Poppins", Regular;
+  font-size: 21px;
+ 
 
 
   
