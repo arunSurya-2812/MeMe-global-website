@@ -12,7 +12,6 @@
   width: 50%;
 }
 
-
 .sponsers2 {
   height: 50%;
   width: 50%;
@@ -30,26 +29,21 @@
 }
 .navbar {
   top: 1cm;
- 
+
   background-color: #707070;
   margin-bottom: 20px;
   border: 1px solid transparent;
   display: flex;
   flex-direction: column;
-  
+
   font-family: "Poppins", Regular;
   font-size: 21px;
- 
 }
-#basic-navbar-nav{
+#basic-navbar-nav {
   background-color: #707070 !important;
-  
+
   font-family: "Poppins", Regular;
   font-size: 21px;
- 
-
-
-  
 }
 #nav-Dropdown {
   color: #129652 !important;
@@ -114,7 +108,7 @@
   text-align: center;
   position: relative;
   padding: 0cm;
-  color:green !important;
+  color: green !important;
   bottom: 0cm;
   text-decoration: underline !important;
   text-decoration-thickness: 5px !important;
@@ -411,22 +405,21 @@ a:hover {
   font-family: Poppins, Regular;
 }
 .footer {
-  background-color: #b9c7b3;
+  background-color: #fa5e5373;
   position: relative;
-  height: 400px;
+  height: 350px;
   max-width: none;
   max-height: none;
-
   width: 100%;
   overflow: visible;
-  /*border-radius: 30px;*/
+  border-radius: 30px;
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
 
 @media only screen and (max-width: 800px) {
   .footer {
     /*transition: border-radius 0.3s, opacity 0.3s;*/
-    background-color: #b9dbab;
+    background-color: #fa5e5373;
     border: #000000 !important;
     border-color: #000000;
     position: relative;
@@ -463,8 +456,6 @@ a:hover {
     min-height: 0.5cm;
   }
 }
-
-
 
 /*Footer  css ends*/
 
