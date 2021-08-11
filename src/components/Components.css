@@ -64,12 +64,33 @@
   overflow: hidden;
 }
 
+@media only screen and (max-width: 800px) {
+
+.dropdown:hover .dropdown-menu {
+  display: none !important;
+  color: brown;
+  }
+  
+  .dropdown-toggle{
+    position: relative;
+    bottom: 1rem;
+  }
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block !important;
+  color: brown;
+  }
+  
+  .dropdown-toggle{
+    position: relative;
+    bottom: 1rem;
+  }
 #Navline:focus {
   background-color: #ffffff;
   border-radius: 60px;
   width: 3.3cm;
   opacity: 10;
-
   top: 0.2cm;
   height: 0.9cm;
   text-align: center;
@@ -90,6 +111,7 @@
   text-align: center;
   position: relative;
   padding: 0%;
+
   color: #faa90e !important;
   text-decoration: underline !important;
   text-decoration-thickness: 5px !important;
