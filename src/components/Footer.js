@@ -107,13 +107,20 @@ export default class Footer extends Component {
             </div>
             <div class="col col-lg-3" style={{ marginTop: "10px" }}>
               <Image src={Days} style={{ width: "48px", height: "40px" }} />
-              <strong>100% ORIGINAL </strong>
-              <h5>guarantee for all products at myntra.com </h5>
-              <br />
+              <strong>Return Within 30Days </strong>
+              <span >
+              Of Receving your Order </span>
+              <br />        
+
               <Image src={Original} style={{ width: "48px", height: "49px" }} />
+              
               <strong>100% ORIGINAL </strong>
-              <h5>guarantee for all products at myntra.com</h5>
-            </div>
+              
+              <span>guarantee for all products at MeMe Global.com</span>
+           
+               </div>
+               <br/>
+         
           </div>
         </footer>
       </div>
