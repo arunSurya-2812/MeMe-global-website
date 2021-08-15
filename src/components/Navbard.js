@@ -1,15 +1,7 @@
 import "./Components.css";
 import React from "react";
-import {
-  Navbar,
-  Nav,
-  Container,
-  NavDropdown,
-
-} from "react-bootstrap";
-import { LinkContainer } from "react-router-bootstrap";
+import { Navbar, Nav, Container,  } from "react-bootstrap";
 import "./Components.css";
-
 
 function Navboard() {
   return (
@@ -19,160 +11,153 @@ function Navboard() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
-              <LinkContainer to="/">
-                <Nav.Link className="nav-item nav-link mx-3">
-                  <p>Home</p>
-                </Nav.Link>
-              </LinkContainer>
+              <Nav.Link href="/" className="nav-item nav-link mx-3">
+                <p>Home</p>
+              </Nav.Link>
 
-              <LinkContainer to="/Fiber">
-                <Nav.Link className="nav-item nav-link mx-3" id="Navline">
-                  <p>Fiber</p>
-                  <NavDropdown>
-                    <NavDropdown.Item eventKey="1">Cotton</NavDropdown.Item>
-                    <NavDropdown.Divider />
+              <Nav.Link
+                href="/Fiber"
+                className="nav-item nav-link mx-3"
+                id="Navline"
+              >
+                <p>Fiber</p>
+                <div className="NavDropdown">
+                  
+                    <a  href="#">Cotton</a>
+                    <br />
+                    <a  href="#">Bananaa Fibre</a>
+                    <br />
+                    <a  href="#">Linen</a>
 
-                    <NavDropdown.Item eventKey="1.1">
-                      Poly Cotton
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
+                    <br />
+                    <a   href="#">Silk</a>
 
-                    <NavDropdown.Item eventKey="1.2">
-                      Tencel&Model
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
+                    <br />
+                    <a  href="#">Lotus</a>
+                  
+                </div>
+              </Nav.Link>
 
-
-                    <NavDropdown.Item eventKey="1.3">Lyocell</NavDropdown.Item>
-                    <NavDropdown.Divider />
-
-                    <NavDropdown.Item eventKey="1.4">Recycle</NavDropdown.Item>
-
-                  </NavDropdown>
-                </Nav.Link>
-              </LinkContainer>
-
-              <LinkContainer to="/Yarn">
-                <Nav.Link className="nav-item nav-link mx-3" id="Navline">
-                  <p> Yarn</p>
-                  <NavDropdown>
-                    <NavDropdown.Item eventKey="1">Fabrics</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.1">
-                      Banana Fiber
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.2">
-                      SUSTANABLE FABRICS
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.3">
-                      Astian Made
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.4">Silk</NavDropdown.Item>
-                  </NavDropdown>
+              <Nav.Link
+                href="/Yarn"
+                className="nav-item nav-link mx-3"
+                id="Navline"
+              >
+                <p> Yarn</p>{" "}
+                <div class="NavDropdown">
                
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Fabrics">
-                <Nav.Link className="nav-item nav-link mx-3" id="Navline">
-                  <p>Fabrics</p>
-                  <NavDropdown>
-                    <NavDropdown.Item eventKey="1">Fabrics</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.1">
-                      Banana Fiber
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.2">
-                      SUSTANABLE FABRICS
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
+                    <a href="http://localhost:3000/Yarn">Cotton</a>
+                    <br />
+                    <a href="http://localhost:3000/Yarn">Polly Cotton</a>
+                    <br />
+                    <a href="#">Tencel & Modal</a>
 
-                    <NavDropdown.Item eventKey="1.3">
-                      Astian Made
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.3">Silk</NavDropdown.Item>
-                  </NavDropdown>
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Leathers">
-                <Nav.Link className="nav-item nav-link mx-3" id="Navline">
-                  <p>Leathers</p>
-                  <NavDropdown>
-                    <NavDropdown.Item eventKey="1">Bags</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.1">
-                      Accessories
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.2">Jacket</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.3">
-                      Footwares
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.3">Leathers</NavDropdown.Item>
-                  </NavDropdown>
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Knits">
-                <Nav.Link className="nav-item nav-link mx-3" id="Navline">
-                  <p>Knits</p>
-                  <NavDropdown>
-                    <NavDropdown.Item eventKey="1">Knits</NavDropdown.Item>
-                     <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.1">Weave</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.2">Astian</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.3">
-                      Eco friendly
-                    </NavDropdown.Item>
-                  </NavDropdown>
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Brands">
-                <Nav.Link className="nav-item nav-link mx-3" id="Navline">
-                  <p>Brands</p>
-                  <NavDropdown>
-                    <NavDropdown.Item eventKey="1">Cotton</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.1">
-                      Banana Fiber
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.2">Linen</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.3">Lotus</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.3">Silk</NavDropdown.Item>
-                  </NavDropdown>
-                </Nav.Link>
-              </LinkContainer>
-              <LinkContainer to="/Ecofriendly">
-                <Nav.Link className="nav-item nav-link mx-3" id="Navline2">
-                  <p>Eco friendly</p>
-                  <NavDropdown>
-                    <NavDropdown.Item eventKey="1">FABRICS</NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.1">
-                    SUSTAINABLE FABRICS
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
-                    <NavDropdown.Item eventKey="1.2">
-                    ARTISAN MADE
-                    </NavDropdown.Item>
-                    <NavDropdown.Divider />
+                    <br />
+                    <a href="#">Lyocell</a>
 
-                    <NavDropdown.Item eventKey="1.3">
-                      FABRICS CRAFTSME
-                    </NavDropdown.Item>
-                  </NavDropdown>
-                </Nav.Link>
-              </LinkContainer> 
+                    <br />
+                    <a href="#">Recycle</a>
+                </div>
+              </Nav.Link>
+              <Nav.Link
+                className="nav-item nav-link mx-3"
+                id="Navline"
+                href="/Fabrics"
+              >
+                <p>Fabrics</p>
+                <div class="NavDropdown">
+                  <ul>
+                    <a href="#">FABRICS</a>
+                    <br />
+                    <a href="#">SUSTAINABLE FABRICS</a>
+                    <br />
+                    <a href="#">ARTISAN MADE</a>
+
+                    <br />
+                    <a href="#">FABRICS CRAFTSME</a>
+                  </ul>
+                </div>
+              </Nav.Link>
+              <Nav.Link
+                href="/Leathers"
+                className="nav-item nav-link mx-3"
+                id="Navline"
+              >
+                <p>Leathers</p>{" "}
+                <div class="NavDropdown">
+                  <a href="#">Bags</a>
+                  <br />
+                  <a href="#">Accessories</a>
+                  <br />
+                  <a href="#">Jacket</a>
+
+                  <br />
+                  <a href="#">Footwares</a>
+                </div>
+              </Nav.Link>
+              <Nav.Link
+                className="nav-item nav-link mx-3"
+                id="Navline"
+                href="/Knits"
+              >
+                <p>Knits</p>
+                <div class="NavDropdown">
+                  <ul>
+                    <a href="#">Knits</a>
+                    <br />
+                    <a href="#">Weave</a>
+                    <br />
+                    <a href="#">Artisan</a>
+
+                    <br />
+                    <a href="#">Eco Friendly</a>
+                  </ul>
+                </div>
+              </Nav.Link>
+              <Nav.Link
+                href="/Brands"
+                className="nav-item nav-link mx-3"
+                id="Navline"
+              >
+                <p>Brands</p>
+
+                <div class="NavDropdown">
+                  <ul>
+                    <a href="#">Cotton</a>
+                    <br />
+                    <a href="#">Bananaa Fibre</a>
+                    <br />
+                    <a href="#">Linen</a>
+
+                    <br />
+                    <a href="#">Silk</a>
+
+                    <br />
+                    <a href="#">Lotus</a>
+                  </ul>
+                </div>
+              </Nav.Link>
+
+              <Nav.Link
+                href="/Ecofriendly"
+                className="nav-item nav-link mx-3"
+                id="Navline2"
+              >
+                <p>Eco friendly</p>
+
+                <div class="NavDropdown">
+                  <ul>
+                    <a href="#">FABRICS</a>
+                    <br />
+                    <a href="#">SUSTAINABLE FABRICS</a>
+                    <br />
+                    <a href="#">ARTISAN MADE</a>
+
+                    <br />
+                    <a href="#">FABRICS CRAFTSME</a>
+                  </ul>
+                </div>
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>

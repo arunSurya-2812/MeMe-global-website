@@ -70,13 +70,13 @@ export default class Home extends Component {
         </Carousel>
 
         <Allimage />
-        <Row className="Sponsers">
-          <Col className="spon">
+        <Row className="Sponsers" >
+          <Col className="spon" xs={6}>
             <a href="https://nazca.in/home" rel="noreferrer" target="_blank">
               <Image src={Nazca} className="sponsers1" />
             </a>
           </Col>
-          <Col className="spon">
+          <Col className="spon" Col-xs={6}>
             <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
               <Image src={Ophelia} className="sponsers2" />
             </a>

@@ -10,6 +10,7 @@ import Yarn22 from "../img/Yarn22.png";
 import Fabrics33 from "../img/Fabrics33.png";
 import Leather44 from "../img/Leather44.png";
 import Knits55 from "../img/Knits55.png";
+import { Col } from "react-bootstrap";
 export default class MultipleItems extends Component {
   render() {
     const settings = {
@@ -24,6 +25,7 @@ export default class MultipleItems extends Component {
     };
     return (
       <Slider {...settings}>
+ 
         <div>
           <img
             className="Sliderpics"

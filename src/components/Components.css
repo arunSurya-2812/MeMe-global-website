@@ -63,14 +63,18 @@
   top: 0cm;
   overflow: hidden;
 }
-
-
-.dropdown:hover .dropdown-menu{
-  display: block !important;
-  
-  position: relative;
+.NavDropdown{
+  display: none;
+  background-color: lightgray;
+  font-size: 15px;
 }
 
+#Navline:hover .NavDropdown{
+  display: block !important;
+}
+#Navline2:hover .NavDropdown{
+  display: block !important;
+}
 #Navline:focus {
   background-color: #ffffff;
   border-radius: 60px;
@@ -82,8 +86,8 @@
   position: relative;
   padding: 0%;
   color: #faa90e !important;
-  text-decoration: underline !important;
-  text-decoration-thickness: 5px !important;
+ /* text-decoration: underline !important;
+  text-decoration-thickness: 5px !important;*/
 }
 
 #Navline:hover {
@@ -98,10 +102,10 @@
   padding: 0%;
 
   color: #faa90e !important;
-  text-decoration: underline !important;
+  /*text-decoration: underline !important;
   text-decoration-thickness: 5px !important;
   animation-delay: 5ms;
-  transform: perspective(2000) translateZ(300px);
+  transform: perspective(2000) translateZ(300px);*/
 }
 
 #Navline2:focus {
@@ -117,9 +121,9 @@
   padding: 0cm;
   color: green !important;
   bottom: 0cm;
-  text-decoration: underline !important;
+  /*text-decoration: underline !important;
   text-decoration-thickness: 5px !important;
-  padding: 0%;
+  padding: 0%;*/
 }
 #Navline2:hover {
   background-color: #ffffff;
@@ -133,18 +137,10 @@
   position: relative;
   padding: 0cm;
   padding: 0%;
-  text-decoration: underline !important;
-  text-decoration-thickness: 5px !important;
+  /*text-decoration: underline !important;
+  text-decoration-thickness: 5px !important;*/
 }
 
-.hello {
-  background-color: #707070;
-
-  bottom: 0.1cm;
-  max-height: fit-content;
-  position: relative;
-  min-height: fit-content;
-}
 .carousel {
   height: 670px;
   width: 100%;
@@ -192,7 +188,7 @@
   bottom: 2cm;
   font-family: Poppins;
   font-weight: 800;
-  border: none !important;
+border: none;
 }
 
 .Browsebutn1 {
@@ -213,9 +209,20 @@
   .Sliderpics {
     height: 100% !important;
     width: 100% !important;
+    border-radius: 1px !important;
+    padding-right: 70px;;
+
   }
 }
+@media only screen and (max-width: 500px) {
+  .Sliderpics {
+    height: 100% !important;
+    width: 100% !important;
+    border-radius: 1px !important;
+    padding-right:20px
 
+  }
+}
 .Sliderpics {
   height: 70%;
   width: 70%;
@@ -232,7 +239,15 @@
   overflow: hidden;
   height: 14cm;
 }
+@media only screen and (max-width: 700px) {
 
+.carousel.slide {
+  padding-bottom: 0% !important;
+  overflow: hidden;
+  height: auto;
+  border-radius: 0%;
+}
+}
 .slick-prev::before {
   color: #000000 !important;
   line-height: 4 !important;

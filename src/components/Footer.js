@@ -33,7 +33,7 @@ export default class Footer extends Component {
                 Gift Card <span class="badge bg-danger">New</span>
               </a>
               <div class="w-100"></div>
-              <a href="/#">Mytra Insider</a>
+              <a href="/#">MeMe Insider</a>
             </div>
 
             <div class="col col-lg-2" style={{ marginTop: "10px" }}>
@@ -52,7 +52,7 @@ export default class Footer extends Component {
               <div class="w-100"></div>
               <a href="/#">Gift Card</a>
               <div class="w-100"></div>
-              <a href="/#">Mytra Insider</a>
+              <a href="/#"> Insider</a>
               <a href="/#">Men</a>
               <div class="w-100"></div>
               <a href="/#">Women</a>
@@ -65,7 +65,7 @@ export default class Footer extends Component {
               <div class="w-100"></div>
               <a href="/#">Gift Card</a>
               <div class="w-100"></div>
-              <a href="/#">Mytra Insider</a>
+              <a href="/#">MeMe Insider</a>
             </div>
 
             <div class="col col-lg-4" style={{ marginTop: "10px" }}>
@@ -105,23 +105,23 @@ export default class Footer extends Component {
                 style={{ width: "25px", height: "20px", paddingRight: "5px" }}
               />
             </div>
-            <div class="col col-lg-3" style={{ marginTop: "10px" }}>
-              <Image src={Days} style={{ width: "48px", height: "40px" }} />
-              <strong>Return Within 30Days </strong>
+            <div class="col col-lg-2" style={{ marginTop: "10px" }}>
+              <Image src={Days} style={{ width: "48px", height: "40px", paddingRight: "10px" }} />
+              <strong >Return Within 30Days </strong>
               <span >
               Of Receving your Order </span>
               <br />        
 
-              <Image src={Original} style={{ width: "48px", height: "49px" }} />
+              <Image src={Original} style={{ width: "48px", height: "49px",paddingRight: "10px" }} />
               
               <strong>100% ORIGINAL </strong>
               
-              <span>guarantee for all products at MeMe Global.com</span>
+              <span style={{ width:"20px" }}>guarantee for all products at MeMe Global.com</span>
            
                </div>
                <br/>
          
-          </div>
+          </div> 
         </footer>
       </div>
     );
