@@ -1,6 +1,6 @@
 import "./Components.css";
 import React from "react";
-import { Navbar, Nav, Container,  } from "react-bootstrap";
+import { Navbar, Nav, Container } from "react-bootstrap";
 import "./Components.css";
 
 function Navboard() {
@@ -22,19 +22,17 @@ function Navboard() {
               >
                 <p>Fiber</p>
                 <div className="NavDropdown">
-                  
-                    <a  href="#">Cotton</a>
-                    <br />
-                    <a  href="#">Bananaa Fibre</a>
-                    <br />
-                    <a  href="#">Linen</a>
+                  <a href="/#">Cotton</a>
+                  <br />
+                  <a href="/#">Bananaa Fibre</a>
+                  <br />
+                  <a href="/#">Linen</a>
 
-                    <br />
-                    <a   href="#">Silk</a>
+                  <br />
+                  <a href="/#">Silk</a>
 
-                    <br />
-                    <a  href="#">Lotus</a>
-                  
+                  <br />
+                  <a href="/#">Lotus</a>
                 </div>
               </Nav.Link>
 
@@ -45,18 +43,17 @@ function Navboard() {
               >
                 <p> Yarn</p>{" "}
                 <div class="NavDropdown">
-               
-                    <a href="http://localhost:3000/Yarn">Cotton</a>
-                    <br />
-                    <a href="http://localhost:3000/Yarn">Polly Cotton</a>
-                    <br />
-                    <a href="#">Tencel & Modal</a>
+                  <a href="http://localhost:3000/Yarn">Cotton</a>
+                  <br />
+                  <a href="http://localhost:3000/Yarn">Polly Cotton</a>
+                  <br />
+                  <a href="/#">Tencel & Modal</a>
 
-                    <br />
-                    <a href="#">Lyocell</a>
+                  <br />
+                  <a href="/#">Lyocell</a>
 
-                    <br />
-                    <a href="#">Recycle</a>
+                  <br />
+                  <a href="/#">Recycle</a>
                 </div>
               </Nav.Link>
               <Nav.Link
@@ -67,14 +64,14 @@ function Navboard() {
                 <p>Fabrics</p>
                 <div class="NavDropdown">
                   <ul>
-                    <a href="#">FABRICS</a>
+                    <a href="/#">FABRICS</a>
                     <br />
-                    <a href="#">SUSTAINABLE FABRICS</a>
+                    <a href="/#">SUSTAINABLE FABRICS</a>
                     <br />
-                    <a href="#">ARTISAN MADE</a>
+                    <a href="/#">ARTISAN MADE</a>
 
                     <br />
-                    <a href="#">FABRICS CRAFTSME</a>
+                    <a href="/#">FABRICS CRAFTSME</a>
                   </ul>
                 </div>
               </Nav.Link>
@@ -85,14 +82,14 @@ function Navboard() {
               >
                 <p>Leathers</p>{" "}
                 <div class="NavDropdown">
-                  <a href="#">Bags</a>
+                  <a href="/#">Bags</a>
                   <br />
-                  <a href="#">Accessories</a>
+                  <a href="/#">Accessories</a>
                   <br />
-                  <a href="#">Jacket</a>
+                  <a href="/#">Jacket</a>
 
                   <br />
-                  <a href="#">Footwares</a>
+                  <a href="/#">Footwares</a>
                 </div>
               </Nav.Link>
               <Nav.Link
@@ -103,14 +100,14 @@ function Navboard() {
                 <p>Knits</p>
                 <div class="NavDropdown">
                   <ul>
-                    <a href="#">Knits</a>
+                    <a href="/#">Knits</a>
                     <br />
-                    <a href="#">Weave</a>
+                    <a href="/#">Weave</a>
                     <br />
-                    <a href="#">Artisan</a>
+                    <a href="/#">Artisan</a>
 
                     <br />
-                    <a href="#">Eco Friendly</a>
+                    <a href="/#">Eco Friendly</a>
                   </ul>
                 </div>
               </Nav.Link>
@@ -123,17 +120,17 @@ function Navboard() {
 
                 <div class="NavDropdown">
                   <ul>
-                    <a href="#">Cotton</a>
+                    <a href="/#">Cotton</a>
                     <br />
-                    <a href="#">Bananaa Fibre</a>
+                    <a href="/#">Bananaa Fibre</a>
                     <br />
-                    <a href="#">Linen</a>
+                    <a href="/#">Linen</a>
 
                     <br />
-                    <a href="#">Silk</a>
+                    <a href="/#">Silk</a>
 
                     <br />
-                    <a href="#">Lotus</a>
+                    <a href="/#">Lotus</a>
                   </ul>
                 </div>
               </Nav.Link>
@@ -147,14 +144,14 @@ function Navboard() {
 
                 <div class="NavDropdown">
                   <ul>
-                    <a href="#">FABRICS</a>
+                    <a href="/#">FABRICS</a>
                     <br />
-                    <a href="#">SUSTAINABLE FABRICS</a>
+                    <a href="/#">SUSTAINABLE FABRICS</a>
                     <br />
-                    <a href="#">ARTISAN MADE</a>
+                    <a href="/#">ARTISAN MADE</a>
 
                     <br />
-                    <a href="#">FABRICS CRAFTSME</a>
+                    <a href="/#">FABRICS CRAFTSME</a>
                   </ul>
                 </div>
               </Nav.Link>
