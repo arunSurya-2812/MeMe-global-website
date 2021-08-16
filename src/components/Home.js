@@ -42,6 +42,7 @@ export default class Home extends Component {
               Browse
               <FaArrowCircleRight className="icondnwld" />
             </button>
+             
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
