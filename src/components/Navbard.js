@@ -1,8 +1,9 @@
 import "./Components.css";
 import React from "react";
-import { Navbar, Nav, Container } from "react-bootstrap";
+import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
 import "./Components.css";
 
+import { FaArrowCircleRight } from "react-icons/fa";
 function Navboard() {
   return (
     <div>
@@ -20,6 +21,7 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Fiber">Fiber</a>
+                  <FaArrowCircleRight className="Toogle" />
                 </button>
                 <div class="dropdown-content">
                   <a href="#">Cotton</a>
@@ -32,8 +34,12 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Yarn">Yarn</a>
+                  <FaArrowCircleRight className="Toogle" />
                 </button>
+              
+
                 <div class="dropdown-content">
+
                   <a href="#">Cotton</a>
                   <a href="#">Poly Cotton</a>
                   <a href="#">Tencel& Modal</a>
@@ -46,6 +52,7 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Fabrics">Fabrics</a>
+                  <FaArrowCircleRight className="Toogle" />
                 </button>
                 <div class="dropdown-content">
                   <a href="#">Fabrics</a>
@@ -58,6 +65,7 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Leathers">Leathers</a>
+                  <FaArrowCircleRight className="Toogle" />
                 </button>
                 <div class="dropdown-content">
                   <a href="#">Bags</a>
@@ -70,6 +78,7 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Knits">Knits</a>
+                  <FaArrowCircleRight className="Toogle" />
                 </button>
                 <div class="dropdown-content">
                   <a href="#">Knits</a>
@@ -83,6 +92,7 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Brands">Brands</a>
+                  <FaArrowCircleRight className="Toogle" />
                 </button>
                 <div class="dropdown-content">
                   <a href="#">Brands</a>
@@ -96,6 +106,7 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Ecofriendly">Ecofriendly</a>
+                  <FaArrowCircleRight className="Toogle" />
                 </button>
                 <div class="dropdown-content">
                   <a href="#">Fabrics</a>

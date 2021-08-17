@@ -151,10 +151,18 @@ a:focus-visible {
   color: #000000 !important;
 }
 
-
+.Toogle{
+  display: none;
+}
 
 @media only screen and (max-width: 800px) {
+  .Toogle{
+    display: inline;
+    margin: 10px;
+    padding-right: 4px;
+    content: "\f0d7";
 
+  }
 
   .dropdown-content a:hover {
     background-color: #ddd;
