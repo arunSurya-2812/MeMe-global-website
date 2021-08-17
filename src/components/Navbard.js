@@ -3,7 +3,7 @@ import React from "react";
 import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
 import "./Components.css";
 
-import { FaArrowCircleRight } from "react-icons/fa";
+import { FaAngleDown} from "react-icons/fa";
 function Navboard() {
   return (
     <div>
@@ -21,10 +21,11 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Fiber">Fiber</a>
-                  <FaArrowCircleRight className="Toogle" />
+                 
                 </button>
+                <FaAngleDown className="Toogle" />
                 <div class="dropdown-content">
-                  <a href="#">Cotton</a>
+                  <a href="/#">Cotton</a>
                   <a href="#">Banana Fibre</a>
                   <a href="#">Linen</a>
                   <a href="#">Silk</a>
@@ -34,9 +35,9 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Yarn">Yarn</a>
-                  <FaArrowCircleRight className="Toogle" />
+                 
                 </button>
-              
+                <FaAngleDown className="Toogle" />
 
                 <div class="dropdown-content">
 
@@ -52,8 +53,10 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Fabrics">Fabrics</a>
-                  <FaArrowCircleRight className="Toogle" />
                 </button>
+                <FaAngleDown className="Toogle" />
+                
+             
                 <div class="dropdown-content">
                   <a href="#">Fabrics</a>
                   <a href="#">SUSTAINABLE FABRICS</a>
@@ -65,8 +68,8 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Leathers">Leathers</a>
-                  <FaArrowCircleRight className="Toogle" />
                 </button>
+                <FaAngleDown className="Toogle" />
                 <div class="dropdown-content">
                   <a href="#">Bags</a>
                   <a href="#">Accessories</a>
@@ -78,8 +81,9 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Knits">Knits</a>
-                  <FaArrowCircleRight className="Toogle" />
+
                 </button>
+                <FaAngleDown className="Toogle" />
                 <div class="dropdown-content">
                   <a href="#">Knits</a>
                   <a href="#">Weave</a>
@@ -92,8 +96,9 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Brands">Brands</a>
-                  <FaArrowCircleRight className="Toogle" />
                 </button>
+                
+                <FaAngleDown className="Toogle" />
                 <div class="dropdown-content">
                   <a href="#">Brands</a>
                   <a href="#">Linen</a>
@@ -106,8 +111,10 @@ function Navboard() {
               <div class="dropdown">
                 <button class="dropbtn">
                   <a href="http://localhost:3000/Ecofriendly">Ecofriendly</a>
-                  <FaArrowCircleRight className="Toogle" />
+
                 </button>
+                
+                <FaAngleDown className="Toogle" />
                 <div class="dropdown-content">
                   <a href="#">Fabrics</a>
                   <a href="#">SUSTAINABLE FABRICS</a>
@@ -123,4 +130,5 @@ function Navboard() {
     </div>
   );
 }
-export default Navboard;
+
+export default  Navboard;

@@ -151,29 +151,29 @@ a:focus-visible {
   color: #000000 !important;
 }
 
-.Toogle{
+.Toogle {
   display: none;
 }
 
 @media only screen and (max-width: 800px) {
-  .Toogle{
+  .Toogle {
     display: inline;
-    margin: 10px;
-    padding-right: 4px;
-    content: "\f0d7";
-
+  margin: 8px;
+  padding-left: 5px;
   }
 
   .dropdown-content a:hover {
     background-color: #ddd;
-    display: block;
-    padding: top 100px !important;
- 
+    display: inline-table;
+  
   }
- 
+
 
   .dropdown:hover .dropdown-content {
-    display:inline-table;
+    display: inline-table;
+  }
+  .dropdown-content:hover .dropbtn{
+    color: black !important;
   }
 
   .dropdown:hover .dropbtn {
@@ -184,13 +184,6 @@ a:focus-visible {
 
 }
 
-#Navline:hover .NavDropdown {
-  display: block !important;
-}
-
-#Navline2:hover .NavDropdown {
-  display: block !important;
-}
 
 .carousel {
   height: 670px;
@@ -671,6 +664,7 @@ h1 {
   opacity: 1 !important;
   box-shadow: 9px 3px 50px #00000029 !important;
 }
+
 
 h1 {
   text-align: center;

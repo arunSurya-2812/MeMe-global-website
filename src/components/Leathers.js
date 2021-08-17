@@ -5,6 +5,7 @@ import { FaDownload } from "react-icons/fa";
 
 import axios from "axios";
 
+import Mileather from "../components/Pdf/MiLeather.pdf"
 import leatherbag1 from "../img/leatherbag1.jpeg";
 import leatherbag2 from "../img/leatherbag2.jpeg";
 import leatherbag3 from "../img/leatherbag3.jpeg";
@@ -132,10 +133,12 @@ export default class Leathers extends React.Component {
                         finishing.
                       </p>
                     </Card.Text>
-                    <Button className="cardButton" style={{ color: "#F01212" }}>
+                    <a href={Mileather} download="MI Leather" target='_blank'>
+                    <Button className="cardButton" >
                       <FaDownload className="pdfIcon" />
                       Download PDF
                     </Button>
+                    </a>
                   </Card.Body>
                 </Card>
               </Card>

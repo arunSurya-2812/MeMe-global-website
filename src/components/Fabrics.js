@@ -1,9 +1,9 @@
 import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
-
 import axios from "axios";
 import "./Components.css";
+
 import Contactusform from "./Contactusform";
 import fabproduct1 from "../img/fabproduct1.png";
 import fabproduct2 from "../img/fabproduct2.png";
@@ -130,10 +130,7 @@ export default class Fabrics extends React.Component {
                         finishing.
                       </p>
                     </Card.Text>
-                    <Button  
-                        Onclick="window.open('../img/MI LEATHER.pdf')" className="cardButton" style={{
-                        color: "#016938"
-                      }}>
+                    <Button  className="cardButton">
                       <FaDownload className="pdfIcon" />
                       Download Pdf
                       

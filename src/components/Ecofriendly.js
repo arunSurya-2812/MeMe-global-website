@@ -133,10 +133,7 @@ export default class Ecofriendly extends React.Component {
                     </Card.Text>
                     <Button
                       className="cardButton"
-                      style={{
-                        color: "#016938"
-                       
-                      }}
+                    
                     >
                       <FaDownload className="pdfIcon" />
                       Download PDF
