@@ -130,12 +130,13 @@ export default class Fabrics extends React.Component {
                         finishing.
                       </p>
                     </Card.Text>
-                    <Button className="cardButton" style={{
+                    <Button  
+                        Onclick="window.open('../img/MI LEATHER.pdf')" className="cardButton" style={{
                         color: "#016938"
-                       
                       }}>
                       <FaDownload className="pdfIcon" />
-                      Download PDF
+                      Download Pdf
+                      
                     </Button>
                   </Card.Body>
                 </Card>

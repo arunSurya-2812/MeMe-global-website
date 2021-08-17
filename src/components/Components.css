@@ -81,15 +81,23 @@ a {
   text-decoration: none;
   font-family: Poppins, Regular;
 }
+
 a:hover {
   color: black !important;
   text-decoration: none;
   font-family: Poppins, Regular;
 }
 
+a:focus-visible {
+  color: #000000 !important;
+}
+
+.dropbtn:focus {
+  color: #000000 !important;
+}
 
 .dropbtn {
-
+  color: #000000 !important;
   background-color: #707070;
   padding-left: 20px;
   padding-right: 20px;
@@ -98,7 +106,7 @@ a:hover {
 }
 
 .dropdown {
-
+  color: #000000;
   position: relative;
   display: inline-block;
   background-color: #707070;
@@ -117,15 +125,20 @@ a:hover {
 
 .dropdown-content a {
   padding: 6px 18px;
-color: #000000 !important;
+  color: #000000 !important;
   display: block;
   font-size: 15px;
 }
 
-.dropdown-content a:hover {
-  background-color: #ddd;
-color: #000000 !important;
 
+.dropdown-content a:hover {
+  background-color: white;
+  color: #000000 !important;
+
+}
+
+.dropdown-content:hover .dropbtn {
+  color: black !important;
 }
 
 .dropdown:hover .dropdown-content {
@@ -135,17 +148,10 @@ color: #000000 !important;
 .dropdown:hover .dropbtn {
   background-color: white;
   border-radius: 30px;
+  color: #000000 !important;
 }
 
-.dropdown:hover .dropbtn {
-  background-color: white;
-  border-radius: 30px;
-}
 
-.select:before {
-  content: "\25bc";
-  color: gray;
-}
 
 @media only screen and (max-width: 800px) {
 
@@ -153,10 +159,13 @@ color: #000000 !important;
   .dropdown-content a:hover {
     background-color: #ddd;
     display: block;
+    padding: top 100px !important;
+ 
   }
+ 
 
   .dropdown:hover .dropdown-content {
-    display: block;
+    display:inline-table;
   }
 
   .dropdown:hover .dropbtn {
@@ -173,73 +182,6 @@ color: #000000 !important;
 
 #Navline2:hover .NavDropdown {
   display: block !important;
-}
-
-#Navline:focus {
-  background-color: #ffffff;
-  border-radius: 60px;
-  width: 3.3cm;
-  opacity: 10;
-  top: 0.2cm;
-  height: 0.9cm;
-  text-align: center;
-  position: relative;
-  padding: 0%;
-  color: #faa90e !important;
-  /* text-decoration: underline !important;
-  text-decoration-thickness: 5px !important;*/
-}
-
-#Navline:hover {
-  background-color: #ffffff;
-  border-radius: 60px;
-  width: 3.3cm;
-  opacity: 10;
-  top: 0.2cm;
-  height: 0.9cm;
-  text-align: center;
-  position: relative;
-  padding: 0%;
-
-  color: #faa90e !important;
-  /*text-decoration: underline !important;
-  text-decoration-thickness: 5px !important;
-  animation-delay: 5ms;
-  transform: perspective(2000) translateZ(300px);*/
-}
-
-#Navline2:focus {
-  background-color: #ffffff;
-  border-radius: 60px;
-  width: 5cm;
-  opacity: 10;
-  bottom: 0cm;
-  top: 0.2cm;
-  height: 0.9cm;
-  text-align: center;
-  position: relative;
-  padding: 0cm;
-  color: green !important;
-  bottom: 0cm;
-  /*text-decoration: underline !important;
-  text-decoration-thickness: 5px !important;
-  padding: 0%;*/
-}
-
-#Navline2:hover {
-  background-color: #ffffff;
-  border-radius: 60px;
-  color: #15dd76 !important;
-  width: 5cm;
-  opacity: 10;
-  top: 0.2cm;
-  height: 0.9cm;
-  text-align: center;
-  position: relative;
-  padding: 0cm;
-  padding: 0%;
-  /*text-decoration: underline !important;
-  text-decoration-thickness: 5px !important;*/
 }
 
 .carousel {
@@ -545,17 +487,7 @@ h1 {
   font-family: Poppins, Regular;
 }
 
-a {
-  color: black;
-  text-decoration: none;
-  font-family: Poppins, Regular;
-}
 
-a:hover {
-  color: black;
-  text-decoration: none !important;
-  font-family: Poppins, Regular;
-}
 
 .footer {
   background-color: #fa5e5373;

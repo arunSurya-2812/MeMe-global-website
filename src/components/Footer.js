@@ -53,6 +53,7 @@ export default class Footer extends Component {
               <a href="/#">Gift Card</a>
               <div class="w-100"></div>
               <a href="/#"> Insider</a>
+              <div class="w-100"></div>
               <a href="/#">Men</a>
               <div class="w-100"></div>
               <a href="/#">Women</a>
@@ -67,6 +68,7 @@ export default class Footer extends Component {
               <div class="w-100"></div>
               <a href="/#">MeMe Insider</a>
             </div>
+
 
             <div class="col col-lg-4" style={{ marginTop: "10px" }}>
               <h5>
