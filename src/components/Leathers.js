@@ -5,7 +5,7 @@ import { FaDownload } from "react-icons/fa";
 
 import axios from "axios";
 
-import Mileather from "../components/Pdf/MiLeather.pdf"
+import Mileather from "../Pdf/MiLeather.pdf"
 import leatherbag1 from "../img/leatherbag1.jpeg";
 import leatherbag2 from "../img/leatherbag2.jpeg";
 import leatherbag3 from "../img/leatherbag3.jpeg";
