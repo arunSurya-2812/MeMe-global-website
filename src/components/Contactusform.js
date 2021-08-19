@@ -22,15 +22,16 @@ export default class Contactform extends Component {
           <Card.Body>
             <Container>
               <Row>
-                <Col xs="12" sm="12" md="6" lg="6">
+                {/* <Col xs="12" sm="12" md="6" lg="6"> */}
+                <Col lg={4}  md={4}  sm={7} xs={12}>
                   <img
                     src={Contactus}
                     alt="contactUs"
                     className="contactImg"
                   />
                 </Col>
-                <Col xs="12" sm="12" md="6" lg="6">
-                  <Form></Form>
+                {/* <Col xs="12" sm="12" md="6" lg="6"> */}
+                <Col lg={2} md={2} xs={12} sm={7}>
                   <Form className="contactForm" onSubmit={this.handleSubmit}>
                     <div className="form-group">
                       <input

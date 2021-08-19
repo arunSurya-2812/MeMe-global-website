@@ -175,7 +175,7 @@ a:focus-visible {
   }
 
   .dropdown:hover .dropbtn {
-    background-color: white;
+    background-color: rgb(179, 175, 175);
     border-radius: 100px;
 
   }
@@ -684,8 +684,8 @@ h1 {
 }
 
 .contactCard {
-  height: fit-content;
-  width: 100%;
+  height: 30%;
+  width: 65%;
   text-align: center;
   background-color: #129652 !important;
   border-radius: 45px;
@@ -700,6 +700,8 @@ h1 {
   margin: auto;
   background: transparent;
   opacity: 1 !important;
+  max-width: 100%;
+  max-height: 100%;
 }
 
 .contactForm {
@@ -713,7 +715,7 @@ h1 {
 
 .Contactusbtn {
   border-radius: 20px;
-  width: max-content;
+  width: 70%;
   background-color: rgb(49, 170, 218);
   font-family: Poppins, Regular;
   font-weight: 100;

@@ -13,17 +13,26 @@ function Navboard() {
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
               <div class="dropdown">
+              <Nav.Link
+                href="/"
+              >
                 <button class="dropbtn">
-                  <a href="http://localhost:3000">Home</a>
+                  <a >Home</a>
                 </button>
+                </Nav.Link>
               </div>
 
               <div class="dropdown">
+              <Nav.Link
+                href="/Fiber"
+              >
                 <button class="dropbtn">
-                  <a href="http://localhost:3000/Fiber">Fiber</a>
+                  <a >Fiber</a>
                  
                 </button>
+                
                 <FaAngleDown className="Toogle" />
+                </Nav.Link>
                 <div class="dropdown-content">
                   <a href="/#">Cotton</a>
                   <a href="#">Banana Fibre</a>
@@ -33,11 +42,17 @@ function Navboard() {
                 </div>
               </div>
               <div class="dropdown">
+              <Nav.Link
+                href="/Yarn"
+              >
                 <button class="dropbtn">
-                  <a href="http://localhost:3000/Yarn">Yarn</a>
-                 
+                  <a >Yarn</a>
+                
                 </button>
-                <FaAngleDown className="Toogle" />
+                
+                <FaAngleDown className="Toogle" /> 
+                </Nav.Link>
+                
 
                 <div class="dropdown-content">
 
@@ -51,10 +66,17 @@ function Navboard() {
                 </div>
               </div>
               <div class="dropdown">
+              <Nav.Link
+                href="/Fabrics"
+              >
                 <button class="dropbtn">
-                  <a href="http://localhost:3000/Fabrics">Fabrics</a>
+                
+                  <a>Fabrics</a>
+                  
                 </button>
+                
                 <FaAngleDown className="Toogle" />
+                </Nav.Link>
                 
              
                 <div class="dropdown-content">
@@ -66,10 +88,16 @@ function Navboard() {
                 </div>
               </div>
               <div class="dropdown">
+              <Nav.Link
+                href="/Leathers"
+              >
                 <button class="dropbtn">
-                  <a href="http://localhost:3000/Leathers">Leathers</a>
+                  <a>Leathers</a>
+                  
+              
                 </button>
-                <FaAngleDown className="Toogle" />
+                <FaAngleDown className="Toogle" />  
+                </Nav.Link>
                 <div class="dropdown-content">
                   <a href="#">Bags</a>
                   <a href="#">Accessories</a>
@@ -79,11 +107,16 @@ function Navboard() {
                 </div>
               </div>
               <div class="dropdown">
+              <Nav.Link
+                href="/Knits"
+              >
                 <button class="dropbtn">
-                  <a href="http://localhost:3000/Knits">Knits</a>
+                  <a >Knits</a>
 
                 </button>
+                
                 <FaAngleDown className="Toogle" />
+                </Nav.Link>
                 <div class="dropdown-content">
                   <a href="#">Knits</a>
                   <a href="#">Weave</a>
@@ -94,11 +127,16 @@ function Navboard() {
               </div>
 
               <div class="dropdown">
+              <Nav.Link
+                href="/Brands"
+              >
                 <button class="dropbtn">
-                  <a href="http://localhost:3000/Brands">Brands</a>
+                  <a >Brands</a>
                 </button>
                 
                 <FaAngleDown className="Toogle" />
+               </Nav.Link> 
+               
                 <div class="dropdown-content">
                   <a href="#">Brands</a>
                   <a href="#">Linen</a>
@@ -109,12 +147,16 @@ function Navboard() {
               </div>
 
               <div class="dropdown">
+              <Nav.Link
+                href="/Ecofriendly"
+              >
                 <button class="dropbtn">
-                  <a href="http://localhost:3000/Ecofriendly">Ecofriendly</a>
-
+                  <a >Ecofriendly</a>
+                  
                 </button>
-                
                 <FaAngleDown className="Toogle" />
+                </Nav.Link>
+               
                 <div class="dropdown-content">
                   <a href="#">Fabrics</a>
                   <a href="#">SUSTAINABLE FABRICS</a>
