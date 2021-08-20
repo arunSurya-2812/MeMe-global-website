@@ -34,7 +34,7 @@ export default class Home extends Component {
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
-              style={{ borderRadius: "1cm" }}
+              style={{ borderRadius: "20px" }}
               src={img1}
               alt="Second slide"
             />
@@ -47,7 +47,7 @@ export default class Home extends Component {
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
-              style={{ borderRadius: "1cm" }}
+              style={{ borderRadius: "20px" }}
               src={img2}
               alt="Second slide"
             />
@@ -59,7 +59,7 @@ export default class Home extends Component {
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
-              style={{ borderRadius: "1cm" }}
+              style={{ borderRadius: "20px" }}
               src={img3}
               alt="Third slide"
             />

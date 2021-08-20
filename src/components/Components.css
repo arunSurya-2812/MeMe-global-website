@@ -30,7 +30,6 @@
 
 .navbar {
   top: 1cm;
-
   background-color: #707070;
   margin-bottom: 20px;
   border: 1px solid transparent;
@@ -41,12 +40,12 @@
   font-size: 21px;
 }
 
-#basic-navbar-nav {
-  background-color: #707070 !important;
+/* #basic-navbar-nav { */
+  /* background-color: #707070 !important; */
 
-  font-family: "Poppins", Regular;
-  font-size: 21px;
-}
+  /* font-family: "Poppins", Regular; */
+  /* font-size: 21px; */
+/* } */
 
 #nav-Dropdown {
   color: #129652 !important;
