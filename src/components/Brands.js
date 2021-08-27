@@ -2,81 +2,84 @@ import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 import axios from "axios";
 
-import Contactusform from "./Contactusform";
-import { FaDownload } from "react-icons/fa";
-import Linen from "../img/Linen.jpg";
-import cotton1 from "../img/cotton1.jpg";
-import bananafibre from "../img/bananafibre.jpg";
-import fabproduct4 from "../img/fabproduct4.png";
-import fabproduct1 from "../img/fabproduct1.png";
+import OM from "../img/OM.jpg";
+// import Contactusform from "./Contactusform";
+// import { FaDownload } from "react-icons/fa";
+// import Linen from "../img/Linen.jpg";
+// import cotton1 from "../img/cotton1.jpg";
+// import bananafibre from "../img/bananafibre.jpg";
+// import fabproduct4 from "../img/fabproduct4.png";
+// import fabproduct1 from "../img/fabproduct1.png";
+import Nazca from "../img/Nazca.svg";
+import Ophelia from "../img/Ophelia.png";
 
 export default class Brands extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      text: "",
-      suggestions: [],
-      items: [],
-    };
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     text: "",
+  //     suggestions: [],
+  //     items: [],
+  //   };
+  // }
 
-  componentDidMount = () => {
-    let config = {
-      url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
-      method: "GET",
-    };
-    axios(config)
-      .then((res) => {
-        let data = res.data,
-          arrItems = [];
-        data.forEach((element) => {
-          arrItems.push(element.mainCatName);
-        });
-        this.setState({ items: arrItems }, () => {});
-      })
-      .catch((err) => console.log(err));
-  };
+  // componentDidMount = () => {
+  //   let config = {
+  //     url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
+  //     method: "GET",
+  //   };
+  //   axios(config)
+  //     .then((res) => {
+  //       let data = res.data,
+  //         arrItems = [];
+  //       data.forEach((element) => {
+  //         arrItems.push(element.mainCatName);
+  //       });
+  //       this.setState({ items: arrItems }, () => {});
+  //     })
+  //     .catch((err) => console.log(err));
+  // };
 
-  handleTextChange = (e) => {
-    const value = e.target.value;
-    let suggestions = [];
-    if (value.length > 0) {
-      const regex = new RegExp(`^${value}`, "i");
-      suggestions = this.state.items.sort().filter((v) => regex.test(v));
-    }
-    this.setState(() => ({
-      suggestions,
-      text: value,
-    }));
-  };
+  // handleTextChange = (e) => {
+  //   const value = e.target.value;
+  //   let suggestions = [];
+  //   if (value.length > 0) {
+  //     const regex = new RegExp(`^${value}`, "i");
+  //     suggestions = this.state.items.sort().filter((v) => regex.test(v));
+  //   }
+  //   this.setState(() => ({
+  //     suggestions,
+  //     text: value,
+  //   }));
+  // };
 
-  suggestionSelected(value) {
-    this.setState(() => ({
-      text: value,
-      suggestions: [],
-    }));
-  }
+  // suggestionSelected(value) {
+  //   this.setState(() => ({
+  //     text: value,
+  //     suggestions: [],
+  //   }));
+  // }
 
-  renderSuggestions() {
-    const { suggestions } = this.state;
-    if (suggestions.length === 0) {
-      return null;
-    }
-    return (
-      <div className="srchList">
-        <ul>
-          {suggestions.map((item) => (
-            <li onClick={() => this.suggestionSelected(item)}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  }
+  // renderSuggestions() {
+  //   const { suggestions } = this.state;
+  //   if (suggestions.length === 0) {
+  //     return null;
+  //   }
+  //   return (
+  //     <div className="srchList">
+  //       <ul>
+  //         {suggestions.map((item) => (
+  //           <li onClick={() => this.suggestionSelected(item)}>{item}</li>
+  //         ))}
+  //       </ul>
+  //     </div>
+  //   );
+  // }
   render() {
     return (
       <div>
         <Container>
-          <div className="flex-container">
+          {/* <div className="flex-container">
             <div className="search">
               <div className="searchBar">
                 <input
@@ -91,11 +94,11 @@ export default class Brands extends React.Component {
                 </button>
               </div>
             </div>
-          </div>
-          <div>
+          </div> */}
+          {/* <div>
             <p>{this.renderSuggestions()}</p>
-          </div>
-          <Row>
+          </div> */}
+          {/* <Row>
             <Col md="12" lg="12">
               <Card className="imgBrandsCard">
                 <Card className="contentCard">
@@ -177,13 +180,92 @@ export default class Brands extends React.Component {
               />
               <h1> Silk</h1>
             </Col>
-          </Row>
+          </Row> */}
           <br />
-          <Row style={{ textAlign: "center" }}>
+          <Row>
+            <Col>
+              <Image
+                src={OM}
+                style={{ width: "100%", height: "100%", paddingTop: "5%",borderRadius:"2%" }}
+              />
+            </Col>
+          </Row>
+          <Row className="Sponsers">
+            <Col className="spon" xs={6}>
+              <a href="https://nazca.in/home" rel="noreferrer" target="_blank">
+                <Image src={Nazca} className="sponsers1" />
+              </a>
+            </Col>
+            <Col className="spon" Col-xs={6}>
+              <a
+                href="https://ophelia-moon.com"
+                rel="noreferrer"
+                target="_blank"
+              >
+                <Image src={Ophelia} className="sponsers2" />
+              </a>
+            </Col>
+          </Row>
+
+          <br />
+
+          <br />
+
+          <Row>
+            <Col>
+              <header>
+                <h5>Nazca</h5>
+              </header>
+              <p>
+                Our point of view on fashion is quite different from the rest of
+                the world. Our Nazca brands, created by our India-based design
+                team, aim to bring you fashionable and contemporary clothes.
+                <br />
+                <br />
+                We believe in a world where you have the total freedom to be
+                yourself without the slightest judgment. Our customer (that is,
+                you) is wonderfully unique to us. And we go out of our way to
+                help you find your suitable size, as our Nazca Brands are
+                available in all sizes. So you can be sure that we have the
+                perfect garment for you. We also promote a healthy body image.
+                Because we don't stand to any stereotypes to represent our
+                audience.
+                <br />
+                <br /> We believe that fashion shouldn't come with compromises,
+                be it in terms of style, price or impact. We have set ourselves
+                ambitious goals to reduce the impact of our products,
+                operations, and logistics, and we are always looking for new
+                ways to advance sustainability.
+              </p>
+            </Col>
+
+            <Col>
+              <header>
+                <h5>Ophelia Moon</h5>
+              </header>{" "}
+              <p>
+                Jewellery has the power to be the one little thing that makes
+                you feel unique.” Our jewelry is a picture of elegance, beauty,
+                and culture that shows timeless, classic, and unique beauty.
+                <br />
+                <br /> Every piece is handcrafted with passion, dedication,
+                precision, and full of tenderness by our talented artisans that
+                add sophistication and royalty. Ophelia Moon is designing
+                elegant pieces of jewellery and casual classy Indo western comfy
+                clothes with the richness of Indian incense and a perfect blend
+                of modern and classy designs. Our collection is a reflection of
+                royalty testament to modern-day elegance.
+              </p>
+            </Col>
+          </Row>
+          {/* <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>
           </Row>
+          <br /> */}
           <br />
-          <Contactusform />
+          <br />
+
+          {/* <Contactusform /> */}
         </Container>
       </div>
     );

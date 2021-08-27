@@ -17,10 +17,11 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <div className="App">
-      <Container>
+    
         <Router>
           <Header />
           <Navboard />
+          <Container>
           <Route exact path="/" component={Home}></Route>
           <Route path="/Fiber" component={Fiber}></Route>
           <Route path="/Yarn" component={Yarn}></Route>
@@ -29,10 +30,11 @@ export default function App() {
           <Route path="/Knits" component={Knits}></Route>
           <Route path="/Brands" component={Brands}></Route>
           <Route path="/Ecofriendly" component={Ecofriendly}></Route>
+          </Container>
         </Router>
+       
         <br/>
         <Footer />
-      </Container>
     </div>
   );
 }

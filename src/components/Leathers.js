@@ -2,83 +2,83 @@ import Contactusform from "./Contactusform";
 import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
-
+import Jacket from '../img/Jacket.png'
 import axios from "axios";
 
-import Mileather from "../Pdf/MiLeather.pdf"
-import leatherbag1 from "../img/leatherbag1.jpeg";
-import leatherbag2 from "../img/leatherbag2.jpeg";
-import leatherbag3 from "../img/leatherbag3.jpeg";
-import leathershoe from "../img/leathershoe.jpeg";
+import Mileather from "../Pdf/MiLeather.pdf";
+import Bags11 from "../img/Bags11.jpg";
+import Footware from "../img/Footware.jpg";
+import Bags33 from "../img/Bags33.jpg";
+import Belt from "../img/Belt.jpg";
 import "./Components.css";
 
 export default class Leathers extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      text: "",
-      suggestions: [],
-      items: [],
-    };
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     text: "",
+  //     suggestions: [],
+  //     items: [],
+  //   };
+  // }
 
-  componentDidMount = () => {
-    let config = {
-      url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
-      method: "GET",
-    };
-    axios(config)
-      .then((res) => {
-        let data = res.data,
-          arrItems = [];
-        data.forEach((element) => {
-          arrItems.push(element.mainCatName);
-        });
-        this.setState({ items: arrItems }, () => {});
-      })
-      .catch((err) => console.log(err));
-  };
+  // componentDidMount = () => {
+  //   let config = {
+  //     url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
+  //     method: "GET",
+  //   };
+  //   axios(config)
+  //     .then((res) => {
+  //       let data = res.data,
+  //         arrItems = [];
+  //       data.forEach((element) => {
+  //         arrItems.push(element.mainCatName);
+  //       });
+  //       this.setState({ items: arrItems }, () => {});
+  //     })
+  //     .catch((err) => console.log(err));
+  // };
 
-  handleTextChange = (e) => {
-    const value = e.target.value;
-    let suggestions = [];
-    if (value.length > 0) {
-      const regex = new RegExp(`^${value}`, "i");
-      suggestions = this.state.items.sort().filter((v) => regex.test(v));
-    }
-    this.setState(() => ({
-      suggestions,
-      text: value,
-    }));
-  };
+  // handleTextChange = (e) => {
+  //   const value = e.target.value;
+  //   let suggestions = [];
+  //   if (value.length > 0) {
+  //     const regex = new RegExp(`^${value}`, "i");
+  //     suggestions = this.state.items.sort().filter((v) => regex.test(v));
+  //   }
+  //   this.setState(() => ({
+  //     suggestions,
+  //     text: value,
+  //   }));
+  // };
 
-  suggestionSelected(value) {
-    this.setState(() => ({
-      text: value,
-      suggestions: [],
-    }));
-  }
+  // suggestionSelected(value) {
+  //   this.setState(() => ({
+  //     text: value,
+  //     suggestions: [],
+  //   }));
+  // }
 
-  renderSuggestions() {
-    const { suggestions } = this.state;
-    if (suggestions.length === 0) {
-      return null;
-    }
-    return (
-      <div className="srchList">
-        <ul>
-          {suggestions.map((item) => (
-            <li onClick={() => this.suggestionSelected(item)}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  }
+  // renderSuggestions() {
+  //   const { suggestions } = this.state;
+  //   if (suggestions.length === 0) {
+  //     return null;
+  //   }
+  //   return (
+  //     <div className="srchList">
+  //       <ul>
+  //         {suggestions.map((item) => (
+  //           <li onClick={() => this.suggestionSelected(item)}>{item}</li>
+  //         ))}
+  //       </ul>
+  //     </div>
+  //   );
+  // }
   render() {
     return (
       <div>
         <Container>
-          <div className="flex-container">
+          {/* <div className="flex-container">
             <div className="search">
               <div className="searchBar">
                 <input
@@ -96,7 +96,7 @@ export default class Leathers extends React.Component {
           </div>
           <div>
             <p>{this.renderSuggestions()}</p>
-          </div>
+          </div> */}
           <Row>
             <Col md="12" lg="12">
               <Card className="imgLeathersCard">
@@ -133,11 +133,11 @@ export default class Leathers extends React.Component {
                         finishing.
                       </p>
                     </Card.Text>
-                    <a href={Mileather} download="MI Leather" target='_blank'>
-                    <Button className="cardButton" >
-                      <FaDownload className="pdfIcon" />
-                      Download PDF
-                    </Button>
+                    <a href={Mileather} download="MI Leather" target="_blank">
+                      <Button className="cardButton">
+                        <FaDownload className="pdfIcon" />
+                        Download PDF
+                      </Button>
                     </a>
                   </Card.Body>
                 </Card>
@@ -148,39 +148,83 @@ export default class Leathers extends React.Component {
           <Row style={{ textAlign: "center" }}>
             <h1>Our Products</h1>
             <Col md="3" lg="3" sm="4">
-              <Image
-                src={leatherbag1}
-                className="Fiberproductcol1"
-                roundedCircle
-              />
+              <Image src={Bags11} className="Fiberproductcol1" roundedCircle />
               <h1>Bags</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
-              <Image
-                src={leatherbag2}
-                className="Fiberproductcol2"
-                roundedCircle
-              />
+              <Image src={Bags33} className="Fiberproductcol2" roundedCircle />
               <h1> Accessories</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image
-                src={leatherbag3}
+                src={Footware}
                 className="Fiberproductcol3"
                 roundedCircle
               />
-              <h1> Jacket</h1>
+              <h1> Footwears</h1>
             </Col>
             <Col md="3" lg="3" sm="12">
+              <Image src={Belt} className="Fiberproductcol3" roundedCircle />
+              <h1> Belt</h1>
+            </Col>
+          </Row>
+          {/* <br />
+<Row style={{ textAlign: "center" }}>
+  <Col md="12" lg="12" sm="12">
+    <Image
+      src={Jacket}
+      className="Fiberproductcol5"
+      roundedCircle
+    />
+    <h1> Jackets</h1>
+  </Col>
+</Row> */}
+<br/>
+<br/>
+ <Row style={{ textAlign: "center" }}>
+           
+            <Col md="3" lg="3" sm="4">
+              <Image src={Bags11} className="Fiberproductcol1" roundedCircle />
+              <h1>Bags</h1>
+            </Col>
+            <Col md="3" lg="3" sm="4">
+              <Image src={Bags33} className="Fiberproductcol2" roundedCircle />
+              <h1> Accessories</h1>
+            </Col>
+            <Col md="3" lg="3" sm="4">
               <Image
-                src={leathershoe}
+                src={Footware}
                 className="Fiberproductcol3"
                 roundedCircle
               />
-              <h1> Footwares</h1>
+              <h1> Footwears</h1>
+            </Col>
+            <Col md="3" lg="3" sm="12">
+              <Image src={Belt} className="Fiberproductcol3" roundedCircle />
+              <h1> Belt</h1>
             </Col>
           </Row>
           <br />
+          <br />
+<Row style={{ textAlign: "center" }}>
+  <Col >
+    <Image
+      src={Jacket}
+      className="Fiberproductcol5"
+      roundedCircle
+    />
+    <h1> Jackets</h1>
+  </Col>
+  <Col >
+    <Image
+      src={Jacket}
+      className="Fiberproductcol5"
+      roundedCircle
+    />
+    <h1> Jackets</h1>
+  </Col>
+</Row>
+<br />
 
           <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>

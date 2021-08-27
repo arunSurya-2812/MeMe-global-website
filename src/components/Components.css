@@ -13,8 +13,8 @@
 }
 
 .sponsers2 {
-  height: 50%;
-  width: 50%;
+  height: 35%;
+  width: 35%;
   max-width: 100%;
 
   position: relative;
@@ -41,13 +41,13 @@
 }
 
 /* #basic-navbar-nav { */
-  /* background-color: #707070 !important; */
+/* background-color: #707070 !important; */
 
-  /* font-family: "Poppins", Regular; */
-  /* font-size: 21px; */
+/* font-family: "Poppins", Regular; */
+/* font-size: 21px; */
 /* } */
 
-#nav-Dropdown {
+/* #nav-Dropdown {
   color: #129652 !important;
   top: 0.6cm;
   overflow: hidden;
@@ -74,15 +74,19 @@
   background-color: lightgray;
   font-size: 15px;
 } */
-
-a {
-  color: white !important;
+/* 
+.dropdown a {
+  color: white;
+  color: !important;
   text-decoration: none;
   font-family: Poppins, Regular;
+} */
+a{
+  color: white !important;
 }
 
 a:hover {
-  color: black !important;
+  color:white!important;
   text-decoration: none;
   font-family: Poppins, Regular;
 }
@@ -92,7 +96,7 @@ a:focus-visible {
 }
 
 .dropbtn:focus {
-  color: #000000 !important;
+  color: green!important;
 }
 
 .dropbtn {
@@ -124,15 +128,15 @@ a:focus-visible {
 
 .dropdown-content a {
   padding: 6px 18px;
-  color: #000000 !important;
+  color: black !important;
   display: block;
   font-size: 15px;
 }
 
 
 .dropdown-content a:hover {
-  background-color: white;
-  color: #000000 !important;
+  background-color:white;
+  color: green !important;
 
 }
 
@@ -145,31 +149,34 @@ a:focus-visible {
 }
 
 .dropdown:hover .dropbtn {
-  background-color: rgb(179, 175, 175);
+  background-color: orange;
   border-radius: 30px;
-  color: #000000 !important;
+  color: white !important;
 }
 
 
 .Toogle {
   display: none;
 }
+
 @media only screen and (max-width: 800px) {
-  
+
   .Toogle {
     display: inline;
- 
-  } 
+
+  }
+
   .dropdown-content a:hover {
     background-color: #ddd;
     display: inline-table;
-  
+
   }
 
   .dropdown:hover .dropdown-content {
     display: inline-table;
   }
-  .dropdown-content:hover .dropbtn{
+
+  .dropdown-content:hover .dropbtn {
     color: black !important;
   }
 
@@ -447,6 +454,9 @@ a:focus-visible {
   margin: 10px;
 }
 
+/* .pdfIcon{
+} */
+
 .Fiberproductcol3 {
   height: 5cm;
   width: 5cm;
@@ -490,12 +500,12 @@ h1 {
 .footer {
   background-color: #fa5e5373;
   position: relative;
-  height: 350px;
+  height: 280px;
   max-width: none;
   max-height: none;
   width: 100%;
   overflow: visible;
-  border-radius: 30px;
+  /* border-radius: 30px;   */
   box-shadow: 9px 2px 22px 12px #00000029 !important;
 }
 
@@ -506,12 +516,12 @@ h1 {
     border: #000000 !important;
     border-color: #000000;
     position: relative;
-    height: 720px;
+    height: 500px;
     max-width: none;
     max-height: none;
     width: 100%;
     overflow: hidden;
-    border-radius: 30px;
+    /* border-radius: 30px; */
     top: 10px;
     box-shadow: 9px 2px 22px 12px #00000029 !important;
   }
@@ -648,7 +658,7 @@ h1 {
 }
 
 .cardButton {
-  width: max-content;
+  width: fit-content;
   height: 50px;
   border-radius: 40px;
   color: #106cc4;
@@ -660,6 +670,10 @@ h1 {
   border: none !important;
   opacity: 1 !important;
   box-shadow: 9px 3px 50px #00000029 !important;
+}
+
+.pdfIcon {
+  margin-right: 20px;
 }
 
 

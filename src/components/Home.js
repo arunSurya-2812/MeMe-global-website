@@ -2,9 +2,10 @@ import Essential from "../img/Essential.jpg";
 import Bags from "../img/Bags.png";
 import cups from "../img/cups.png";
 import shoes from "../img/shoes.png";
-
+ 
+import OM from "../img/OM.jpg";
 import accessories from "../img/accessories.jpg";
-import jacket from "../img/jacket.png";
+import Jacket from "../img/Jacket.png";
 import Leather1 from "../img/Leather1.jpg";
 
 import Menproduct from "../img/Menproduct.jpg";
@@ -42,7 +43,6 @@ export default class Home extends Component {
               Browse
               <FaArrowCircleRight className="icondnwld" />
             </button>
-             
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
@@ -71,7 +71,7 @@ export default class Home extends Component {
         </Carousel>
 
         <Allimage />
-        <Row className="Sponsers" >
+        <Row className="Sponsers">
           <Col className="spon" xs={6}>
             <a href="https://nazca.in/home" rel="noreferrer" target="_blank">
               <Image src={Nazca} className="sponsers1" />
@@ -92,9 +92,9 @@ export default class Home extends Component {
             fontWeight: "600",
           }}
         >
-          Recent Discounts
+          Our Products
         </h1>
-        <Row >
+        <Row>
           <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img
@@ -201,9 +201,7 @@ export default class Home extends Component {
             left: "1cm",
             fontWeight: "600",
           }}
-        >
-          Our Products
-        </h1>
+        ></h1>
         <Row>
           <Col xs="6" sm="3" md="3">
             <Card>
@@ -278,7 +276,7 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src={jacket}
+                src={Jacket}
                 className="Productcardimage"
               />
               <Card.Body>
@@ -388,94 +386,6 @@ export default class Home extends Component {
             </Card>
           </Col>
 
-          <Col xs="6" sm="3" md="3">
-            <Card>
-              <Card.Img variant="top" src={cups} className="Productcardimage" />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
-                    }}
-                  >
-                    Cups
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs="6" sm="3" md="3">
-            <Card>
-              <Card.Img
-                variant="top"
-                src={Essential}
-                className="Productcardimage"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
-                    }}
-                  >
-                    Essentials
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-        <Row>
-          <Col xs="6" sm="3" md="3">
-            <Card>
-              <Card.Img variant="top" src={Bags} className="Productcardimage" />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
-                    }}
-                  >
-                    Bags
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs="6" sm="3" md="3">
-            <Card>
-              <Card.Img variant="top" src={Bags} className="Productcardimage" />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
-                    }}
-                  >
-                    Plates
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
           <Col xs="6" sm="3" md="3">
             <Card>
               <Card.Img variant="top" src={cups} className="Productcardimage" />

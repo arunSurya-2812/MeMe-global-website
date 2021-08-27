@@ -2,7 +2,7 @@ import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 
 import axios from "axios";
-import Linen from "../img/Linen.jpg"
+import Linen from "../img/Linen.jpg";
 import cotton1 from "../img/cotton1.jpg";
 import bananafibre from "../img/bananafibre.jpg";
 import fabproduct4 from "../img/fabproduct4.png";
@@ -10,72 +10,72 @@ import { FaDownload } from "react-icons/fa";
 import Contactusform from "./Contactusform";
 
 export default class Ecofriendly extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      text: "",
-      suggestions: [],
-      items: [],
-    };
-  }
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     text: "",
+  //     suggestions: [],
+  //     items: [],
+  //   };
+  // }
 
-  componentDidMount = () => {
-    let config = {
-      url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
-      method: "GET",
-    };
-    axios(config)
-      .then((res) => {
-        let data = res.data,
-          arrItems = [];
-        data.forEach((element) => {
-          arrItems.push(element.mainCatName);
-        });
-        this.setState({ items: arrItems }, () => {});
-      })
-      .catch((err) => console.log(err));
-  };
+  // componentDidMount = () => {
+  //   let config = {
+  //     url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
+  //     method: "GET",
+  //   };
+  //   axios(config)
+  //     .then((res) => {
+  //       let data = res.data,
+  //         arrItems = [];
+  //       data.forEach((element) => {
+  //         arrItems.push(element.mainCatName);
+  //       });
+  //       this.setState({ items: arrItems }, () => {});
+  //     })
+  //     .catch((err) => console.log(err));
+  // };
 
-  handleTextChange = (e) => {
-    const value = e.target.value;
-    let suggestions = [];
-    if (value.length > 0) {
-      const regex = new RegExp(`^${value}`, "i");
-      suggestions = this.state.items.sort().filter((v) => regex.test(v));
-    }
-    this.setState(() => ({
-      suggestions,
-      text: value,
-    }));
-  };
+  // handleTextChange = (e) => {
+  //   const value = e.target.value;
+  //   let suggestions = [];
+  //   if (value.length > 0) {
+  //     const regex = new RegExp(`^${value}`, "i");
+  //     suggestions = this.state.items.sort().filter((v) => regex.test(v));
+  //   }
+  //   this.setState(() => ({
+  //     suggestions,
+  //     text: value,
+  //   }));
+  // };
 
-  suggestionSelected(value) {
-    this.setState(() => ({
-      text: value,
-      suggestions: [],
-    }));
-  }
+  // suggestionSelected(value) {
+  //   this.setState(() => ({
+  //     text: value,
+  //     suggestions: [],
+  //   }));
+  // }
 
-  renderSuggestions() {
-    const { suggestions } = this.state;
-    if (suggestions.length === 0) {
-      return null;
-    }
-    return (
-      <div className="srchList">
-        <ul>
-          {suggestions.map((item) => (
-            <li onClick={() => this.suggestionSelected(item)}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  }
+  // renderSuggestions() {
+  //   const { suggestions } = this.state;
+  //   if (suggestions.length === 0) {
+  //     return null;
+  //   }
+  //   return (
+  //     <div className="srchList">
+  //       <ul>
+  //         {suggestions.map((item) => (
+  //           <li onClick={() => this.suggestionSelected(item)}>{item}</li>
+  //         ))}
+  //       </ul>
+  //     </div>
+  //   );
+  // }
   render() {
     return (
       <div>
         <Container>
-          <div className="flex-container">
+          {/* <div className="flex-container">
             <div className="search">
               <div className="searchBar">
                 <input
@@ -93,7 +93,7 @@ export default class Ecofriendly extends React.Component {
           </div>
           <div>
             <p>{this.renderSuggestions()}</p>
-          </div>
+          </div> */}
           <Row>
             <Col md="12" lg="12">
               {" "}
@@ -131,10 +131,7 @@ export default class Ecofriendly extends React.Component {
                         finishing.
                       </p>
                     </Card.Text>
-                    <Button
-                      className="cardButton"
-                    
-                    >
+                    <Button className="cardButton">
                       <FaDownload className="pdfIcon" />
                       Download PDF
                     </Button>

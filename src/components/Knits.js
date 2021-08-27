@@ -11,72 +11,72 @@ import { FaDownload } from "react-icons/fa";
 import axios from "axios";
 
 export default class Knits extends React.Component {
-  constructor(props) {
-    super(props);
-    this.state = {
-      text: "",
-      suggestions: [],
-      items: [],
-    };
-  }
-  componentDidMount = () => {
-    let config = {
-      url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
-      method: "GET",
-    };
-    axios(config)
-      .then((res) => {
-        let data = res.data,
-          arrItems = [];
-        data.forEach((element) => {
-          arrItems.push(element.mainCatName);
-        });
-        this.setState({ items: arrItems }, () => {});
-      })
-      .catch((err) => console.log(err));
-  };
+  // constructor(props) {
+  //   super(props);
+  //   this.state = {
+  //     text: "",
+  //     suggestions: [],
+  //     items: [],
+  //   };
+  // }
+  // componentDidMount = () => {
+  //   let config = {
+  //     url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
+  //     method: "GET",
+  //   };
+  //   axios(config)
+  //     .then((res) => {
+  //       let data = res.data,
+  //         arrItems = [];
+  //       data.forEach((element) => {
+  //         arrItems.push(element.mainCatName);
+  //       });
+  //       this.setState({ items: arrItems }, () => {});
+  //     })
+  //     .catch((err) => console.log(err));
+  // };
 
-  handleTextChange = (e) => {
-    const value = e.target.value;
-    let suggestions = [];
-    if (value.length > 0) {
-      const regex = new RegExp(`^${value}`, "i");
-      suggestions = this.state.items.sort().filter((v) => regex.test(v));
-    }
-    this.setState(() => ({
-      suggestions,
-      text: value,
-    }));
-  };
+  // handleTextChange = (e) => {
+  //   const value = e.target.value;
+  //   let suggestions = [];
+  //   if (value.length > 0) {
+  //     const regex = new RegExp(`^${value}`, "i");
+  //     suggestions = this.state.items.sort().filter((v) => regex.test(v));
+  //   }
+  //   this.setState(() => ({
+  //     suggestions,
+  //     text: value,
+  //   }));
+  // };
 
-  suggestionSelected(value) {
-    this.setState(() => ({
-      text: value,
-      suggestions: [],
-    }));
-  }
+  // suggestionSelected(value) {
+  //   this.setState(() => ({
+  //     text: value,
+  //     suggestions: [],
+  //   }));
+  // }
 
-  renderSuggestions() {
-    const { suggestions } = this.state;
-    if (suggestions.length === 0) {
-      return null;
-    }
-    return (
-      <div className="srchList">
-        <ul>
-          {suggestions.map((item) => (
-            <li onClick={() => this.suggestionSelected(item)}>{item}</li>
-          ))}
-        </ul>
-      </div>
-    );
-  }
+  // renderSuggestions() {
+  //   const { suggestions } = this.state;
+  //   if (suggestions.length === 0) {
+  //     return null;
+  //   }
+  //   return (
+  //     <div className="srchList">
+  //       <ul>
+  //         {suggestions.map((item) => (
+  //           <li onClick={() => this.suggestionSelected(item)}>{item}</li>
+  //         ))}
+  //       </ul>
+  //     </div>
+  //   );
+  // }
 
   render() {
     return (
       <div>
         <Container>
-          <div className="flex-container">
+          {/* <div className="flex-container">
             <div className="search">
               <div className="searchBar">
                 <input
@@ -94,7 +94,7 @@ export default class Knits extends React.Component {
           </div>
           <div>
             <p>{this.renderSuggestions()}</p>
-          </div>
+          </div> */}
           <Row>
             <Col md="12" lg="12">
               <Card className="imgKnitsCard">
@@ -103,30 +103,19 @@ export default class Knits extends React.Component {
                     <h1 className="cardTitle">ABOUT US</h1>
                     <Card.Text className="cardContent">
                       <p>
-                        We are India’s leading manufacturers of leather goods
-                        expertise in export of high end quality of finished
-                        Leather Bags, footwear and various leather accessories.
-                        To gain our Customer’s trust, expectations and
-                        requirements and build a long term relationship with
-                        them is our main Objective.
-                        <br />
-                        We
-                        <br /> are located in CHENNAI RANIPET INDIA
-                        <br /> MEME INDIA.
-                        <br /> We offer leather goods that are both fashionable
-                        and sustainable. We as leather and leather goods
-                        exporter in India, ship to overseas destinations like
-                        Canada, Germany, France, Australia, Russia, USA and
-                        other European Countries. We deal in Leather bags, Belts
-                        ,wallets and all kinds of small leather goods for both
-                        Men & Women segment. <br /> MEME Leather has a dedicated
-                        leather tannery in the southern Indian city of Chennai,
-                        which can process 15,000 skins each day. This backward
-                        integration enables MEME to create new finishes and
-                        fashions in leather, which has been a key element in
-                        growing our business. This facility has multiplied its
-                        capacity to serve as our hub for leather sourcing and
-                        finishing.
+                        Knitting your own clothes is not only satisfying, it
+                        gives you more freedom when we create each piece exactly
+                        as you like. Knitting is strongly recommended for
+                        everyone, as it dramatically improves skills and
+                        stimulates the brain. It helps to stay active and work
+                        passively. Our artisans love working the wool and
+                        needles that create a magical moment. Our soft, fluffy,
+                        and durable yarn is a fantastic value for money and is
+                        perfect for knitting. Choose from our website MEME
+                        INDIA, you'll be sure to find your perfect beauty. Make
+                        room in your wardrobe for the new fiber that will take
+                        your breath away. It will surprise you with both its
+                        softness and its warmth.
                       </p>
                     </Card.Text>
                     <Button className="cardButton">

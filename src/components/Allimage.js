@@ -25,7 +25,6 @@ export default class MultipleItems extends Component {
     };
     return (
       <Slider {...settings}>
- 
         <div>
           <img
             className="Sliderpics"
@@ -106,6 +105,7 @@ export default class MultipleItems extends Component {
             style={{ borderRadius: "1cm" }}
             src={Yarn22}
             alt="Firstslide"
+           
           />
 
           <button className="Browsebutn1">
