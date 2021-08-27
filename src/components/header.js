@@ -1,6 +1,7 @@
 import React, { Component } from "react";
-import { Row, Col, Container } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import Logo from "../img/logo.png";
+import searchButton from "../img/Searchhh.png";
 import "./Components.css";
 import axios from "axios";
 export default class Header extends Component {
@@ -68,42 +69,44 @@ export default class Header extends Component {
 
   render() {
     return (
-      <div>
-       
-          <Row>
-            <Col >
-              <div className="logo">
-                <img
-                  src={Logo}
-                  height="70px"
-                  width="250px"
-                  alt="MeMe-Global logo"
+      <>
+        <Row>
+          <Col>
+            <div className="logo">
+              <img
+                src={Logo}
+                height="70px"
+                width="250px"
+                alt="MeMe-Global logo"
+              />
+            </div>
+          </Col>
+          <Col>
+            <div className="search">
+              <div className="searchBar">
+                <input
+                  type="text"
+                  value={this.state.text}
+                  placeholder="Search for Products"
+                  className="searchInput"
+                  onChange={(e) => this.handleTextChange(e)}
                 />
+                <button type="button" className="searchButton">
+                  <img src={searchButton} alt="searchButton" width="43px"></img>
+                </button>
               </div>
-            </Col>
-            <Col  >
-              <div >
-                <div className="search">
-                  <div className="searchBar">
-                    <input
-                      type="text"
-                      value={this.state.text}
-                      placeholder="Looking for..."
-                      className="searchInput"
-                      onChange={(e) => this.handleTextChange(e)}
-                    />
-                    <button type="button" className="searchButton">
-                      SEARCH
-                    </button>
-                  </div>
-                </div>
-              </div>
-              <div>
-                <p>{this.renderSuggestions()}</p>
-              </div>
-            </Col>
-          </Row>
-      </div>
+            </div>
+          </Col>
+          <Col></Col>
+        </Row>
+        <Row>
+          <Col>
+            <div>
+              <p>{this.renderSuggestions()}</p>
+            </div>
+          </Col>
+        </Row>
+      </>
     );
   }
 }

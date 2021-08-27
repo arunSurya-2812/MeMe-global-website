@@ -2,10 +2,10 @@ import Essential from "../img/Essential.jpg";
 import Bags from "../img/Bags.png";
 import cups from "../img/cups.png";
 import shoes from "../img/shoes.png";
- 
+
 import OM from "../img/OM.jpg";
 import accessories from "../img/accessories.jpg";
-import Jacket from "../img/Jacket.png";
+import Jacket from "../img/jacket.png";
 import Leather1 from "../img/Leather1.jpg";
 
 import Menproduct from "../img/Menproduct.jpg";

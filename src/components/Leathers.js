@@ -2,7 +2,7 @@ import Contactusform from "./Contactusform";
 import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
-import Jacket from '../img/Jacket.png'
+import Jacket from "../img/jacket.png";
 import axios from "axios";
 
 import Mileather from "../Pdf/MiLeather.pdf";
@@ -179,10 +179,9 @@ export default class Leathers extends React.Component {
     <h1> Jackets</h1>
   </Col>
 </Row> */}
-<br/>
-<br/>
- <Row style={{ textAlign: "center" }}>
-           
+          <br />
+          <br />
+          <Row style={{ textAlign: "center" }}>
             <Col md="3" lg="3" sm="4">
               <Image src={Bags11} className="Fiberproductcol1" roundedCircle />
               <h1>Bags</h1>
@@ -206,25 +205,17 @@ export default class Leathers extends React.Component {
           </Row>
           <br />
           <br />
-<Row style={{ textAlign: "center" }}>
-  <Col >
-    <Image
-      src={Jacket}
-      className="Fiberproductcol5"
-      roundedCircle
-    />
-    <h1> Jackets</h1>
-  </Col>
-  <Col >
-    <Image
-      src={Jacket}
-      className="Fiberproductcol5"
-      roundedCircle
-    />
-    <h1> Jackets</h1>
-  </Col>
-</Row>
-<br />
+          <Row style={{ textAlign: "center" }}>
+            <Col>
+              <Image src={Jacket} className="Fiberproductcol5" roundedCircle />
+              <h1> Jackets</h1>
+            </Col>
+            <Col>
+              <Image src={Jacket} className="Fiberproductcol5" roundedCircle />
+              <h1> Jackets</h1>
+            </Col>
+          </Row>
+          <br />
 
           <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>

@@ -81,12 +81,12 @@
   text-decoration: none;
   font-family: Poppins, Regular;
 } */
-a{
+a {
   color: white !important;
 }
 
 a:hover {
-  color:white!important;
+  color: white !important;
   text-decoration: none;
   font-family: Poppins, Regular;
 }
@@ -96,7 +96,7 @@ a:focus-visible {
 }
 
 .dropbtn:focus {
-  color: green!important;
+  color: green !important;
 }
 
 .dropbtn {
@@ -133,11 +133,9 @@ a:focus-visible {
   font-size: 15px;
 }
 
-
 .dropdown-content a:hover {
-  background-color:white;
+  background-color: white;
   color: green !important;
-
 }
 
 .dropdown-content:hover .dropbtn {
@@ -154,22 +152,18 @@ a:focus-visible {
   color: white !important;
 }
 
-
 .Toogle {
   display: none;
 }
 
 @media only screen and (max-width: 800px) {
-
   .Toogle {
     display: inline;
-
   }
 
   .dropdown-content a:hover {
     background-color: #ddd;
     display: inline-table;
-
   }
 
   .dropdown:hover .dropdown-content {
@@ -183,11 +177,8 @@ a:focus-visible {
   .dropdown:hover .dropbtn {
     background-color: rgb(179, 175, 175);
     border-radius: 100px;
-
   }
-
 }
-
 
 .carousel {
   height: 670px;
@@ -263,8 +254,6 @@ a:focus-visible {
     width: 100% !important;
     border-radius: 1px !important;
     padding-right: 70px;
-    ;
-
   }
 }
 
@@ -273,7 +262,7 @@ a:focus-visible {
     height: 100% !important;
     width: 100% !important;
     border-radius: 1px !important;
-    padding-right: 20px
+    padding-right: 20px;
   }
 }
 
@@ -296,7 +285,6 @@ a:focus-visible {
 }
 
 @media only screen and (max-width: 700px) {
-
   .carousel.slide {
     padding-bottom: 0% !important;
     overflow: hidden;
@@ -495,8 +483,6 @@ h1 {
   font-family: Poppins, Regular;
 }
 
-
-
 .footer {
   background-color: #fa5e5373;
   position: relative;
@@ -676,7 +662,6 @@ h1 {
   margin-right: 20px;
 }
 
-
 h1 {
   text-align: center;
   font-family: Poppins, Bold;
@@ -775,11 +760,10 @@ h1 {
 
 .search .searchInput {
   width: 100%;
-  border: 3px solid #00b4cc;
+  border: 1px solid #121313b7;
+  padding: 10px;
+  border-radius: 30px 0 0 30px;
   border-right: none;
-  padding: 5px;
-  border-radius: 10px 0 0 10px;
-  outline: none;
   color: #9dbfaf;
 }
 
@@ -790,12 +774,13 @@ h1 {
 .search .searchButton {
   width: 30%;
   height: 50px;
-  border: 1px solid #00b4cc;
-  background: #00b4cc;
+  border: 1px solid #121313b7;
   text-align: center;
   color: #fff;
-  border-radius: 0 10px 10px 0;
+  border-radius: 0px 30px 30px 0px;
+  border-left: none;
   cursor: pointer;
-  font-size: 15px;
+  background-color: white;
   font-family: Poppins, Regular;
+  position: relative;
 }
