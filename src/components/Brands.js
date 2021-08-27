@@ -183,11 +183,11 @@ export default class Brands extends React.Component {
           </Row> */}
           <br />
           <Row>
-            <Col>
-              <Image
-                src={OM}
-                style={{ width: "100%", height: "100%", paddingTop: "5%",borderRadius:"2%" }}
-              />
+            <Col md="12" lg="12">
+              <Card className="imgYarnCard">
+                <Card.Img src={OM}/>
+                </Card>
+             
             </Col>
           </Row>
           <Row className="Sponsers">

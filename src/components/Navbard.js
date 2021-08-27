@@ -45,13 +45,12 @@ function Navboard() {
                 </Nav.Link>
 
                 <div class="dropdown-content">
-                  <a href="#">Cotton</a>
-                  <a href="#">Poly Cotton</a>
-                  <a href="#">Tencel& Modal</a>
+                  <a href="#">Kyorene Polymide Filament</a>
+                  <a href="#">Staple Blend Cotton</a>
+                  <a href="#">Continuous Filament</a>
 
-                  <a href="#">Lyocell</a>
+                  <a href="#">Kyorene White Polyamide</a>
 
-                  <a href="#">Recycle</a>
                 </div>
               </div>
               <div class="dropdown">
@@ -64,11 +63,9 @@ function Navboard() {
                 </Nav.Link>
 
                 <div class="dropdown-content">
-                  <a href="#">Fabrics</a>
-                  <a href="#">SUSTAINABLE FABRICS</a>
-                  <a href="#">ARTISAN MADE</a>
-
-                  <a href="#">FABRICS CRAFTSME</a>
+                  <a href="#">Weave </a>
+                  <a href="#">Knit</a>
+                
                 </div>
               </div>
              
@@ -94,12 +91,24 @@ function Navboard() {
 
                   <FaAngleDown className="Toogle" />
                 </Nav.Link>
-                <div class="dropdown-content">
-                  <a href="#">Knits</a>
-                  <a href="#">Weave</a>
-                  <a href="#">Artisan</a>
 
-                  <a href="#">Eco friendly</a>
+
+                <div class="dropdown-content">
+                  <a href="#">T-SHIRT</a>
+                  <a href="#">POLO</a>
+                  <a href="#">SHIRTS</a>
+
+                  <a href="#">PANTS & TROUSERS</a>
+                  <a href="#">JEANS</a>
+                  <a href="#"> SWEATS & HOODIES</a>
+                  <a href="#">TRACKS & JOGGER</a>
+
+                  <a href="#"> INNERWEAR</a>
+
+                  <a href="#">SPORTS WEAR</a>
+                  <a href="#">
+                   RELAX & SLEEPWEAR</a>
+
                 </div>
               </div>
 

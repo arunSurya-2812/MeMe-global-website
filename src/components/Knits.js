@@ -127,16 +127,16 @@ export default class Knits extends React.Component {
               </Card>
             </Col>
           </Row>
-          <br />
+          <br />    
           <Row style={{ textAlign: "center" }}>
             <h1>Our Products</h1>
             <Col md="3" lg="3" sm="4">
               <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
-              <h1>Knits</h1>
+              <h1> T-SHIRT</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image src={Linen} className="Fiberproductcol2" roundedCircle />
-              <h1> Weave</h1>
+              <h1> POLO</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image
@@ -144,19 +144,69 @@ export default class Knits extends React.Component {
                 className="Fiberproductcol3"
                 roundedCircle
               />
-              <h1> Artisan</h1>
+              <h1> SHIRTS</h1>
             </Col>
-            <Col md="3" lg="3" sm="12">
+            <Col md="3" lg="3" sm="2">
               <Image
                 src={bananafibre}
                 className="Fiberproductcol3"
                 roundedCircle
               />
-              <h1> Eco friendly</h1>
+              <h1> 
+            PANTS & TROUSERS</h1>
             </Col>
           </Row>
-          <br />
-
+          <br/>
+          <br/>
+          <br/>
+          <Row  style={{textAlign:"center"}}>
+            <Col md="3" lg="3" sm="4">
+              <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
+              <h1>JEANS</h1>
+            </Col>
+            <Col md="3" lg="3" sm="4">
+              <Image src={Linen} className="Fiberproductcol2" roundedCircle />
+              <h1> SWEATS & HOODIES</h1>
+            </Col>
+            <Col md="3" lg="3" sm="4">
+              <Image
+                src={fabproduct4}
+                className="Fiberproductcol3"
+                roundedCircle
+              />
+              <h1> TRACKS & JOGGER </h1>
+            </Col>
+            <Col md="3" lg="3" sm="2">
+              <Image
+                src={bananafibre}
+                className="Fiberproductcol3"
+                roundedCircle
+              />
+              <h1> INNERWEAR </h1>
+            </Col>
+          </Row>
+          <br/>
+          <br/>
+          <Row  style={{textAlign:"center"}}>
+            <Col md="3" lg="8" sm="4">
+              <Image
+                src={fabproduct4}
+                className="Fiberproductcol3"
+                roundedCircle
+              />
+              <h1> SPORTS WEAR</h1>
+            </Col>
+            <Col md="2" lg="2" sm="4">
+              <Image
+                src={bananafibre}
+                className="Fiberproductcol3"
+                roundedCircle
+              />
+              <h1> RELAX & SLEEPWEAR</h1>
+            </Col>
+          </Row>
+          
+         
           <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>
           </Row>

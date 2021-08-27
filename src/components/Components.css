@@ -136,7 +136,7 @@ a:focus-visible {
 
 .dropdown-content a:hover {
   background-color:white;
-  color: green !important;
+  color: #03fc52 !important;
 
 }
 
@@ -177,11 +177,12 @@ a:focus-visible {
   }
 
   .dropdown-content:hover .dropbtn {
-    color: black !important;
+    color: white !important;
+    background-color: orange;
   }
 
   .dropdown:hover .dropbtn {
-    background-color: rgb(179, 175, 175);
+    background-color: orange;
     border-radius: 100px;
 
   }

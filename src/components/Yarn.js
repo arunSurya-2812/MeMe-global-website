@@ -95,13 +95,14 @@ export default class Yarn extends React.Component {
             </div>
           </div> */}
           <Row>
-            <Col>
-              <Image
-                src={Yarn22}
-                style={{ width: "100%", height: "60%", paddingTop:"10%",borderRadius:"50px" }}
-              />
+            <Col md="12" lg="12">
+              <Card className="imgYarnCard">
+                <Card.Img src={Yarn22}/>
+                </Card>
+             
             </Col>
           </Row>
+
 
           <Row>
             <Col md="12" lg="12">
@@ -139,13 +140,15 @@ export default class Yarn extends React.Component {
           <br />
           <Row style={{ textAlign: "center" }}>
             <h1>Our Products</h1>
+            <br/>
+            <br/>
             <Col md="3" lg="3" sm="4">
               <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
-              <h1>Cotton</h1>
+              <h1>Kyorene Polymide Filament</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image src={Linen} className="Fiberproductcol2" roundedCircle />
-              <h1> Poly Cotton</h1>
+              <h1> Staple Blend Cotton</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image
@@ -153,7 +156,7 @@ export default class Yarn extends React.Component {
                 className="Fiberproductcol3"
                 roundedCircle
               />
-              <h1> Tencel& Modal</h1>
+              <h1>Continuous Filament</h1>
             </Col>
             <Col md="3" lg="3" sm="12">
               <Image
@@ -161,21 +164,12 @@ export default class Yarn extends React.Component {
                 className="Fiberproductcol3"
                 roundedCircle
               />
-              <h1> Lyocell</h1>
+              <h1> Kyorene White Polyamide</h1>
             </Col>
           </Row>
           <br />
 
-          <Row style={{ textAlign: "center" }}>
-            <Col md="12" lg="12" sm="12">
-              <Image
-                src={fabproduct1}
-                className="Fiberproductcol5"
-                roundedCircle
-              />
-              <h1> Recycle</h1>
-            </Col>
-          </Row>
+       
           <br />
           <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>
