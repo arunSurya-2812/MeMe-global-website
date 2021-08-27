@@ -96,17 +96,15 @@ export default class Header extends Component {
                 </button>
               </div>
             </div>
+            <p>{this.renderSuggestions}</p>
           </Col>
           <Col></Col>
-        </Row>
-        <Row>
-          <Col>
-            <div>
-              <p>{this.renderSuggestions()}</p>
-            </div>
-          </Col>
         </Row>
       </>
     );
   }
 }
+
+// {
+//   this.renderSuggestions();
+// }

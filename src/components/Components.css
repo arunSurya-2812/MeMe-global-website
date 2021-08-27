@@ -484,7 +484,7 @@ h1 {
 }
 
 .footer {
-  background-color: #fa5e5373;
+  background-color: #73f67c;
   position: relative;
   height: 280px;
   max-width: none;
@@ -498,7 +498,7 @@ h1 {
 @media only screen and (max-width: 800px) {
   .footer {
     /*transition: border-radius 0.3s, opacity 0.3s;*/
-    background-color: #fa5e5373;
+    background-color: #73f67c;
     border: #000000 !important;
     border-color: #000000;
     position: relative;
@@ -685,7 +685,7 @@ h1 {
   height: 30%;
   width: 65%;
   text-align: center;
-  background-color: #129652 !important;
+  background-color: #0d67dc !important;
   border-radius: 45px;
   margin: auto;
   color: #ffffff;
@@ -694,7 +694,7 @@ h1 {
 
 .contactImg {
   width: max-content;
-  height: 235px;
+  /* height: 235px; */
   margin: auto;
   background: transparent;
   opacity: 1 !important;
@@ -714,12 +714,12 @@ h1 {
 .Contactusbtn {
   border-radius: 20px;
   width: 70%;
-  background-color: rgb(49, 170, 218);
+  background-color: white;
   font-family: Poppins, Regular;
   font-weight: 100;
   font-size: 15px;
   border: none !important;
-  color: #ffffff;
+  color: blue;
   margin: auto;
   position: relative;
 }
@@ -764,11 +764,11 @@ h1 {
   padding: 10px;
   border-radius: 30px 0 0 30px;
   border-right: none;
-  color: #9dbfaf;
+  color: rgb(246, 250, 248);
 }
 
 .search .searchInput:focus {
-  color: #00b4cc;
+  color: #0c0d0e;
 }
 
 .search .searchButton {
