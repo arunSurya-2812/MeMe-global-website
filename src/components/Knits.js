@@ -8,7 +8,16 @@ import bananafibre from "../img/bananafibre.jpg";
 import fabproduct4 from "../img/fabproduct4.png";
 import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
-import axios from "axios";
+import Pant from "../img/Pant.jpg";
+import Sportswear from "../img/Sportswear.jpg";
+import Sleepwear from "../img/Sleepwear.jpg";
+import Innerwear from "../img/Innerwear.jpg";
+import Polo from "../img/Polo.jpg";
+import Shirt from "../img/Shirt.jpg";
+import Joggers from "../img/Joggers.jpg";
+import Jeans from "../img/Jeans.jpg";
+import Hoodie from "../img/Hoodie.jpg";
+import Tshirt from "../img/Tshirt.jpg";
 
 export default class Knits extends React.Component {
  
@@ -52,24 +61,24 @@ export default class Knits extends React.Component {
           <Row style={{ textAlign: "center" }}>
             <h1>Our Products</h1>
             <Col md="3" lg="3" sm="4">
-              <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
+              <Image src={Tshirt} className="Fiberproductcol1" roundedCircle />
               <h1> T-SHIRT</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
-              <Image src={Linen} className="Fiberproductcol2" roundedCircle />
+              <Image src={Polo} className="Fiberproductcol2" roundedCircle />
               <h1> POLO</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image
-                src={fabproduct4}
+                src={Shirt}
                 className="Fiberproductcol3"
                 roundedCircle
               />
               <h1> SHIRTS</h1>
             </Col>
-            <Col md="3" lg="3" sm="2">
+            <Col md="3" lg="3" sm="12">
               <Image
-                src={bananafibre}
+                src={Pant}
                 className="Fiberproductcol3"
                 roundedCircle
               />
@@ -82,24 +91,24 @@ export default class Knits extends React.Component {
           <br/>
           <Row  style={{textAlign:"center"}}>
             <Col md="3" lg="3" sm="4">
-              <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
+              <Image src={Jeans} className="Fiberproductcol1" roundedCircle />
               <h1>JEANS</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
-              <Image src={Linen} className="Fiberproductcol2" roundedCircle />
+              <Image src={Hoodie} className="Fiberproductcol2" roundedCircle />
               <h1> SWEATS & HOODIES</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image
-                src={fabproduct4}
+                src={Joggers}
                 className="Fiberproductcol3"
                 roundedCircle
               />
               <h1> TRACKS & JOGGER </h1>
             </Col>
-            <Col md="3" lg="3" sm="2">
+            <Col md="3" lg="3" sm="12">
               <Image
-                src={bananafibre}
+                src={Innerwear}
                 className="Fiberproductcol3"
                 roundedCircle
               />
@@ -109,17 +118,17 @@ export default class Knits extends React.Component {
           <br/>
           <br/>
           <Row  style={{textAlign:"center"}}>
-            <Col md="3" lg="8" sm="4">
+            <Col md="3" lg="8" sm="6">
               <Image
-                src={fabproduct4}
+                src={Sportswear}
                 className="Fiberproductcol3"
                 roundedCircle
               />
               <h1> SPORTS WEAR</h1>
             </Col>
-            <Col md="2" lg="2" sm="4">
+            <Col md="2" lg="2" sm="6">
               <Image
-                src={bananafibre}
+                src={Sleepwear}
                 className="Fiberproductcol3"
                 roundedCircle
               />
@@ -127,11 +136,19 @@ export default class Knits extends React.Component {
             </Col>
           </Row>
           
-         
+          <br />
+          
+          <br />
+          
+          <br />
           <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>
           </Row>
 
+          <br />
+          
+          <br />
+          
           <br />
           <Contactusform />
         </Container>

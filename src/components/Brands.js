@@ -37,7 +37,7 @@ export default class Brands extends React.Component {
           <Row>
             <Col>
               <header>
-                <h5>Nazca</h5>
+                <h1>Nazca</h1>
               </header>
               <p>
                 Our point of view on fashion is quite different from the rest of
@@ -64,7 +64,7 @@ export default class Brands extends React.Component {
 
             <Col>
               <header>
-                <h5>Ophelia Moon</h5>
+                <h1>Ophelia Moon</h1>
               </header>{" "}
               <p>
                 Jewellery has the power to be the one little thing that makes

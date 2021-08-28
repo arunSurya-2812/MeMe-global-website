@@ -8,10 +8,11 @@ import cotton1 from "../img/cotton1.jpg";
 // import bananafibre from "../img/bananafibre.jpg";
 import fabproduct4 from "../img/fabproduct4.png";
 import fabproduct1 from "../img/fabproduct1.png";
+import RecycledPolyester from"../img/RecycledPolyester.jpg"
 
 import Cotton22 from "../img/Cotton22.png";
 import recycledpoly from "../img/recycledpoly.png";
-import bananafibre from "../img/bananafibre.png";
+import bananafibre from "../img/bananafibre.jpg";
 
 import { FaDownload } from "react-icons/fa";
 import Contactusform from "./Contactusform";
@@ -61,39 +62,33 @@ export default class Fiber extends React.Component {
           </Row>
           <Row style={{ textAlign: "center" }}>
             <h1>Our Products</h1>
-            <Col md="3" lg="2" sm="4">
+            <Col md="4" lg="4" sm="4">
               <Image
                 src={Cotton22}
                 className="Fiberproductcol1"
                 roundedCircle
               />
-              <h1>Cotton</h1>
+              <h1>VISCOSE DOBE</h1>
             </Col>
-            <Col md="3" lg="4" sm="4">
+            <Col md="4" lg="4" sm="4">
               <Image
-                src={recycledpoly}
+                src={bananafibre}
                 className="Fiberproductcol2"
                 roundedCircle
               />
-              <h1> Banana</h1>
-              <h1> Fibre</h1>
+              <h1> Banana Fibre</h1>
+              <h1> </h1>
+             
             </Col>
-            <Col md="3" lg="2" sm="4">
+            <Col md="4" lg="4" sm="4">
               <Image
-                src={bananafibre}
+                src={RecycledPolyester}
                 className="Fiberproductcol3"
                 roundedCircle
               />
-              <h1> Linen</h1>
+              <h1>RECYCLED POLYESTER</h1>
             </Col>
-            <Col md="3" lg="4" sm="12">
-              <Image
-                src={bananafibre}
-                className="Fiberproductcol3"
-                roundedCircle
-              />
-              <h1> Silk</h1>
-            </Col>
+         
           </Row>
          
           <Row style={{ textAlign: "center" }}>

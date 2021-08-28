@@ -64,7 +64,8 @@ export default class MultipleItems extends Component {
           </button>
         </div>
         <div>
-          <img
+     
+         <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
             src={Leather44}

@@ -3,7 +3,8 @@ import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
 import axios from "axios";
 import "./Components.css";
-
+import Knit from '../img/Knit.jpg'
+import weave from '../img/weave.jpg'
 import Contactusform from "./Contactusform";
 import fabproduct1 from "../img/fabproduct1.png";
 import fabproduct2 from "../img/fabproduct2.png";
@@ -48,46 +49,38 @@ export default class Fabrics extends React.Component {
             </Col>
           </Row>
           <br />
+          <br />
+          <br />
           <Row style={{ textAlign: "center" }}>
-            <h1>Our Products</h1>
-            <Col md="3" lg="3" sm="4">
+          
+            <Col md="3" lg="7" sm="4">
               <Image
-                src={fabproduct1}
-                className="Fiberproductcol1"
-                roundedCircle
-              />
-              <h1>FABRICS</h1>
-            </Col>
-            <Col md="3" lg="3" sm="4">
-              <Image
-                src={fabproduct2}
+                src={Knit}
                 className="Fiberproductcol2"
                 roundedCircle
               />
-              <h1> SUSTAINABLE FABRICS</h1>
+              <h1> knits</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image
-                src={fabproduct3}
+                src={weave}
                 className="Fiberproductcol3"
                 roundedCircle
               />
-              <h1> ARTISAN MADE</h1>
+              <h1> Weave
+              
+              </h1>
             </Col>
-            <Col md="3" lg="3" sm="12">
-              <Image
-                src={fabproduct3}
-                className="Fiberproductcol3"
-                roundedCircle
-              />
-              <h1> FABRICS</h1>
-              <h1> CRAFTSME</h1>
-            </Col>
+        
           </Row>
+          <br />
+          <br />
           <br />
           <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>
           </Row>
+          <br />
+          <br />
           <br />
           <Contactusform />
         </Container>
