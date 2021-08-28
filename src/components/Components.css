@@ -96,7 +96,7 @@ a:focus-visible {
 }
 
 .dropbtn:focus {
-  color: green !important;
+  color: #43eb34 !important;
 }
 
 .dropbtn {
@@ -135,7 +135,7 @@ a:focus-visible {
 
 .dropdown-content a:hover {
   background-color: white;
-  color: green !important;
+  color: #43eb34 !important;
 }
 
 .dropdown-content:hover .dropbtn {
@@ -487,13 +487,14 @@ h1 {
 .footer {
   background-color: #73f67c;
   position: relative;
-  height: 280px;
+  height: 200px;
   max-width: none;
   max-height: none;
   width: 100%;
   overflow: visible;
-  /* border-radius: 30px;   */
+   border-radius: 20px;   
   box-shadow: 9px 2px 22px 12px #00000029 !important;
+  
 }
 
 @media only screen and (max-width: 800px) {
@@ -503,7 +504,7 @@ h1 {
     border: #000000 !important;
     border-color: #000000;
     position: relative;
-    height: 500px;
+    height: 400px;
     max-width: none;
     max-height: none;
     width: 100%;
@@ -511,31 +512,7 @@ h1 {
     /* border-radius: 30px; */
     top: 10px;
     box-shadow: 9px 2px 22px 12px #00000029 !important;
-  }
-}
-
-.MeMeFooter {
-  left: 1cm;
-  top: 0.4cm;
-  position: relative;
-  width: 5cm;
-  height: 1.5cm;
-  max-width: none;
-  max-height: none;
-  min-width: 2cm;
-  min-height: 0.5cm;
-}
-
-@media only screen and (max-width: 500px) {
-  .MeMeFooter {
-    left: 2cm;
-    position: relative;
-    width: 5cm;
-    height: 1.5cm;
-    max-width: none;
-    max-height: none;
-    min-width: 2cm;
-    min-height: 0.5cm;
+ display: block;
   }
 }
 

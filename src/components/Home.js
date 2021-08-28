@@ -2,10 +2,14 @@ import Essential from "../img/Essential.jpg";
 import Bags from "../img/Bags.png";
 import cups from "../img/cups.png";
 import shoes from "../img/shoes.png";
+import Banner2 from "../img/Banner2.jpg"
 
-import OM from "../img/OM.jpg";
+import Banner3 from "../img/Banner3.jpg"
+import Banner4 from "../img/Banner4.jpg"
+import Banner5 from "../img/Banner5.jpg"
+import Banner6 from "../img/Banner6.jpg"
 import accessories from "../img/accessories.jpg";
-import Jacket from "../img/jacket.png";
+// import Jacket from "../img/jacket.png"
 import Leather1 from "../img/Leather1.jpg";
 
 import Menproduct from "../img/Menproduct.jpg";
@@ -36,7 +40,7 @@ export default class Home extends Component {
             <img
               className="d-block w-100"
               style={{ borderRadius: "20px" }}
-              src={img1}
+              src={Banner2}
               alt="Second slide"
             />
             <button className="Browsebutn">
@@ -48,7 +52,7 @@ export default class Home extends Component {
             <img
               className="d-block w-100"
               style={{ borderRadius: "20px" }}
-              src={img2}
+              src={Banner3}
               alt="Second slide"
             />
             <button className="Browsebutn">
@@ -60,7 +64,31 @@ export default class Home extends Component {
             <img
               className="d-block w-100"
               style={{ borderRadius: "20px" }}
-              src={img3}
+              src={Banner4}
+              alt="Third slide"
+            />
+            <button className="Browsebutn">
+              Browse
+              <FaArrowCircleRight className="icondnwld" />
+            </button>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <img
+              className="d-block w-100"
+              style={{ borderRadius: "20px" }}
+              src={Banner5}
+              alt="Third slide"
+            />
+            <button className="Browsebutn">
+              Browse
+              <FaArrowCircleRight className="icondnwld" />
+            </button>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <img
+              className="d-block w-100"
+              style={{ borderRadius: "20px" }}
+              src={Banner6}
               alt="Third slide"
             />
             <button className="Browsebutn">
@@ -276,8 +304,8 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src={Jacket}
-                className="Productcardimage"
+                // src={Jacket}
+                // className="Productcardimage"
               />
               <Card.Body>
                 <Card.Text>

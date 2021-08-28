@@ -1,6 +1,6 @@
 import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
-
+import MiFiber from "../Pdf/MiFibre.pdf"
 import axios from "axios";
 import "./Components.css";
 import Linen from "../img/Linen.jpg";
@@ -17,91 +17,11 @@ import { FaDownload } from "react-icons/fa";
 import Contactusform from "./Contactusform";
 
 export default class Fiber extends React.Component {
-  // constructor(props) {
-  //   super(props);
-  //   this.state = {
-  //     text: "",
-  //     suggestions: [],
-  //     items: [],
-  //   };
-  // }
-
-  // componentDidMount = () => {
-  //   let config = {
-  //     url: "https://api.nazca.in:8443/ophelia/ophelia/mainproducts",
-  //     method: "GET",
-  //   };
-  //   axios(config)
-  //     .then((res) => {
-  //       let data = res.data,
-  //         arrItems = [];
-  //       data.forEach((element) => {
-  //         arrItems.push(element.mainCatName);
-  //       });
-  //       this.setState({ items: arrItems }, () => {});
-  //     })
-  //     .catch((err) => console.log(err));
-  // };
-
-  // handleTextChange = (e) => {
-  //   const value = e.target.value;
-  //   let suggestions = [];
-  //   if (value.length > 0) {
-  //     const regex = new RegExp(`^${value}`, "i");
-  //     suggestions = this.state.items.sort().filter((v) => regex.test(v));
-  //   }
-  //   this.setState(() => ({
-  //     suggestions,
-  //     text: value,
-  //   }));
-  // };
-
-  // suggestionSelected(value) {
-  //   this.setState(() => ({
-  //     text: value,
-  //     suggestions: [],
-  //   }));
-  // }
-
-  // renderSuggestions() {
-  //   const { suggestions } = this.state;
-  //   if (suggestions.length === 0) {
-  //     return null;
-  //   }
-  //   return (
-  //     <div className="srchList">
-  //       <ul>
-  //         {suggestions.map((item) => (
-  //           <li onClick={() => this.suggestionSelected(item)}>{item}</li>
-  //         ))}
-  //       </ul>
-  //     </div>
-  //   );
-  // }
-
+  
   render() {
     return (
       <div>
         <Container>
-          {/* <div className="flex-container">
-            <div className="search">
-              <div className="searchBar">
-                <input
-                  type="text"
-                  value={this.state.text}
-                  placeholder="Looking for..."
-                  className="searchInput"
-                  onChange={(e) => this.handleTextChange(e)}
-                />
-                <button type="button" className="searchButton">
-                  SEARCH
-                </button>
-              </div>
-            </div>
-          </div>
-          <div>
-            <p>{this.renderSuggestions()}</p>
-          </div> */}
           <Row>
             <Col md="12" lg="12">
               <Card className="imgfiberCard">
@@ -128,10 +48,12 @@ export default class Fiber extends React.Component {
                       production makes it an affordable option for those looking
                       to make better choices for their wardrobe.
                     </Card.Text>
+                    <a href={MiFiber} download="MI Fibre" target="_blank">
                     <Button className="cardButton">
                       <FaDownload className="pdfIcon" />
                       Download PDF
                     </Button>
+                    </a>
                   </Card.Body>
                 </Card>
               </Card>
@@ -173,16 +95,7 @@ export default class Fiber extends React.Component {
               <h1> Silk</h1>
             </Col>
           </Row>
-          {/* <Row style={{ textAlign: "center" }}>
-            <Col md="12" lg="12" sm="12">
-              <Image
-                src={fabproduct1}
-                className="Fiberproductcol4"
-                roundedCircle
-              />
-              <h1> Lotus</h1>
-            </Col>
-          </Row> */}
+         
           <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>
           </Row>
