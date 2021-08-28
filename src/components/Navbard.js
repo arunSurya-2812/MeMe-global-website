@@ -1,6 +1,6 @@
 import "./Components.css";
 import React from "react";
-import { Navbar, Nav, Container, Dropdown } from "react-bootstrap";
+import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
 import "./Components.css";
 
 import { FaAngleDown } from "react-icons/fa";
@@ -8,7 +8,7 @@ function Navboard() {
   return (
     <div>
     
-        <Navbar collapseOnSelect fixed="top" expand="lg">
+        <Navbar collapseOnSelect fixed="top"  expand="lg">
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav>
@@ -20,7 +20,7 @@ function Navboard() {
                 </Nav.Link>
               </div>
 
-              <div class="dropdown">
+              <div class="dropdown" id="collasible-nav-dropdown">
                 <Nav.Link href="/Leathers">
                   <button class="dropbtn">
                     <a>Leathers</a>
@@ -33,8 +33,11 @@ function Navboard() {
                   <a href="#">Footwares</a>
 
                   <a href="#">Belt</a>
+            
                 </div>
               </div>
+
+             
               <div class="dropdown">
                 <Nav.Link href="/Yarn">
                   <button class="dropbtn">
@@ -63,8 +66,9 @@ function Navboard() {
                 </Nav.Link>
 
                 <div class="dropdown-content">
-                  <a href="#">Weave </a>
-                  <a href="#">Knit</a>
+                    <a href="#">Weave </a>
+  
+                  <a href="#">Knits</a>
                 
                 </div>
               </div>

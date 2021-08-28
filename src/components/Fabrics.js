@@ -1,14 +1,11 @@
 import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
-import axios from "axios";
 import "./Components.css";
 import Knit from '../img/Knit.jpg'
 import weave from '../img/weave.jpg'
 import Contactusform from "./Contactusform";
-import fabproduct1 from "../img/fabproduct1.png";
-import fabproduct2 from "../img/fabproduct2.png";
-import fabproduct3 from "../img/fabproduct3.jpg";
+
 
 export default class Fabrics extends React.Component {
   render() {

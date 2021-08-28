@@ -5,7 +5,7 @@ import axios from "axios";
 import "./Components.css";
 import Linen from "../img/Linen.jpg";
 import cotton1 from "../img/cotton1.jpg";
-// import bananafibre from "../img/bananafibre.jpg";
+
 import fabproduct4 from "../img/fabproduct4.png";
 import fabproduct1 from "../img/fabproduct1.png";
 import RecycledPolyester from"../img/RecycledPolyester.jpg"

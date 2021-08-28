@@ -2,10 +2,7 @@ import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 
 import "./Components.css";
-import Linen from "../img/Linen.jpg";
-import cotton1 from "../img/cotton1.jpg";
-import bananafibre from "../img/bananafibre.jpg";
-import fabproduct4 from "../img/fabproduct4.png";
+
 import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
 import Pant from "../img/Pant.jpg";
@@ -76,7 +73,7 @@ export default class Knits extends React.Component {
               />
               <h1> SHIRTS</h1>
             </Col>
-            <Col md="3" lg="3" sm="12">
+            <Col md="3" lg="3" sm="4">
               <Image
                 src={Pant}
                 className="Fiberproductcol3"
@@ -85,11 +82,10 @@ export default class Knits extends React.Component {
               <h1> 
             PANTS & TROUSERS</h1>
             </Col>
-          </Row>
           <br/>
           <br/>
           <br/>
-          <Row  style={{textAlign:"center"}}>
+      
             <Col md="3" lg="3" sm="4">
               <Image src={Jeans} className="Fiberproductcol1" roundedCircle />
               <h1>JEANS</h1>
@@ -106,7 +102,7 @@ export default class Knits extends React.Component {
               />
               <h1> TRACKS & JOGGER </h1>
             </Col>
-            <Col md="3" lg="3" sm="12">
+            <Col md="3" lg="3" sm="4">
               <Image
                 src={Innerwear}
                 className="Fiberproductcol3"
@@ -114,11 +110,9 @@ export default class Knits extends React.Component {
               />
               <h1> INNERWEAR </h1>
             </Col>
-          </Row>
           <br/>
           <br/>
-          <Row  style={{textAlign:"center"}}>
-            <Col md="3" lg="8" sm="6">
+            <Col md="7" lg="7" sm="4">
               <Image
                 src={Sportswear}
                 className="Fiberproductcol3"
@@ -126,7 +120,7 @@ export default class Knits extends React.Component {
               />
               <h1> SPORTS WEAR</h1>
             </Col>
-            <Col md="2" lg="2" sm="6">
+            <Col md="2" lg="2" sm="4">
               <Image
                 src={Sleepwear}
                 className="Fiberproductcol3"
@@ -134,7 +128,7 @@ export default class Knits extends React.Component {
               />
               <h1> RELAX & SLEEPWEAR</h1>
             </Col>
-          </Row>
+            </Row>
           
           <br />
           
