@@ -12,6 +12,8 @@ import accessories from "../img/accessories.jpg";
 // import Jacket from "../img/jacket.png"
 import Leather1 from "../img/Leather1.jpg";
 
+import Jacket from "../img/Jacket.png"
+
 import Menproduct from "../img/Menproduct.jpg";
 import Womenproduct from "../img/Womenproduct.jpg";
 import Kidsproduct from "../img/Kidsproduct.jpg";
@@ -302,8 +304,8 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                // src={Jacket}
-                // className="Productcardimage"
+                 src={Jacket}
+                className="Productcardimage"
               />
               <Card.Body>
                 <Card.Text>
