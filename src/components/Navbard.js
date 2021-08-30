@@ -1,18 +1,20 @@
 import "./Components.css";
 import React from "react";
-import { Navbar, Nav, Container, NavDropdown } from "react-bootstrap";
+import { Navbar, Nav,  } from "react-bootstrap";
 import "./Components.css";
 
+
 import { FaAngleDown } from "react-icons/fa";
+
 function Navboard() {
   return (
     <div>
-    
-        <Navbar collapseOnSelect fixed="top"  expand="lg">
-          <Navbar.Toggle aria-controls="basic-navbar-nav" />
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav>
-              <div class="dropdown">
+      <Navbar collapseOnSelect fixed="top" expand="lg">
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <Nav>
+          
+          <div class="dropdown">
                 <Nav.Link href="/">
                   <button class="dropbtn">
                     <a>Home</a>
@@ -160,9 +162,12 @@ function Navboard() {
                   <a href="#">FABRICS CRAFTSME</a>
                 </div>
               </div>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
+
+
+      
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar>
     </div>
   );
 }

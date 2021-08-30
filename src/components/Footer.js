@@ -7,7 +7,7 @@ export default class Footer extends Component {
       <footer class="footer">
         <Container>
           <Row>
-            <Col lg={4} sm={8} xs={12}>
+            <Col lg={4} md={4}sm={7 } xs={12}>
               <div className="logo">
                 <Image
                   src={Logo}
@@ -17,7 +17,7 @@ export default class Footer extends Component {
                 />
               </div>
             </Col>
-            <Col lg={4} sm={4}  xs={12}style={{ marginTop: "15px" }}>
+            <Col lg={4} sm={4} md={3} xs={12}style={{ marginTop: "15px" }}>
               <strong>GET IN TOUCH</strong>
               <div class="w-100"></div>
               <div class="w-100"></div>
@@ -34,12 +34,12 @@ export default class Footer extends Component {
               <strong>Open Time:</strong>
               <span>8AM - 6:00PM</span>
             </Col>
-            <Col lg={4} sm={4} xs={12}style={{ marginTop: "15px" }}>
+            <Col lg={4} sm={4} md={3} xs={12}style={{ marginTop: "15px" }}>
               <strong>Company</strong>
 
               <h5>Copyright @MeMe-india </h5>
             </Col>
-            <Col lg={4}></Col>
+            <Col  md={3} lg={4}></Col>
           </Row>
         </Container>
       </footer>
