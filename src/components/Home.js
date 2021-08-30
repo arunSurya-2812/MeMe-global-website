@@ -2,12 +2,12 @@ import Essential from "../img/Essential.jpg";
 import Bags from "../img/Bags.png";
 import cups from "../img/cups.png";
 import shoes from "../img/shoes.png";
-import Banner2 from "../img/Banner2.jpg"
+import B1 from "../img/B1.jpg"
 
-import Banner3 from "../img/Banner3.jpg"
-import Banner4 from "../img/Banner4.jpg"
-import Banner5 from "../img/Banner5.jpg"
-import Banner6 from "../img/Banner6.jpg"
+import B2 from "../img/B2.jpg"
+import B3 from "../img/B3.jpg"
+import B4 from "../img/B4.jpg"
+import B5 from "../img/B5.jpg"
 import accessories from "../img/accessories.jpg";
 // import Jacket from "../img/jacket.png"
 import Leather1 from "../img/Leather1.jpg";
@@ -37,64 +37,69 @@ export default class Home extends Component {
       <div>
         <Carousel style={{ textAlign: "center" }}>
           <Carousel.Item interval={3000}>
+          <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
             <img
               className="d-block w-100"
               style={{ borderRadius: "20px" }}
-              src={Banner2}
+              src={B1}
               alt="Second slide"
             />
-            <button className="Browsebutn">
+            </a>
+            {/* <button className="Browsebutn">
               Browse
               <FaArrowCircleRight className="icondnwld" />
-            </button>
+            </button> */}
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
               style={{ borderRadius: "20px" }}
-              src={Banner3}
+              src={B2}
               alt="Second slide"
             />
-            <button className="Browsebutn">
+            {/* <button className="Browsebutn">
               Browse
               <FaArrowCircleRight className="icondnwld" />
-            </button>
+            </button> */}
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
               style={{ borderRadius: "20px" }}
-              src={Banner4}
+              src={B3}
               alt="Third slide"
             />
-            <button className="Browsebutn">
+            {/* <button className="Browsebutn">
               Browse
               <FaArrowCircleRight className="icondnwld" />
-            </button>
+            </button> */}
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
               className="d-block w-100"
               style={{ borderRadius: "20px" }}
-              src={Banner5}
+              src={B4}
               alt="Third slide"
             />
-            <button className="Browsebutn">
+            {/* <button className="Browsebutn">
               Browse
               <FaArrowCircleRight className="icondnwld" />
-            </button>
+            </button> */}
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-            <img
+          <a href="https://nazca.in/home" rel="noreferrer" target="_blank">
+            
+          <img
               className="d-block w-100"
               style={{ borderRadius: "20px" }}
-              src={Banner6}
+              src={B5}
               alt="Third slide"
             />
-            <button className="Browsebutn">
+            </a>
+            {/* <button className="Browsebutn">
               Browse
               <FaArrowCircleRight className="icondnwld" />
-            </button>
+            </button> */}
           </Carousel.Item>
         </Carousel>
 

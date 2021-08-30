@@ -10,7 +10,7 @@ import Yarn22 from "../img/Yarn22.png";
 import Fabrics33 from "../img/Fabrics33.png";
 import Leather44 from "../img/Leather44.png";
 import Knits55 from "../img/Knits55.png";
-import { Col } from "react-bootstrap";
+// import { Col } from "react-bootstrap";
 export default class MultipleItems extends Component {
   render() {
     const settings = {
@@ -25,7 +25,8 @@ export default class MultipleItems extends Component {
     };
     return (
       <Slider {...settings}>
-        <div>
+
+        <div >
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
@@ -33,12 +34,9 @@ export default class MultipleItems extends Component {
             alt="Firstslide"
           />
 
-          <button className="Browsebutn1">
-            Browse
-            <FaArrowCircleRight className="icondnwld1" />
-          </button>
         </div>
         <div>
+      
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
@@ -46,10 +44,6 @@ export default class MultipleItems extends Component {
             alt="Secondslide"
           />
 
-          <button className="Browsebutn1">
-            Browse
-            <FaArrowCircleRight className="icondnwld1" />
-          </button>
         </div>
         <div>
           <img
@@ -58,10 +52,6 @@ export default class MultipleItems extends Component {
             src={Fabrics33}
             alt="Threadslide"
           />
-          <button className="Browsebutn1">
-            Browse
-            <FaArrowCircleRight className="icondnwld1" />
-          </button>
         </div>
         <div>
      
@@ -71,10 +61,6 @@ export default class MultipleItems extends Component {
             src={Leather44}
             alt="Fourthslide"
           />
-          <button className="Browsebutn1">
-            Browse
-            <FaArrowCircleRight className="icondnwld1" />
-          </button>{" "}
         </div>
         <div>
           <img
@@ -83,10 +69,6 @@ export default class MultipleItems extends Component {
             src={Knits55}
             alt="fithslide"
           />
-          <button className="Browsebutn1">
-            Browse
-            <FaArrowCircleRight className="icondnwld1" />
-          </button>
         </div>
         <div>
           <img
@@ -95,10 +77,6 @@ export default class MultipleItems extends Component {
             src={Fibre11}
             alt="Firstslide"
           />
-          <button className="Browsebutn1">
-            Browse
-            <FaArrowCircleRight className="icondnwld1" />
-          </button>
         </div>
         <div>
           <img
@@ -109,10 +87,6 @@ export default class MultipleItems extends Component {
            
           />
 
-          <button className="Browsebutn1">
-            Browse
-            <FaArrowCircleRight className="icondnwld1" />
-          </button>
         </div>
         <div>
           <img
@@ -122,10 +96,6 @@ export default class MultipleItems extends Component {
             alt="Firstslide"
           />
 
-          <button className="Browsebutn1">
-            Browse
-            <FaArrowCircleRight className="icondnwld1" />
-          </button>
         </div>
         <div>
           <img
@@ -134,10 +104,6 @@ export default class MultipleItems extends Component {
             src={Fabrics33}
             alt="Firstslide"
           />
-          <button className="Browsebutn1">
-            Browse
-            <FaArrowCircleRight className="icondnwld1" />
-          </button>
         </div>
       </Slider>
     );
