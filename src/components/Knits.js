@@ -112,6 +112,8 @@ export default class Knits extends React.Component {
             </Col>
           <br/>
           <br/>
+        
+          <br/>
             <Col md="7" lg="7" sm="4">
               <Image
                 src={Sportswear}
