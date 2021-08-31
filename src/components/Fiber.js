@@ -1,17 +1,13 @@
 import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
 import MiFiber from "../Pdf/MiFibre.pdf"
-import axios from "axios";
-import "./Components.css";
-import Linen from "../img/Linen.jpg";
-import cotton1 from "../img/cotton1.jpg";
 
-import fabproduct4 from "../img/fabproduct4.png";
-import fabproduct1 from "../img/fabproduct1.png";
+import "./Components.css";
+
 import RecycledPolyester from"../img/RecycledPolyester.jpg"
 
 import Cotton22 from "../img/Cotton22.png";
-import recycledpoly from "../img/recycledpoly.png";
+
 import bananafibre from "../img/bananafibre.jpg";
 
 import { FaDownload } from "react-icons/fa";

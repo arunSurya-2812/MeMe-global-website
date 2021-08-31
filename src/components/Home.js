@@ -2,24 +2,22 @@ import Essential from "../img/Essential.jpg";
 import Bags from "../img/Bags.png";
 import cups from "../img/cups.png";
 import shoes from "../img/shoes.png";
-import B1 from "../img/B1.jpg"
+import B1 from "../img/B1.jpg";
 
-import B2 from "../img/B2.jpg"
-import B3 from "../img/B3.jpg"
-import B4 from "../img/B4.jpg"
-import B5 from "../img/B5.jpg"
+import B2 from "../img/B2.jpg";
+import B3 from "../img/B3.jpg";
+import B4 from "../img/B4.jpg";
+import B5 from "../img/B5.jpg";
 import accessories from "../img/accessories.jpg";
-// import Jacket from "../img/jacket.png"
 import Leather1 from "../img/Leather1.jpg";
 
-import Jacket from "../img/Jacket.png"
+import Jacket from "../img/Jacket.png";
 
 import Menproduct from "../img/Menproduct.jpg";
 import Womenproduct from "../img/Womenproduct.jpg";
 import Kidsproduct from "../img/Kidsproduct.jpg";
 
 import Casualproduct from "../img/Casualproduct.png";
-
 
 import React, { Component } from "react";
 
@@ -37,18 +35,14 @@ export default class Home extends Component {
       <div>
         <Carousel style={{ textAlign: "center" }}>
           <Carousel.Item interval={3000}>
-          <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
-            <img
-              className="d-block w-100"
-              style={{ borderRadius: "20px" }}
-              src={B1}
-              alt="Second slide"
-            />
+            <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
+              <img
+                className="d-block w-100"
+                style={{ borderRadius: "20px" }}
+                src={B1}
+                alt="Second slide"
+              />
             </a>
-            {/* <button className="Browsebutn">
-              Browse
-              <FaArrowCircleRight className="icondnwld" />
-            </button> */}
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
@@ -57,10 +51,6 @@ export default class Home extends Component {
               src={B2}
               alt="Second slide"
             />
-            {/* <button className="Browsebutn">
-              Browse
-              <FaArrowCircleRight className="icondnwld" />
-            </button> */}
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
@@ -69,10 +59,6 @@ export default class Home extends Component {
               src={B3}
               alt="Third slide"
             />
-            {/* <button className="Browsebutn">
-              Browse
-              <FaArrowCircleRight className="icondnwld" />
-            </button> */}
           </Carousel.Item>
           <Carousel.Item interval={3000}>
             <img
@@ -81,25 +67,16 @@ export default class Home extends Component {
               src={B4}
               alt="Third slide"
             />
-            {/* <button className="Browsebutn">
-              Browse
-              <FaArrowCircleRight className="icondnwld" />
-            </button> */}
           </Carousel.Item>
           <Carousel.Item interval={3000}>
-          <a href="https://nazca.in/home" rel="noreferrer" target="_blank">
-            
-          <img
-              className="d-block w-100"
-              style={{ borderRadius: "20px" }}
-              src={B5}
-              alt="Third slide"
-            />
+            <a href="https://nazca.in/home" rel="noreferrer" target="_blank">
+              <img
+                className="d-block w-100"
+                style={{ borderRadius: "20px" }}
+                src={B5}
+                alt="Third slide"
+              />
             </a>
-            {/* <button className="Browsebutn">
-              Browse
-              <FaArrowCircleRight className="icondnwld" />
-            </button> */}
           </Carousel.Item>
         </Carousel>
 
@@ -309,7 +286,7 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                 src={Jacket}
+                src={Jacket}
                 className="Productcardimage"
               />
               <Card.Body>

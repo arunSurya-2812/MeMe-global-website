@@ -1,11 +1,11 @@
 import { Component } from "react";
-import { Container, Image, Row, Col } from "react-bootstrap";
+import {  Image, Row, Col } from "react-bootstrap";
 import Logo from "../img/logo.png";
 export default class Footer extends Component {
   render() {
     return (
       <footer class="footer">
-        <Container>
+        {/* <Container> */}
           <Row>
             <Col lg={4} md={4}sm={7 } xs={12}>
               <div className="logo">
@@ -17,8 +17,8 @@ export default class Footer extends Component {
                 />
               </div>
             </Col>
-            <Col lg={4} sm={4} md={3} xs={12}style={{ marginTop: "15px" }}>
-              <strong>GET IN TOUCH</strong>
+            <Col lg={4} sm={4} md={3} xs={12}style={{ marginTop: "15px",fontFamily:"Poppins" }}>
+              <strong >GET IN TOUCH</strong>
               <div class="w-100"></div>
               <div class="w-100"></div>
               <strong>Address:</strong>
@@ -34,14 +34,14 @@ export default class Footer extends Component {
               <strong>Open Time:</strong>
               <span>8AM - 6:00PM</span>
             </Col>
-            <Col lg={4} sm={4} md={3} xs={12}style={{ marginTop: "15px" }}>
+            <Col lg={4} sm={4} md={3} xs={12}style={{ marginTop: "15px",fontFamily:"Poppins"  }}>
               <strong>Company</strong>
 
               <h5>Copyright @MeMe-india </h5>
             </Col>
             <Col  md={3} lg={4}></Col>
           </Row>
-        </Container>
+        {/* </Container> */}
       </footer>
     );
   }

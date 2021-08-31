@@ -1,10 +1,12 @@
 import "./Components.css";
 import React from "react";
-import { Navbar, Nav,  } from "react-bootstrap";
+import { Navbar, Nav,NavDropdown  } from "react-bootstrap";
 import "./Components.css";
 
+import { Link } from "react-router-dom";
 
 import { FaAngleDown } from "react-icons/fa";
+import { NavLink } from "react-router-dom";
 
 function Navboard() {
   return (
@@ -17,7 +19,7 @@ function Navboard() {
           <div class="dropdown">
                 <Nav.Link href="/">
                   <button class="dropbtn">
-                    <a>Home</a>
+                    <a>HOME</a>
                   </button>
                 </Nav.Link>
               </div>
@@ -25,16 +27,16 @@ function Navboard() {
               <div class="dropdown" id="collasible-nav-dropdown">
                 <Nav.Link href="/Leathers">
                   <button class="dropbtn">
-                    <a>Leathers</a>
+                    <a>LEATHERS</a>
                   </button>
                   <FaAngleDown className="Toogle" />
                 </Nav.Link>
                 <div class="dropdown-content">
-                  <a href="#">Bags</a>
-                  <a href="#">Accessories</a>
-                  <a href="#">Footwares</a>
+                  <a href="#">BAGS</a>
+                  <a href="#">ACCESSORIES</a>
+                  <a href="#">FOOTWARES</a>
 
-                  <a href="#">Belt</a>
+                  <a href="#">BELT</a>
             
                 </div>
               </div>
@@ -43,34 +45,39 @@ function Navboard() {
               <div class="dropdown">
                 <Nav.Link href="/Yarn">
                   <button class="dropbtn">
-                    <a>Yarn</a>
+                    <a>YARN</a>
                   </button>
 
                   <FaAngleDown className="Toogle" />
                 </Nav.Link>
 
-                <div class="dropdown-content">
-                  <a href="#">Kyorene Polymide Filament</a>
-                  <a href="#">Staple Blend Cotton</a>
-                  <a href="#">Continuous Filament</a>
+                <div class="dropdown-content1">
+                  <a href="#">KYORENE POLYMIDE FILAMENT</a>
+                  <a href="#">STAPLE BLEND COTTON</a>
+                  <a href="#">CONTINUOUS FILAMENT</a>
 
-                  <a href="#">Kyorene White Polyamide</a>
+                  <a href="#">KYORENE  WHITE POLYMIDE</a>
 
                 </div>
               </div>
+
+
+
+
+
               <div class="dropdown">
                 <Nav.Link href="/Fabrics">
                   <button class="dropbtn">
-                    <a>Fabrics</a>
+                    <a>FABRICS</a>
                   </button>
 
                   <FaAngleDown className="Toogle" />
                 </Nav.Link>
 
                 <div class="dropdown-content">
-                    <a href="#">Weave </a>
+                    <a href="#">WEAVE </a>
   
-                  <a href="#">Knits</a>
+                  <a href="#">KNITS</a>
                 
                 </div>
               </div>
@@ -78,28 +85,28 @@ function Navboard() {
               <div class="dropdown">
                 <Nav.Link href="/Fiber">
                   <button class="dropbtn">
-                    <a>Fiber</a>
+                    <a>FIBER</a>
                   </button>
 
                   <FaAngleDown className="Toogle" />
                 </Nav.Link>
-                <div class="dropdown-content">
+                <div class="dropdown-content2">
                   <a href="/#">VISCOSE DOBE</a>
-                  <a href="#">Banana Fibre</a>
+                  <a href="#">BANANA FIBER</a>
                   <a href="#">RECYCLED POLYESTER</a>
                 </div>
               </div>
               <div class="dropdown">
                 <Nav.Link href="/Knits">
                   <button class="dropbtn">
-                    <a>Knits</a>
+                    <a>KNITS</a>
                   </button>
 
                   <FaAngleDown className="Toogle" />
                 </Nav.Link>
 
 
-                <div class="dropdown-content">
+                <div class="dropdown-content3">
                   <a href="#">T-SHIRT</a>
                   <a href="#">POLO</a>
                   <a href="#">SHIRTS</a>
@@ -121,7 +128,7 @@ function Navboard() {
               <div class="dropdown">
                 <Nav.Link href="/Brands">
                   <button class="dropbtn">
-                    <a>Brands</a>
+                    <a>BRANDS</a>
                   </button>
 
                   <FaAngleDown className="Toogle" />
@@ -133,7 +140,7 @@ function Navboard() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    Nazca
+                    NAZCA
                   </a>
 
                   <a
@@ -141,7 +148,7 @@ function Navboard() {
                     rel="noreferrer"
                     target="_blank"
                   >
-                    ophelia moon
+                    OPHELIA MOON
                   </a>
                 </div>
               </div>
@@ -149,18 +156,11 @@ function Navboard() {
               <div class="dropdown">
                 <Nav.Link href="/Ecofriendly">
                   <button class="dropbtn">
-                    <a>Ecofriendly</a>
+                    <a>ECOFRIENDLY</a>
                   </button>
                   <FaAngleDown className="Toogle" />
                 </Nav.Link>
 
-                <div class="dropdown-content">
-                  <a href="#">Fabrics</a>
-                  <a href="#">SUSTAINABLE FABRICS</a>
-                  <a href="#">ARTISAN MADE</a>
-
-                  <a href="#">FABRICS CRAFTSME</a>
-                </div>
               </div>
 
 

@@ -58,7 +58,7 @@ export default class Leathers extends React.Component {
                     <a href={MIleather1} download="MI Leather" target="_blank">
                       <Button className="cardButton">
                         <FaDownload className="pdfIcon" />
-                        Download PDF
+                        Download Pdf
                       </Button>
                     </a>
                   </Card.Body>

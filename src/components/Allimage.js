@@ -1,16 +1,15 @@
 import React, { Component } from "react";
-import { FaArrowCircleRight } from "react-icons/fa";
 import Slider from "react-slick";
-
 import "./Components.css";
+import sq1 from '../img/sq1.png';
+import sq2 from '../img/sq2.png';
+import sq3 from '../img/sq3.png';
+import sq4 from '../img/sq4.png';
+import sq5 from '../img/sq5.png';
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-import Fibre11 from "../img/Fibre11.png";
-import Yarn22 from "../img/Yarn22.png";
-import Fabrics33 from "../img/Fabrics33.png";
-import Leather44 from "../img/Leather44.png";
-import Knits55 from "../img/Knits55.png";
-// import { Col } from "react-bootstrap";
+
+
 export default class MultipleItems extends Component {
   render() {
     const settings = {
@@ -25,40 +24,35 @@ export default class MultipleItems extends Component {
     };
     return (
       <Slider {...settings}>
-
-        <div >
+        <div>
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
-            src={Fibre11}
+            src={sq1}
             alt="Firstslide"
           />
-
         </div>
         <div>
-      
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
-            src={Yarn22}
+            src={sq2}
             alt="Secondslide"
           />
-
         </div>
         <div>
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
-            src={Fabrics33}
+            src={sq3}
             alt="Threadslide"
           />
         </div>
         <div>
-     
-         <img
+          <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
-            src={Leather44}
+            src={sq4}
             alt="Fourthslide"
           />
         </div>
@@ -66,7 +60,7 @@ export default class MultipleItems extends Component {
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
-            src={Knits55}
+            src={sq5}
             alt="fithslide"
           />
         </div>
@@ -74,7 +68,7 @@ export default class MultipleItems extends Component {
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
-            src={Fibre11}
+            src={sq1}
             alt="Firstslide"
           />
         </div>
@@ -82,26 +76,23 @@ export default class MultipleItems extends Component {
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
-            src={Yarn22}
+            src={sq3}
             alt="Firstslide"
-           
           />
-
         </div>
         <div>
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
-            src={Knits55}
+            src={sq4}
             alt="Firstslide"
           />
-
         </div>
         <div>
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
-            src={Fabrics33}
+            src={sq5}
             alt="Firstslide"
           />
         </div>

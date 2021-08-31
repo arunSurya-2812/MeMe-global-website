@@ -2,14 +2,12 @@ import "./Components.css";
 import { FaDownload } from "react-icons/fa";
 import Contactusform from "./Contactusform";
 import React from "react";
-import Yarn22 from "../img/yarn22.jpg";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
-// import axios from "axios";
-import Linen from "../img/Linen.jpg";
-import cotton1 from "../img/cotton1.jpg";
-import bananafibre from "../img/bananafibre.jpg";
-import fabproduct4 from "../img/fabproduct4.png";
-import fabproduct1 from "../img/fabproduct1.png";
+
+import Kyorene from '../img/Kyorene.png'
+import White from '../img/White.jpg'
+import Continuous from '../img/Continuous.jpeg'
+import stapleblend from '../img/stapleblend.jpg'
 import Miyarn from '../Pdf/Miyarn.pdf'
 export default class Yarn extends React.Component {
  
@@ -61,16 +59,16 @@ export default class Yarn extends React.Component {
             <br/>
             <br/>
             <Col md="3" lg="3" sm="4">
-              <Image src={cotton1} className="Fiberproductcol1" roundedCircle />
+              <Image src={Kyorene} className="Fiberproductcol1" roundedCircle />
               <h1>Kyorene Polymide Filament</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
-              <Image src={Linen} className="Fiberproductcol2" roundedCircle />
+              <Image src={stapleblend} className="Fiberproductcol2" roundedCircle />
               <h1> Staple Blend Cotton</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image
-                src={fabproduct4}
+                src={Continuous}
                 className="Fiberproductcol3"
                 roundedCircle
               />
@@ -78,7 +76,7 @@ export default class Yarn extends React.Component {
             </Col>
             <Col md="3" lg="3" sm="12">
               <Image
-                src={bananafibre}
+                src={White}
                 className="Fiberproductcol3"
                 roundedCircle
               />

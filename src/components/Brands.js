@@ -1,8 +1,6 @@
 import React from "react";
 import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
-import axios from "axios";
 
-import OM from "../img/OM.jpg";
 import Nazca from "../img/Nazca.svg";
 import Ophelia from "../img/Ophelia.png";
 
@@ -85,7 +83,7 @@ export default class Brands extends React.Component {
           <br />
           <br />
 
-          {/* <Contactusform /> */}
+       
         </Container>
       </div>
     );

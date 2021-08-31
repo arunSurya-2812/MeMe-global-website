@@ -9,12 +9,12 @@
   align-items: center;
   max-width: 100%;
   height: 50%;
-  width: 50%;
+  width: 40%;
 }
 
 .sponsers2 {
   height: 35%;
-  width: 35%;
+  width: 25%;
   max-width: 100%;
 
   position: relative;
@@ -39,52 +39,9 @@
   font-family: "Poppins", Regular;
   font-size: 21px;
 }
-
-/* #basic-navbar-nav { */
-/* background-color: #707070 !important; */
-
-/* font-family: "Poppins", Regular; */
-/* font-size: 21px; */
-/* } */
-
-/* #nav-Dropdown {
-  color: #129652 !important;
-  top: 0.6cm;
-  overflow: hidden;
-}
-
-.dropdown-toggle:after {
-  display: none !important;
-}
-
-.nav-link {
-  color: #ffffff !important;
-}
-
-.Ecofriendlynav {
-  color: #15dd76 !important;
-  position: relative;
-  left: 2cm;
-  top: 0cm;
-  overflow: hidden;
-}
-
-/* .NavDropdown {
-  display: none;
-  background-color: lightgray;
-  font-size: 15px;
-} */
-/* 
-.dropdown a {
-  color: white;
-  color: !important;
-  text-decoration: none;
-  font-family: Poppins, Regular;
-} */
 a {
   color: white !important;
 }
-
 a:hover {
   color: white !important;
   text-decoration: none;
@@ -114,6 +71,44 @@ a:focus-visible {
   display: inline-block;
   background-color: #707070;
 }
+/*  */
+.dropdown-content1 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  color: #000000 !important;
+  min-width: 250px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 20px;
+}
+
+.dropdown-content1 a {
+  padding: 6px 18px;
+  color: black !important;
+  display: block;
+  font-size: 15px;
+}
+
+.dropdown-content1 a:hover {
+  background-color: white;
+  color: #43eb34 !important;
+}
+
+.dropdown-content1:hover .dropbtn {
+  color: black !important;
+}
+
+.dropdown:hover .dropdown-content1 {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: orange;
+  border-radius: 30px;
+  color: white !important;
+}
+/*  */
 
 .dropdown-content {
   display: none;
@@ -155,7 +150,96 @@ a:focus-visible {
 .Toogle {
   display: none;
 }
+/*  */
 
+/*  */
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  color: #000000 !important;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 20px;
+}
+
+.dropdown-content2 a {
+  padding: 6px 18px;
+  color: black !important;
+  display: block;
+  font-size: 15px;
+}
+
+.dropdown-content2 a:hover {
+  background-color: white;
+  color: #43eb34 !important;
+}
+
+.dropdown-content2:hover .dropbtn {
+  color: black !important;
+}
+
+.dropdown:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: orange;
+  border-radius: 30px;
+  color: white !important;
+}
+
+.Toogle {
+  display: none;
+}
+/*  */
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  color: #000000 !important;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border: 20px;
+}
+
+.dropdown-content3 a {
+  padding: 6px 18px;
+  color: black !important;
+  display: block;
+  font-size: 15px;
+}
+
+.dropdown-content3 a:hover {
+  background-color: white;
+  color: #43eb34 !important;
+}
+
+.dropdown-content3:hover .dropbtn {
+  color: black !important;
+}
+
+.dropdown:hover .dropdown-content3 {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: orange;
+  border-radius: 30px;
+  color: white !important;
+}
+
+.Toogle {
+  display: none;
+}
+/*  */
+@media only screen and (max-width: 800px) {
+}
+/*
 @media only screen and (max-width: 800px) {
   .Toogle {
     display: inline;
@@ -166,20 +250,20 @@ a:focus-visible {
     display: inline-table;
   }
 
-  .dropdown:hover .dropdown-content {
+  .dropdown .dropdown-content {
     display: inline-table;
   }
 
-  .dropdown-content:hover .dropbtn {
+  .dropdown-content .dropbtn {
     color: white !important;
     background-color: orange;
   }
 
-  .dropdown:hover .dropbtn {
+  .dropdown .dropbtn {
     background-color: orange;
     border-radius: 100px;
   }
-}
+} */
 
 .carousel {
   height: 670px;

@@ -50,7 +50,7 @@ export default class Fabrics extends React.Component {
           <br />
           <Row style={{ textAlign: "center" }}>
           
-            <Col md="3" lg="7" sm="4">
+            <Col md="7" lg="7" sm="6">
               <Image
                 src={Knit}
                 className="Fiberproductcol2"
@@ -58,7 +58,7 @@ export default class Fabrics extends React.Component {
               />
               <h1> knits</h1>
             </Col>
-            <Col md="3" lg="3" sm="4">
+            <Col md="3" lg="3" sm="6">
               <Image
                 src={weave}
                 className="Fiberproductcol3"
