@@ -23,7 +23,7 @@ import React, { Component } from "react";
 
 import "./Components.css";
 import Nazca from "../img/Nazca.svg";
-import Ophelia from "../img/Ophelia.png";
+import opheliamoon1 from "../img/opheliamoon1.png";
 
 import { Row, Col, Carousel, Image, Card } from "react-bootstrap";
 import Allimage from "./Allimage";
@@ -82,14 +82,14 @@ export default class Home extends Component {
 
         <Allimage />
         <Row className="Sponsers">
-          <Col className="spon" xs={6}>
+          <Col className="spon" Col-xs={12}>
             <a href="https://nazca.in/home" rel="noreferrer" target="_blank">
               <Image src={Nazca} className="sponsers1" />
             </a>
           </Col>
-          <Col className="spon" Col-xs={6}>
+          <Col className="spon" Col-xs={12}>
             <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
-              <Image src={Ophelia} className="sponsers2" />
+              <Image src={opheliamoon1} className="sponsers2" />
             </a>
           </Col>
         </Row>

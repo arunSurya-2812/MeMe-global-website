@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import { Row, Col } from "react-bootstrap";
-import Logo from "../img/logo.png";
+import MIlogo2 from "../img/MIlogo2.png";
 import searchButton from "../img/Searchhh.png";
 import "./Components.css";
 import axios from "axios";
@@ -74,9 +74,9 @@ export default class Header extends Component {
           <Col>
             <div className="logo">
               <img
-                src={Logo}
-                height="70px"
-                width="250px"
+                src={MIlogo2}
+                height="80px"
+                width="210px"
                 alt="MeMe-Global logo"
               />
             </div>

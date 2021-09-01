@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
+import { Image, Row, Col,Container } from "react-bootstrap";
 
 import Nazca from "../img/Nazca.svg";
 import Ophelia from "../img/Ophelia.png";
@@ -37,7 +37,7 @@ export default class Brands extends React.Component {
               <header>
                 <h1>Nazca</h1>
               </header>
-              <p>
+              <p style={{ fontFamily:"Poppins" }}>
                 Our point of view on fashion is quite different from the rest of
                 the world. Our Nazca brands, created by our India-based design
                 team, aim to bring you fashionable and contemporary clothes.
@@ -64,7 +64,7 @@ export default class Brands extends React.Component {
               <header>
                 <h1>Ophelia Moon</h1>
               </header>{" "}
-              <p>
+              <p style={{ fontFamily:"Poppins" }}>
                 Jewellery has the power to be the one little thing that makes
                 you feel unique.” Our jewelry is a picture of elegance, beauty,
                 and culture that shows timeless, classic, and unique beauty.

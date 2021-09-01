@@ -5,16 +5,16 @@ import "./Components.css";
 
 import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
-import Pant from "../img/Pant.jpg";
-import Sportswear from "../img/Sportswear.jpg";
-import Sleepwear from "../img/Sleepwear.jpg";
+import pant1 from "../img/pant1.jpg";
+import sports1 from "../img/sports1.jpeg";
+import sleepwear1 from "../img/sleepwear1.jpg";
 import Innerwear from "../img/Innerwear.jpg";
-import Polo from "../img/Polo.jpg";
+import Polo1 from "../img/Polo1.png";
 import Shirt from "../img/Shirt.jpg";
 import Joggers from "../img/Joggers.jpg";
 import Jeans from "../img/Jeans.jpg";
 import Hoodie from "../img/Hoodie.jpg";
-import Tshirt from "../img/Tshirt.jpg";
+import Tshirt1 from "../img/Tshirt1.jpg";
 
 export default class Knits extends React.Component {
  
@@ -58,11 +58,11 @@ export default class Knits extends React.Component {
           <Row style={{ textAlign: "center" }}>
             <h1>Our Products</h1>
             <Col md="3" lg="3" sm="4">
-              <Image src={Tshirt} className="Fiberproductcol1" roundedCircle />
+              <Image src={Tshirt1} className="Fiberproductcol1" roundedCircle />
               <h1> T-SHIRT</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
-              <Image src={Polo} className="Fiberproductcol2" roundedCircle />
+              <Image src={Polo1} className="Fiberproductcol2" roundedCircle />
               <h1> POLO</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
@@ -75,7 +75,7 @@ export default class Knits extends React.Component {
             </Col>
             <Col md="3" lg="3" sm="4">
               <Image
-                src={Pant}
+                src={pant1}
                 className="Fiberproductcol3"
                 roundedCircle
               />
@@ -116,15 +116,15 @@ export default class Knits extends React.Component {
           <br/>
             <Col md="7" lg="7" sm="4">
               <Image
-                src={Sportswear}
+                src={sports1}
                 className="Fiberproductcol3"
                 roundedCircle
               />
               <h1> SPORTS WEAR</h1>
             </Col>
-            <Col md="2" lg="2" sm="4">
+            <Col md="2" lg="2" sm="12">
               <Image
-                src={Sleepwear}
+                src={sleepwear1}
                 className="Fiberproductcol3"
                 roundedCircle
               />

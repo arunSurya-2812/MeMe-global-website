@@ -1,6 +1,7 @@
 import { Component } from "react";
 import {  Image, Row, Col } from "react-bootstrap";
-import Logo from "../img/logo.png";
+
+import MIlogo2 from "../img/MIlogo2.png";
 export default class Footer extends Component {
   render() {
     return (
@@ -10,9 +11,9 @@ export default class Footer extends Component {
             <Col lg={4} md={4}sm={7 } xs={12}>
               <div className="logo">
                 <Image
-                  src={Logo}
-                  height="70px"
-                  width="250px"
+                  src={MIlogo2}
+                  height="80px"
+                  width="210px"
                   alt="MeMe-Global logo"
                 />
               </div>
