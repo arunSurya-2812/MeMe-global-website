@@ -333,7 +333,7 @@ a:focus-visible {
 }
 
 /*this is toogle an carosel*/
-@media only screen and (max-width: 800px) {
+/* @media only screen and (max-width: 800px) {
   .Sliderpics {
     height: 100% !important;
     width: 100% !important;
@@ -341,15 +341,15 @@ a:focus-visible {
     padding-right: 70px;
   }
 }
-
+*/
 @media only screen and (max-width: 500px) {
   .Sliderpics {
-    height: 100% !important;
-    width: 100% !important;
-    border-radius: 1px !important;
-    padding-right: 20px;
+    height: 80% !important;
+    width: 80% !important;
+border-radius: 1px !important;
+    padding-right: 30px;
   }
-}
+} 
 
 .Sliderpics {
   height: 70%;

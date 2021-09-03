@@ -1,12 +1,12 @@
 import { Component } from "react";
-import {  Image, Row, Col } from "react-bootstrap";
+import {  Image, Row, Col,Container } from "react-bootstrap";
 
 import MIlogo2 from "../img/MIlogo2.png";
 export default class Footer extends Component {
   render() {
     return (
       <footer class="footer">
-        {/* <Container> */}
+        <Container>
           <Row>
             <Col lg={4} md={4}sm={7 } xs={12}>
               <div className="logo">
@@ -42,7 +42,7 @@ export default class Footer extends Component {
             </Col>
             <Col  md={3} lg={4}></Col>
           </Row>
-        {/* </Container> */}
+        </Container>
       </footer>
     );
   }

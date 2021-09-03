@@ -5,7 +5,9 @@ import B2 from "../img/B2.jpg";
 import B3 from "../img/B3.jpg";
 import B4 from "../img/B4.jpg";
 import B5 from "../img/B5.jpg";
-
+import Bags22 from "../img/Bags22.jpg"
+import Belt22 from '../img/Belt22.jpg'
+import Shoes22 from '../img/Shoes22.jpg'
 import accessories from "../img/accessories.jpg";
 import Leather1 from "../img/Leather1.jpg";
 import Jacket from "../img/Jacket.png";
@@ -221,7 +223,7 @@ export default class Home extends Component {
         <Row>
           <Col xs="12" sm="6" md="3">
             <Card>
-              <Card.Img variant="top" src={Bags} className="Productcardimage" />
+              <Card.Img variant="top" src={Bags22} className="Productcardimage" />
               <Card.Body>
                 <Card.Text>
                   <h1
@@ -243,7 +245,7 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src={shoes}
+                src={Shoes22}
                 className="Productcardimage"
               />
               <Card.Body>
@@ -267,7 +269,7 @@ export default class Home extends Component {
             <Card>
               <Card.Img
                 variant="top"
-                src={accessories}
+                src={Belt22}
                 className="Productcardimage"
               />
               <Card.Body>
