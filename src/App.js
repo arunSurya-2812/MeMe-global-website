@@ -3,7 +3,6 @@ import { Container } from "react-bootstrap";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import "./App.css";
 import Fabrics from "./components/Fabrics";
-import Ecofriendly from "./components/Ecofriendly";
 import Home from "./components/Home";
 import Leathers from "./components/Leathers";
 import Knits from "./components/Knits";
@@ -29,7 +28,7 @@ export default function App() {
           <Route path="/Leathers" component={Leathers}></Route>
           <Route path="/Knits" component={Knits}></Route>
           <Route path="/Brands" component={Brands}></Route>
-          <Route path="/Ecofriendly" component={Ecofriendly}></Route>
+          
           </Container>
         </Router>
        

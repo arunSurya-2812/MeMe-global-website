@@ -1,12 +1,11 @@
 import "./Components.css";
 import React from "react";
-import { Navbar, Nav,NavDropdown  } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "./Components.css";
 
-import { Link } from "react-router-dom";
+
 
 import { FaAngleDown } from "react-icons/fa";
-import { NavLink } from "react-router-dom";
 
 function Navboard() {
   return (
@@ -15,156 +14,141 @@ function Navboard() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav>
-          
-          <div class="dropdown">
-                <Nav.Link href="/">
-                  <button class="dropbtn">
-                    <a>HOME</a>
-                  </button>
-                </Nav.Link>
+            <div class="dropdown">
+              <Nav.Link href="/">
+                <button class="dropbtn">
+                  <a>HOME</a>
+                </button>
+              </Nav.Link>
+            </div>
+
+            <div class="dropdown" id="collasible-nav-dropdown">
+              <Nav.Link href="/Leathers">
+                <button class="dropbtn">
+                  <a>LEATHERS</a>
+                </button>
+                <FaAngleDown className="Toogle" />
+              </Nav.Link>
+              <div class="dropdown-content">
+                <a href="#">BAGS</a>
+                <a href="#">ACCESSORIES</a>
+                <a href="#">FOOTWARES</a>
+
+                <a href="#">BELT</a>
               </div>
+            </div>
 
-              <div class="dropdown" id="collasible-nav-dropdown">
-                <Nav.Link href="/Leathers">
-                  <button class="dropbtn">
-                    <a>LEATHERS</a>
-                  </button>
-                  <FaAngleDown className="Toogle" />
-                </Nav.Link>
-                <div class="dropdown-content">
-                  <a href="#">BAGS</a>
-                  <a href="#">ACCESSORIES</a>
-                  <a href="#">FOOTWARES</a>
+            <div class="dropdown">
+              <Nav.Link href="/Yarn">
+                <button class="dropbtn">
+                  <a>YARN</a>
+                </button>
 
-                  <a href="#">BELT</a>
-            
-                </div>
+                <FaAngleDown className="Toogle" />
+              </Nav.Link>
+
+              <div class="dropdown-content1">
+                <a href="#">KYORENE POLYMIDE FILAMENT</a>
+                <a href="#">STAPLE BLEND COTTON</a>
+                <a href="#">CONTINUOUS FILAMENT</a>
+
+                <a href="#">KYORENE WHITE POLYMIDE</a>
               </div>
+            </div>
 
-             
-              <div class="dropdown">
-                <Nav.Link href="/Yarn">
-                  <button class="dropbtn">
-                    <a>YARN</a>
-                  </button>
+            <div class="dropdown">
+              <Nav.Link href="/Fabrics">
+                <button class="dropbtn">
+                  <a>FABRICS</a>
+                </button>
 
-                  <FaAngleDown className="Toogle" />
-                </Nav.Link>
+                <FaAngleDown className="Toogle" />
+              </Nav.Link>
 
-                <div class="dropdown-content1">
-                  <a href="#">KYORENE POLYMIDE FILAMENT</a>
-                  <a href="#">STAPLE BLEND COTTON</a>
-                  <a href="#">CONTINUOUS FILAMENT</a>
+              <div class="dropdown-content">
+                <a href="#">WEAVE </a>
 
-                  <a href="#">KYORENE  WHITE POLYMIDE</a>
-
-                </div>
+                <a href="#">KNITS</a>
               </div>
+            </div>
 
+            <div class="dropdown">
+              <Nav.Link href="/Fiber">
+                <button class="dropbtn">
+                  <a>FIBER</a>
+                </button>
 
-
-
-
-              <div class="dropdown">
-                <Nav.Link href="/Fabrics">
-                  <button class="dropbtn">
-                    <a>FABRICS</a>
-                  </button>
-
-                  <FaAngleDown className="Toogle" />
-                </Nav.Link>
-
-                <div class="dropdown-content">
-                    <a href="#">WEAVE </a>
-  
-                  <a href="#">KNITS</a>
-                
-                </div>
+                <FaAngleDown className="Toogle" />
+              </Nav.Link>
+              <div class="dropdown-content2">
+                <a href="/#">VISCOSE DOBE</a>
+                <a href="#">BANANA FIBER</a>
+                <a href="#">RECYCLED POLYESTER</a>
               </div>
-             
-              <div class="dropdown">
-                <Nav.Link href="/Fiber">
-                  <button class="dropbtn">
-                    <a>FIBER</a>
-                  </button>
+            </div>
+            <div class="dropdown">
+              <Nav.Link href="/Knits">
+                <button class="dropbtn">
+                  <a>KNITS</a>
+                </button>
 
-                  <FaAngleDown className="Toogle" />
-                </Nav.Link>
-                <div class="dropdown-content2">
-                  <a href="/#">VISCOSE DOBE</a>
-                  <a href="#">BANANA FIBER</a>
-                  <a href="#">RECYCLED POLYESTER</a>
-                </div>
+                <FaAngleDown className="Toogle" />
+              </Nav.Link>
+
+              <div class="dropdown-content3">
+                <a href="#">T-SHIRT</a>
+                <a href="#">POLO</a>
+                <a href="#">SHIRTS</a>
+
+                <a href="#">PANTS & TROUSERS</a>
+                <a href="#">JEANS</a>
+                <a href="#"> SWEATS & HOODIES</a>
+                <a href="#">TRACKS & JOGGER</a>
+
+                <a href="#"> INNERWEAR</a>
+
+                <a href="#">SPORTS WEAR</a>
+                <a href="#">RELAX & SLEEPWEAR</a>
               </div>
-              <div class="dropdown">
-                <Nav.Link href="/Knits">
-                  <button class="dropbtn">
-                    <a>KNITS</a>
-                  </button>
+            </div>
 
-                  <FaAngleDown className="Toogle" />
-                </Nav.Link>
+            <div class="dropdown">
+              <Nav.Link href="/Brands">
+                <button class="dropbtn">
+                  <a>BRANDS</a>
+                </button>
 
+                <FaAngleDown className="Toogle" />
+              </Nav.Link>
 
-                <div class="dropdown-content3">
-                  <a href="#">T-SHIRT</a>
-                  <a href="#">POLO</a>
-                  <a href="#">SHIRTS</a>
+              <div class="dropdown-content">
+                <a
+                  href="https://nazca.in/home"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  NAZCA
+                </a>
 
-                  <a href="#">PANTS & TROUSERS</a>
-                  <a href="#">JEANS</a>
-                  <a href="#"> SWEATS & HOODIES</a>
-                  <a href="#">TRACKS & JOGGER</a>
-
-                  <a href="#"> INNERWEAR</a>
-
-                  <a href="#">SPORTS WEAR</a>
-                  <a href="#">
-                   RELAX & SLEEPWEAR</a>
-
-                </div>
+                <a
+                  href="https://ophelia-moon.com"
+                  rel="noreferrer"
+                  target="_blank"
+                >
+                  OPHELIA MOON
+                </a>
               </div>
+            </div>
 
-              <div class="dropdown">
-                <Nav.Link href="/Brands">
-                  <button class="dropbtn">
-                    <a>BRANDS</a>
-                  </button>
+            <div class="dropdown">
+              <Nav.Link href="http://elysium.earth">
+                <button class="dropbtn">
+                  <a>ECOFRIENDLY</a>
+                </button>
 
-                  <FaAngleDown className="Toogle" />
-                </Nav.Link>
-
-                <div class="dropdown-content">
-                  <a
-                    href="https://nazca.in/home"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    NAZCA
-                  </a>
-
-                  <a
-                    href="https://ophelia-moon.com"
-                    rel="noreferrer"
-                    target="_blank"
-                  >
-                    OPHELIA MOON
-                  </a>
-                </div>
-              </div>
-
-              <div class="dropdown">
-                <Nav.Link href="/Ecofriendly">
-                  <button class="dropbtn">
-                    <a>ECOFRIENDLY</a>
-                  </button>
-                  <FaAngleDown className="Toogle" />
-                </Nav.Link>
-
-              </div>
-
-
-      
+                <FaAngleDown className="Toogle" />
+              </Nav.Link>
+            </div>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
