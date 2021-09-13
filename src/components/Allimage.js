@@ -49,28 +49,42 @@ export default class MultipleItems extends Component {
     return (
       <Slider {...settings}>
         <div>
+        <a
+              href="http://memefibre.com/home"
+              rel="noreferrer"
+              target="_blank"
+            >
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
             src={sq1}
             alt="Firstslide"
           />
+          </a>
         </div>
         <div>
+        <a href="http://memeyarn.com/home" rel="noreferrer" target="_blank">
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
             src={sq2}
             alt="Secondslide"
           />
+          </a>
         </div>
         <div>
+        <a
+              href="http://memefabric.com/home"
+              rel="noreferrer"
+              target="_blank"
+            >
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
             src={sq3}
             alt="Threadslide"
           />
+          </a>
         </div>
         <div>
           <img
@@ -89,20 +103,33 @@ export default class MultipleItems extends Component {
           />
         </div>
         <div>
+        <a
+              href="http://memefibre.com/home"
+              rel="noreferrer"
+              target="_blank"
+            >
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
             src={sq1}
             alt="Firstslide"
           />
+          </a>
         </div>
         <div>
+        <a
+              href="http://memefabric.com/home"
+              rel="noreferrer"
+              target="_blank"
+            >
+
           <img
             className="Sliderpics"
             style={{ borderRadius: "1cm" }}
             src={sq3}
             alt="Firstslide"
           />
+          </a>
         </div>
         <div>
           <img

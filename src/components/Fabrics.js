@@ -74,7 +74,13 @@ export default class Fabrics extends React.Component {
           <br />
           <br />
           <Row style={{ textAlign: "center" }}>
+          <a
+              href="http://memefabric.com/home"
+              rel="noreferrer"
+              target="_blank"
+            >
             <Button className="websiteButton">View Website</Button>
+            </a>
           </Row>
           <br />
           <br />

@@ -88,7 +88,9 @@ export default class Yarn extends React.Component {
        
           <br />
           <Row style={{ textAlign: "center" }}>
+          <a href="http://memeyarn.com/home" rel="noreferrer" target="_blank">
             <Button className="websiteButton">View Website</Button>
+            </a>
           </Row>
           <br />
           <Contactusform />

@@ -88,7 +88,13 @@ export default class Fiber extends React.Component {
           </Row>
          
           <Row style={{ textAlign: "center" }}>
+          <a
+              href="http://memefibre.com/home"
+              rel="noreferrer"
+              target="_blank"
+            >
             <Button className="websiteButton">View Website</Button>
+            </a>
           </Row>
           <br />
           <Contactusform />

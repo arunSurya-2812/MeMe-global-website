@@ -571,7 +571,7 @@ h1 {
 .footer {
   background-color: #73f67c;
   position: relative;
-  height: 200px;
+  height: 140px;
   max-width: none;
   max-height: none;
   width: 100%;
@@ -610,6 +610,7 @@ h1 {
   width: 100%;
   height: max-content;
   border: none;
+  object-fit: cover;
   border-color: #ffffff;
   padding: 0%;
 }
@@ -618,6 +619,7 @@ h1 {
   background-image: url("../img/yarncopy.jpg") !important;
   background-size: cover;
   width: 100%;
+  object-fit: cover;
   height: max-content;
   border: none;
   border-color: #ffffff;
@@ -628,6 +630,7 @@ h1 {
   background-image: url("../img/Eco1.jpg") !important;
   background-size: cover;
   width: 100%;
+  object-fit: cover;
   height: max-content;
   border: none;
   border-color: #ffffff;
@@ -640,6 +643,7 @@ h1 {
   width: 100%;
   height: max-content;
   border: none;
+  object-fit: cover;
   border-color: #ffffff;
   padding: 0%;
 }
@@ -650,6 +654,7 @@ h1 {
   width: 100%;
   height: max-content;
   border: none;
+  object-fit: cover;
   border-color: #ffffff;
   padding: 0%;
 }
@@ -660,6 +665,7 @@ h1 {
   width: 100%;
   height: max-content;
   border: none;
+  object-fit: cover;
   border-color: #ffffff;
   padding: 0%;
 }
@@ -670,6 +676,7 @@ h1 {
   width: 100%;
   height: max-content;
   border: none;
+  object-fit: cover;
   border-color: #ffffff;
   padding: 0%;
 }
