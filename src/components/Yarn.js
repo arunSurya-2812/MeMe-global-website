@@ -42,7 +42,7 @@ export default class Yarn extends React.Component {
                         same direction.
                       </p>
                     </Card.Text>
-                    <a href={Miyarn} download="MI Yarn" target="_blank">
+                    <a href={Miyarn} download="MI Yarn" target="_blank" rel="noreferrer">
                     <Button className="cardButton">
                       <FaDownload className="pdfIcon" />
                       Download PDF
