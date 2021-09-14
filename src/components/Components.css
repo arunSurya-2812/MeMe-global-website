@@ -711,7 +711,13 @@ h1 {
   text-align: justify;
   font-family: Poppins, Regular;
 }
-
+@media only screen and (max-width: 424px) {
+  .cardButton {
+    width: 145px !important;
+    font-size: 13px !important;
+  font-weight: 500;
+  }
+}
 .cardButton {
   width: fit-content;
   height: 50px;

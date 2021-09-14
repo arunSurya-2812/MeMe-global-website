@@ -31,7 +31,8 @@ export default function App() {
           
           </Container>
         </Router>
-       
+        <br />
+        <br />
         <br/>
         <Footer />
     </div>

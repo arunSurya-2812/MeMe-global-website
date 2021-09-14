@@ -105,9 +105,9 @@ export default class Leathers extends React.Component {
 
           <br />
 
-          <Row style={{ textAlign: "center" }}>
+          {/* <Row style={{ textAlign: "center" }}>
             <Button className="websiteButton">View Website</Button>
-          </Row>
+          </Row> */}
           <br />
           <Contactusform />
         </Container>
