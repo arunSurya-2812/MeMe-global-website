@@ -8,7 +8,7 @@ import Jacket from "../img/Jacket.png";
 import MIleather1 from "../Pdf/MIleather1.pdf";
 import Bags11 from "../img/Bags11.jpg";
 import Footware from "../img/Footware.jpg";
-import Bags33 from "../img/Bags33.jpg";
+
 import Belt from "../img/Belt.jpg";
 import "./Components.css";
 
@@ -79,7 +79,7 @@ export default class Leathers extends React.Component {
               <h1>Bags</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
-              <Image src={Bags33} className="Fiberproductcol2" roundedCircle />
+              <Image src={Belt} className="Fiberproductcol2" roundedCircle />
               <h1> Accessories</h1>
             </Col>
             <Col md="3" lg="3" sm="4">
@@ -91,19 +91,14 @@ export default class Leathers extends React.Component {
               <h1> Footwears</h1>
             </Col>
             <Col md="3" lg="3" sm="12">
-              <Image src={Belt} className="Fiberproductcol3" roundedCircle />
-              <h1> Belt</h1>
+              <Image src={Jacket} className="Fiberproductcol3" roundedCircle />
+              <h1> Jackets</h1>
             </Col>
           </Row>
 
           <br />
           <br />
-          <Row style={{ textAlign: "center" }}>
-            <Col md="12" lg="12" sm="12">
-              <Image src={Jacket} className="Fiberproductcol1" roundedCircle />
-              <h1>Jackets</h1>
-            </Col>
-          </Row>
+         
           <br />
 
           <br />

@@ -34,7 +34,7 @@ function Navboard() {
                 <a href="#">ACCESSORIES</a>
                 <a href="#">FOOTWARES</a>
 
-                <a href="#">BELT</a>
+                <a href="#">JACKETS</a>
               </div>
             </div>
 
