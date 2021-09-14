@@ -1,5 +1,5 @@
-import Bags from "../img/Bags.png";
-import shoes from "../img/shoes.png";
+// import Bags from "../img/Bags.png";
+// import shoes from "../img/shoes.png";
 import B1 from "../img/B1.jpg";
 import B2 from "../img/B2.jpg";
 import B3 from "../img/B3.jpg";
@@ -8,9 +8,9 @@ import B5 from "../img/B5.jpg";
 import Bags22 from "../img/Bags22.jpg"
 import Belt22 from '../img/Belt22.jpg'
 import Shoes22 from '../img/Shoes22.jpg'
-import accessories from "../img/accessories.jpg";
+// import accessories from "../img/accessories.jpg";
 import Leather1 from "../img/Leather1.jpg";
-import Jacket from "../img/Jacket.png";
+import Jacket from "../img/jacket.png";
 import Menproduct from "../img/Menproduct.jpg";
 import Womenproduct from "../img/Womenproduct.jpg";
 import Kidsproduct from "../img/Kidsproduct.jpg";
