@@ -30,7 +30,7 @@ function Navboard() {
             <div class="dropdown" id="collasible-nav-dropdown">
               <Nav.Link href="/Leathers">
                 <button class="dropbtn">
-                  <a href="/#">LEATHERS</a>
+                  <a href="/Leathers">LEATHERS</a>
                 </button>
                 <FaAngleDown className="Toogle" />
               </Nav.Link>
@@ -46,7 +46,7 @@ function Navboard() {
             <div class="dropdown">
               <Nav.Link href="/Yarn">
                 <button class="dropbtn">
-                  <a href="/#">YARN</a>
+                  <a href="/Yarn">YARN</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
@@ -64,7 +64,7 @@ function Navboard() {
             <div class="dropdown">
               <Nav.Link href="/Fabrics">
                 <button class="dropbtn">
-                  <a href="/#">FABRICS</a>
+                  <a href="/Fabrics">FABRICS</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
@@ -80,7 +80,7 @@ function Navboard() {
             <div class="dropdown">
               <Nav.Link href="/Fiber">
                 <button class="dropbtn">
-                  <a href="/#">FIBER</a>
+                  <a href="/Fiber">FIBER</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
@@ -94,7 +94,7 @@ function Navboard() {
             <div class="dropdown">
               <Nav.Link href="/Knits">
                 <button class="dropbtn">
-                  <a href="/#">KNITS</a>
+                  <a href="/Knits">KNITS</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
@@ -120,7 +120,7 @@ function Navboard() {
             <div class="dropdown">
               <Nav.Link href="/Brands">
                 <button class="dropbtn">
-                  <a href="/#">BRANDS</a>
+                  <a href="/Brands">BRANDS</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
