@@ -146,9 +146,9 @@ function Navboard() {
             </div>
 
             <div class="dropdown">
-              <Nav.Link href="http://elysium.earth">
+              <Nav.Link href="http://elysium.earth" >
                 <button class="dropbtn">
-                  <a href="/#">ECOFRIENDLY</a>
+                  <a href="http://elysium.earth">ECOFRIENDLY</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
