@@ -45,7 +45,7 @@ export default class Fiber extends React.Component {
                       production makes it an affordable option for those looking
                       to make better choices for their wardrobe.
                     </Card.Text>
-                    <a href={MiFiber} download="MI Fibre" target="_blank">
+                    <a href={MiFiber} download="MI Fibre" target="_blank" rel="noreferrer">
                     <Button className="cardButton">
                       <FaDownload className="pdfIcon" />
                       Download PDF

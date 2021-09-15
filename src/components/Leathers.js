@@ -5,7 +5,7 @@ import { FaDownload } from "react-icons/fa";
 
 import Jacket from "../img/jacket.png";
 
-import MIleather1 from "../Pdf/MiLeather1.pdf";
+import MILeather1 from "../Pdf/MiLeather1.pdf";
 import Bags11 from "../img/Bags11.jpg";
 import Footware from "../img/Footware.jpg";
 
@@ -60,7 +60,7 @@ export default class Leathers extends React.Component {
                         our hub for leather sourcing and finishing.
                       </p>
                     </Card.Text>
-                    <a href={MIleather1} download="MI Leather" target="_blank" rel="noreferrer">
+                    <a href={MILeather1} download="MI Leather" target="_blank" rel="noreferrer">
                       <Button className="cardButton">
                         <FaDownload className="pdfIcon" />
                         Download Pdf

@@ -211,15 +211,7 @@ export default class Home extends Component {
             </Card>
           </Col>
         </Row>
-        <h1
-          style={{
-            fontFamily: "Poppins,Bold",
-            fontSize: "33px",
-            position: "relative",
-            left: "1cm",
-            fontWeight: "600",
-          }}
-        ></h1>
+      
         <Row>
           <Col xs="12" sm="6" md="3">
             <Card>

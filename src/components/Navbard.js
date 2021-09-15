@@ -16,106 +16,111 @@ function Navboard() {
           <Nav>
             <div class="dropdown">
               <Nav.Link href="/">
+             
                 <button class="dropbtn">
-                  <a>HOME</a>
+                <a href="/#">
+                 HOME
+                 </a>
+          
                 </button>
+               
               </Nav.Link>
             </div>
 
             <div class="dropdown" id="collasible-nav-dropdown">
               <Nav.Link href="/Leathers">
                 <button class="dropbtn">
-                  <a>LEATHERS</a>
+                  <a href="/#">LEATHERS</a>
                 </button>
                 <FaAngleDown className="Toogle" />
               </Nav.Link>
               <div class="dropdown-content">
-                <a href="#">BAGS</a>
-                <a href="#">ACCESSORIES</a>
-                <a href="#">FOOTWARES</a>
+                <a href="/#">BAGS</a>
+                <a href="/#">ACCESSORIES</a>
+                <a href="/#">FOOTWARES</a>
 
-                <a href="#">JACKETS</a>
+                <a href="/#">JACKETS</a>
               </div>
             </div>
 
             <div class="dropdown">
               <Nav.Link href="/Yarn">
                 <button class="dropbtn">
-                  <a>YARN</a>
+                  <a href="/#">YARN</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
               </Nav.Link>
 
               <div class="dropdown-content1">
-                <a href="#">KYORENE POLYMIDE FILAMENT</a>
-                <a href="#">STAPLE BLEND COTTON</a>
-                <a href="#">CONTINUOUS FILAMENT</a>
+                <a href="/#">KYORENE POLYMIDE FILAMENT</a>
+                <a href="/#">STAPLE BLEND COTTON</a>
+                <a href="/#">CONTINUOUS FILAMENT</a>
 
-                <a href="#">KYORENE WHITE POLYMIDE</a>
+                <a href="/#">KYORENE WHITE POLYMIDE</a>
               </div>
             </div>
 
             <div class="dropdown">
               <Nav.Link href="/Fabrics">
                 <button class="dropbtn">
-                  <a>FABRICS</a>
+                  <a href="/#">FABRICS</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
               </Nav.Link>
 
               <div class="dropdown-content">
-                <a href="#">WEAVE </a>
+                <a href="/#">WEAVE </a>
 
-                <a href="#">KNITS</a>
+                <a href="/#">KNITS</a>
               </div>
             </div>
 
             <div class="dropdown">
               <Nav.Link href="/Fiber">
                 <button class="dropbtn">
-                  <a>FIBER</a>
+                  <a href="/#">FIBER</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
               </Nav.Link>
               <div class="dropdown-content2">
-                <a href="/#">VISCOSE DOBE</a>
-                <a href="#">BANANA FIBER</a>
-                <a href="#">RECYCLED POLYESTER</a>
+                <a href="//#">VISCOSE DOBE</a>
+                <a href="/#">BANANA FIBER</a>
+                <a href="/#">RECYCLED POLYESTER</a>
               </div>
             </div>
             <div class="dropdown">
               <Nav.Link href="/Knits">
                 <button class="dropbtn">
-                  <a>KNITS</a>
+                  <a href="/#">KNITS</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
               </Nav.Link>
 
               <div class="dropdown-content3">
-                <a href="#">T-SHIRT</a>
-                <a href="#">POLO</a>
-                <a href="#">SHIRTS</a>
+                <a href="/#">T-SHIRT</a>
+                <a href="/#">POLO</a>
+                <a href="/#">SHIRTS</a>
 
-                <a href="#">PANTS & TROUSERS</a>
-                <a href="#">JEANS</a>
-                <a href="#"> SWEATS & HOODIES</a>
-                <a href="#">TRACKS & JOGGER</a>
+                <a href="/#">PANTS & TROUSERS</a>
+                <a href="/#">JEANS</a>
+                <a href="/#"> SWEATS & HOODIES</a>
+                <a href="/#">TRACKS & JOGGER</a>
 
-                <a href="#"> INNERWEAR</a>
+                <a href="/#"> INNERWEAR</a>
 
-                <a href="#">SPORTS WEAR</a>
-                <a href="#">RELAX & SLEEPWEAR</a>
+                <a href="/#">SPORTS WEAR</a>
+                <a href="/#">RELAX & SLEEPWEAR</a>
               </div>
             </div>
 
             <div class="dropdown">
               <Nav.Link href="/Brands">
                 <button class="dropbtn">
-                  <a>BRANDS</a>
+                  <a href="/#">BRANDS</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
@@ -143,7 +148,7 @@ function Navboard() {
             <div class="dropdown">
               <Nav.Link href="http://elysium.earth">
                 <button class="dropbtn">
-                  <a>ECOFRIENDLY</a>
+                  <a href="/#">ECOFRIENDLY</a>
                 </button>
 
                 <FaAngleDown className="Toogle" />
