@@ -1,9 +1,9 @@
 import React from "react";
-import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
+import { Image, Row, Col, Card, Button} from "react-bootstrap";
 
 import "./Components.css";
 
-import Contactusform from "./Contactusform";
+// import Contactusform from "./Contactusform";
 import { FaDownload } from "react-icons/fa";
 import pant1 from "../img/pant1.jpg";
 import sports1 from "../img/sports1.jpeg";
@@ -21,7 +21,7 @@ export default class Knits extends React.Component {
   render() {
     return (
       <div>
-        <Container>
+
           <Row>
             <Col md="12" lg="12">
               <Card className="imgKnitsCard">
@@ -146,8 +146,8 @@ export default class Knits extends React.Component {
           <br />
           
           <br />
-          <Contactusform />
-        </Container>
+          {/* <Contactusform /> */}
+
       </div>
     );
   }

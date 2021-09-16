@@ -32,11 +32,10 @@ export default class Header extends Component {
   };
 
   handleTextChange = (e) => {
-    const value = e.target.value;
+    const {value} = e.target;
     let suggestions = [];
     if (value.length > 0) {
-      const regex = new RegExp(`^${value}`, "i");
-      suggestions = this.state.items.sort().filter((v) => regex.test(v));
+      suggestions = this.state.items.sort().filter(v => v?.toLowerCase().includes(value.toLowerCase()));
     }
     this.setState(() => ({
       suggestions,
@@ -60,7 +59,10 @@ export default class Header extends Component {
       <div className="srchList">
         <ul>
           {suggestions.map((item) => (
-            <li onClick={() => this.suggestionSelected(item)}>{item}</li>
+            <li
+              style={{position:"absolute",background: "#efeeed",top:"90px",width:"25%",zIndex:5}}
+              onClick={() => this.suggestionSelected(item)}
+              >{item}</li>
           ))}
         </ul>
       </div>
@@ -95,10 +97,9 @@ export default class Header extends Component {
                   <img src={searchButton} alt="searchButton" width="43px"></img>
                 </button>
               </div>
+          {this.renderSuggestions()}
             </div>
-            <p>{this.renderSuggestions}</p>
           </Col>
-          <Col></Col>
         </Row>
       </>
     );

@@ -1,17 +1,17 @@
 import React from "react";
-import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
+import { Image, Row, Col, Card, Button } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
 import "./Components.css";
 import Knit from '../img/Knit.jpg'
 import weave from '../img/weave.jpg'
-import Contactusform from "./Contactusform";
+// import Contactusform from "./Contactusform";
 
 
 export default class Fabrics extends React.Component {
   render() {
     return (
       <div>
-        <Container>
+
           <Row>
             <Col md="12" lg="12">
               {" "}
@@ -85,8 +85,8 @@ export default class Fabrics extends React.Component {
           <br />
           <br />
           <br />
-          <Contactusform />
-        </Container>
+          {/* <Contactusform /> */}
+  
       </div>
     );
   }

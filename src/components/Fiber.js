@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
+import { Image, Row, Col, Card, Button } from "react-bootstrap";
 import MiFiber from "../Pdf/MiFibre.pdf"
 
 import "./Components.css";
@@ -11,14 +11,14 @@ import Cotton22 from "../img/Cotton22.png";
 import bananafibre from "../img/bananafibre.jpg";
 
 import { FaDownload } from "react-icons/fa";
-import Contactusform from "./Contactusform";
+// import Contactusform from "./Contactusform";
 
 export default class Fiber extends React.Component {
   
   render() {
     return (
       <div>
-        <Container>
+
           <Row>
             <Col md="12" lg="12">
               <Card className="imgfiberCard">
@@ -105,8 +105,8 @@ export default class Fiber extends React.Component {
           <br />
           <br />
           <br />
-          <Contactusform />
-        </Container>
+          {/* <Contactusform /> */}
+
       </div>
     );
   }

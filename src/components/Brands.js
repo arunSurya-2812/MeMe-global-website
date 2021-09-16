@@ -1,5 +1,5 @@
 import React from "react";
-import { Image, Row, Col,Container } from "react-bootstrap";
+import { Image, Row, Col} from "react-bootstrap";
 
 import Nazca from "../img/Nazca.svg";
 import Ophelia from "../img/Ophelia.png";
@@ -8,7 +8,7 @@ export default class Brands extends React.Component {
   render() {
     return (
       <div>
-        <Container>
+     
           <br />
         
           <Row className="Sponsers">
@@ -84,7 +84,7 @@ export default class Brands extends React.Component {
           <br />
 
        
-        </Container>
+ 
       </div>
     );
   }

@@ -1,6 +1,6 @@
-import Contactusform from "./Contactusform";
+// import Contactusform from "./Contactusform";
 import React from "react";
-import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
+import { Image, Row, Col, Card, Button } from "react-bootstrap";
 import { FaDownload } from "react-icons/fa";
 
 import Jacket from "../img/jacket.png";
@@ -16,7 +16,7 @@ export default class Leathers extends React.Component {
   render() {
     return (
       <div>
-        <Container>
+     
           <Row>
             <Col md="12" lg="12">
               <Card className="imgLeathersCard">
@@ -109,8 +109,8 @@ export default class Leathers extends React.Component {
             <Button className="websiteButton">View Website</Button>
           </Row> */}
           <br />
-          <Contactusform />
-        </Container>
+          {/* <Contactusform /> */}
+     
       </div>
     );
   }

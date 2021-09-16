@@ -1,8 +1,8 @@
 import "./Components.css";
 import { FaDownload } from "react-icons/fa";
-import Contactusform from "./Contactusform";
+// import Contactusform from "./Contactusform";
 import React from "react";
-import { Image, Row, Col, Card, Button, Container } from "react-bootstrap";
+import { Image, Row, Col, Card, Button} from "react-bootstrap";
 
 import Kyorene from '../img/Kyorene.png'
 import White from '../img/White.jpg'
@@ -14,7 +14,7 @@ export default class Yarn extends React.Component {
   render() {
     return (
       <div>
-        <Container>
+
       
 
 
@@ -98,8 +98,8 @@ export default class Yarn extends React.Component {
           <br />
           <br />
           <br />
-          <Contactusform />
-        </Container>
+          {/* <Contactusform /> */}
+
       </div>
     );
   }
