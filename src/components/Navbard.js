@@ -3,6 +3,7 @@ import React from "react";
 import { Navbar, Nav } from "react-bootstrap";
 import "./Components.css";
 import { FaAngleDown } from "react-icons/fa";
+import { Link, animateScroll as scroll } from "react-scroll";
 
 function Navboard() {
   return (
@@ -14,9 +15,7 @@ function Navboard() {
             <div class="dropdown">
               <Nav.Link href="/">
                 <button class="dropbtn">
-                <a href="/#">
-                 HOME
-                 </a>
+                  <a href="/#">HOME</a>
                 </button>
               </Nav.Link>
             </div>
@@ -31,6 +30,7 @@ function Navboard() {
               <div class="dropdown-content">
                 <a href="/#">BAGS</a>
                 <a href="/#">ACCESSORIES</a>
+
                 <a href="/#">FOOTWARES</a>
                 <a href="/#">JACKETS</a>
               </div>
@@ -88,16 +88,9 @@ function Navboard() {
               </Nav.Link>
 
               <div class="dropdown-content3">
-                <a href="/#">T-SHIRT</a>
-                <a href="/#">POLO</a>
-                <a href="/#">SHIRTS</a>
-                <a href="/#">PANTS & TROUSERS</a>
-                <a href="/#">JEANS</a>
-                <a href="/#"> SWEATS & HOODIES</a>
-                <a href="/#">TRACKS & JOGGER</a>
-                <a href="/#"> INNERWEAR</a>
-                <a href="/#">SPORTS WEAR</a>
-                <a href="/#">RELAX & SLEEPWEAR</a>
+                <a href="/Knits"> LOUNGEANDSLEEPWEAR</a>
+                <a href="/Knits">CASUALWEAR</a>
+                <a href="/Knits">ACTIVEANDFITNESS</a>
               </div>
             </div>
 
@@ -129,7 +122,7 @@ function Navboard() {
             </div>
 
             <div class="dropdown">
-              <Nav.Link href="http://elysium.earth" >
+              <Nav.Link href="http://elysium.earth">
                 <button class="dropbtn">
                   <a href="http://elysium.earth">ECOFRIENDLY</a>
                 </button>
