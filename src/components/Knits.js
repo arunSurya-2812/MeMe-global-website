@@ -409,7 +409,7 @@ export default class Knits extends React.Component{
 
       <br />
       <Row style={{ textAlign: "center" }}>
-        <Button className="websiteButton" onClick={scroll(0,100)}>View Website</Button>
+        <Button className="websiteButton" >View Website</Button>
       </Row>
 
       <br />
