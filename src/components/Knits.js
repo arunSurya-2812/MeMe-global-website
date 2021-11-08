@@ -89,17 +89,16 @@ export default class Knits extends React.Component{
       <br />
       <Row style={{ textAlign: "center" }}>
         <h1>Our Products</h1>
+        <h1>Lounge and sleepwear</h1>
         <br />
         <br />
-        <h1>Lounge and sleep wear</h1>
-
-        <Col md="3" lg="3" sm="4">
+              <Col md="3" lg="3" sm="4">
           <Image
             src={Loungeandsleepwear1}
             className="Fiberproductcol1"
             roundedCircle
           />
-          <h1> Lounge and sleepwear 1</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -107,7 +106,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol2"
             roundedCircle
           />
-          <h1> Lounge and sleepwear 2</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -115,7 +114,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Lounge and sleepwear 3</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -123,7 +122,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1>Lounge and sleepwear 4</h1>
+        
         </Col>
         <br />
         <br />
@@ -135,7 +134,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol1"
             roundedCircle
           />
-          <h1>Lounge and sleepwear 5</h1>
+        
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -143,7 +142,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol2"
             roundedCircle
           />
-          <h1> Lounge and sleep wear 6</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -151,7 +150,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Lounge and sleepwear 7 </h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -159,7 +158,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Lounge and sleepwear 8 </h1>
+          
         </Col>
         <br />
         <br />
@@ -171,7 +170,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Lounge and sleep wear 9</h1>
+          
         </Col>
         <Col md="2" lg="2" sm="12">
           {/* <Image
@@ -188,25 +187,24 @@ export default class Knits extends React.Component{
       <br />
 
       <Row style={{ textAlign: "center" }}>
+        <h1> Casual wear</h1>
         <br />
         <br />
-        <h1>Casual Wear</h1>
-
-        <Col md="3" lg="3" sm="4">
+              <Col md="3" lg="3" sm="4">
           <Image src={Casualwear1} className="Fiberproductcol1" roundedCircle />
-          <h1> Casual wear 1</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image src={Casualwear2} className="Fiberproductcol2" roundedCircle />
-          <h1> Casual wear 2</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image src={Casualwear3} className="Fiberproductcol3" roundedCircle />
-          <h1> Casual wear 3</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image src={Casualwear4} className="Fiberproductcol3" roundedCircle />
-          <h1>Casual wear 4</h1>
+        
         </Col>
         <br />
         <br />
@@ -214,19 +212,19 @@ export default class Knits extends React.Component{
 
         <Col md="3" lg="3" sm="4">
           <Image src={Casualwear5} className="Fiberproductcol1" roundedCircle />
-          <h1>Casual wear 5</h1>
+        
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image src={Casualwear6} className="Fiberproductcol2" roundedCircle />
-          <h1> Casual wear 6</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image src={Casualwear7} className="Fiberproductcol3" roundedCircle />
-          <h1> Casual wear 7 </h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image src={Casualwear8} className="Fiberproductcol3" roundedCircle />
-          <h1> Casual wear 8 </h1>
+          
         </Col>
         <br />
         <br />
@@ -234,7 +232,7 @@ export default class Knits extends React.Component{
         <br />
         <Col md="4" lg="4" sm="4">
           <Image src={Casualwear9} className="Fiberproductcol3" roundedCircle />
-          <h1> Casual wear 9</h1>
+          
         </Col>
         <Col md="4" lg="4" sm="4">
           <Image
@@ -242,7 +240,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Casual wear 10</h1>
+          
         </Col>
 
         <Col md="4" lg="4" sm="4">
@@ -251,7 +249,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Casual wear 11</h1>
+          
         </Col>
       </Row>
       <br />
@@ -259,17 +257,16 @@ export default class Knits extends React.Component{
       <br />
 
       <Row style={{ textAlign: "center" }}>
-        <br />
-        <br />
         <h1>Active and Fitness</h1>
-
-        <Col md="3" lg="3" sm="4">
+        <br />
+        <br />
+                <Col md="3" lg="3" sm="4">
           <Image
             src={ActiveandFitness1}
             className="Fiberproductcol1"
             roundedCircle
           />
-          <h1> Active and Fitness 1</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -277,7 +274,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol2"
             roundedCircle
           />
-          <h1> Active and Fitness 2</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -285,7 +282,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 3</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -293,7 +290,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1>Active and Fitness 4</h1>
+          
         </Col>
         <br />
         <br />
@@ -305,7 +302,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol1"
             roundedCircle
           />
-          <h1>Active and Fitness 5</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -313,7 +310,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol2"
             roundedCircle
           />
-          <h1> Active and Fitness 6</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -321,7 +318,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 7 </h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -329,7 +326,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 8 </h1>
+          
         </Col>
 
         <br />
@@ -339,7 +336,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 9</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -347,7 +344,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 10</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -355,7 +352,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 11</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -363,7 +360,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 12</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -371,7 +368,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 13</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -379,7 +376,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 14</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -387,7 +384,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 15</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -395,7 +392,7 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1>Active and Fitness 16</h1>
+          
         </Col>
         <Col md="3" lg="3" sm="4">
           <Image
@@ -403,14 +400,12 @@ export default class Knits extends React.Component{
             className="Fiberproductcol3"
             roundedCircle
           />
-          <h1> Active and Fitness 17</h1>
+          
         </Col>
       </Row>
 
       <br />
-      <Row style={{ textAlign: "center" }}>
-        <Button className="websiteButton" >View Website</Button>
-      </Row>
+   
 
       <br />
 

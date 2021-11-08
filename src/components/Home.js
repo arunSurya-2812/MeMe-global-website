@@ -1,20 +1,9 @@
-// import Bags from "../img/Bags.png";
-// import shoes from "../img/shoes.png";
 import B1 from "../img/B1.jpg";
 import B2 from "../img/B2.jpg";
 import B3 from "../img/B3.jpg";
 import B4 from "../img/B4.jpg";
 import B5 from "../img/B5.jpg";
-import Bags22 from "../img/Bags22.jpg"
-import Belt22 from '../img/Belt22.jpg'
-import Shoes22 from '../img/Shoes22.jpg'
-// import accessories from "../img/accessories.jpg";
-import Leather1 from "../img/Leather1.jpg";
-import Jacket from "../img/jacket.png";
-import Menproduct from "../img/Menproduct.jpg";
-import Womenproduct from "../img/Womenproduct.jpg";
-import Kidsproduct from "../img/Kidsproduct.jpg";
-import Casualproduct from "../img/Casualproduct.png";
+
 import React, { Component } from "react";
 import "./Components.css";
 import Nazca from "../img/Nazca.svg";
@@ -26,7 +15,6 @@ export default class Home extends Component {
   render() {
     return (
       <div>
-       
         <Carousel style={{ textAlign: "center" }}>
           <Carousel.Item interval={3000}>
             <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
@@ -101,227 +89,78 @@ export default class Home extends Component {
             </a>
           </Col>
         </Row>
-        <h1
-          style={{
-            fontFamily: "Poppins,Bold",
-            fontSize: "33px",
-            position: "relative",
-            left: "1cm",
-            fontWeight: "600",
-          }}
-        >
-          Our Products
-        </h1>
         <Row>
-          <Col xs="12" sm="6" md="3">
-            <Card>
-              <Card.Img
-                variant="top"
-                src={Kidsproduct}
-                className="Productcardimage"
-              />
-
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                    }}
-                  >
-                    Kids
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs="12" sm="6" md="3">
-            <Card>
-              <Card.Img
-                variant="top"
-                src={Casualproduct}
-                className="Productcardimage"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                    }}
-                  >
-                    Casual
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs="12" sm="6" md="3">
-            <Card>
-              <Card.Img
-                variant="top"
-                src={Womenproduct}
-                className="Productcardimage"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      top: "5cm",
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                    }}
-                  >
-                    Women
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs="12" sm="6" md="3">
-            <Card>
-              <Card.Img
-                variant="top"
-                src={Menproduct}
-                className="Productcardimage"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                    }}
-                  >
-                    Men
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
+          <Col md="12" lg="12">
+           
+              <Card className="contentCard">
+                <Card.Body>
+                  <h1 className="cardTitle">ABOUT US</h1>
+                  <Card.Text className="cardContent">
+                    <p>
+                      We MeMe Group BEGAN our journey in 1992, with the vision
+                      of building up our company, to emerge as one of the
+                      leading processors, manufacturer and trading of premium
+                      products Leather, Textile, Fibre and Yarn in India. From
+                      humble beginnings, we have been able to put together as
+                      unit of people and technology that functions optimally and
+                      allows us to adhere to the strict standards of quality
+                      that we pride ourselves on.
+                      <br />
+                      <br /> Our Leather division is based at Ranipet, we
+                      manufacture and export Leather products, bags, Shoes,
+                      Jackets and accessories
+                      <br />
+                      <br /> Our Textile division is based at textile city of
+                      India TIRUPUR, we manufacture and export all kinds of
+                      Knits, woven and home textiles products.
+                      <br /> <br /> We also import and export all type of Fibre,
+                      Yarn and Fabric, Products of Natural, Manmade and
+                      Artificial Fibres with Dope dyed, eco-friendly and many
+                      more. <br />
+                      <br />
+                      “We offer in-house designing & customized products”
+                      <br />
+                    </p>
+                    <h1 className="cardTitle">STANDARDS</h1>
+                    <p>
+                      Standards are technical performance benchmarks and
+                      frameworks, developed by bodies of experts. There are
+                      mandatory (legally required) and voluntary standards;
+                      since we’re discussing certifications right now, we’re
+                      focused on voluntary standards. Standards exist for every
+                      aspect of operations and vary incredibly in effectiveness
+                      and reputation. In general, the most important categories
+                      will be (with some overlap), quality management, social
+                      responsibility & ethical practices, and environmental
+                      management & sustainability. Suppliers adopt a voluntary
+                      standard by operating in compliance to the standard’s
+                      criteria.
+                    </p>
+                    <h1 className="cardTitle">VISION</h1>
+                    <p>
+                      Our vision is to develop in the field of manufacturing in
+                      a way, that its presence is felt by everyone and to
+                      develop products best suited to its customers and to be
+                      the most desirable company for its stakeholders.
+                    </p>
+                    <h1 className="cardTitle">MISSION</h1>
+                    <p>
+                      To provide comprehensive range of services in the field of
+                      manufacturing aimed at quality improvement, cost control,
+                      performance enhancement and effective working, environment
+                      friendly and utilizing the most of its investment in
+                      physical and human assets.
+                      <br />
+                      <br />
+                      "Let's join the movement to reduce plastic use and wastage."
+                      <br/>
+                    </p>
+                  </Card.Text>
+                </Card.Body>
+              </Card>
+           
           </Col>
         </Row>
-      
-        <Row>
-          <Col xs="12" sm="6" md="3">
-            <Card>
-              <Card.Img variant="top" src={Bags22} className="Productcardimage" />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                    }}
-                  >
-                    Bags
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs="12" sm="6" md="3">
-            <Card>
-              <Card.Img
-                variant="top"
-                src={Shoes22}
-                className="Productcardimage"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                    }}
-                  >
-                    Shoes
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs="12" sm="6" md="3">
-            <Card>
-              <Card.Img
-                variant="top"
-                src={Belt22}
-                className="Productcardimage"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                      letterSpacing: "0",
-                    }}
-                  >
-                    Accessories
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-
-          <Col xs="12" sm="6" md="3">
-            <Card>
-              <Card.Img
-                variant="top"
-                src={Jacket}
-                className="Productcardimage"
-              />
-              <Card.Body>
-                <Card.Text>
-                  <h1
-                    style={{
-                      fontFamily: "Poppins,Bold",
-                      fontSize: "22px",
-                      fontWeight: "800",
-                      color: "black",
-                    }}
-                  >
-                    Jackets
-                  </h1>
-                </Card.Text>
-              </Card.Body>
-            </Card>
-          </Col>
-        </Row>
-
-        <Row>
-          <img
-            src={Leather1}
-            className="CobblerLeather"
-            alt="cobbler-working-with-leather"
-            style={{ textAlign: "center",objectFit:"cover" }}
-          />
-        </Row>
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
-        <br />
       </div>
     );
   }
