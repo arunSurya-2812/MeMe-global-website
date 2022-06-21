@@ -3,6 +3,9 @@ import B2 from "../img/B2.jpg";
 import B3 from "../img/B3.jpg";
 import B4 from "../img/B4.jpg";
 import B5 from "../img/B5.jpg";
+import asset1 from "../img/ASSET-01.jpg";
+import asset2 from "../img/ASSET-02.jpg"
+import asset3 from "../img/ASSET-03.jpg"
 
 import React, { Component } from "react";
 import "./Components.css";
@@ -16,6 +19,36 @@ export default class Home extends Component {
     return (
       <div>
         <Carousel style={{ textAlign: "center" }}>
+        <Carousel.Item interval={3000}>
+            <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
+              <img
+                className="d-block w-100"
+                style={{ borderRadius: "20px" }}
+                src={asset1}
+                alt="Second slide"
+              />
+            </a>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
+              <img
+                className="d-block w-100"
+                style={{ borderRadius: "20px" }}
+                src={asset2}
+                alt="Second slide"
+              />
+            </a>
+          </Carousel.Item>
+          <Carousel.Item interval={3000}>
+            <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
+              <img
+                className="d-block w-100"
+                style={{ borderRadius: "20px" }}
+                src={asset3}
+                alt="Second slide"
+              />
+            </a>
+          </Carousel.Item>
           <Carousel.Item interval={3000}>
             <a href="https://ophelia-moon.com" rel="noreferrer" target="_blank">
               <img

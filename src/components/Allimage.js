@@ -1,6 +1,9 @@
 import React, { Component } from "react";
 import Slider from "react-slick";
 import "./Components.css";
+import asset4 from "../img/ASSET-04.png"
+import asset5 from "../img/ASSET-05.png"
+import asset6 from "../img/ASSET-06.png"
 import sq1 from '../img/sq1.png';
 import sq2 from '../img/sq2.png';
 import sq3 from '../img/sq3.png';
@@ -15,11 +18,11 @@ export default class MultipleItems extends Component {
     const settings = {
       dots: false,
       infinite: true,
-      speed: 1000,
+      speed: 2000,
       slidesToShow: 3,
       slidesToScroll: 3,
       autoplay: true,
-      autoplaySpeed: 2000,
+      autoplaySpeed: 3000,
       arrows: true,
       responsive: [
         {
@@ -48,6 +51,48 @@ export default class MultipleItems extends Component {
     }
     return (
       <Slider {...settings}>
+          <div>
+        <a
+              href="http://memefibre.com/home"
+              rel="noreferrer"
+              target="_blank"
+            >
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={asset4}
+            alt="Firstslide"
+          />
+          </a>
+        </div>
+        <div>
+        <a
+              href="http://memefibre.com/home"
+              rel="noreferrer"
+              target="_blank"
+            >
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={asset5}
+            alt="Firstslide"
+          />
+          </a>
+        </div>
+        <div>
+        <a
+              href="http://memefibre.com/home"
+              rel="noreferrer"
+              target="_blank"
+            >
+          <img
+            className="Sliderpics"
+            style={{ borderRadius: "1cm" }}
+            src={asset6}
+            alt="Firstslide"
+          />
+          </a>
+        </div>
         <div>
         <a
               href="http://memefibre.com/home"
